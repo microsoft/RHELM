@@ -122,7 +122,7 @@ Dataset locations, embedding model, chunking and output paths can be customised 
 | Component | Status |
 |-----------|--------|
 | Evaluation Framework | ✅ Available |
-| Benchmark Data | [🤗 HuggingFace](https://huggingface.co/datasets/hanzhang-lang/RHELM-Benchmark) |
+| Benchmark Data | [🤗 HuggingFace](https://github.com/microsoft/RHELM) |
 | Data Generation Code | 🔜 To be released |
 
 
