@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/pdf/2605.31086)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://microsoft.github.io/RHELM/)
-[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/hanzhang-lang/RHELM-Benchmark)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/microsoft/RHELM)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/microsoft/RHELM)
 <!-- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) -->
