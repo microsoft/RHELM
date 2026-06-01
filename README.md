@@ -3,9 +3,9 @@
 **Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory**
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/pdf/2605.31086)
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://hanzhang-lang.github.io/RHELM_Benchmark/)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://microsoft.github.io/RHELM/)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/hanzhang-lang/RHELM-Benchmark)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/Hanzhang-lang/RHELM_Benchmark)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/microsoft/RHELM)
 <!-- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) -->
 
@@ -117,33 +117,15 @@ export AZURE_OPENAI_API_KEY="..."
 Dataset locations, embedding model, chunking and output paths can be customised in
 [evaluation/configs/config.py](evaluation/configs/config.py).
 
-## 📊 Evaluation Metrics
-
-RHELM evaluates memory systems using multiple complementary metrics:
-
-### 1. Exact Match
-Binary score indicating whether the predicted answer exactly matches the expected answer (after normalization).
-
-### 2. Fuzzy Match
-Sequence similarity score between predicted and expected answers using SequenceMatcher.
-
-### 3. Contains Answer
-Binary score checking if the expected answer is contained within the predicted response.
-
-### 4. LLM Judge
-GPT-based evaluation assessing:
-- **Accuracy Score** (0 or 1): Whether the answer is factually correct
-<!-- - **Overall Score** (0-10): Quality considering accuracy, completeness, and relevance -->
-
 ## 📦 Data & Code Release
 
 | Component | Status |
 |-----------|--------|
 | Evaluation Framework | ✅ Available |
-| Benchmark Data | ✅ Available |
+| Benchmark Data | [🤗 HuggingFace](https://huggingface.co/datasets/hanzhang-lang/RHELM-Benchmark) |
 | Data Generation Code | 🔜 To be released |
 
 
 ---
 
-**Note**: Data and source code generation pipeline will be released upon paper acceptance
+**Note**: Data generation pipeline will be released upon paper acceptance
