@@ -1,0 +1,4 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Board Game Group <boardgamegroup@chatapp.com>
+Subject: New Lighting Setup & Game Night Invitation
+Summary: Martin shares a quick update with his board game group about the successful installation of the WLED firmware on his smart lighting system. He includes a photo of his Mediterranean dinner and invites the group to a future game night to experience the new lighting scenes in his apartment.

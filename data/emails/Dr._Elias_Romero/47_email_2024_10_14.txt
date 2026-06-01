@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Carla Ruiz <carla.ruiz@email.com>
+Subject: Research Session Disrupted by Internet Outage
+Summary: Elias informs Carla about the abrupt end to their morning research session due to the campus-wide internet outage. He expresses frustration at being unable to access digital research notes and feedback forms, mentions his phone's ongoing microphone issue that prevented a backup video call, and proposes rescheduling their collaborative review once IT resolves the connectivity problems.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: UB IT Support <itsupport@ub.edu>
+Subject: Request for Update: Campus Internet Outage Impacting Research
+Summary: Elias contacts the university IT department to request an update on the estimated repair time for the campus-wide internet outage. He explains the disruption to his research workflow and inability to access essential digital documents, and asks if there are any interim solutions or alternative access points available.

@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Bug Report: Timestamp Mismatch in LunaLink Cross-Agency Sync
+Summary: Elena notifies Dr. Saito and Ms. Nakamura of a subtle timestamp mismatch identified in the LunaLink interface logs, which is causing a cross-agency synchronization bug. The email includes a clear description of the issue, steps to reproduce, relevant log excerpts, and proposed next steps for resolution.
+
+============================================================
+
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Luna: Medication Adjustment and Symptom Update
+Summary: Dr. van der Meer follows up after the noon video call with Elena, summarizing Luna's stable condition, confirming the minor medication adjustment, and providing instructions for ongoing monitoring. The email also requests continued updates via the symptom log.

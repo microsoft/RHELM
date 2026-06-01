@@ -1,0 +1,18 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Course Support Team <support@embeddedcert.org>
+Subject: Assistance Needed: Two-Factor Authentication Issue Preventing Course Enrollment
+Summary: Martin Keller describes his inability to complete the two-factor authentication process for the advanced embedded systems certification course due to his unusable Google Pixel 7 Pro and requests alternative authentication options or urgent assistance. He details his attempts to reroute authentication to his Dell XPS 15 and expresses concern about missing the enrollment window.
+
+============================================================
+
+Sender: Course Support Team <support@embeddedcert.org>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Re: Assistance Needed: Two-Factor Authentication Issue Preventing Course Enrollment
+Summary: An automated reply acknowledging receipt of Martin Keller's support request regarding two-factor authentication issues. The email states that a support representative will respond within 3–5 business days and provides a ticket number for reference.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Dr. Felix Brandt <felix.brandt@company.com>
+Subject: Delay in Accessing Reference Materials
+Summary: Martin Keller informs Dr. Felix Brandt that he is unable to access several key reference PDFs needed for his study, as they are likely left on his office workstation in Freiburg. He apologizes for the delay and explains the technical difficulties encountered, expressing his frustration and intent to resolve the issue soon.

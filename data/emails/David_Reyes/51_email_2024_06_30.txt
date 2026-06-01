@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Dr. Priya Rao <priya.rao@university.edu>
+Subject: Weekly Rainfall Data: Slight Uptick & Noted Anomaly
+Summary: David Reyes shares the annotated graphs of weekly rainfall data collected from the Ridgecrest Desert Monitoring Station, highlighting a slight increase in precipitation. The email flags one specific data anomaly for further review and invites the recipients to discuss potential causes or necessary follow-up. Attachments include the analysis file and graphs for team review.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Fieldwork Feedback & Summary
+Summary: David compiles individualized feedback for both Emily and Maria based on their recent graduate fieldwork efforts. Emily is praised for meticulous burrow mapping, while Maria receives positive notes for improved bird species documentation. David includes detailed summaries with anecdotes from the desert, aiming to encourage continued careful documentation and research.

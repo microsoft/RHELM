@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Anja Keller <anja.keller@email.com>
+Subject: Great Start to the Week – Quick Catch-Up
+Summary: Martin sends a brief, cheerful email to Anja following their evening call, recapping highlights from his productive day, including his swim session, progress on his embedded systems project, and the successful fix of his home automation issue. He expresses appreciation for their conversation and shares his motivation for the week ahead.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Embedded Systems Team <embedded.team@techincubator.com>
+Subject: SPI Module Bug Identified – Progress Update
+Summary: Martin informs his project team about the minor bug he discovered in the SPI communication module during his review. He summarizes the issue, outlines his initial troubleshooting steps, and attaches his updated project documentation. He invites feedback and suggestions for further debugging.

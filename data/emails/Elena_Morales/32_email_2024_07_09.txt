@@ -1,0 +1,11 @@
+Sender: Dr. Priya Desai <priya.desai@healthclinic.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Summary and Next Steps from Your Telehealth Appointment
+Summary: Dr. Liu follows up after the remote consultation, summarizing the main points discussed: Elena's worsening symptoms, the change in cough medication, recommendation for a liquid nutritional supplement, and the arrangement for a visiting nurse. The email includes attached information about local telehealth support services, instructions for the new medication, and contact details for follow-up. Dr. Liu encourages Elena to rest and reassures her that her care plan is being actively managed.
+
+============================================================
+
+Sender: Elena Morales <elena.morales@email.com>
+Recipient: Lila Nguyen <lila.nguyen@email.com>
+Subject: Montessori Lesson Plans for Printing
+Summary: Elena sends Lila an email with attachments containing the selected Montessori lesson plans and sensory path resources. She provides brief instructions on which files to print and requests that they be placed in a folder by her bedside for easy access.

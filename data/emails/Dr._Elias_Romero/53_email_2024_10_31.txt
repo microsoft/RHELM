@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Garmin Support <support@garmin.com>
+Subject: Bluetooth Connectivity Issue and App Crashes – Vivosmart 5
+Summary: Elias describes the recurring Bluetooth connectivity issue with his Garmin Vivosmart 5, details the repeated app crashes, and requests urgent troubleshooting assistance. He references the previous sync error and notes that the generic response received earlier did not resolve the problem. He attaches relevant screenshots and device logs.
+
+============================================================
+
+Sender: Garmin Support <support@garmin.com>
+Recipient: Elias Romero <elias.romero@email.com>
+Subject: Re: Bluetooth Connectivity Issue and App Crashes – Vivosmart 5
+Summary: Automated response acknowledging receipt of Elias's support request. The email provides a generic troubleshooting checklist, links to the online help center, and informs Elias that a support agent will follow up if further information is needed.

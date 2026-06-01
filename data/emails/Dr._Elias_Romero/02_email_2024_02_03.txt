@@ -1,0 +1,11 @@
+Sender: Dr. Elias Romero <elias.romero@email.com>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Rescheduling Our Video Call
+Summary: Elias writes to Marta following their failed video call due to her internet outage. He proposes alternative dates and times for rescheduling their discussion, briefly mentions the technical difficulties on his end (MacBook freezing), and expresses hope to continue their collaboration soon.
+
+============================================================
+
+Sender: Clínica Veterinaria Sant Antoni <info@clinicasantantoni.com>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Nina’s Dental Cleaning Estimate and Follow-Up
+Summary: The clinic sends Elias a detailed estimate for Nina's recommended dental cleaning under anesthesia, including itemized costs, pre-procedure instructions, and a suggested appointment window. The email also notes that a reusable produce bag was found in the exam room and can be collected at his convenience.

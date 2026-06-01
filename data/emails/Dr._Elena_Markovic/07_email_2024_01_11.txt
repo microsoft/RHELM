@@ -1,0 +1,18 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Ms. Rossi <concierge@hotelmilano.it>
+Subject: Luggage Delivery Confirmation
+Summary: Elena thanks Ms. Rossi for her assistance with the lost luggage and requests confirmation upon receipt. She provides her room number and asks to be notified immediately when the suitcase arrives, referencing the airline's delivery timeline.
+
+============================================================
+
+Sender: Ms. Rossi <concierge@hotelmilano.it>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Your Luggage Has Arrived
+Summary: Ms. Rossi confirms that Elena's suitcase has been received at the hotel and is now available for pickup or delivery to her room. She provides the time of arrival and offers further assistance if needed.
+
+============================================================
+
+Sender: Yuki Nakamura <y.nakamura@jaxa.jp>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: LunaLink Telemetry Troubleshooting Session
+Summary: Ms. Nakamura follows up on their discussion at the IAC café, proposing a joint troubleshooting session for LunaLink telemetry issues. She suggests possible times and requests Elena to share relevant test data or logs in advance.

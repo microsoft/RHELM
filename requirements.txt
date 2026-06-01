@@ -1,0 +1,33 @@
+# RHELM Requirements
+# Core dependencies for the RHELM benchmark evaluation framework
+
+# LangChain and LLM clients (pinned to the compatible 0.3 generation)
+langchain>=0.3,<0.4
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-openai>=0.2,<0.3
+langchain-huggingface>=0.1,<0.2
+langchain-text-splitters>=0.3,<0.4
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Tokenization
+tiktoken>=0.5.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Optional: Google AI (for Gemini models)
+# langchain-google-genai>=0.0.5
+
+# Optional: Azure Identity (for Azure OpenAI)
+# azure-identity>=1.15.0

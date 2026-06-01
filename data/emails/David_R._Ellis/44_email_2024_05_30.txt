@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Alicia Torres <alicia.torres@email.com>
+Subject: Rescheduling Our Virtual Check-In
+Summary: David emails Alicia to apologize for the technical difficulties during their attempted virtual check-in earlier in the day. He explains that persistent Wi-Fi issues and audio glitches prevented a productive conversation, and requests to reschedule the meeting for a later date. He briefly mentions that he is dealing with a family health situation and thanks Alicia for her understanding.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Monica Ellis <monica.ellis@email.com>
+Subject: Pharmacy Run and Jasper’s Medication
+Summary: David sends Monica a quick update after speaking with Jasper’s pediatrician and picking up medication from the pharmacy. He summarizes the pediatrician’s advice, lists the medications obtained, and provides instructions for Jasper’s next dose. He also asks Monica to let him know if Jasper’s symptoms change.

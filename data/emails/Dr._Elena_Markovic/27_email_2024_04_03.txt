@@ -1,0 +1,11 @@
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Orienteering App Developer <support@orienteeringapp.com>
+Subject: Structured Feedback and Crash Logs from March 23 Field Test
+Summary: Elena provides detailed feedback on the orienteering mapping app, referencing her field notes from the disrupted March 23 test with Aisha and Pieter. The email includes annotated screenshots highlighting GPS dropouts, attached crash logs, and clear, actionable suggestions for improvement. The purpose is to assist the developers in addressing specific technical issues and enhancing app reliability.
+
+============================================================
+
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: LunaLink Project Schedule Update and Synchronization Bug Discussion
+Summary: Elena summarizes the outcomes of her Teams meeting with Marcus regarding the LunaLink project. The email details the adjusted integration timeline to accommodate the recent synchronization bug, outlines the agreed-upon risk mitigation steps, and confirms next actions. The purpose is to document the collaborative planning and ensure alignment on project deliverables.

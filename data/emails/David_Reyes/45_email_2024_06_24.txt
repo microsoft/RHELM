@@ -1,0 +1,18 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Subject: SSD Repair and Persistent Computer Freezes
+Summary: David intended to update Oscar regarding ongoing SSD repair issues, detailing recent system freezes and difficulties encountered during attempted fixes. The email was partially drafted but never sent due to a computer crash.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maria Lopez <maria.lopez@email.com>
+Subject: Birding Mentoring: Change of Schedule & Connectivity Issues
+Summary: David sent fragmented group chat updates to Maria about the rescheduled birding mentoring. Multiple messages were posted due to repeated crashes and unstable phone connectivity, which included apologies and requests to confirm receipt.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Priya Rao <priya.rao@email.com>
+Subject: Project Data Storage: Meeting Follow-up & Connectivity Problems
+Summary: David attempted to follow up with Priya after a dropped call regarding contingency planning for project data storage. The summary includes notes on persistent lag, static, and unresolved project data storage issues, and offers to reschedule.

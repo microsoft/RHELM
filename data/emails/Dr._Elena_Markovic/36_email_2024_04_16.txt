@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Aisha Rahman <aisha.rahman@email.com>
+Subject: Feedback on Mapping App and Orienteering Training Schedule
+Summary: Elena shares her latest feedback on the mapping app, highlighting usability improvements and specific suggestions based on recent use. She also confirms the finalized orienteering training schedule discussed during lunch, attaching the agreed dates and times. Elena requests Aisha to forward her feedback to the app developers and thanks her for the productive discussion.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Follow-up: LunaLink Telemetry Interface Query
+Summary: Elena follows up on their earlier call regarding a technical query about the LunaLink telemetry interface. She summarizes the resolved issue, thanks Dr. Saito for the prompt assistance, and attaches a brief summary of the agreed technical solution for documentation purposes.

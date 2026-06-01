@@ -1,0 +1,18 @@
+Sender: Maya Patel <maya.patel@ridgecrestclinic.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Your Annual Health Screening Results and Export Instructions
+Summary: Maya sends David a follow-up email containing an attached PDF of his 2024 annual health screening results, highlighting key positive trends—especially improvements in hydration markers. The email includes step-by-step instructions on exporting health data to mobile wellness tracking applications, and offers direct contact information in case David has additional questions.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Priya Rao <priya.rao@email.com>
+Subject: Follow-up: Mapping Software Brainstorm & Collaboration Notes
+Summary: After Carlos’s birthday gathering, David sends Priya a recap email summarizing their dessert discussion on mapping software ideas, attaching collaborative field journal entries. He suggests next steps for prototyping and proposes a video call to explore workflow possibilities for conservation mapping.
+
+============================================================
+
+Sender: Miguel Castillo <miguel.castillo@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Community Participation Day Proposal—Collaboration Opportunities
+Summary: Miguel emails David thanking him for hosting a wonderful birthday event for Carlos and formally shares his proposal for organizing a community participation day during the next conservation phase. The email recaps planning ideas discussed over dessert, outlines potential engagement activities, and invites input from David and Priya.

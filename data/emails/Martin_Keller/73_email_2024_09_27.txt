@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Prof. Dr. Anna Schreiber <anna.schreiber@university.edu>
+Subject: Submission of Embedded Systems Project Documentation
+Summary: Martin notifies Prof. Schreiber of the successful submission of his embedded systems project documentation. He briefly outlines the main features of the project, mentions the attached documentation, and expresses appreciation for the guidance received during the course. He also requests confirmation of receipt and offers to answer any follow-up questions.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Mehmet Yilmaz <mehmet.yilmaz@coworking.de>
+Subject: Harissa Hummus Recipe and Thanks for Feedback
+Summary: Martin shares the harissa hummus recipe he experimented with during lunch, including notes on the use of Frau Bauer’s Aleppo pepper blend and sumac. He thanks Mehmet for the positive feedback and invites suggestions for future lunch collaborations.

@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Julia Schneider <julia.schneider@company.com>
+Subject: Sensor Calibration Timing Bug: Findings and Proposed Fix
+Summary: Martin summarizes his discovery of a subtle timing bug affecting sensor calibration in the industrial sensor project. The email includes a concise description of the issue, annotated code snippets, and a proposed fix. He requests feedback from Julia (hardware lead) and Mehmet (QA engineer) and attaches a detailed report for their review.
+
+============================================================
+
+Sender: Julia Schneider <julia.schneider@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Re: Sensor Calibration Timing Bug: Findings and Proposed Fix
+Summary: Julia replies to Martin, thanking him for the clear documentation and quick turnaround. She acknowledges the importance of the fix and suggests a brief sync with the QA team to validate the solution before deployment.

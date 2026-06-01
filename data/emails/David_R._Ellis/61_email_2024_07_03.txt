@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Green Hills Service Center <support@greenhillsdell.com>
+Subject: Dell XPS 13 Repair Appointment Confirmation
+Summary: David confirms his scheduled repair appointment for his Dell XPS 13 at the Green Hills service center. The email includes the appointment date and time, device serial number, a brief description of the issue, and a request for any necessary pre-visit instructions.
+
+============================================================
+
+Sender: Monica Ellis <monica.ellis@email.com>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Garden Debris Cleanup and Marigold Planting Plan
+Summary: Monica summarizes the morning's garden assessment, including the removal of storm debris, staking of tomato plants, and the discovery of marigold blooms. She proposes a plan for planting golden marigold seedlings the following weekend and attaches Jasper's garden photos for the family blog.

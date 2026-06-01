@@ -1,0 +1,11 @@
+Sender: University of Barcelona IT Department <it-support@ub.edu>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Urgent: Unresolved Technical Issues Affecting Your Account
+Summary: The IT department notifies Dr. Romero about ongoing technical issues affecting his university account and devices, requesting immediate attention to unresolved tickets. The email outlines the nature of the problems, possible impacts on his workflow, and provides troubleshooting steps. It also requests confirmation of receipt and asks Dr. Romero to provide additional details if issues persist.
+
+============================================================
+
+Sender: Dr. Elias Romero <elias.romero@email.com>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Concerns Regarding Symposium Impact on Joint Study
+Summary: Dr. Keller expresses concern over the technical disruptions during the EUPHA symposium and their potential negative impact on their collaborative research project. She requests a summary of the issues encountered, asks for an update on next steps, and suggests scheduling a meeting to discuss mitigating any reputational or data-related consequences.

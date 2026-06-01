@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Service Center Villingen-Schwenningen <info@svc-vs.de>
+Subject: Request for Update: Google Pixel 7 Pro Repair Status
+Summary: Martin follows up with the service center after his in-person visit on April 23, 2024, expressing concern about the delayed repair of his Google Pixel 7 Pro due to the backordered motherboard. He requests a more precise estimate for completion and asks if any temporary solutions or loaner devices are available, referencing his inability to access backups and the inconvenience caused.
+
+============================================================
+
+Sender: Service Center Villingen-Schwenningen <info@svc-vs.de>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Re: Request for Update: Google Pixel 7 Pro Repair Status
+Summary: Herr Schneider from the service center replies to Martin's inquiry, apologizing again for the delay and confirming the estimated 3–5 business day wait for the replacement motherboard. He explains the supply chain issue, assures Martin that he will be notified as soon as the part arrives, and clarifies that no loaner devices are currently available.

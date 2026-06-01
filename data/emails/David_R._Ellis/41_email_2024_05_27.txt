@@ -1,0 +1,18 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Pediatrician After-Hours <afterhours@pediatricsclinic.com>
+Subject: Request for Urgent Callback Regarding Jasper's Fever
+Summary: David writes to the pediatrician's office to follow up on his earlier phone call regarding Jasper's persistent fever and worsening symptoms. He provides details about Jasper's temperature (102.1°F), headache, cough, and refusal to eat, and requests an urgent callback or advice on next steps. The email expresses concern and asks for guidance on whether Jasper should be seen immediately or if there are interim care recommendations.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Monica Ellis <monica.ellis@email.com>
+Subject: Update: Jasper's Condition and Today's Plans
+Summary: David sends Monica a summary of Jasper's current symptoms and the outcome of his attempt to contact the pediatrician. He mentions the decision to postpone their morning walk, the issues with breakfast, and his plan to monitor Jasper closely. The email also notes the technical difficulties with bill payments and work, and suggests they coordinate evening responsibilities.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Team Lead <teamlead@company.com>
+Subject: Apologies for Delayed Responses – Family Emergency
+Summary: David sends a brief email to his work team lead explaining his delayed responses to urgent work emails due to a family health emergency and technical issues (Wi-Fi outages, phone repair, computer freezing). He assures the team he will catch up as soon as possible and requests understanding for any missed deadlines or incomplete tasks.

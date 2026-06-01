@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Anja Schmidt <anja.schmidt@email.com>
+Subject: References and Feedback on Your AI Regulation Article
+Summary: Jonas follows up on his earlier call with Anja, sharing references from his annotated copy of 'The Net Delusion' that relate to points discussed in her AI regulation article. The email includes brief notes on each reference and offers further thoughts on the nuances debated during their conversation.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Digital Privacy Workshop Participants <privacyworkshop@lists.berlin.net>
+Subject: Thank You & Resources from Today’s Digital Privacy Workshop
+Summary: Jonas sends a thank-you email to all workshop participants, recapping key topics covered, addressing the technical glitch with screen sharing, and providing links to workshop materials and further reading. He invites additional questions and feedback.

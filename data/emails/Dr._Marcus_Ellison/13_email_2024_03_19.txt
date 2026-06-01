@@ -1,0 +1,18 @@
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Dr. Marcus Ellison <marcus.ellison@email.com>
+Subject: Unable to Attend Today's Seminar
+Summary: Dr. Grant notifies Dr. Ellison early in the morning that she is unable to attend the 9:00 AM undergraduate seminar due to a severe migraine. She apologizes for the short notice, expresses regret for the disruption, and offers to share her lecture materials if needed. She requests an update on how the class goes and any issues that arise in her absence.
+
+============================================================
+
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Luis Martinez <luis.martinez@email.com>
+Subject: Follow-Up After Office Hours Interruption
+Summary: Dr. Ellison reaches out to Luis after the fire alarm interrupted their advising session. He apologizes for the abrupt end, acknowledges the sensitive nature of their conversation, and suggests rescheduling at Luis's convenience. He reassures Luis of his support and provides options for alternative meeting times.
+
+============================================================
+
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Dr. Marcus Ellison <marcus.ellison@email.com>
+Subject: Apologies for Technical Difficulties During Today's Meeting
+Summary: Dr. Ellison follows up with Dr. Nair and Jamal Rivers after their collaborative meeting was disrupted by persistent Wi-Fi issues. He apologizes for being unable to contribute fully without his MacBook and proposes rescheduling or sharing materials asynchronously. He requests access to any shared notes or data visualizations missed during the meeting.

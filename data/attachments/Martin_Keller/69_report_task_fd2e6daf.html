@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>69_report_task_fd2e6daf</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<h1>Embedded Systems Certification: Technical Insights, Lessons Learned, and a Grilled Halloumi Salad</h1>
+<h2>Professional Introduction</h2>
+<p>After several years working as an Embedded Systems Software Developer and completing my Master’s in Electrical Engineering, I decided to pursue an advanced Embedded Systems Certification to deepen my expertise. This program not only enhanced my technical abilities but also changed how I approach design, debugging, and team collaboration in my everyday work. In this report, I’ve put together a comprehensive summary of what I learned—key technical takeaways, challenges faced in the capstone project, invaluable advice from Dr. Brandt, and as a personal touch, my favorite grilled halloumi salad recipe that kept me going during intensive coding sessions.</p>
+<hr />
+<h2>Certification Curriculum: Key Modules and Technical Depth</h2>
+<p>The curriculum was thoughtfully designed to close the gap between academic concepts and the practical skills demanded in modern embedded systems development. Rather than just skimming the surface, each module dug into the challenges I see daily in the workplace:</p>
+<ul>
+<li>
+<p><strong>ARM Cortex-M Architecture and Low-Level Programming</strong><br />
+  We worked directly with hardware registers, moving past the comfort zone of vendor libraries. Tasks like exception handling and memory remapping were tackled head-on, which gave me new confidence in writing efficient, tightly tailored code that really takes advantage of hardware capabilities.</p>
+</li>
+<li>
+<p><strong>RTOS Fundamentals and Advanced FreeRTOS</strong><br />
+  Real-time operating systems are the heartbeat of so many of my projects. Through practical labs, I spent hours on task creation, scheduling, and mastering synchronization tools like mutexes and semaphores. Integrating event-driven tasks with strict timing requirements became second nature.</p>
+</li>
+<li>
+<p><strong>Peripheral Integration</strong><br />
+  This module was a deep dive into the practicalities of connecting microcontrollers to the outside world:</p>
+<ul>
+<li>Implemented SPI for high-speed ADCs, including clock phase and polarity changes right at the register level.</li>
+<li>Used I2C for daisy-chained sensors, often handling manual bus arbitration and recovery after glitches.</li>
+<li>Designed UART and CAN interfaces robust against framing errors and integrated error correction at the protocol layer.</li>
+</ul>
+</li>
+<li>
+<p><strong>Interrupt Management and Timing Analysis</strong><br />
+  I honed a strong instinct for analyzing real-time deadlines, setting up nested interrupt priorities, and designing ISRs that keep the system snappy without bogging down performance.</p>
+</li>
+<li>
+<p><strong>Embedded C and Hardware Abstraction Layer (HAL) Design</strong><br />
+  Developing custom HALs improved not only portability but also made my codebase much more reliable. Careful type management and explicit interface contracts now shape how I structure team projects.</p>
+</li>
+<li>
+<p><strong>Power Management Strategies</strong><br />
+  Since so many embedded designs are battery-powered, I learned how to leverage deep-sleep microcontroller modes, optimize wake-up events, and accurately measure system power draw. Using logic analyzers for this was a game changer.</p>
+</li>
+<li>
+<p><strong>Advanced Debugging: JTAG/SWD, SystemView, OpenOCD</strong><br />
+  Before this course, my debugging was reactive. Now, I use hardware breakpoints, watchpoints, and trace analysis tools proactively for both bare-metal and RTOS-based systems. I can zero in on the root causes of subtle timing bugs that previously would have taken days to untangle.</p>
+</li>
+<li>
+<p><strong>Static Analysis &amp; Code Reviews</strong><br />
+  Integrating MISRA C guidelines and static analysis into my workflow dramatically boosted code safety and maintainability. I pay particular attention to stack usage and interrupt safety, which pays off in both development and post-deployment phases.</p>
+</li>
+</ul>
+<hr />
+<h2>Capstone Project: Modular Sensor Node with Real-Time BLE Telemetry</h2>
+<h3>Project Overview</h3>
+<p>For the capstone, I designed and built a modular environmental sensor node—a system that samples environmental data, preprocesses it locally, and streams it live via Bluetooth Low Energy (BLE). The challenge lay in balancing aggressive power conservation with the need for real-time telemetry, making it an ideal prototype for industrial IoT or environmental monitoring scenarios.</p>
+<h3>Technical Challenges and Solutions</h3>
+<ul>
+<li>
+<p><strong>Low-Level Hardware Interfacing</strong><br />
+  Achieving reliable, low-latency communication with high-resolution ADCs and various environmental sensors meant I had to bypass generic HAL drivers and work directly with the hardware registers. This not only reduced protocol overhead but also let me hand-tune clock settings to allow for simultaneous communication over multiple protocols.</p>
+</li>
+<li>
+<p><strong>Real-Time Task Scheduling with FreeRTOS</strong><br />
+  Managing multiple periodic tasks—such as sampling sensors every 200ms, handling BLE advertisements, and putting the node into deep sleep—required precise FreeRTOS configuration. To ensure that task switch latency stayed consistently below 2ms, I implemented priority inheritance protocols and carefully calibrated Tick timing.</p>
+</li>
+<li>
+<p><strong>Debugging Race Conditions and Synchronization</strong><br />
+  Early prototypes suffered from elusive race conditions between interrupt routines and the OS scheduler. Using J-Link and OpenOCD for hardware-level debugging, along with Segger SystemView for trace visualizations, helped me pinpoint and fix several subtle synchronization issues. Placing well-chosen watchpoints in memory exposed the precise source of concurrency bugs.</p>
+</li>
+</ul>
+<h3>Outcomes and Key Skills Developed</h3>
+<ul>
+<li>
+<p><strong>Layered Hardware Abstraction</strong><br />
+  The project reinforced my ability to build clean abstraction layers for hardware, which makes future platform changes almost painless and minimizes code duplication.</p>
+</li>
+<li>
+<p><strong>Advanced Debugging Techniques</strong><br />
+  I now approach complex system bugs with a systematic mindset, using trace tools to catch issues like deadlocks and memory leaks that are nearly impossible to spot with traditional methods.</p>
+</li>
+<li>
+<p><strong>Code Safety and Certification Readiness</strong><br />
+  Consistent use of static analysis and disciplined code reviews has now become a cornerstone in my development process, directly improving system robustness—especially for code that might one day face formal certification.</p>
+</li>
+</ul>
+<hr />
+<h2>High-Impact Advice from Dr. Brandt</h2>
+<p>Dr. Brandt played a crucial mentoring role throughout the certification. Her practical advice has already shaped both my capstone and ongoing work:</p>
+<ol>
+<li><strong>Separate Hardware and Application Logic</strong>  </li>
+<li>
+<p>I’ve made a habit of rigorously dividing hardware-specific code from application logic. This makes everything from debugging to porting much easier and has improved teamwork on larger projects.</p>
+</li>
+<li>
+<p><strong>Plan for Faults and Recovery</strong>  </p>
+</li>
+<li>
+<p>Instead of assuming things will just work, I now layer watchdogs and failsafes, setting recovery triggers based on measurements from real devices in the field—not just optimistic datasheet values. This approach has increased confidence in system reliability, especially in harsh environments.</p>
+</li>
+<li>
+<p><strong>Keep Tracing and Diagnostics Lean</strong>  </p>
+</li>
+<li>
+<p>Even in production builds, I sneak in lightweight event counters and trace hooks. If a unit goes down in the field, these breadcrumbs make root-cause analysis possible without impacting runtime performance.</p>
+</li>
+<li>
+<p><strong>RTOS Task Management</strong>  </p>
+</li>
+<li>
+<p>Each RTOS task gets its own stack and heap usage profile, and I’ve standardized the use of message queues to avoid pitfalls with shared state. This extra discipline has all but eliminated reentrancy and race bugs in my recent projects.</p>
+</li>
+<li>
+<p><strong>Prioritize Code Portability and Safety</strong>  </p>
+</li>
+<li>Dr. Brandt stressed standardizing portable C constructs and maximizing static analysis tool coverage, especially for concurrency-sensitive code paths and interrupt routines.</li>
+</ol>
+<hr />
+<h2>Grilled Halloumi Salad Recipe</h2>
+<p>In the middle of long debugging sessions or late-night code reviews, I started making grilled halloumi salad as a quick and satisfying meal. It’s become one of my staples for busy days at the desk—healthy, flavorful, and ready in minutes.</p>
+<p><strong>Ingredients</strong></p>
+<table>
+<thead>
+<tr>
+<th>Ingredient</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Halloumi cheese</td>
+<td>200g, sliced 1cm thick</td>
+</tr>
+<tr>
+<td>Mixed salad greens</td>
+<td>120g</td>
+</tr>
+<tr>
+<td>Cherry tomatoes</td>
+<td>150g, halved</td>
+</tr>
+<tr>
+<td>Cucumber</td>
+<td>½, sliced</td>
+</tr>
+<tr>
+<td>Red onion</td>
+<td>¼, thinly sliced</td>
+</tr>
+<tr>
+<td>Olive oil</td>
+<td>2 tbsp</td>
+</tr>
+<tr>
+<td>Lemon juice</td>
+<td>1 tbsp</td>
+</tr>
+<tr>
+<td>Fresh mint leaves</td>
+<td>Small handful, chopped</td>
+</tr>
+<tr>
+<td>Black pepper</td>
+<td>To taste</td>
+</tr>
+<tr>
+<td>Salt</td>
+<td>To taste</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Instructions</strong></p>
+<ol>
+<li>Preheat your grill or a griddle pan to medium-high.</li>
+<li>Pat the halloumi slices dry and brush both sides lightly with olive oil.</li>
+<li>Grill the halloumi for 2–3 minutes per side, until golden brown and crisp on the edges.</li>
+<li>While the cheese is grilling, toss the mixed greens, tomatoes, cucumber, and red onion in a large bowl.</li>
+<li>In a small bowl, whisk together the olive oil, lemon juice, black pepper, and salt to taste.</li>
+<li>Drizzle the dressing over the vegetables and toss to combine.</li>
+<li>Top the salad with grilled halloumi slices and scatter fresh mint over the top.</li>
+<li>Serve right away with a squeeze of extra lemon if you like—it’s especially good still warm.</li>
+</ol>
+<p>This salad became something of a ritual whenever I hit a breakthrough or fixed a tough bug during the project!</p>
+<hr />
+<h2>Reflection: Professional Impact and Future Application</h2>
+<p>Completing the embedded systems certification has been one of the most rewarding steps in my engineering career. The technical depth I gained—especially with real-time operating systems, robust hardware abstraction, and hardware-assisted debugging—has changed both how I solve problems and how I approach new projects. Instead of simply reacting to faults, I now have the tools to proactively address potential hardware/software interaction issues, set up more effective diagnostics before deployment, and speed up post-release troubleshooting.</p>
+<p>Dr. Brandt’s guidance in layered system architecture, resilience planning, and rigorous code review is now embedded in my daily workflow, both personally and within my team. Our build process now integrates static analysis and trace-based profiling, which has directly improved product reliability and given our developers more confidence in shipping new features. Looking ahead, I’m excited to continue applying these principles, especially as our products grow more complex and head towards formal safety certification.</p>
+<hr />
+<p><strong>Sources</strong><br />
+All technical content and recipe construction are drawn from my personal experience and coursework in the embedded systems certification described above. No external sources were referenced.</p>
+</body>
+</html>

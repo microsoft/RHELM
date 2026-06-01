@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Lukas Weber <lukas.weber@email.com>
+Subject: Thanks for the Ride & Route Feedback
+Summary: Martin thanks Lukas for joining the long-distance ride through the Black Forest, recaps highlights such as the climb near Gütenbach and the lunch at Café Schwarzwaldstube, and invites Lukas to share any further feedback on the new route. Martin also mentions plans for a future ride with Anja and attaches the GPX file of the route for Lukas’ reference.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Cycling Forum Moderator <moderator@cyclingforum.com>
+Subject: New Ride Report: Black Forest 110km Loop
+Summary: Automated notification confirming Martin’s detailed ride report and route suggestions have been posted to the cycling forum. The email includes a link to the post and a brief summary of the report’s content, as well as a thank you message from another local rider who found the route suggestions helpful.

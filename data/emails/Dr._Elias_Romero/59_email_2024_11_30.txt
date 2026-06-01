@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Service Center <support@techfixbarcelona.com>
+Subject: Request for Repair Appointment Confirmation – Phone Microphone & Garmin Tracker
+Summary: Elias Romero emails the local service center to confirm the scheduled repair appointment for his phone microphone and Garmin tracker, including device details, preferred time slot, and a brief description of the technical issues encountered. The email requests confirmation of the appointment and any required documentation to bring.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Marta Alvarez <marta.alvarez@university.edu>
+Subject: Follow-up: Workshop Module Planning – Integration of Local Produce & Recipe Updates
+Summary: Elias Romero sends a follow-up email to Dr. Marta Alvarez and the community health organizers summarizing the outcomes of their agenda-planning session. The email highlights finalized interactive workshop modules, notes the integration of new produce discoveries and recipe swaps, and attaches a draft agenda for review. Action items and next steps are outlined.

@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Aisha Rahman <aisha.rahman@email.com>
+Subject: Finalized Logistics and Route for Spring Orienteering Event
+Summary: Elena confirms the finalized logistics for the orienteering club’s spring event following their midday video call. She summarizes the agreed-upon new coastal route, details the incorporation of Pieter’s feedback, and outlines the resolution of the color contrast issue in the mapping app. The email includes a brief next-steps checklist and requests Aisha’s confirmation before sharing details with the rest of the club.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Marcus van Dijk <marcus.vandijk@esa.int>
+Subject: LunaLink Documentation Updates and April Test Run Schedule
+Summary: Elena provides an update to Marcus and Yuki on the LunaLink cross-agency documentation. She details the integration of their feedback, describes the resolution of the formatting inconsistency, and attaches the streamlined interface schedule for the upcoming April test run. She invites further comments and confirms readiness for the next project milestone.

@@ -1,0 +1,11 @@
+Sender: Anja Keller <anja.keller@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Need to Reschedule Our Call – Group Project Deadline Moved
+Summary: Anja informs Martin that their planned Sunday afternoon call must be postponed due to her architecture group project deadline being unexpectedly moved up. She apologizes for the short notice, explains she will be working with classmates at the university studio all day, and suggests rescheduling later in the week. The email expresses regret and appreciation for Martin's understanding.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Anja Keller <anja.keller@email.com>
+Subject: No Worries – Let’s Find a New Time for Our Call
+Summary: Martin replies to Anja’s message, expressing understanding about her project deadline and disappointment at missing their catch-up. He suggests a few alternative times later in the week for their call, mentions he was looking forward to sharing cycling photos and route notes, and wishes her luck with the group project.

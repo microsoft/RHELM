@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Marta Alvarez <marta.alvarez@university.edu>
+Subject: Follow-up: Pilot Study Meeting and Next Steps
+Summary: Dr. Elias Romero writes to Dr. Marta Alvarez to apologize for technical difficulties during the Zoom meeting, clarify points of confusion regarding the pilot study logistics, and propose rescheduling a follow-up discussion. He summarizes the unresolved agenda items, requests clarification on action items, and attaches a draft outline for the next meeting.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: IT Support <itsupport@university.edu>
+Subject: Request for Assistance: MacBook Pro Trackpad and Server Sync Issues
+Summary: Dr. Elias Romero contacts university IT support to report persistent issues with his MacBook Pro, specifically an unresponsive trackpad and failed document synchronization with the university server. He describes the troubleshooting steps already taken, the impact on his manuscript work, and asks for urgent assistance or a service appointment.

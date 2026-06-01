@@ -1,0 +1,11 @@
+Sender: Javier Ortega <javier.ortega@email.com>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Dinner Plans - Change of Schedule
+Summary: Javier Ortega informs Dr. Elias Romero that he must cancel their planned dinner due to a family emergency. The email expresses regret for the last-minute notice, apologizes for any inconvenience, and suggests rescheduling when possible.
+
+============================================================
+
+Sender: Dr. Elias Romero <elias.romero@email.com>
+Recipient: Gràcia Community Center Portuguese Group <portuguese.group@graciacc.org>
+Subject: Apology for Late Arrival and Missed Group Project
+Summary: Dr. Elias Romero writes to the Portuguese class group to apologize for arriving late to the midday session due to metro delays and a detour to purchase a replacement USB drive. He requests a summary of the group project kickoff and asks if he can contribute asynchronously or be paired with a group for the next session.

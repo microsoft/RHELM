@@ -1,0 +1,25 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Dr. Samuel Greene <samuel.greene@university.edu>
+Subject: Morning Update: Lower Back Pain Symptoms – July 11, 2024
+Summary: David provides Dr. Patel with a concise update on his lower back pain symptoms after following the prescribed stretches and using an ice pack. He describes his current pain level, any changes since the previous day, and asks for further advice if needed.
+
+============================================================
+
+Sender: Dr. Samuel Greene <samuel.greene@university.edu>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: RE: Morning Update: Lower Back Pain Symptoms – July 11, 2024
+Summary: Dr. Patel replies to David’s symptom update, offering reassurance, confirming that his current management plan is appropriate, and providing brief additional guidance for the next 24 hours.
+
+============================================================
+
+Sender: Alicia Torres <alicia.torres@email.com>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Urgent: Feedback Needed on Financial Literacy Workshop Materials
+Summary: Alicia requests David’s prompt review and feedback on the latest draft of the financial literacy workshop materials, highlighting specific areas that require his input before finalization.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Alicia Torres <alicia.torres@email.com>
+Subject: Re: Urgent: Feedback Needed on Financial Literacy Workshop Materials
+Summary: David responds to Alicia’s request, providing clear, actionable feedback on the workshop materials. He incorporates Monica’s suggestion to include a family budgeting activity and outlines specific improvements for clarity and engagement.

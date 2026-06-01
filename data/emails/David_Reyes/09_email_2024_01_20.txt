@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Apologies—Field Survey Interrupted by Weather
+Summary: David writes to Emily apologizing for canceling their post-survey café plans due to severe wind and resulting sinus irritation. He briefly reports that data collection was cut short, GPS and camera were unreliable, and the rare lizard remained elusive. He mentions a need to update her on data gaps and reschedule discussions when he's feeling better.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Priya Rao <priya.rao@email.com>
+Subject: Follow-Up: Equipment Maintenance & Tomorrow’s Survey Prep
+Summary: David coordinates with Priya regarding the cleaning and maintenance of field equipment after the sand exposure. He lists which gear needs priority (camera, GPS, sampling equipment), reviews today’s interruptions, and asks for recommendations to prevent damage before the upcoming overnight hike.

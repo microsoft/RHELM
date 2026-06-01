@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: App Development Team <support@orienteermapapp.com>
+Subject: Field Test Feedback: GPS and App Stability Issues at Noordwijk Dunes
+Summary: Elena provides a detailed account of the technical problems encountered during the Saturday orienteering field test with Aisha and Pieter. She describes persistent GPS dropouts, app crashes when switching route layers, device freezes, and missing checkpoint recordings. Elena requests urgent attention to these issues ahead of the upcoming competition and offers to share her documented notes for further analysis.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Luna: Vomiting and Ignoring New Toy – Advice Needed
+Summary: Elena contacts Dr. van der Meer to report that her cat, Luna, vomited and showed no interest in a new interactive toy upon returning home. She describes Luna's symptoms, her actions so far, and requests advice on monitoring or next steps. Elena also asks if an in-person visit is recommended.

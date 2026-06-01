@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Finalized Agenda for Polish Student Group’s Berlin Visit
+Summary: Jonas confirms the updated agenda for the Polish student group's upcoming Berlin visit, summarizing the adjustments discussed via Signal, including the addition of a privacy walk and a hands-on demo. He attaches the revised schedule and requests confirmation of travel details from Dr. Nowak.
+
+============================================================
+
+Sender: Frau Becker <lehmann@biomarkt.de>
+Recipient: Jonas Richter <jonas.richter@email.com>
+Subject: Follow-up Session Proposal: Digital Privacy Workshop
+Summary: Frau Becker thanks Jonas for facilitating the digital privacy workshop, highlights key discussion points, and formally proposes a follow-up session. She requests Jonas’s availability and suggests potential topics for deeper exploration, referencing positive feedback from participating educators.

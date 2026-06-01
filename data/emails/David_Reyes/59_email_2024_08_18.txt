@@ -1,0 +1,18 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Piute Canyon Excursion Debrief & Next Steps
+Summary: This email provides a summary of the Piute Canyon field day, acknowledges Emily’s pivotal role in logistics and data coordination, confirms successful photographic recording and sampling activities, and discusses immediate post-trip actions. Attachments include synthesized field notes and proposed outline for symposium keynote visuals. The message also requests feedback on the volunteer team performance and further input regarding incorporating Indigenous perspectives into the guidebook draft.
+
+============================================================
+
+Sender: Emily Tran <emily.tran@email.com>
+Recipient: Cahuilla Elder <elder.cahuilla@community.org>
+Subject: Thank You for Sharing Your Knowledge and Stories in Piute Canyon
+Summary: This appreciation email expresses deep gratitude to the Cahuilla Elder for participating in the midday session, sharing oral histories, and enriching the team's understanding of sagebrush resilience. Emily summarizes key insights offered during the debrief and discusses how traditional perspectives will be respectfully integrated into the revised guidebook draft. The message closes with an invitation for continued collaboration and review of draft content.
+
+============================================================
+
+Sender: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Wildlife Photo Archive Sync Issue - Resolution Notes
+Summary: Oscar details the technical troubleshooting steps taken to resolve the sync lag between the wildlife photo archive and cloud backup on the Dell XPS 15. He outlines actions performed, confirms successful secure storage of all recordings and data, and recommends a new protocol for regular maintenance checks before future field trips. The email attaches a PDF of sync checklists and logs from the day.

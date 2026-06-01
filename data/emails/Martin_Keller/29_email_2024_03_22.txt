@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Jana Müller <jana.mueller@email.com>
+Subject: Thanks for a Great Board Game Night!
+Summary: Martin sends a thank-you email to Jana, Lukas, and Anna, expressing his appreciation for their company, the delicious treats they brought (homemade hummus, Sicilian olive oil, and baklava), and the fun they had playing 'Azul.' He mentions highlights from the evening, including Anna's win and the lively discussion about the Black Forest cycling tour. Martin also shares a link to his updated digital board game inventory and invites suggestions for future games or snacks.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Board Game Group <boardgamegroup@chatapp.com>
+Subject: Board Game Inventory Update: New Additions and Notes
+Summary: Martin notifies the group about updates to his digital board game inventory following the recent game night. He details the addition of 'Azul' to the collection, summarizes group preferences and feedback from the session, and invites members to review the inventory and suggest new games for upcoming gatherings.

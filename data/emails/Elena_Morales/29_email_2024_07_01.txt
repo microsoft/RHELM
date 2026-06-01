@@ -1,0 +1,11 @@
+Sender: Elena Morales <elena.morales@email.com>
+Recipient: Neighborhood Clinic <appointments@neighborhoodclinic.org>
+Subject: Request to Reschedule Medical Evaluation Appointment
+Summary: Elena sends an email to the neighborhood clinic to formally request the rescheduling of her follow-up medical evaluation appointment. She explains that her symptoms, including severe fatigue, dizziness, and nausea, prevented her from attending the scheduled appointment on July 1. She asks for available alternative dates and times, and briefly describes her current health status to provide context for the urgency of rescheduling.
+
+============================================================
+
+Sender: Elena Morales <elena.morales@email.com>
+Recipient: Lila Nguyen <lila.nguyen@email.com>
+Subject: Apologies for Cancelling Tea and Garden Planning
+Summary: Elena writes to Lila to apologize for being unable to meet for tea and discuss the school garden as planned. She explains that she is feeling too unwell to host or focus on new ideas, and expresses her hope to reconnect when her health improves. The email conveys her disappointment and gratitude for Lila's understanding.

@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Garmin Support <support@garmin.com>
+Subject: Ongoing Bluetooth Sync Issues with Vivosmart 5 – Request for Assistance
+Summary: Elias details the persistent Bluetooth connectivity problems experienced with the Garmin Vivosmart 5, including failed data syncing during a pilot study review. He outlines previous troubleshooting steps, the impact on his research data, and requests further support or escalation after an unresolved support call.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Javier Ortega <javier.ortega@email.com>
+Subject: Pilot Study Data Review – Missing Activity Data Due to Device Issues
+Summary: Elias informs Javier about the incomplete activity dataset resulting from ongoing syncing issues with the Garmin tracker. He summarizes the troubleshooting attempts, the current data gaps, and proposes next steps for handling the missing data in their pilot study analysis.

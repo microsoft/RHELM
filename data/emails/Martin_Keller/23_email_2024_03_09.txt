@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Jana Müller <jana.mueller@email.com>
+Subject: Thank You for a Great Board Game Night!
+Summary: Martin sends a follow-up email to Jana, Lukas, and Anna thanking them for attending the rescheduled board game night on March 9th. He expresses appreciation for the treats they brought (Jana's baklava and Lukas's wine), recaps highlights such as Anna's win in Gaia Project, and mentions the home automation demo and cycling route discussion. Martin proposes making the game night a monthly tradition and suggests possible dates for the next gathering.
+
+============================================================
+
+Sender: Lukas Weber <lukas.weber@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Black Forest Cycling Route – Next Ride?
+Summary: Lukas follows up with Martin and Jana regarding their conversation about the Black Forest cycling route. He shares a link to the route map, suggests a few possible weekends for the next ride, and invites Jana to join. He also asks if anyone has suggestions for additional stops or adjustments to the route.

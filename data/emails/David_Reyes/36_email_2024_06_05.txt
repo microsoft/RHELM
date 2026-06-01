@@ -1,0 +1,18 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maria Lopez <maria.lopez@email.com>
+Subject: SD Card File Corruption Issue – Field Photo Backup Workflow
+Summary: David writes to Maria following their postponed workflow session to report the persistent file corruption issues encountered with her SD card, noting repeated failures to transfer field photos. The email requests Maria to run diagnostic checks and share any relevant error logs, and proposes scheduling a follow-up session after troubleshooting and potential replacement.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Dr. Priya Rao <priya.rao@university.edu>
+Subject: Site Mapping Coordination & Field Logistics – Ridgecrest Update
+Summary: David provides a brief recap of the disrupted site mapping session, apologizing for his late arrival and highlighting the communication gaps caused by his malfunctioning phone. He shares initial suggestions for hydration strategies and requests an updated schedule for continuing their collaboration once field emergencies and heat stress issues are resolved.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Photo Backup Workflow – Wi-Fi & File Transfer Challenges
+Summary: David emails Emily to summarize the day's attempted updates to the photo backup workflow, describing limited Wi-Fi and file corruption difficulties. He asks Emily to report any further transfer issues, and proposes collectively identifying alternative solutions or backup strategies with the team.

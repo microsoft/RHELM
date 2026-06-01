@@ -1,0 +1,11 @@
+Sender: Monica Ellis <monica.ellis@email.com>
+Recipient: Mrs. Patel <mrs.patel@email.com>
+Subject: Thank You for a Wonderful Gardening Day!
+Summary: Monica sends a warm thank-you email to Mrs. Patel, expressing gratitude for her company, gardening tips, and delicious chai during the Ellis family's gardening day. Monica attaches a few candid photos from the day and mentions how much Jasper enjoyed helping with the marigolds. She also suggests sharing gardening updates in the coming weeks.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Ellis Family Blog Subscribers <subscribers@ellisfamilyblog.com>
+Subject: New Post: Spring Gardening Day with Friends & Family
+Summary: David drafts an email newsletter to blog subscribers, announcing a new post about the family's recent gardening day. He includes a brief summary of the activities, highlights the involvement of Jasper and Mrs. Patel, and invites readers to view the attached photos and share their own gardening stories.

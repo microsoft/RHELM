@@ -1,0 +1,11 @@
+Sender: Alastair McEwan <alastair.mcewan@email.com>
+Recipient: Fiona MacLeod <fiona.macleod@email.com>
+Subject: Follow-up: Heritage Walk Proposal and Junior Guide Involvement
+Summary: Dr. McEwan thanks Fiona for the productive discussion regarding the heritage walk proposal at the university café. He recaps Fiona's suggestion to involve local schoolchildren as junior guides, expresses enthusiasm for the idea, and proposes next steps for integrating this component into the project plan. He attaches preliminary notes and requests Fiona’s feedback on a draft outline for the proposal.
+
+============================================================
+
+Sender: Alastair McEwan <alastair.mcewan@email.com>
+Recipient: IT Support <itsupport@university.edu>
+Subject: VPN Connectivity Issue Resolved – Thank You
+Summary: Dr. McEwan writes to thank the IT support team for their assistance in resolving his Dell XPS 15 VPN connection issue earlier in the day. He briefly describes the troubleshooting steps taken, confirms that he has successfully backed up his research files to the Samsung T7 SSD, and asks if there are any recommended best practices for future remote access and backup procedures.

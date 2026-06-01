@@ -1,0 +1,4 @@
+Sender: Dr. Priya Desai <priya.desai@healthclinic.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Telehealth Consultation Summary and Next Steps
+Summary: Dr. Liu sends Elena a follow-up email summarizing the key points from the telehealth consultation held on November 23. The email outlines the adjustments to Elena’s anti-nausea medication, the recommendation for a new nutritional supplement, and instructions for Mrs. Patel’s follow-up visit in one week. Dr. Liu also includes reminders about monitoring symptoms and encourages Elena to prioritize rest, offering contact information for any urgent concerns.

@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Leila Haddad <leila.haddad@email.com>
+Subject: Incorporating Your Policy Memo into My Keynote
+Summary: Jonas thanks Leila for sharing her recent policy memo during the morning meeting, confirms he will integrate key points into his keynote for the upcoming summit, and requests any additional resources or references she recommends. He also mentions the positive team response to the proposed panel on encrypted communications.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Mikko Nieminen <mikko@cryptoopensource.fi>
+Subject: Bug Fix Commit and Follow-Up
+Summary: Jonas informs Mikko, a fellow contributor based in Helsinki, about the successful bug fix he committed to their open-source encryption project. He provides a brief summary of the fix, references the related issue number, and invites Mikko to review the changes or suggest further improvements.

@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Lukas Weber <lukas.weber@email.com>
+Subject: Draft UI Ideas for Home Automation Dashboard – Feedback Welcome
+Summary: Martin shares a link to his technical blog post containing the initial wireframes and concepts for a minimalist home automation dashboard, inspired by their café discussion. He invites Lukas to review the draft, provide feedback, and suggests a follow-up call to discuss further improvements.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Café Pause <info@cafepause.de>
+Subject: Thank You and Inquiry About Minimalist Décor
+Summary: Martin thanks Café Pause for their hospitality during his visit on January 27th and inquires about the sources or designers of their minimalist décor, mentioning his interest for a UI project. He requests any information or references they can share.

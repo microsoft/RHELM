@@ -1,0 +1,11 @@
+Sender: Maya Chen <maya.chen@email.com>
+Recipient: Dr. Marcus Ellison <marcus.ellison@email.com>
+Subject: Sorry—Need to Cancel Yoga Session Today
+Summary: Maya Chen notifies Dr. Marcus Ellison via email that she must cancel their planned restorative yoga session due to a migraine. She expresses regret, suggests rescheduling, and wishes him well.
+
+============================================================
+
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Luis Martinez <luis.martinez@email.com>
+Subject: Lost Comments on Workshop Slides—Could You Resend?
+Summary: Dr. Marcus Ellison reaches out to Luis Martinez explaining that due to a syncing issue between his MacBook and Google Drive, he lost several of Luis's annotated comments on the Harlem youth mentorship workshop slides. He requests Luis to resend the feedback and apologizes for the inconvenience.

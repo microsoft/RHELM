@@ -1,0 +1,11 @@
+Sender: Emily Tran <emily.tran@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Re: Birdwatching App GPS Sync Issues & Baking Remake
+Summary: Emily follows up on the technical difficulties experienced with the birdwatching app during the sunrise walk, specifically referencing the GPS tagging and sync errors due to cell coverage. She summarizes her troubleshooting steps, proposes further testing on a different trail with better reception, and confirms she will bake a new batch of lemon bars before the next event. Includes a few troubleshooting screenshots and asks David to forward his field journal notes.
+
+============================================================
+
+Sender: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Interrupted Consultation on Encrypted Backup Procedures
+Summary: Oscar apologizes for the abrupt end to their afternoon consult due to technical difficulties with David's laptop. He sends a draft protocol for reliable photo archive backups, offers suggestions for preventing system freezes, and suggests rescheduling the backup reliability demo. Oscar also requests logs from David’s last backup session for further analysis.

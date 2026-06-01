@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maria Lopez <maria.lopez@email.com>
+Subject: Confirming Sensor Troubleshooting Steps for Upcoming Survey
+Summary: David emails Maria to confirm the sensor troubleshooting procedures discussed during their recent call, referencing the updated contact lists integrated on both his Pixel 7 Pro and Dell XPS 15. He shares steps taken for backup automation and data restoration, asks Maria to verify the next diagnostics steps, and requests any additional recommendations to ensure field equipment readiness for July.
+
+============================================================
+
+Sender: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Service Completion: Pixel 7 Pro & Dell XPS 15 Repairs
+Summary: Oscar sends a follow-up confirmation detailing the successful microphone repair and cleaning of David's Pixel 7 Pro, installation of the new cooling fan in the Dell XPS 15, and general checks performed. He attaches service records and a checklist outlining dust protection tips, referencing their discussion at the shop.

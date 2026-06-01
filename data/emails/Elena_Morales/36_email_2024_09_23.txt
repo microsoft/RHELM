@@ -1,0 +1,11 @@
+Sender: Lila Nguyen <lila.nguyen@email.com>
+Recipient: Ms. Priya Patel <ms.patel@nursingagency.com>
+Subject: Preparation for Elena Morales' In-Home Medical Evaluation – September 23
+Summary: Lila confirms the appointment details with Ms. Patel, provides Elena's address, requests any final instructions for preparing the space, and asks about necessary documents or forms to have ready. Lila also mentions Elena's current symptoms and requests that Ms. Patel bring any relevant paperwork for the evaluation.
+
+============================================================
+
+Sender: Ms. Priya Patel <ms.patel@nursingagency.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Post-Evaluation Summary and Next Steps
+Summary: Ms. Patel sends a follow-up email summarizing the main findings from Elena's in-home evaluation, outlines any immediate recommendations, and attaches a digital copy of the completed evaluation form. She includes information about potential follow-up appointments and contact details for further questions.

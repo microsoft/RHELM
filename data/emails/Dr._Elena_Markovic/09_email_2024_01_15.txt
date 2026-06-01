@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Marcus van Dijk <marcus.vandijk@esa.int>
+Subject: Follow-up: LunaLink Docking Module Integration Test – 21 June
+Summary: Dr. Elena Markovic sends a post-test follow-up email to the ESA-JAXA Docking Team summarizing the day's integration test issues, including the intermittent telemetry feed dropouts from the JAXA interface module, unscheduled system reboots, and the inconclusive test results. She acknowledges the tense debrief, apologizes for not submitting the final test report by the 15:00 deadline, and outlines next steps for troubleshooting. She requests input from team members on unresolved anomalies and proposes a timeline for rescheduling the final report submission.
+
+============================================================
+
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Preliminary Bloodwork Results for Luna
+Summary: Dr. van der Meer sends Elena preliminary bloodwork results for Luna, highlighting concerning findings that may explain Luna's deteriorating condition. The email details specific abnormal values, recommends immediate veterinary follow-up, and expresses concern for Luna's well-being. Dr. van der Meer offers to discuss the results further if Elena has questions.

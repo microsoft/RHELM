@@ -1,0 +1,18 @@
+Sender: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Update on Dell XPS 15 Cooling Fan Order & Loaner Phone Timeline
+Summary: Oscar emails David a summary of the morning's intake diagnostics, confirming the cooling fan special order for the Dell XPS 15 will arrive within the week, and reiterates details about the Pixel 7 Pro repair, referencing Maya's arrangement for the loaner phone until June 10. He attaches the updated work order and provides contact info for follow-up.
+
+============================================================
+
+Sender: Maya Patel <maya.patel@ridgecrestclinic.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Clinic Screening Schedule & Calendar Update Confirmation
+Summary: Maya sends David a confirmation email documenting updates made to his medical screenings in his calendar, including the latest appointment dates and a contact for clinic questions. She attaches a timeline table and brief instructions on how to access the calendar reminders directly from his device.
+
+============================================================
+
+Sender: Maria Lopez <maria.lopez@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Field Photo Backup Workaround & Team Archiving Notes
+Summary: Maria follows up to the coffee chat, outlining a step-by-step photo backup workaround discovered for the team's field photo archiving hurdles. She references David’s rodent gallery update shared via Maya's phone and attaches a guide for restoring corrupted image files, plus a summary of team input regarding gear delays.

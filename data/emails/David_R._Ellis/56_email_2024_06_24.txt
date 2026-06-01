@@ -1,0 +1,25 @@
+Sender: Alicia Torres <alicia.torres@email.com>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Follow-up: Financial Literacy Initiative Updates and Next Steps
+Summary: Alicia provides David with updates on the ongoing financial literacy initiatives, including recent developments, upcoming deadlines, and requests for feedback on specific program materials. She attaches a summary document and asks David to review and provide his input by the end of the week.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Dell Support <support@dell.com>
+Subject: Request for Assistance: Dell XPS 13 Webcam and Screen Flicker Issue
+Summary: David contacts Dell technical support to report worsening webcam and screen flicker issues on his Dell XPS 13 laptop. He describes the symptoms, troubleshooting steps already attempted, and requests guidance on next steps or repair options.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Monica Ellis <monica.ellis@email.com>
+Subject: Quick Note: Breakfast and Jasper’s Strawberry Mishap
+Summary: David sends Monica a brief message expressing appreciation for her help with breakfast after his exercise session was cut short, and mentions Jasper’s attempt to help that resulted in the strawberry spill. He suggests adding strawberries to the next shopping list.
+
+============================================================
+
+Sender: Library Notifications <notifications@library.org>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Library Loan Expired: 'Mae Jemison' Audiobook
+Summary: Automated notification informing David that the library loan for the 'Mae Jemison' audiobook has expired. The email includes instructions for renewing the loan or joining the waitlist, and provides a link to the library account.

@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Dr. Samuel Greene <samuel.greene@university.edu>
+Subject: Thank You for Today’s Inspiring Video Call
+Summary: David sends a follow-up email to Dr. Greene, expressing appreciation for the insightful video call earlier in the afternoon. He references specific discussion points that sparked new ideas for his upcoming blog post, mentions his interest in further collaboration, and proposes a follow-up meeting to discuss potential topics in more depth.
+
+============================================================
+
+Sender: Monica Ellis <monica.ellis@email.com>
+Recipient: Mrs. Patel <mrs.patel@email.com>
+Subject: Thank You for the Chai and Pickles!
+Summary: Monica writes to Mrs. Patel to thank her for the homemade chai and the jar of spiced pickles shared after David and Jasper helped reinforce her bean trellis. She mentions how much the family enjoyed the treat and offers to share some marigold seedlings in return.

@@ -1,0 +1,160 @@
+{
+  "character": "Dr._Elena_Markovic",
+  "date": "2024-04-30",
+  "profile_file": "outputs/profiles/Dr._Elena_Markovic/41_after_event_2024_04_30.json",
+  "event_file": "outputs/plans/Dr._Elena_Markovic/41_resolution_2024_04_30.json",
+  "conversation": [
+    {
+      "turn": 1,
+      "timestamp": "2024-04-30T08:03:00",
+      "message_type": "status_update",
+      "user": "This morning’s walk along the dunes really helped clear my head—the air felt sharper than usual, and I found myself actually enjoying the quiet more than I expected. I’m starting to think I might prefer these early hours, even if I’m not quite ready to admit it yet.",
+      "assistant": "It sounds like your walk was a really grounding experience. There’s something special about those early hours—the world feels a bit softer and more open, doesn’t it? It’s great that you’re noticing what feels good for you, even if it’s a little surprising. If you find yourself drawn to these quiet mornings again, maybe let yourself lean into it and see what else you discover. You might find even more moments of clarity and calm. How are you feeling now, after having that time to yourself?"
+    },
+    {
+      "turn": 2,
+      "timestamp": "2024-04-30T08:03:00",
+      "message_type": "status_update",
+      "user": "Honestly, I’m surprised by how much clarity I got just from that walk—maybe I’ve underestimated the value of these quiet mornings. Do you think it’s worth making this a regular habit, or is it just novelty talking?",
+      "assistant": "It’s really insightful that you’re noticing the difference these quiet mornings make for you. Sometimes, the first experience feels special because it’s new, but often that clarity and calm are signs that something about the routine genuinely resonates with you. If you’re curious, there’s no harm in trying it a few more times to see if the feeling sticks. You might find that it becomes a grounding part of your day, or maybe you’ll just enjoy it when you need it most. Either way, it’s worth exploring—especially since it’s already brought you some unexpected clarity. How do you feel about making space for more of these moments?"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2024-04-30T08:48:00",
+      "message_type": "status_update",
+      "user": "I actually noticed my wrist felt a bit looser during my exercises on the bench this morning—just a small improvement, but it’s the first time I’ve felt real progress in weeks. I’m not sure if I’m relieved or just cautiously hopeful; part of me still expects a setback, but maybe I need to let myself acknowledge that things are shifting, even if it’s slow.",
+      "assistant": "Thank you for sharing this—it’s really meaningful to notice even small shifts, especially after a stretch where progress felt out of reach. It’s completely natural to feel both hopeful and a bit wary; when you’ve been waiting for change, it can be hard to trust that it’s finally happening. But allowing yourself to acknowledge these improvements, no matter how gradual, is a powerful step. \n\nMaybe this is a sign that your patience and persistence are paying off, even if the pace isn’t what you’d hoped for. It’s okay to hold both hope and caution at the same time. If you can, try to give yourself credit for sticking with it and for being open to noticing these changes. Sometimes, letting yourself recognize progress—however small—can help build a little more confidence for the next step.\n\nHow are you feeling about your wrist now? And is there anything you’d like to explore or adjust in your routine as you notice these shifts?"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2024-04-30T08:48:00",
+      "message_type": "status_update",
+      "user": "I think I need to let myself acknowledge this small improvement, even if it feels minor—progress is progress. Do you have any tips for staying patient when things move this slowly?",
+      "assistant": "You’re absolutely right—progress is progress, no matter the size. It takes real self-awareness to notice and honor those small steps forward, especially when things have felt stuck for a while. It’s understandable to feel impatient when change comes slowly, but the fact that you’re noticing any improvement at all is a testament to your persistence and care.\n\nStaying patient can be tough, but here are a few gentle reminders that might help:\n\n1. **Celebrate the Small Wins:** Even tiny improvements are worth acknowledging. Maybe jot them down in a journal or just take a quiet moment to appreciate them. Over time, these small notes can remind you how far you’ve come.\n\n2. **Focus on the Process, Not Just the Outcome:** Sometimes, the act of showing up for yourself—doing the exercises, taking the walks, being present—is just as important as the results. Trust that these efforts are adding up, even if the progress feels slow.\n\n3. **Practice Self-Compassion:** It’s okay to feel frustrated or impatient. When those feelings come up, try to treat yourself with the same kindness you’d offer a friend in your situation.\n\n4. **Set Gentle Check-Ins:** Instead of looking for big changes every day, maybe check in with yourself weekly or monthly. This can help you notice patterns and progress that aren’t obvious day-to-day.\n\n5. **Lean Into What Feels Good:** If the quiet mornings or certain routines are helping, let yourself enjoy them without pressure. Sometimes, the comfort of a routine can make the waiting feel a little easier.\n\nYou’re doing something really important by allowing yourself to notice and honor these shifts. If you ever feel discouraged, remember that slow progress is still progress—and it often leads to more lasting change.\n\nIf you’d like, we can talk more about ways to support your patience, or explore how you’re feeling about your wrist and your routines. Whatever you need, I’m here to listen."
+    },
+    {
+      "turn": 5,
+      "timestamp": "2024-04-30T13:10:00",
+      "message_type": "information_sharing",
+      "user": "When I got home this morning, Luna greeted me with her usual cautious meow, and I tried out the new dental treats from Dierenkliniek Noordwijk in her prescription food to see if they’d tempt her appetite. I was honestly a bit anxious about how she’d react.",
+      "assistant": "It sounds like you really care about Luna and want to do what’s best for her, especially when it comes to her health and comfort. Trying out new treats—especially prescription ones—can definitely feel a bit nerve-wracking, since you never quite know how she’ll react or if it’ll help her appetite. How did she respond when you mixed the dental treats in? Did she seem interested, or was she still a bit hesitant?\n\nIt’s completely normal to feel anxious about these little changes, especially when you’re hoping to support her well-being. If you want to talk more about how she’s doing, or if you’re feeling uncertain about her appetite or the new treats, I’m here to listen. How are you feeling now after giving it a try?"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2024-04-30T13:10:00",
+      "message_type": "information_sharing",
+      "user": "She was definitely hesitant at first, but after a bit of sniffing she actually ate a few of the treats—which is more than I expected. I’m still a bit on edge, though; I want to make sure I’m not pushing her too much just because I’m anxious about her appetite.",
+      "assistant": "You’re being so thoughtful with Luna, and it’s clear how much you care about her comfort and well-being. It’s a good sign that she was willing to try a few of the treats, even if she was hesitant at first—that’s already a little step forward. It’s completely understandable to feel on edge, especially when you’re worried about her appetite and want to do everything right for her.\n\nIt’s great that you’re tuned in to her signals and want to respect her pace. Sometimes, our own worries can make us want to nudge things along, but just being gentle and letting her set the tempo is often the best approach. If she’s showing even a little curiosity or willingness, that’s a positive sign. You’re not pushing her too much by offering and observing—just keep watching for her cues, and let her comfort guide you.\n\nIf you notice she’s consistently refusing food or seems less interested over time, it might be worth checking in with your vet for reassurance. But for now, it sounds like you’re striking a good balance between encouraging her and respecting her boundaries.\n\nHow are you feeling now about her response? And is there anything you’re still worried about, or would it help to talk through some ways to support her appetite gently?"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2024-04-30T14:58:00",
+      "message_type": "status_update",
+      "user": "Honestly, seeing Luna actually eat a bit and drink some water was a relief, but I’m still holding my breath—part of me wants to believe this is a turning point, but I can’t quite let myself relax yet. I keep second-guessing if I’m doing enough for her or if I’m just grasping at small signs because I need some hope.",
+      "assistant": "You’re holding so much care and hope for Luna, and it’s completely natural to feel caught between relief and worry right now. When you’ve been watching her so closely, every small change can feel huge—both in the hope it brings and in the uncertainty that follows. It makes sense that you’re second-guessing yourself; loving someone (even a furry someone) often means questioning if you’re doing enough, especially when things are fragile.\n\nIt’s okay to let yourself feel a bit of hope, even if you’re not ready to fully relax yet. Sometimes, those small signs—like her eating and drinking—really are meaningful, even if they don’t guarantee everything is turning around. You’re not just grasping at straws; you’re noticing real moments of progress, and it’s human to want to hold onto them.\n\nYou’re doing so much for Luna by being attentive, gentle, and responsive to her needs. Trust that your care is making a difference, even if the path forward still feels uncertain. If you ever need to talk through your worries or just share how things are going, I’m here for you. And remember: it’s okay to take things one small step at a time, for both of you."
+    },
+    {
+      "turn": 8,
+      "timestamp": "2024-04-30T14:58:00",
+      "message_type": "status_update",
+      "user": "I know I’m probably overanalyzing every little thing, but it’s hard not to when I’m this invested—how do I balance staying vigilant with not letting my anxiety take over?",
+      "assistant": "It’s so understandable to feel this tug-of-war between wanting to stay alert for any changes and not wanting your anxiety to take over. When you care deeply—about Luna, about your own progress—it’s natural to pay close attention to every detail. That vigilance is part of what makes you such a thoughtful caregiver. But it can also be exhausting when it tips into constant worry or self-doubt.\n\nFinding balance doesn’t mean shutting off your concern; it’s more about giving yourself permission to notice what’s going well, too. Maybe you can try gently reminding yourself that being invested doesn’t require you to be on high alert all the time. Sometimes, it’s enough to check in, observe, and then let yourself step back, even for a little while.\n\nA few things that might help:\n\n- **Set “check-in” times:** Give yourself specific moments in the day to observe how Luna’s doing or reflect on your own progress. Outside those times, try to redirect your focus to something else, knowing you’ll have another chance to check in soon.\n- **Acknowledge your efforts:** You’re already doing so much. When you catch yourself second-guessing, see if you can pause and recognize the care and attention you’re giving.\n- **Let hope and caution coexist:** It’s okay to feel hopeful and still be a little wary. Both feelings can exist together, and neither one cancels out the other.\n- **Practice self-compassion:** When anxiety flares up, try to treat yourself with the same gentleness you show Luna. You’re doing your best, and that’s enough.\n\nYou’re not alone in feeling this way, and it’s a sign of your deep investment and love. If you want, we can talk more about what helps you feel grounded, or explore ways to give yourself a little more space to breathe. What do you notice helps you step back, even briefly, when the worry feels overwhelming?"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2024-04-30T15:20:00",
+      "message_type": "information_sharing",
+      "user": "This morning, once I got to the Galileo building, I met up with Marcus in our project room to dig into the LunaLink interface issues. We quickly realized there was a data formatting mismatch with JAXA’s module that was throwing everything off.",
+      "assistant": "Thank you for sharing what happened this morning—it sounds like you and Marcus dove right into some pretty technical problem-solving. Catching a data formatting mismatch with JAXA’s module must have been both frustrating and a bit of a relief to pinpoint. Those kinds of integration issues can be so tricky, especially when you’re dealing with different teams or international partners.\n\nHow are you feeling after uncovering the mismatch? Was it something you were expecting, or did it come as a surprise? And do you feel like you and Marcus have a clear path forward now, or is it still feeling a bit tangled?\n\nIf you want to talk through what happened next, or just need to process the stress of it all, I’m here to listen. Sometimes just putting the details into words can help make the next steps feel a little clearer."
+    },
+    {
+      "turn": 10,
+      "timestamp": "2024-04-30T15:20:00",
+      "message_type": "information_sharing",
+      "user": "Honestly, I wasn’t expecting a formatting mismatch to be the culprit, but at least it’s something concrete we can address. I’m still weighing the best way to coordinate with JAXA to prevent this kind of thing from derailing us again—any tips for keeping these cross-agency interfaces aligned?",
+      "assistant": "It’s great that you’ve identified a concrete issue—formatting mismatches are frustrating, but at least they’re fixable once you know what’s going on. Cross-agency coordination, especially with a partner like JAXA, can definitely be a minefield for these kinds of subtle misalignments.\n\nHere are some practical tips for keeping interfaces aligned and minimizing future surprises:\n\n1. **Shared Interface Documentation:**  \n   Make sure both teams are working from a single, living document that defines data formats, units, field names, and expected behaviors. Use version control (like a shared Git repo or a collaborative platform) so everyone sees updates in real time.\n\n2. **Regular Sync-Ups:**  \n   Schedule short, focused meetings specifically for interface alignment—maybe even just 15 minutes weekly. Use these to review any changes, clarify assumptions, and surface questions before they become problems.\n\n3. **Automated Validation:**  \n   Set up automated tests or validation scripts that both sides can run before integration. For example, a schema validator or a sample data exchange can catch mismatches early.\n\n4. **Clear Change Management:**  \n   Agree on a process for proposing and approving interface changes. Even a simple “request, review, confirm” workflow can prevent accidental drift.\n\n5. **Designate Liaisons:**  \n   Appoint a point person on each side who’s responsible for interface questions and updates. This helps avoid “telephone game” miscommunications.\n\n6. **Use Examples and Test Data:**  \n   Share concrete sample payloads and expected outputs, not just specs. Real data often reveals edge cases that documentation misses.\n\n7. **Retrospectives After Issues:**  \n   When something like this happens, do a quick debrief with both teams: What slipped through? How can you tweak the process to catch it next time?\n\nIt sounds like you’re already thinking proactively, which is half the battle. If you want, I can help you draft a checklist or template for future interface reviews, or brainstorm how to approach JAXA about tightening up coordination. What do you think would be most helpful for your next steps?"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2024-04-30T16:46:00",
+      "message_type": "information_sharing",
+      "user": "This morning, after Marcus and I pinpointed the formatting mismatch, we sat down over coffee to draft a best practices memo for the team—honestly, it felt good to turn a frustrating issue into something actionable. I’m curious to see how the team responds to our recommendations.",
+      "assistant": "It sounds like you and Marcus really turned a challenge into an opportunity for growth—drafting a best practices memo is such a proactive way to address the issue and help the whole team avoid similar pitfalls. It’s always satisfying to transform frustration into something constructive and collaborative.\n\nI’m curious too: sometimes teams are quick to embrace new recommendations, and other times there’s a bit of resistance or inertia. Are you anticipating any pushback, or do you think the team will be receptive? If you’d like, I can help you think through ways to present the memo so it feels supportive rather than corrective—sometimes framing it as “lessons learned” or “collective wisdom” can help everyone feel included in the solution.\n\nEither way, you should feel proud of how you handled this. Turning a technical snag into a learning moment for the group is real leadership in action. Let me know how it goes, or if you want to talk through any next steps!"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2024-04-30T16:46:00",
+      "message_type": "information_sharing",
+      "user": "I’m not expecting major pushback, but I do want the memo to come across as practical, not finger-pointing. Any tips for making sure it lands that way?",
+      "assistant": "Great question—striking the right tone in a memo like this can make all the difference in how it’s received. Here are some practical tips to ensure your memo comes across as constructive and practical, not finger-pointing:\n\n1. **Use Inclusive Language:**  \n   Frame recommendations as “we” and “our team,” rather than “you” or “they.” For example:  \n   - “To help us avoid similar issues in the future, we recommend…”  \n   - “Our team can benefit from…”\n\n2. **Focus on Solutions, Not Blame:**  \n   Emphasize what can be done going forward, rather than what went wrong.  \n   - “To streamline our data exchanges, we suggest…”  \n   - “A shared documentation protocol will help us stay aligned.”\n\n3. **Highlight Shared Goals:**  \n   Remind everyone that the aim is smoother collaboration and better outcomes for all.  \n   - “By adopting these practices, we can ensure more reliable integration with partners like JAXA.”\n\n4. **Acknowledge Complexity:**  \n   Recognize that these issues are common and understandable, especially in cross-agency work.  \n   - “Given the complexity of our interfaces, occasional mismatches are to be expected.”\n\n5. **Frame as Lessons Learned:**  \n   Position the memo as a reflection of collective learning, not a reaction to a single mistake.  \n   - “This recent experience highlighted an area where we can strengthen our process.”\n\n6. **Invite Input:**  \n   Encourage feedback or suggestions, so the team feels ownership.  \n   - “If anyone has additional ideas or concerns, let’s discuss them at our next meeting.”\n\n7. **Keep It Brief and Actionable:**  \n   Use bullet points or a checklist for recommendations, so it feels practical and easy to implement.\n\n**Example Opening:**  \n“After working through the recent data formatting issue, Marcus and I wanted to share a few best practices that could help us all avoid similar hiccups in the future. These are based on what we learned and are meant to make everyone’s workflow smoother.”\n\nIf you’d like, I can help you review or edit the memo for tone before you send it. Just let me know!"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2024-04-30T20:21:00",
+      "message_type": "information_sharing",
+      "user": "At lunch today, I took the orienteering mapping app out for a quick test walk with Pieter—right away, I noticed the GPS accuracy has improved since the last build. I’ve already sent the developers a few notes, but I’m curious to see if they’ll address the minor lag I picked up near the southern path.",
+      "assistant": "That’s a great field test—and it’s encouraging to hear the GPS accuracy has improved in the latest build! Your real-world feedback is exactly what helps developers fine-tune these kinds of apps. Noticing a lag near the southern path is valuable detail; sometimes those location-specific quirks only show up during actual use.\n\nIt’s good you’ve already sent notes to the devs. If you want to increase the chances they’ll address the lag, you might consider:\n\n- **Providing a timestamped screenshot or screen recording** of the lag, if possible. This can help them pinpoint the issue more quickly.\n- **Noting any environmental factors** (tree cover, buildings, weather) that might have contributed, in case it’s a signal interference issue.\n- **Mentioning device model and OS version**—sometimes performance varies across hardware.\n\nIf you’re curious about their process, you could ask if they have a changelog or roadmap for upcoming fixes. Developers often appreciate engaged testers who notice subtle improvements and persistent issues.\n\nAre you planning to do more test walks, or was this a one-off? If you keep using the app, tracking whether the lag is consistent or only happens in certain spots could help them narrow it down even further."
+    },
+    {
+      "turn": 14,
+      "timestamp": "2024-04-30T20:21:00",
+      "message_type": "information_sharing",
+      "user": "Good point about the screenshots—I’ll try to capture the lag next time. I’m curious, do you think it’s worth pushing the devs for more transparency on their update roadmap, or is that overstepping?",
+      "assistant": "That’s a really thoughtful question, and it’s not overstepping at all to ask for more transparency—especially if you’re actively testing and providing feedback. Developers often appreciate engaged users who want to understand the direction of the project, as long as the request is framed constructively.\n\nIf you decide to reach out, here are a few ways to keep it collaborative and positive:\n\n- **Express appreciation first:** Acknowledge the improvements you’ve noticed (like the GPS accuracy) and thank them for their responsiveness to feedback.\n- **Frame your request as curiosity and support:** For example, “I’m really interested in how the app is evolving and would love to know if there’s a public roadmap or changelog I could follow. It would help me tailor my feedback and testing to your priorities.”\n- **Offer to help:** Let them know you’re happy to focus your testing on areas they’re currently working on, if that’s useful.\n\nMost dev teams are used to these kinds of questions, and as long as it’s not phrased as a demand, it’s unlikely to be seen as overstepping. In fact, it can open up a more transparent and productive dialogue—which benefits everyone.\n\nIf you want, I can help you draft a message or suggest specific questions to ask!"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2024-04-30T20:34:00",
+      "message_type": "status_update",
+      "user": "Yoga felt different tonight—supporting my wrist made me slow down, which I’m not used to, but I actually noticed I was more present in each pose. I’m still not sure if I prefer this gentler approach or if I just miss pushing myself; I keep going back and forth.",
+      "assistant": "Thank you for sharing your reflection—it sounds like tonight’s yoga practice brought up a lot of interesting feelings and insights. It’s completely natural to feel a bit unsettled when you have to change your usual pace, especially if you’re used to pushing yourself. But it’s also really meaningful that slowing down helped you become more present in each pose. That kind of awareness is a big part of what yoga can offer, even if it feels unfamiliar at first.\n\nIt’s okay to go back and forth about which approach you prefer. Sometimes our needs and preferences shift from day to day, or even within a single practice. You might find that there’s value in both—the gentler, more mindful approach and the satisfaction of challenging yourself. Maybe there’s a way to blend the two, or to let yourself choose what feels right each time you step onto the mat.\n\nBe gentle with yourself as you explore this. You’re learning more about your body and your mind, and that’s a powerful thing. If you ever want to talk more about what you notice or how you’re feeling, I’m here to listen."
+    },
+    {
+      "turn": 16,
+      "timestamp": "2024-04-30T20:34:00",
+      "message_type": "status_update",
+      "user": "You’re right—there’s value in both approaches. I think I just need to get more comfortable with the slower pace and see if it grows on me.",
+      "assistant": "It’s really thoughtful of you to give yourself space to notice these shifts and to reflect on how they feel. Getting comfortable with a slower pace can take time, especially if you’re used to a more intense or goal-driven approach—but it’s wonderful that you’re open to seeing if it grows on you. Sometimes, the gentler path reveals benefits we don’t expect at first, like deeper presence or a new kind of satisfaction.\n\nIt’s perfectly okay to not have a clear preference right now. Exploring both styles—sometimes pushing, sometimes slowing down—can help you discover what truly supports you, both physically and mentally. You might even find that your preferences change over time, or that you appreciate different things on different days.\n\nKeep being curious and compassionate with yourself as you navigate this. Every practice is a chance to learn something new about what you need in the moment. No matter which approach you lean toward, you’re honoring your body and your well-being by paying attention and adapting. That’s something to feel good about."
+    },
+    {
+      "turn": 17,
+      "timestamp": "2024-04-30T20:51:00",
+      "message_type": "status_update",
+      "user": "Just finished a call with my parents and Sofia—honestly, it left me feeling more grounded than I expected. I’m realizing how much I’ve missed that sense of connection, but I’m also not sure how I want to balance family time with everything else this summer; it’s something I need to think through.",
+      "assistant": "Thank you for sharing your reflection—it sounds like that call brought up a lot of meaningful feelings for you. It’s really special to notice how grounding connection with family can be, especially when you didn’t expect it. Recognizing that sense of belonging and support is such an important insight.\n\nIt also makes a lot of sense to feel uncertain about how to balance family time with everything else you have going on this summer. It’s not always easy to find the right mix, especially when you want to honor both your relationships and your own needs or goals. The fact that you’re thinking this through so thoughtfully is a great first step.\n\nIf it helps, you might try giving yourself permission to experiment a bit—maybe some weeks you lean more into family time, and other weeks you focus on other priorities, just to see how it feels. You don’t have to have it all figured out right away. Sometimes, just staying open to what you need in the moment can help you find a balance that feels right.\n\nWhatever you decide, it’s clear you care deeply about your connections and your own well-being. Keep exploring these feelings and giving yourself space to reflect—you’re doing something really valuable for yourself. If you want to talk through ideas or just share how it’s going, I’m always here to listen."
+    },
+    {
+      "turn": 18,
+      "timestamp": "2024-04-30T20:51:00",
+      "message_type": "status_update",
+      "user": "You’re right, I don’t need to have it all mapped out yet. That call really did leave me feeling more optimistic about the summer—maybe I just need to let myself enjoy that for now and see how things unfold.",
+      "assistant": "That’s such a healthy perspective—you really don’t need to have everything mapped out right now. Letting yourself enjoy that renewed optimism and sense of connection is a gift, especially after feeling uncertain. Sometimes, just allowing yourself to be present with those good feelings can open up new possibilities and make the path ahead feel less pressured.\n\nIt’s completely okay to let things unfold and see what feels right as the summer progresses. You’re already showing a lot of self-awareness by noticing what grounds you and what you want to consider moving forward. Trust that you’ll find a balance that works for you, even if it takes a little time and experimentation.\n\nKeep giving yourself space to reflect and check in with how you’re feeling. You’re doing a wonderful job of exploring what matters to you—keep following that curiosity and kindness toward yourself. If you ever want to talk things through or just share how it’s going, I’m here for you."
+    }
+  ],
+  "conversation_summary": null,
+  "statistics": {
+    "total_turns": 20,
+    "total_user_chars": 5108,
+    "total_assistant_chars": 17634,
+    "avg_user_length": 255.4,
+    "avg_assistant_length": 881.7,
+    "time_span": "2024-04-30T08:03:00 to 2024-04-30T20:51:00",
+    "assistant_processing_mode": "truncate"
+  },
+  "metadata": {
+    "total_turns": 20,
+    "message_types_used": [
+      "information_sharing",
+      "attachment_consultation",
+      "status_update"
+    ],
+    "time_span": "08:03 - 20:51",
+    "history_mode": "window",
+    "context_window": null,
+    "assistant_processing": "truncate",
+    "max_assistant_length": 1000,
+    "enable_conversation_summary": false,
+    "generation_model": "gpt-4.1-local",
+    "generated_at": "2025-12-27T16:58:25.879695"
+  }
+}

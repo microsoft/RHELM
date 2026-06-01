@@ -1,0 +1,4 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Julia Schneider <julia.schneider@company.com>
+Subject: Annotated Diagrams and Code Updates: Embedded Systems Project
+Summary: Martin shares the latest annotated diagrams and code improvements for the embedded systems project with Julia and Mehmet. The email summarizes the changes to the sensor polling routine, highlights efficiency gains, and provides links to the updated open-source repository. Martin also suggests reviewing the diagrams before their next team call.

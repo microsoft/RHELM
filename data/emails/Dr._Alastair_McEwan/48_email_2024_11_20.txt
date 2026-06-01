@@ -1,0 +1,11 @@
+Sender: Alastair McEwan <alastair.mcewan@email.com>
+Recipient: Ailsa Kerr <ailsa.kerr@glasgow.ac.uk>
+Subject: Re: Lost 1623 Pamphlet – Urgent Next Steps
+Summary: Dr. McEwan follows up with Ailsa Kerr regarding the loss of the rare 1623 pamphlet. He acknowledges her distress, requests a written account of where and when the pamphlet was last seen, and outlines the need to notify the university library and insurance. The email also discusses potential next steps for recovery and documentation.
+
+============================================================
+
+Sender: Alastair McEwan <alastair.mcewan@email.com>
+Recipient: IT Support <itsupport@university.edu>
+Subject: Urgent: Dell XPS 15 SSD Failure and Network Outage Impact
+Summary: Dr. McEwan reports his Dell XPS 15 laptop failing to boot, likely due to an SSD fault, and describes the impact on his digitisation project and teaching materials. He also reports the university network outage that disrupted the afternoon workshop, requesting urgent assistance and updates on both issues.

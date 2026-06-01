@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Frau Becker <lehmann@biomarkt.de>
+Subject: Thank You and Follow-Up: Digital Privacy Workshop
+Summary: Jonas thanks Frau Becker for her support during the digital privacy workshop, recaps key moments (such as the student question on metadata and the extended Q&A on gaming app privacy), and proposes sharing workshop materials and feedback. He also suggests scheduling a follow-up session to address additional staff questions and offers to provide further resources on secure messaging tools.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Ahmed <info@werkstattamzoo.de>
+Subject: Appreciation and Repair Log: Canyon Commuter Tune-Up
+Summary: Jonas expresses gratitude to Ahmed for the tune-up and the gift of reflective valve caps. He summarizes the repairs performed (brake realignment, chain replacement, hub troubleshooting) and attaches a digital copy of his repair log for Ahmed's records. Jonas also offers to assist with future troubleshooting and shares a link to an open-source bike maintenance resource.

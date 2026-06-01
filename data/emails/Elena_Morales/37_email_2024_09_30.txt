@@ -1,0 +1,11 @@
+Sender: Mrs. Patel <patel@email.com>
+Recipient: Dr. Priya Desai <priya.desai@healthclinic.com>
+Subject: Home Visit Update: Elena Morales – Symptom Review and Care Plan Coordination
+Summary: Mrs. Patel summarizes the results of her in-home evaluation of Elena Morales on September 30, including Elena's current symptoms, recent medication adjustments, and the collaborative discussion with Dr. Liu regarding anti-nausea medication options and potential home therapy referrals. The email includes a brief outline of the proposed care plan and requests Dr. Liu’s input or approval for the next steps.
+
+============================================================
+
+Sender: Lila Nguyen <lila.nguyen@email.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Notes from Today’s Nurse Visit and Next Steps
+Summary: Lila sends Elena a summary of the key points from Mrs. Patel’s visit, including Elena’s updated activity goals, reminders about medication changes, and the plan for gradual re-engagement with Montessori lesson planning and the school garden project. The email also includes supportive encouragement and a reminder to rest.

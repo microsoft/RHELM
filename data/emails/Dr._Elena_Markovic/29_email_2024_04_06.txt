@@ -1,0 +1,4 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Mapping App Dev Team <devteam@orientech.com>
+Subject: Field Test Feedback: Katwijk Dunes Orienteering App Update (6 April)
+Summary: Elena provides structured feedback to the app development team following the orienteering club’s field test at Katwijk dunes. The email details the improved GPS performance, rare signal dropouts, and faster real-time route updates. It includes Pieter’s observation of minor lag when switching map layers (with annotated screenshots attached) and Aisha’s suggestion to tweak the waypoint alert tone. Elena summarizes the team’s overall impressions and requests follow-up on the noted issues.

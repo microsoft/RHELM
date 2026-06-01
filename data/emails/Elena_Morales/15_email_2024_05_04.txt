@@ -1,0 +1,11 @@
+Sender: Elena Morales <elena.morales@email.com>
+Recipient: School Garden Volunteers <garden.volunteers@school.org>
+Subject: Thank You for Participating in the Seedling Swap & Garden Day
+Summary: Elena sends a follow-up email to all volunteers and participating families, expressing gratitude for their attendance despite the poor weather. She acknowledges the challenges faced, such as low turnout, weather disruptions, and technical issues, and thanks specific individuals for their contributions (e.g., Mark Jensen for the composting demo, Lila for the bread, Amelia for helping with the cake). She invites feedback on how to improve future events and encourages continued community involvement.
+
+============================================================
+
+Sender: Priya Patel <priya.patel@montessori.edu>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Apologies for Missing the Garden Event
+Summary: Priya Patel, a parent who had signed up for the event, sends a last-minute apology email explaining that her family was unable to attend due to illness. She expresses regret for missing the event, thanks Elena for organizing, and asks if there are any leftover seedlings or materials she could pick up later.

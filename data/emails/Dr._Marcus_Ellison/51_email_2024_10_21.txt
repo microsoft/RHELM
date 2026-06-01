@@ -1,0 +1,11 @@
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: Luis Martinez <luis.martinez@email.com>
+Subject: Apologies for Today’s Interrupted Mentorship Session
+Summary: Dr. Marcus Ellison emails Luis Martinez to apologize for the technical difficulties that disrupted their planned mentorship session. He explains the persistent Wi-Fi outages in his building, expresses his frustration, and proposes rescheduling the session. Marcus also reassures Luis that he will provide any missed guidance or feedback via email in the meantime.
+
+============================================================
+
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: Building Management <support@buildingwifi.com>
+Subject: Urgent: Ongoing Wi-Fi Outages Affecting Work
+Summary: Dr. Marcus Ellison contacts building management to report repeated Wi-Fi outages that have severely impacted his ability to conduct remote work and mentorship sessions. He details the timing and frequency of the disruptions, requests an update on repair timelines, and asks for any interim solutions to restore stable internet access.

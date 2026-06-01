@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Dr. Priya Rao <priya.rao@university.edu>
+Subject: Rainfall Anomaly Summary & Next Steps
+Summary: David forwards a concise summary of the rainfall data anomaly observed on June 14, including charts from the digital weather station and details of the discussion with Linda Padilla on adjusted data thresholds. He notes Linda's recommendation and requests Priya’s feedback on proposed parsing criteria for the next round of analyses.
+
+============================================================
+
+Sender: Emily Tran <emily.tran@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Lemon Bars for Upcoming Fieldwork
+Summary: Emily texts David to confirm his new lemon bar recipe variation—with almond flour and Meyer lemon zest—are ideal for next week’s field trip snacks, including appreciation for the sturdier texture and tangy flavor. Discussion includes logistical notes for bringing baked goods.

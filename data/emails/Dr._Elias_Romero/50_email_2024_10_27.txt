@@ -1,0 +1,11 @@
+Sender: Javier Ortega <javier.ortega@email.com>
+Recipient: Elias Romero <elias.romero@email.com>
+Subject: Sorry—Have to Cancel Our Hike This Morning
+Summary: Javier notifies Elias early on October 27, 2024, that he is unable to join their planned urban hike due to coming down with a fever overnight. The email expresses regret for the last-minute cancellation, apologizes for any inconvenience, and suggests rescheduling once he feels better.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Follow-up: Missed Grant Proposal Feedback Call
+Summary: Elias writes to Dr. Keller and Dr. Nowak to apologize for missing the scheduled video call regarding grant proposal feedback. He explains that there was a miscommunication about the meeting time, asks if they might reschedule, and requests any written feedback if available.

@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Dr. Samuel Greene <samuel.greene@university.edu>
+Subject: Apologies for Interrupted Mentorship Session
+Summary: David writes to Dr. Greene to apologize for the technical difficulties that disrupted their scheduled virtual mentorship check-in. He briefly explains the unstable Wi-Fi connection and expresses regret for not being able to discuss his online course plans. David requests to reschedule the session and asks if Dr. Greene has any availability later in the week.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Monica Ellis <monica.ellis@email.com>
+Subject: Grocery List Update After Spoiled Produce
+Summary: David emails Monica to inform her that the spinach and tomatoes from their last market run have spoiled, which affected their brunch plans. He suggests updating their grocery list and proposes a new shopping trip to restock fresh produce. He also asks if she has any additional items to add.

@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Galileo Project Team <galileo.team@esa.int>
+Subject: LunaLink Interface Update: JAXA Module Data Formatting & Best Practices
+Summary: Elena informs the Galileo project team about the identified data formatting mismatch with the JAXA module in the LunaLink interface. She summarizes the resolution steps taken with Dr. Marcus van Dijk, highlights the updated technical documentation, and attaches the new best practices memo. The email requests all team members to review the changes and follow the outlined guidelines to ensure interface consistency.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Dierenkliniek Noordwijk <info@dierenklinieknoordwijk.nl>
+Subject: Luna’s Progress with Renal Diet and Dental Treats
+Summary: Elena provides an update to the veterinary clinic regarding Luna’s response to the prescription renal diet and the new dental treats. She describes Luna’s improved appetite and water intake, asks for further advice on encouraging eating, and inquires about any additional recommendations for supporting Luna’s renal health.

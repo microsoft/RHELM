@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17_report_task_38b41221</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<h1>ESA Field Test Feedback Report: Amsterdamse Bos, 2024-02-17</h1>
+<hr />
+<h2>Title Page</h2>
+<p><strong>Report Title:</strong><br />
+Field Test Feedback Report – Orienteering and Navigation Device Evaluation for Spacecraft Systems</p>
+<p><strong>Test Date:</strong><br />
+2024-02-17</p>
+<p><strong>Location:</strong><br />
+Amsterdamse Bos, Amsterdam, NL</p>
+<p><strong>Participants:</strong><br />
+- Dr. Elena Markovic (Lead Spacecraft Systems Engineer)<br />
+- Aisha Rahman (Human Factors &amp; UI Specialist)<br />
+- Pieter (Software Engineer &amp; Standards Compliance)</p>
+<p><strong>Confidentiality:</strong><br />
+ESA Internal – Not for external distribution</p>
+<p><strong>Project Reference:</strong><br />
+ESA Mission Technology Evaluation – Ref. ESA-MTE-2024-02-17</p>
+<p><strong>Report Version:</strong><br />
+Version 1.0</p>
+<hr />
+<h2>Executive Summary</h2>
+<h3>Purpose</h3>
+<p>The primary objective of this field test was to assess the operational reliability, navigational accuracy, and astronaut usability of a hybrid navigation application designed for ESA missions. The system integrates GPS, barometric altitude sensors, and offline mapping capability to support crew navigation during planetary and lunar surface scenarios. The evaluation simulated the on-ground navigation demands faced by astronauts and benchmarked the solution against ESA’s technical and human-centered standards.</p>
+<h3>ESA Operational Context</h3>
+<p>This exercise represents an essential component of ESA’s technology development cycle, supporting the validation and refinement of spacecraft crew interfaces prior to deployment. Our aims included:</p>
+<ul>
+<li>Establishing benchmark metrics for navigation accuracy, location tracking, and sensor performance relevant to planetary surface operations.</li>
+<li>Validating system usability under dynamic, real-world conditions, focusing on accessibility and clarity for astronaut users.</li>
+<li>Ensuring compliance with ESA engineering, risk mitigation, and software usability standards ([1], [2], [3], [4]).</li>
+</ul>
+<h3>Key Findings</h3>
+<ul>
+<li><strong>GPS Accuracy:</strong> The navigation application achieved an average positioning error of ±2.3 meters, comfortably within the ESA baseline for terrestrial simulation. Increased error rates correlated with denser canopy cover along portions of the course.</li>
+<li><strong>Elevation Data Lag:</strong> A delay of 0.7–1.1 seconds was observed in altitude readings, attributed to the data fusion process between barometric and GNSS sensors. While generally acceptable, two stations exceeded the recommended threshold—requiring investigation into sensor synchronization routines.</li>
+<li><strong>Offline Map Integration:</strong> Offline map files performed smoothly, meeting CCSDS standards for interoperability. However, minor compatibility issues with some legacy formats were identified, suggesting need for future updates.</li>
+<li><strong>User Interface:</strong> User feedback was predominantly positive, particularly regarding clarity and legibility during active navigation. Recommendations are in consideration for improving contrast and accessibility, with a pending review of the proposed color scheme.</li>
+<li><strong>Stakeholder Insights:</strong> Feedback collected during our post-test debrief at the Bosbaan café supported advancing co-development efforts, with agreement on the need for enhanced sensor calibration and mapping granularity moving forward.</li>
+</ul>
+<hr />
+<h2>Test Methodology</h2>
+<h3>Orienteering Course and Setup</h3>
+<p>The test took place in Amsterdamse Bos, chosen for its varied terrain combining woodland, open ground, and recreational paths—a suitable proxy for navigation challenges astronauts may encounter on planetary surfaces. The course consisted of a continuous 7 km loop, marked by nine waypoints physically and digitally in accordance with ESA field navigation protocols. Elevation gain was measured at 25 meters, ensuring relevance for topographical navigation assessment.</p>
+<h3>Devices and Sensors</h3>
+<table>
+<thead>
+<tr>
+<th>Device/Component</th>
+<th>Make &amp; Model</th>
+<th>Specifications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GNSS Handheld Unit</td>
+<td>Trimble TDC600</td>
+<td>GPS+GLONASS, accuracy ±1.8 m, update rate 1 Hz</td>
+</tr>
+<tr>
+<td>Altimeter</td>
+<td>Barometric, Suunto Core</td>
+<td>Resolution 0.1 m, response lag ~0.7 s</td>
+</tr>
+<tr>
+<td>Smartphone</td>
+<td>Samsung Galaxy XCover Pro</td>
+<td>Android 13, ruggedized to ESA standards, BT/SIM</td>
+</tr>
+<tr>
+<td>Navigation App</td>
+<td>ESA NavApp</td>
+<td>Version 4.2.7, Build 20240217-ESA</td>
+</tr>
+</tbody>
+</table>
+<h3>Data Collection and Validation</h3>
+<p>-Detailed logs were maintained for each waypoint, documenting location, timestamp, error margin, and elevation readings on ESCCS-E-ST-10 compliant test sheets.<br />
+-All entries underwent double verification by two operators, with anomalies addressed in a dedicated review session after completion.<br />
+-Offline maps were stored in both .IMG and .GeoTIFF formats per ESA requirements, cross-checked for completeness and performance.<br />
+-Risk assessment involved dynamic logging of any device malfunctions, weather fluctuations, or terrain challenges, with all records tagged to specific timestamps for traceability.</p>
+<h3>Risk Assessments and Controls</h3>
+<p>Prior to the test, all potential hazards—such as battery depletion or connectivity loss—were identified. Backup devices and paper maps were prepared to ensure continuity of navigation, and device calibration was confirmed before deployment. We followed an updated checklist for battery status, infection control measures, and maintained a clear contingency plan for emergency extraction should conditions deteriorate.</p>
+<h3>Referenced Standards</h3>
+<ul>
+<li>ESA ECSS-E-ST-10: Space system engineering ([1])</li>
+<li>ISO/IEC 25010: Usability framework ([3])</li>
+<li>CCSDS standards: Mapping and data integration protocols ([4])</li>
+</ul>
+<hr />
+<h2>Observations and Results</h2>
+<h3>Quantitative Metrics</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Observed Value / Range</th>
+<th>ESA Baseline</th>
+<th>Analysis and Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPS Accuracy (error margin)</td>
+<td>±2.3 m avg; max 4.1 m</td>
+<td>≤3 m</td>
+<td>Met standard; errors highest in dense canopy</td>
+</tr>
+<tr>
+<td>Elevation Data Lag</td>
+<td>0.7–1.1 sec</td>
+<td>&lt;1 sec recommended</td>
+<td>Two outliers, likely from sensor desync</td>
+</tr>
+<tr>
+<td>Offline Map Performance</td>
+<td>Full area coverage, minor lag</td>
+<td>CCSDS IMG/GeoTIFF compliant</td>
+<td>&lt;0.3 sec lag; legacy format needs updating</td>
+</tr>
+<tr>
+<td>User Interface Feedback</td>
+<td>92% positive; 2 of 13 flagged contrast issues</td>
+<td>ISO/IEC 25010 accessibility</td>
+<td>Color palette under further review</td>
+</tr>
+</tbody>
+</table>
+<h4>Visual Data</h4>
+<ul>
+<li><em>GPS Track Infographic</em>: Visualizes true path vs. device-recorded track, highlighting error at each waypoint.</li>
+<li><em>Elevation Lag Timeline</em>: Graph displays sensor lag durations station-by-station.</li>
+<li><em>Offline Map Coverage</em>: Map overlays compare tested coverage with ESA baseline requirements.</li>
+</ul>
+<p>Archived visual materials are available via the ESA EDMS folder under ESA-MTE-2024-02-17-DIAGRAMS.</p>
+<hr />
+<h2>Suggestions and Recommendations</h2>
+<h3>Assessment of Color Scheme Proposal (Aisha Rahman)</h3>
+<p>Operational field conditions revealed opportunities to enhance visibility of waypoint markers. The newly proposed palette improves contrast under most lighting scenarios, but may present challenges in low-light or shadowed areas. A spectral analysis is recommended to ensure consistent marker visibility throughout the range of lighting conditions astronauts may encounter.</p>
+<p>For accessibility, initial evaluation shows the selected colors satisfy basic WCAG criteria. However, the transition between green and yellow remains difficult to distinguish for some color-blind users. Further testing against ISO/IEC 25010 and ESA visual communication protocols is warranted to guarantee universal accessibility.</p>
+<p>From a regulatory perspective, the palette deviates slightly from ESA’s official UI guidelines. Iterative prototyping and compliance testing are advised before integration into production systems.</p>
+<h3>Technical Review and Recommendations (Pieter)</h3>
+<ul>
+<li>The navigation app currently aligns with ECSS-E-ST-40 standards for configuration management, but further optimization of the JSON map file reading routine would improve CCSDS interoperability.</li>
+<li>The observed elevation lag suggests the need to revise the log synchronization protocol and consider implementing automatic failover routines for sensor dropout scenarios.</li>
+</ul>
+<p><strong>Proposed Action Steps:</strong>
+  - Test alternative cycles for barometric calibration to minimize latency.
+  - Expand real-time error diagnostics and logging for improved transparency during operations.
+  - Maintain rigorous code documentation and version control, consistent with ESA archival requirements.</p>
+<hr />
+<h2>Appendix: Structured Feedback – Bosbaan Café Debrief</h2>
+<h3>Timestamped Comments &amp; Insights</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Feedback</th>
+<th>Action Items</th>
+<th>Consensus / Divergent Views</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12:10</td>
+<td>“Waypoint icons hard to spot in dappled light.”</td>
+<td>Trial alternative color schemes.</td>
+<td>Consensus: Improve contrast needed</td>
+</tr>
+<tr>
+<td>12:18</td>
+<td>“Elevation lag disrupts navigation pace.”</td>
+<td>Refine sensor synchronization routines.</td>
+<td>Divergence: Hardware vs. software fix</td>
+</tr>
+<tr>
+<td>12:28</td>
+<td>“Offline maps operated smoothly, with complete coverage.”</td>
+<td>Accept minor lag but update legacy formats.</td>
+<td>Consensus: Modernization required</td>
+</tr>
+<tr>
+<td>12:35</td>
+<td>“UI font size too small while moving quickly.”</td>
+<td>Introduce dynamic font sizing.</td>
+<td>Consensus: Prioritize accessibility</td>
+</tr>
+<tr>
+<td>12:42</td>
+<td>“Backup paper maps provided reassurance.”</td>
+<td>Preserve multi-layer risk protocols.</td>
+<td>Consensus: Continue current approach</td>
+</tr>
+</tbody>
+</table>
+<p>Feedback directly matched logged data and device outputs. Immediate action items were defined in areas of consensus, while divergent views—primarily technical versus hardware solutions—will be explored in follow-up design meetings.</p>
+<hr />
+<h2>Sources</h2>
+<p>[1] ESA ECSS-E-ST-10: Space Engineering – Systems Engineering (https://ecss.nl/standards/ecss-e-st-10-space-engineering-systems-engineering/)<br />
+[2] ECSS-M-ST-40: Configuration and Information Management (https://ecss.nl/standards/ecss-m-st-40-configuration-and-information-management/)<br />
+[3] ISO/IEC 25010: Systems and Software Quality Models (https://iso.org/standard/35733.html)<br />
+[4] CCSDS Standards: Consultative Committee for Space Data Systems (https://www.ccsds.org)<br />
+[5] ESA-STM-21 and ECSS-Q-ST-30: Space Project Risk Management and Product Assurance (https://ecss.nl/standards/ecss-q-st-30-product-assurance/)</p>
+<hr />
+<h2>Conclusion</h2>
+<p>The field test conducted in Amsterdamse Bos provided valuable insights into the performance and operational reliability of the ESA navigation solution in realistic conditions. The system largely meets established ESA standards for accuracy, usability, and data integrity, with clear pathways identified for further optimization in sensor calibration, map format modernization, and user interface accessibility. Continued co-development, direct user feedback incorporation, and rigorous compliance testing will drive the next phase of system refinement ahead of mission deployment.</p>
+</body>
+</html>

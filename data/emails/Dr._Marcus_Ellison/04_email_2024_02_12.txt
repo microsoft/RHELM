@@ -1,0 +1,11 @@
+Sender: Mr. Sanjay Patel <info@cameradoctor.com>
+Recipient: Dr. Marcus Ellison <marcus.ellison@email.com>
+Subject: Your Canon AE-1 Is Ready for Pickup
+Summary: Mr. Patel notifies Dr. Ellison that the Canon AE-1 has been successfully repaired, with the light meter now fully functional after sourcing a rare part. The email includes details about the repair process, the complimentary roll of Kodak Portra 400 as a thank you for Marcus's patience, shop hours for pickup, and a brief note inviting Marcus to reach out with any further questions.
+
+============================================================
+
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: ASA Annual Meeting Organizers <asa2024@asamail.org>
+Subject: Finalized Keynote Address Submission
+Summary: Dr. Ellison submits the finalized version of his keynote address for the upcoming ASA annual meeting. The email outlines the main themes of his talk, confirms the attached document, and requests confirmation of receipt. He also mentions his reliance on mobile notes due to his MacBook Pro being out of commission.

@@ -1,0 +1,18 @@
+Sender: Dr. Felix Brandt <felix.brandt@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Your New Blue-Light Filtering Lenses: Fitting Summary & Adjustment Tips
+Summary: Dr. Weber follows up after Martin's morning appointment, summarizing the fitting of his new blue-light filtering lenses. The email includes a brief recap of the appointment, a digital copy of Martin's recent eye comfort log as reviewed, and practical tips for adjusting to the new lens coating. Dr. Weber also invites Martin to reach out with any questions or concerns regarding adaptation or eye comfort.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Julia Schneider <julia.schneider@company.com>
+Subject: Sensor Firmware Patch: Debugging Session Notes
+Summary: Martin sends Julia a summary of their afternoon debugging session for the sensor project. The email outlines key issues identified, steps taken during the session, and next actions. Martin also briefly mentions his improved eye comfort with the new lenses, noting reduced fatigue during extended screen time.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Lukas Weber <lukas.weber@email.com>
+Subject: New Mediterranean Sea Bass Recipe for Game Night
+Summary: Martin shares his latest Mediterranean sea bass recipe with Lukas, highlighting the new spice blend (Aleppo pepper, sumac, preserved lemon) and his tasting notes. He suggests preparing it together at their next game night and attaches a digital recipe log entry.

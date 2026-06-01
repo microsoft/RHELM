@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Orienteering App Developer <support@orienteeringapp.com>
+Subject: Technical Feedback Following Recent Field Test
+Summary: Elena provides detailed technical feedback to the orienteering app development team, referencing her recent field test with Aisha and Pieter. She outlines specific issues encountered, suggestions for improvement, and attaches relevant data logs. The purpose is to assist the developers in refining app performance and usability.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Milena Markovic <milena.petrovic@email.com>
+Subject: July Family Visit Dates and Dinner Menu Confirmation
+Summary: Elena summarizes the outcomes of the family video call, confirming the finalized dates for the July visit and sharing the agreed-upon dinner menu featuring Serbian and Dutch dishes. She includes a proposed schedule and requests any dietary preferences or additional suggestions.

@@ -1,0 +1,4 @@
+Sender: Julia Schneider <julia.schneider@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Peer Review Feedback: Embedded Systems Documentation
+Summary: Julia, Martin's manager, provides feedback on the submitted embedded systems documentation. She highlights inconsistencies and missing diagrams, requests a full revision, and offers suggestions for improvement. The email includes a summary of the main issues and a deadline for resubmission.

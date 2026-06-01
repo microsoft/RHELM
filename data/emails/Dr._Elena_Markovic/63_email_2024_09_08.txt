@@ -1,0 +1,4 @@
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Mrs. van Dijk <vandijk.youthclub@gmail.com>
+Subject: Microcontroller Shipment Arrival & Next Week’s Build Session
+Summary: Elena informs Mrs. van Dijk about the arrival of the microcontroller shipment for the youth rocketry club, confirms the rescheduled build session for next week, and shares a brief update on the latest custom rocket design. She invites feedback from the team and thanks Mrs. van Dijk for her ongoing support.

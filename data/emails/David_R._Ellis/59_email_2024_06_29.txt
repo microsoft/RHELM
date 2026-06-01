@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Dr. Samuel Greene <samuel.greene@university.edu>
+Subject: Rescheduling Our Virtual Appointment Due to Technical Difficulties
+Summary: David emails Dr. Greene to explain that he was unable to join the scheduled virtual call on June 29 due to persistent webcam and screen issues with his Dell XPS 13. He apologizes for the inconvenience, briefly describes the technical problems, and requests to reschedule the appointment at Dr. Greene's earliest convenience. David also asks if there are any troubleshooting tips or alternative platforms that might help for the next call.
+
+============================================================
+
+Sender: Monica Ellis <monica.ellis@email.com>
+Recipient: Jasper Chen <jasper.chen@email.com>
+Subject: Follow-up: Gardening Session and Next Steps After the Storm
+Summary: Monica sends a group email to recap the disrupted gardening session on June 29. She summarizes the damage to the garden beds, marigold seedlings, and tomato plants, and suggests possible recovery steps. Monica proposes a new date for replanting, shares a list of needed supplies, and asks for input on everyone's availability. She also thanks everyone for their help and mentions Jasper's minor injury, confirming he is okay.

@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Dr. Felix Brandt <felix.brandt@company.com>
+Subject: Update on Shoulder Pain After Swimming Session
+Summary: Martin provides Dr. Lang with an update regarding his right shoulder pain experienced during his swimming drills on August 20. He describes the sharp increase in pain, the immediate cessation of activity, and the subsequent discomfort during stretching. He requests advice on next steps and whether further medical evaluation is recommended.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Anja Keller <anja.keller@email.com>
+Subject: Sorry About the Video Call – Technical Issues
+Summary: Martin apologizes to Anja for the failed video chat due to microphone issues with his Pixel 7 Pro. He suggests rescheduling and asks if she is available later in the week, expressing disappointment at not being able to catch up as planned.

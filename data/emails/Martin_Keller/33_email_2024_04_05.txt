@@ -1,0 +1,4 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Julia Schneider <julia.schneider@company.com>
+Subject: Draft: Advanced Embedded Systems Certification Course Proposal
+Summary: Martin sends Julia the initial draft of the advanced embedded systems certification course proposal. He outlines the course objectives, timeline, and assessment structure, attaches relevant diagrams, and explicitly invites Julia to provide feedback, particularly on the self-assessment modules and overall assessment structure.

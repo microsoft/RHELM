@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Follow-up: Digital Literacy Policy Op-Ed and Panel Collaboration
+Summary: Jonas thanks Dr. Weber for the productive meeting at Café Einstein, recaps their discussion on co-authoring an op-ed about digital literacy policy, and confirms their agreement to co-lead a panel at the upcoming Berlin Digital Rights Forum. He proposes next steps, including a shared document for drafting the op-ed and a timeline for panel preparation.
+
+============================================================
+
+Sender: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Recipient: Jonas Richter <jonas.richter@email.com>
+Subject: Workshop Debrief and Resource Sharing
+Summary: Dr. Nowak expresses appreciation for the collaborative workshop session, highlights key moments from the live encryption demo, and requests Jonas to share the Signal/VeraCrypt/KeePassXC resource links and the encrypted messaging demo transcript. She also suggests a brief feedback survey for participants and proposes a follow-up meeting to discuss future workshops.

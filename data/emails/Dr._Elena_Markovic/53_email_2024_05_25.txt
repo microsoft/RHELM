@@ -1,0 +1,4 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Aisha Rahman <aisha.rahman@email.com>
+Subject: Field Test Follow-up: Device Issues and Missed Waypoints
+Summary: Elena writes to Aisha and Pieter to summarize the technical difficulties encountered during the orienteering field test at Amsterdamse Waterleidingduinen, including repeated app crashes, battery problems, and GPS drift. She apologizes for having to leave early due to her wrist pain, notes the missed waypoints and incomplete feedback, and suggests rescheduling a debrief or planning a follow-up session. She also asks for any data or notes they managed to record and wishes Aisha well regarding her family emergency.

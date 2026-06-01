@@ -1,0 +1,4 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Ingrid Keller <ingrid.keller@eupha.org>
+Subject: Clarification Needed: Inconsistency in Danish Dataset for Cross-European Study
+Summary: Elias notifies Dr. Ingrid Keller about a minor inconsistency he discovered in the Danish dataset during the final data extraction phase for the cross-European study. He provides specific details about the inconsistency, requests clarification or corrected data, and attaches a screenshot or data snippet illustrating the issue. The email aims to resolve the data issue before proceeding with analysis.

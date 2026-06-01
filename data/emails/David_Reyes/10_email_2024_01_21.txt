@@ -1,0 +1,4 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Grant Reviewers <grants.committee@institution.org>
+Subject: Final Project Report Submission and Request for Feedback
+Summary: David Reyes confirms email delivery of the final project report attachment to the grant reviewers, CC'ing Dr. Priya Rao. The email summarizes the report’s submission status, thanks the reviewers for their support, briefly highlights report contents (progress on specimen recovery, outcomes, and next steps), and formally requests feedback or requested clarifications.

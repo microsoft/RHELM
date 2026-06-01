@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Ingrid Schaefer <ingrid.schaefer@esa.int>
+Subject: LunaLink Project: Data Sync Error Summary and Mitigation Plan
+Summary: Elena sends Dr. Schaefer a concise, evidence-based summary outlining the current status of the LunaLink project, specifically highlighting the unresolved data synchronization error and proposing a mitigation plan. The email includes references to supporting documentation and requests feedback or further direction.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: LunaLink App Dev Team <devteam@lunalink.eu>
+Subject: Field Test Results: Orienteering App Update – April 10
+Summary: Elena shares detailed findings from the afternoon field test of the orienteering mapping app, including annotated screenshots and voice memo summaries. She describes improved GPS stability and notes minor lag issues with map layer switches, requesting developer review and suggestions for further optimization.

@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: IT Support <itsupport@esa.int>
+Subject: Request for Replacement Laptop – Damaged During Commute
+Summary: Elena notifies IT Support about the cracked screen on her work laptop sustained during her morning cycling accident. She describes the incident, provides the laptop asset tag, and requests a replacement device as soon as possible due to urgent project needs. She also asks about the process for data transfer and returning the damaged laptop.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Marcus van Dijk <marcus.vandijk@esa.int>
+Subject: Apologies for Delayed Log Review and Stand-Up Preparation
+Summary: Elena explains to Marcus the circumstances of her delayed arrival and missed log review due to her cycling accident and injury. She apologizes for being underprepared for the 10 AM stand-up, summarizes her current understanding of the LunaLink docking module issues, and proposes a follow-up discussion to address any outstanding concerns.

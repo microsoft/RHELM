@@ -1,0 +1,4 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Home Automation Forum <support@homeautomationforum.com>
+Subject: Intermittent Raspberry Pi 4 Hub Connectivity Issues After Power Flicker
+Summary: Martin describes the persistent connectivity problems with his Raspberry Pi 4 home automation hub following a power flicker on April 21, 2024. He outlines the troubleshooting steps already taken—including power supply replacement and SD card re-flashing—and requests advice or similar case studies from the support team or community. He attaches relevant log excerpts and asks for guidance on further diagnostics.

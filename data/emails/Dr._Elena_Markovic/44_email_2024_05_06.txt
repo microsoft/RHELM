@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Ms. Rossi <concierge@hotelmilano.it>
+Subject: Scheduling LunaLink Integration Review – May 13
+Summary: Elena coordinates with Ms. van Leeuwen to confirm and schedule the next LunaLink integration review meeting for May 13. The email includes proposed time slots, a brief agenda outline, and requests confirmation of attendance from all relevant team members.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: LunaLink App Dev Team <devteam@lunalink.eu>
+Subject: LunaLink Documentation Update and Action Points
+Summary: Elena notifies the LunaLink team that the updated project documentation has been finalized and submitted. The email summarizes key changes, highlights the adoption of Aisha’s modular test script proposal, and lists the agreed action points from the morning’s brainstorming session.

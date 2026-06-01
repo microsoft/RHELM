@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: IT Support <itsupport@esa.int>
+Subject: Urgent: Persistent Sync Issues with Loaned Monitor and Device Crashes
+Summary: Elena describes the technical difficulties experienced during her video call, including monitor sync issues, laptop freezing, and her phone overheating and shutting down. She requests troubleshooting assistance and asks for guidance on resolving the persistent hardware and connectivity problems, emphasizing the impact on her work and personal communications.
+
+============================================================
+
+Sender: Milena Markovic <milena.petrovic@email.com>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Follow-up: Family Dinner and July Visit Details
+Summary: Milena follows up after their interrupted video call, summarizing the unresolved topics: the family dinner menu, sightseeing plans for Elena's July visit, and Luna's health updates. She asks Elena to confirm or provide input on these points and expresses concern about the abrupt end to their conversation.

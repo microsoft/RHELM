@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>66_report_task_b8977969</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<hr />
+<h1>Firmware Update Change Log</h1>
+<p><strong>Project Name:</strong> Atlas Embedded Control Suite<br />
+<strong>Date:</strong> August 28, 2024<br />
+<strong>Author:</strong> Martin Keller<br />
+<strong>Version:</strong> v2.7.0  </p>
+<hr />
+<h2>Release Overview</h2>
+<p>This document outlines the changes, enhancements, and resolutions introduced in Atlas Embedded Control Suite, version 2.7.0. The new firmware release is targeted for the Atlas-Series controllers deployed in power-sensitive sensor aggregation and industrial automation environments. Every update in this release adheres stringently to <strong>MISRA C:2012</strong> guidelines, brings the codebase closer to full ISO C99 compliance, and maintains rigorous static and dynamic analysis standards. Regression tests covering over 95% of core modules were conducted to validate reliability and correctness across all critical system pathways.[1][2]</p>
+<h3>Key Objectives</h3>
+<ul>
+<li><strong>System Stability:</strong> Improve application resilience through better watchdog timer (WDT) handling and more robust exception recovery.</li>
+<li><strong>Performance:</strong> Increase real-time scheduling efficiency and I²C throughput for demanding, high-sample-rate scenarios.</li>
+<li><strong>Security:</strong> Remediate bootloader vulnerabilities identified in security audits, raising the integrity bar for external flash authentication.</li>
+</ul>
+<hr />
+<h2>Technical Context</h2>
+<p>This firmware release advances several technical pillars necessary for dependable field operation:</p>
+<ul>
+<li><strong>Deterministic Timing:</strong> Scheduling algorithms and timer routines have been optimized for predictable response, meeting real-time constraints across industrial automation use cases.</li>
+<li><strong>Robust Data Flow:</strong> DMA enhancements, comprehensive CRC checking, and improved buffer management significantly reduce the risk of data corruption or loss during sensor-intensive tasks.</li>
+<li><strong>Secure Lifecycle Management:</strong> Boot-time authentication mechanisms now use unique, hardware-derived HMAC-SHA256 signatures, ensuring strict per-board firmware validation and leaving no gap for cross-device exploits.</li>
+<li><strong>Long-Term Maintainability:</strong> The adoption of C99-compliant types and the deprecation of legacy macros align the codebase with best practices and make future updates and audits more straightforward.</li>
+</ul>
+<hr />
+<h2>Change Log Details</h2>
+<h3>Major Updates and Enhancements</h3>
+<table>
+<thead>
+<tr>
+<th>Module / File</th>
+<th>Change Type</th>
+<th>Description</th>
+<th>Rationale</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>rtos_scheduler.c</code></td>
+<td>Refactor</td>
+<td>Introduced O(1), array-based round robin scheduler. Context switch routines on Cortex-M4 now fully inlined with assembly.</td>
+<td>Reduced average context-switch latency by 18%; crucial for time-sensitive control loops and automation feedback paths.</td>
+<td>Complete; performance validated</td>
+</tr>
+<tr>
+<td><code>i2c_driver.c</code></td>
+<td>Feature</td>
+<td>Added DMA-driven burst read support on I²C3, expanded TX FIFO buffer, enforced CRC-16 validation across transactions.</td>
+<td>Essential for robust, high-throughput sensor collection; proactively guards against silent data corruption.</td>
+<td>Complete; unit tested</td>
+</tr>
+<tr>
+<td><code>wdt_manager.c</code></td>
+<td>Bug Fix</td>
+<td>Ensured full WDT register reinitialization after brownout events and reinforced boot sequence watchdog setup.</td>
+<td>Prevents sporadic undefined states seen in v2.6.x following low-voltage resets; improves reliability in harsh field scenarios.</td>
+<td>Complete; regression tested</td>
+</tr>
+<tr>
+<td><code>bootloader_secure.c</code></td>
+<td>Bug Fix</td>
+<td>Enforced device-unique HMAC-SHA256 firmware signatures, expanded audit logs, blocked fallback for key mismatches.</td>
+<td>Closes vulnerabilities to replay and cross-device key attacks, strengthening device-specific trust boundaries.</td>
+<td>Complete; reviewed by security</td>
+</tr>
+<tr>
+<td><code>sensor_aggregator.c</code></td>
+<td>Feature</td>
+<td>Adaptive sensor polling prioritizes bus-critical sensors and dynamically tunes polling intervals to manage load and power.</td>
+<td>Balances performance and power usage during bus contention or electromagnetic noise, ensuring essential data continuity.</td>
+<td>In progress (90%); testing pending</td>
+</tr>
+<tr>
+<td><code>system_utils.h/.c</code></td>
+<td>Refactor</td>
+<td>Migrated to fixed-width <code>stdint</code> typedefs, removed legacy macros, normalized API signatures to C99 conventions.</td>
+<td>Enhances portability, prevents subtle overflow/underflow defects, simplifies future audits and maintenance.</td>
+<td>Complete; static analysis passed</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Bug Fixes and Resolutions</h3>
+<p>The following issues were resolved in this cycle, each validated by targeted regression tests and—where necessary—field simulation:</p>
+<table>
+<thead>
+<tr>
+<th>Bug ID</th>
+<th>Issue Description</th>
+<th>Conditions for Reproducibility</th>
+<th>Resolution Approach</th>
+<th>Test Coverage</th>
+<th>Validation Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2416</td>
+<td>WDT registers not fully reset after brownout, leading to failed boots.</td>
+<td>RevB hardware; induced 3.0V dips &lt;20ms every 150-400 cycles</td>
+<td>Added redundant WDT register restoration and forced peripherals reinitialization.</td>
+<td>&gt;400 simulated brownouts</td>
+<td>Passed (no failures)</td>
+</tr>
+<tr>
+<td>2431</td>
+<td>I²C DMA burst reads caused buffer overruns; CRC errors went unnoticed.</td>
+<td>RevC; I²C3 at 100Hz+ for &gt;2h continuous IMU/magnetometer</td>
+<td>DMA setup now includes CRC-16 guard, with automatic recovery/NACK on failure.</td>
+<td>48-hour transfer loops</td>
+<td>Passed (all CRCs OK)</td>
+</tr>
+<tr>
+<td>2472</td>
+<td>Bootloader accepted firmware signed with another device’s key.</td>
+<td>All Atlas SoCs; custom DFU images with mismatched manifests</td>
+<td>Now strictly requires per-device HMAC-SHA256, disables all legacy fallback logic.</td>
+<td>10+ cross-device flashes</td>
+<td>Passed (all denied)</td>
+</tr>
+<tr>
+<td>2498</td>
+<td>System utilities macros caused unsigned overflows in time calculations.</td>
+<td>Host simulation; Valgrind, UBSan, fuzzed math/time routines</td>
+<td>All macros converted to explicit <code>stdint</code> types; thorough manual code review.</td>
+<td>UBSan/Valgrind/manual</td>
+<td>Passed (no defects)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Development Process and Team Collaboration</h2>
+<h3>Decision-Making and Technical Discussions</h3>
+<ul>
+<li>
+<p><strong>Scheduler Optimization:</strong><br />
+  The migration to an O(1) array-based scheduler followed extensive benchmark analysis and review during Design Review #53. Documentation, including performance figures and architectural rationale, is archived in the team’s Confluence workspace.[4]</p>
+</li>
+<li>
+<p><strong>Security Remediation:</strong><br />
+  Immediate action was taken on bootloader authentication upon discovering the vulnerability during the August 15 security audit. Updated key management diagrams, authentication workflow, and step-by-step firmware flashing instructions have been indexed for future reference.[5]</p>
+</li>
+<li>
+<p><strong>Standardization of Type Definitions:</strong><br />
+  The consensus to adopt C99 type conventions and retire legacy macros was reached in the August 18 Developer Sync. The decision was carefully documented during internal Slack discussions and meeting minutes for clarity and traceability.[6]</p>
+</li>
+</ul>
+<h3>Communication Channels</h3>
+<ul>
+<li>
+<p><strong>Real-time Collaboration:</strong><br />
+  The <code>#firmware-dev</code> Slack channel provided ongoing dialogue throughout the sprint, including intensive troubleshooting of bug #2431 and technical exchanges relating to DMA and CRC integrity (August 13–17).</p>
+</li>
+<li>
+<p><strong>Formal Documentation and Notification:</strong><br />
+  Testing results and validation reports were disseminated via the “FW Update v2.7 Bug Review” email thread (fw-team@atlas-consortium.io, August 15–20). Approved release notes, full validation reports, and signed firmware images—accompanied by cryptographically-verified checksums—were posted on the team Confluence space (Atlas/ReleaseNotes/v2.7.0) and distributed through company FTP.</p>
+</li>
+<li>
+<p><strong>Issue Tracking:</strong><br />
+  All bugs and feature tickets were documented in JIRA, with accompanying closure summaries shared in weekly team stand-ups and logged in confluence for historical auditing.[7]</p>
+</li>
+</ul>
+<hr />
+<h2>References</h2>
+<ol>
+<li>David Thomas, Andrew Hunt, <em>The Pragmatic Programmer: Your Journey to Mastery</em>, 20th Anniversary Edition, Addison-Wesley, 2019. ISBN: 978-0135957059.</li>
+<li><em>MISRA C:2012, Guidelines for the Use of the C Language in Critical Systems</em>, Version 4, MISRA, 2013. <a href="https://www.misra.org.uk/">MISRA Official Documentation</a></li>
+<li>Atlas Embedded Control Suite Project Documentation—System Architecture Overview (Doc# AECS-ARCH-2022-06, Rev. 3.1); Firmware Design Principles (Doc# AECS-FW-PRIN-2023-01); Unit/Integration Test Specifications (Doc# AECS-TESTSPEC-2024-07).</li>
+<li><em>Design Review #53</em>, August 12, 2024, Confluence Atlas/Engineering/DesignReviews.</li>
+<li><em>Security Audit Meeting</em>, August 15, 2024, Internal Security documentation drive.</li>
+<li>Developer Sync meeting transcript, August 18, 2024, firmware-dev Slack archive.</li>
+<li>JIRA Bug Tracker, tickets #2416, #2431, #2472, #2498, closed August 27, 2024.</li>
+</ol>
+<hr />
+<h2>Conclusion</h2>
+<p>Atlas Embedded Control Suite v2.7.0 marks a significant stride in system stability, security, and maintainability. By methodically addressing outstanding performance bottlenecks and critical security findings, this release delivers both immediate field benefits and improved foundations for future enhancements. Moving forward, the development team will continue to prioritize auditability, reliability, and compliance as next-generation features and hardware support are brought online.</p>
+<p>For further details or discussion of implementation specifics, please refer to the annotated documentation, team discussion logs, or reach out via the firmware-dev communication channels.</p>
+<hr />
+</body>
+</html>

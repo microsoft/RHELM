@@ -1,0 +1,11 @@
+Sender: Dr. Samuel Greene <samuel.greene@university.edu>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Follow-up from Today’s Virtual Check-In
+Summary: Dr. Patel summarizes the technical issues encountered during the morning telehealth appointment, reiterates her recommendation to postpone strength training for two more weeks due to David’s ongoing back stiffness, and provides instructions for monitoring symptoms. She also includes a link to reschedule a follow-up appointment and offers resources for managing discomfort at home.
+
+============================================================
+
+Sender: Dr. Samuel Greene <samuel.greene@university.edu>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Apology and Rescheduling: Evening Video Call
+Summary: Dr. Greene apologizes for the last-minute cancellation of the scheduled evening video call due to a family emergency. He expresses regret for any inconvenience, provides options for rescheduling, and encourages David to reach out with any urgent concerns in the meantime.

@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Feedback on Spatial Mapping Methodology & Data Review
+Summary: David sends Emily a follow-up message after their Saturday meeting at Ridgeview Café, summarizing detailed feedback on her spatial mapping methodology and referencing specific aspects discussed over coffee. He attaches annotated data points from their recent fieldwork, suggests improvements, and compliments Emily on the lemon bars she shared. The email also mentions their next steps for reviewing grad data sets and proposes a timeline for sharing updated analyses.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Ridgecrest Medical Clinic <appointments@ridgecrestmedical.com>
+Subject: Inquiry Regarding Field Equipment Availability
+Summary: Following his visit, David emails Ridgecrest Hardware to confirm inventory and specifications for the nitrile field gloves, high-capacity AA batteries, and wind-resistant camera hood he purchased. He requests technical datasheets for the camera hood model and asks about compatibility with his Canon EOS 90D. He also asks about bulk purchasing options for future fieldwork needs.

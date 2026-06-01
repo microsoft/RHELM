@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Leila Haddad <leila.haddad@email.com>
+Subject: Final AV Setup and Toolkit Distribution – Privacy Curriculum Launch
+Summary: Jonas confirms with Leila the resolution of the AV glitch using the iFixit toolkit and outlines the plan for distributing the updated toolkit documentation in both print and encrypted USB formats. He attaches the finalized digital documentation and requests Leila to double-check the USB stick encryption before the event begins.
+
+============================================================
+
+Sender: Frau Becker <lehmann@biomarkt.de>
+Recipient: Jonas Richter <jonas.richter@email.com>
+Subject: Thank You & Feedback – Privacy Toolkit Launch Event
+Summary: Frau Becker expresses gratitude for the successful event, highlights the positive response to the live demo, and shares initial feedback from attending teachers. She requests a copy of the session materials and discusses potential collaboration for integrating the curriculum into Hamburg schools.

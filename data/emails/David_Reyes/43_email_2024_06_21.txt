@@ -1,0 +1,11 @@
+Sender: Maria Lopez <maria.lopez@email.com>
+Recipient: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Subject: Update on Device Issues & Field Prep Delays - June 21
+Summary: Maria informs Oscar of the critical SSD failure encountered on David's Dell XPS during the June 21 lunch meeting, and requests recommendations for urgent data recovery. She also mentions delayed birding station setup due to binocular malfunction and the supply closet lock jam. The email includes a brief on postponed fieldwork scheduling and asks Oscar to confirm next steps for device repair and supply access.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Carlos Reyes <carlos.reyes@email.com>
+Subject: Grant Writing Updates on Hold: Storage Failure Today
+Summary: David updates Carlos and Maria about grant note progress being halted due to a critical SSD failure on his laptop, discusses possible lost photo data, and expresses concerns over rescheduling grant writing. He asks the team to share any flora update notes he missed at the lunch and suggests rescheduling mentoring and fieldwork planning.

@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Dr. Felix Brandt <felix.brandt@company.com>
+Subject: Submission of Final Embedded Systems Project
+Summary: Martin notifies Dr. Brandt of his successful submission of the final project for the embedded systems certification. He briefly outlines the project focus, confirms the submission time, and thanks Dr. Brandt for his guidance throughout the course.
+
+============================================================
+
+Sender: Dr. Felix Brandt <felix.brandt@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Congratulations on Course Completion and Next Steps
+Summary: Dr. Brandt congratulates Martin on completing the embedded systems course, provides feedback on his final project, and offers advice on how to leverage the new certification for future job opportunities. He suggests Martin document his project and update his resume for upcoming interviews.

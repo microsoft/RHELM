@@ -1,0 +1,11 @@
+Sender: Dr. Elias Romero <elias.romero@email.com>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Follow-up on Methodology Discussion – Joint Publication
+Summary: Elias writes to Sophie to clarify points of confusion from their earlier virtual meeting, referencing the technical difficulties (audio lag, unstable Wi-Fi) that hampered their discussion. He summarizes his understanding of the proposed methodology, requests confirmation or corrections, and proposes a follow-up meeting to resolve outstanding questions.
+
+============================================================
+
+Sender: Clara Martínez <clara.martinez@unibarcelona.es>
+Recipient: Dr. Elias Romero <elias.romero@email.com>
+Subject: Reminder: Late Submission of EUPHA Symposium Feedback Report
+Summary: Clara, the department administrator, sends a curt reminder to Elias regarding the late submission of his detailed feedback report on the EUPHA symposium technical failures. She notes the missed internal deadline and requests more timely submissions in the future.

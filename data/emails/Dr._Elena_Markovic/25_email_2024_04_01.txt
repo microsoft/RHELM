@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Marcus van Dijk <marcus.vandijk@esa.int>
+Subject: Follow-up: Technical Issues and Delays in Leadership Training Launch
+Summary: Elena summarizes the technical difficulties encountered during the cross-cultural project management workshop, including unstable video connections and translation software failures. She discusses the impact on group exercises and the postponement of peer coaching sessions due to colleagues' absences. Elena requests Marcus's input on rescheduling integration activities for the LunaLink collaboration and asks for an update on the synchronization bug discovered during the interface test.
+
+============================================================
+
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Urgent: Luna’s Health Update
+Summary: Dr. van der Meer provides an update on Luna’s deteriorating condition, referencing the recent increase in vomiting and the need for further veterinary intervention. He requests Elena’s availability for a follow-up call and discusses possible next steps for Luna’s care.

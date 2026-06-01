@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Bike Service Center Triberg <service@biketriberg.de>
+Subject: Request for Derailleur Inspection and Repair Appointment
+Summary: Martin contacts the local bike service center to describe the worsening gear-shifting issues experienced during the recent Black Forest ride, aggravated by wet and gritty conditions. He requests an appointment for a thorough inspection and repair of his Canyon Endurace's derailleur, mentioning the failed roadside adjustments and the impact on the ride. Martin asks for available time slots and inquires about estimated turnaround time.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: MobileFix Schonach <support@mobilefix-schonach.de>
+Subject: Inquiry: Google Pixel 7 Pro Water Damage Repair Options
+Summary: Martin writes to a local phone repair shop to explain that his Google Pixel 7 Pro, already unreliable from previous water exposure, completely shut down during a rainy cycling trip. He requests information on diagnostic procedures, repair options, and estimated costs for water damage restoration, and asks about data recovery possibilities.

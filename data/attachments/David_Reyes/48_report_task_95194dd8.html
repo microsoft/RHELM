@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>49_report_task_95194dd8</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<h1>Cloud Restore Troubleshooting Bug Report</h1>
+<h2>Ecological Field Data Management Session</h2>
+<p><strong>Date:</strong> 2024-06-27 (Mid-morning)<br />
+<strong>Location:</strong> Hybrid (Remote link between field site and data center)</p>
+<hr />
+<h2>Session Overview</h2>
+<p><strong>Date/Time:</strong> 2024-06-27, 10:30–11:45 AM<br />
+<strong>Participants:</strong><br />
+- Oscar Ramirez (Data Systems Analyst, Ecological Data Management Unit)<br />
+- Emily Chen (Field Research Coordinator, Ecological Monitoring Project)</p>
+<p>This session was convened to investigate and address a series of technical issues that arose during the restoration of ecological field data from a recent cloud backup. The work was conducted in real-time across both a remote field station and the central data center, with continuous communication maintained between team members.</p>
+<hr />
+<h2>Environment Details</h2>
+<h3>Hardware Environment</h3>
+<p><strong>Server:</strong><br />
+- Dell PowerEdge R650<br />
+- Dual Intel Xeon Gold 6338 CPUs (32 cores, 2.0GHz)<br />
+- 128GB DDR4 ECC RAM<br />
+- Storage:<br />
+  - Primary: 6 x 2TB NVMe SSD (RAID 10)<br />
+  - Backup: 4 x 4TB Seagate IronWolf Pro HDD (RAID 5)  </p>
+<p><strong>Field Devices:</strong><br />
+- Panasonic Toughpad FZ-G1 tablets, Windows 11 Pro, 8GB RAM, 512GB SSD<br />
+- Campbell Scientific CR1000X Data Logger<br />
+- Connectivity provided via 4G LTE routers (average bandwidth 10–18 Mbps down, 5–8 Mbps up; latency 65–130ms)</p>
+<h3>Software Stack</h3>
+<p><strong>Core Systems:</strong><br />
+- Central Server OS: Ubuntu 22.04 LTS (Kernel 5.15.0-86)<br />
+- Field Devices OS: Windows 11 Pro v23H2<br />
+- Primary Applications:<br />
+  - EcoDataSync v4.8.2 (Open source ecological database manager)<br />
+  - ArcGIS Collector 23.2.1 (GIS-enabled field data capture)<br />
+  - MariaDB v10.9.7 (Database backend for ecological datasets)<br />
+  - CloudRestoreToolPro v2024.06 (for cloud backup and restore operations)</p>
+<h3>Network and System Configuration</h3>
+<ul>
+<li>Hybrid VPN (IPSec) secured access with multi-factor authentication  </li>
+<li>Field-to-cloud data flows routed through secure SOCKS proxies  </li>
+<li>Observed field network latency: 85ms on peak, 110ms median (field logs)  </li>
+<li>Data validation mechanisms include:  </li>
+<li>Eco-Check v1.5 (schema and record validation pre/post restore)  </li>
+<li>SHA256 checksums for all primary .csv and .shp files to ensure file integrity</li>
+</ul>
+<hr />
+<h2>Issues Identified</h2>
+<p>The following table summarizes the primary issues tracked during this session, with relevant status updates:</p>
+<table>
+<thead>
+<tr>
+<th>Bug ID</th>
+<th>Description</th>
+<th>Severity</th>
+<th>Repro Steps</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B-20240627-01</td>
+<td>Partial data loss during restore from June 2024 backup; 2,000 of 10,000 field records missing from <code>site_observations</code></td>
+<td>Critical – Data integrity &amp; timeline</td>
+<td>1. Initiate restore via CloudRestoreToolPro GUI  <br>2. Select “Full Restore” for project “ECO_MONITOR_SPR24” <br>3. Review logs; compare entries to backup manifest <br>Backup: 2024-06-15, tag “SPR24”</td>
+<td>Open</td>
+</tr>
+<tr>
+<td>B-20240627-02</td>
+<td>Restore utility UI freezing on field networks with &gt;90ms latency; process stalls, logs incomplete</td>
+<td>High – Risk of failed restores in field</td>
+<td>1. Connect field laptop to LTE router (simulate &gt;100ms latency) <br>2. Run CloudRestoreToolPro, initiate restore <br>3. Observe GUI after 10–20min</td>
+<td>In Progress</td>
+</tr>
+<tr>
+<td>B-20240627-03</td>
+<td>Eco-Check schema validation triggers false positives on valid <code>SHAPE</code> field entries</td>
+<td>Medium – Project sign-off delay</td>
+<td>1. Restore backup <br>2. Auto-run Eco-Check <br>3. Review flagged <code>site_observations</code> <br>Warning: <code>SHAPE</code> field type mismatch</td>
+<td>Resolved</td>
+</tr>
+<tr>
+<td>B-20240627-04</td>
+<td>Log files recorded with local time, not UTC; misalignment with field journal events</td>
+<td>Low – Tracking/audit issue</td>
+<td>1. Complete restore <br>2. Compare <code>/logs/restore_log*.txt</code> timestamps to field journal</td>
+<td>Open</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Patch and Hotfix Implementation</h2>
+<h3>Eco-Check v1.5.4 Patch</h3>
+<p>A prompt patch—the Eco-Check v1.5.4 release—was implemented to address the schema validation issue related to the MariaDB <code>SHAPE</code> field. This version resolved the false positives that previously blocked validation sign-off, ensuring compatibility with both EcoDataSync v4.8.2 and MariaDB 10.9+.<br />
+<strong>Log Sample:</strong>  </p>
+<pre><code>[2024-06-27 11:03:12] INFO: Applied Eco-Check v1.5.4
+[2024-06-27 11:03:14] SUCCESS: Schema validation passed for all fields.
+</code></pre>
+<p>Documentation: <a href="https://ecodatasync.org/eco-check/v1.5.4_notes">Eco-Check v1.5.4 Release Notes</a></p>
+<h3>CloudRestoreToolPro UI Hotfix (Pending)</h3>
+<p>A release candidate version (CloudRestoreToolPro v2024.06.1-RC) includes asynchronous UI updates and improved error handling under high-latency network conditions, aimed at resolving freeze and stall issues frequently seen during field restores. This patch has completed initial internal QA and is scheduled for field validation in the next test cycle. Expanded progress dialogs and retry logic are expected to reduce user disruption and data inconsistencies caused by intermittent network problems.</p>
+<hr />
+<h2>Troubleshooting and Resolutions</h2>
+<h3>B-20240627-01: Partial Data Loss During Restore</h3>
+<p>Investigations began with a comparison of the <code>backup_manifest_20240615.json</code> against the restored <code>site_observations</code> table. While the backup manifest listed 10,000 field records as expected, only 8,000 were present after the initial cloud restore.</p>
+<p>Systematically, SHA256 checksums for all archived backup files were verified, ruling out file corruption or transfer errors. Further analysis via targeted MariaDB <code>EXPLAIN</code> queries isolated the data loss to batches covering <code>batch_id</code> 302–321. CloudRestoreToolPro logs revealed a socket timeout event at 80% restore completeness, corresponding with a momentary LTE network dropout at the field site.</p>
+<p>To regain data integrity, a partial restore was executed for the missing batch range (302–321) using backup files verified against the manifest. The missing records—2,000 entries—were imported successfully through manual batch processing. A full post-mitigation dataset validation with Eco-Check confirmed the restoration of all records (10,000 / 10,000), restoring dataset completeness and integrity.</p>
+<h3>B-20240627-02: UI Freeze on High-Latency Networks</h3>
+<p>High-latency simulation was performed using an LTE router setup exceeding 100ms network round-trip time. The CloudRestoreToolPro utility’s UI stalled after approximately 16 minutes, confirmed in both GUI response and system monitor logs. The development team traced the issue to synchronous UI update calls blocking event processing under variable network conditions. The hotfix moves UI updates to asynchronous threads and implements more robust progress/recovery dialogs. This revised version is currently staged for rollout, following completion of integration tests with EcoDataSync workflows.</p>
+<h3>B-20240627-03: Eco-Check Schema Validation False Positives</h3>
+<p>The update to Eco-Check v1.5.4 resolved persistent schema validation false positives tied to the MariaDB <code>SHAPE</code> field. Post-patch restores (n=3, with varied ecological field datasets) validated cleanly, with no further issues reported. This closed the loop for the immediate sign-off barrier in project data restoration.</p>
+<h3>B-20240627-04: Local vs. UTC Timestamps in Logs</h3>
+<p>During process audits, it was discovered that log files generated by CloudRestoreToolPro defaulted to local timezone stamps, causing confusion when cross-referencing with field notes and centralized audit trails, which are tracked in UTC. Plans are in place for the next software update to standardize all log entries to UTC, ensuring consistent event traceability and streamlined troubleshooting.</p>
+<hr />
+<h2>Next Steps and Action Items</h2>
+<p><strong>Immediate Actions:</strong><br />
+- Deploy CloudRestoreToolPro v2024.06.1-RC for the upcoming scheduled field restoration, with monitoring for UI responsiveness and restore integrity.<br />
+- Continue dual-stage data validation (Eco-Check and manual verification) following each restore operation.<br />
+- Log all restoration and validation activities in both local time and UTC as a temporary measure, pending logging system update.</p>
+<p><strong>Mid-term Priorities:</strong><br />
+- Collaborate with software developers to finalize, test, and document asynchronous UI and network handling patches.<br />
+- Expand documentation for manual restore workflows, to be used in the event of future critical restore failures or tool malfunctions.</p>
+<p><strong>Long-term Recommendations:</strong><br />
+- Revise standard operating procedures (SOPs) to incorporate mandatory network connectivity tests prior to major data restore events in the field.<br />
+- In 2025, evaluate upgrading from LTE routers to Starlink or similar low-Earth orbit satellite systems at sites where consistent bandwidth and latency are critical. This could significantly reduce the incidence of data interruption and improve restore performance in remote locations.</p>
+<hr />
+<h2>Supporting Documentation and References</h2>
+<p><strong>Log Files:</strong><br />
+- <code>/var/log/cloudrestore/restore_log_20240627.txt</code>: CloudRestoreToolPro main event log (partial data loss: lines 240–350)<br />
+- <code>/home/ecodata/validation/ECO_MONITOR_SPR24_restorecheck_20240627.log</code>: Results from Eco-Check post-restore validation<br />
+- <code>backup_manifest_20240615.json</code>: Complete backup manifest for ECO_MONITOR_SPR24</p>
+<p><strong>Configuration Files:</strong><br />
+- <code>/etc/cloudrestore/cloudrestore.conf</code>: Details on network retry, backup paths<br />
+- <code>/usr/local/ecodatasync/ecocheck.conf</code>: Schema validation parameters</p>
+<p><strong>Field Documentation:</strong><br />
+- Emily Chen’s field journal, "Site Recovery," 2024-06-27 09:45–10:15 – details manual restore attempts and observed UI behavior</p>
+<p><strong>Manuals and Knowledge Base:</strong><br />
+- <a href="https://ecodatasync.org/doc/user_manual_v4.8.pdf">EcoDataSync User Manual v4.8</a><br />
+- <a href="https://mariadb.com/kb/en/mariadb-109/">MariaDB 10.9 Documentation</a><br />
+- <a href="https://cloudrestoretoolpro.com/kb">CloudRestoreToolPro Knowledge Base</a><br />
+- <a href="https://github.com/eco-solutions/eco-check">Eco-Check plugin GitHub</a></p>
+<hr />
+<h2>Conclusions and Recommendations</h2>
+<p>This session highlighted several critical factors influencing the success of cloud-based data restores in the context of distributed ecological field operations. Incidents of partial data loss and UI freezing exposed underlying challenges—specifically, variable network reliability and limited UI resilience—in remote environments where bandwidth and latency fluctuate significantly.</p>
+<p>To enhance reliability and maintain scientific integrity in ecological data management, the following recommendations are essential:</p>
+<ul>
+<li><strong>Increase Fault Tolerance to Network Conditions:</strong> Restore utilities should employ robust, asynchronous operations for UI processes and background data transfers, with thorough error handling specifically tested in field-simulated high-latency scenarios.</li>
+<li><strong>Mandatory, Multilayered Data Validation:</strong> Every restore should be followed by both automated (e.g., Eco-Check) and manual validation, including database record counts and file-level hash verification, ensuring all inconsistencies are immediately detected and resolved.</li>
+<li><strong>Consistent Logging Practices:</strong> All backup and restore events must be chronologically aligned by adopting UTC-based log timestamping across all systems. This practice minimizes confusion when matching with decentralized field records and audit trails.</li>
+<li><strong>SOP Improvements and Training:</strong> Field protocols should require connectivity assessments prior to critical operations, standardized manual intervention procedures, and regular staff training that reflects past incident lessons.</li>
+<li><strong>Ongoing IT–Field Team Collaboration:</strong> Routine, structured feedback between technical and field operations teams improves tool resilience and supports knowledge sharing—fostering continuous refinement of workflows and rapid response to emerging issues.</li>
+</ul>
+<p>By integrating these recommendations, ecological research projects can substantially mitigate risks to data integrity and reproducibility, ensuring reliable records even under challenging network or operational constraints.</p>
+<hr />
+<h3>Sources</h3>
+<ol>
+<li><a href="https://ecodatasync.org/doc/user_manual_v4.8.pdf">EcoDataSync User Manual v4.8</a></li>
+<li><a href="https://ecodatasync.org/eco-check/v1.5.4_notes">Eco-Check v1.5.4 Release Notes</a></li>
+<li><a href="https://mariadb.com/kb/en/mariadb-109/">MariaDB 10.9 Documentation</a></li>
+<li><a href="https://cloudrestoretoolpro.com/kb">CloudRestoreToolPro Knowledge Base</a></li>
+<li><a href="https://github.com/eco-solutions/eco-check">Eco-Check plugin GitHub</a></li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Clarification on Documentation for Encryption Project
+Summary: Jonas follows up with Dr. Nowak regarding the inconsistency identified in the open-source encryption project documentation. He summarizes the issue, references their earlier encrypted chat, and outlines the agreed-upon resolution steps. The email also thanks Dr. Nowak for her collaboration and suggests a timeline for updating the documentation.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Leila Haddad <leila.haddad@email.com>
+Subject: Thank You for Your Feedback on the School Pilot Workshop
+Summary: Jonas expresses appreciation for the insightful feedback provided by Leila Haddad and Frau Becker regarding student engagement during the Neukölln school pilot workshop. He highlights specific comments, explains how their input will be incorporated into the summary report, and invites further suggestions for the educator outreach campaign.

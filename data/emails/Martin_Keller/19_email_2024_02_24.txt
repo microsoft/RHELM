@@ -1,0 +1,4 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Lukas Weber <lukas.weber@email.com>
+Subject: Home Automation Update & New Spice Finds
+Summary: Martin provides Lukas with a brief update on the successful Zigbee dimmer firmware fix in his home automation system, mentioning the improved MQTT log performance. He also shares his excitement about discovering new spices (za’atar and smoked paprika) and olives at the Wochenmarkt, hinting at plans to try a new mezze recipe.

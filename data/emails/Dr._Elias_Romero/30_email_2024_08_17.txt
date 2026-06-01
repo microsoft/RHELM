@@ -1,0 +1,11 @@
+Sender: Javier Ortega <javier.ortega@email.com>
+Recipient: Elias Romero <elias.romero@email.com>
+Subject: Running Late for Dinner – Train Delays
+Summary: Javier informs Elias that he will be delayed to the dinner due to disruptions on the train line. He apologizes for the inconvenience, provides an estimated new arrival time, and asks if there is anything he should bring or help with upon arrival.
+
+============================================================
+
+Sender: Carla Ruiz <carla.ruiz@email.com>
+Recipient: Elias Romero <elias.romero@email.com>
+Subject: Sorry – Can't Make It Tonight
+Summary: Carla notifies Elias that she has to cancel her attendance at the dinner due to a sudden migraine. She expresses regret for missing the evening and for not being able to bring the special sourdough bread as planned, and wishes everyone a pleasant evening.

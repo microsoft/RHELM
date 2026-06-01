@@ -1,0 +1,11 @@
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Dr. Marcus Ellison <marcus.ellison@email.com>
+Subject: Your Knee Assessment & Physical Therapy Referral
+Summary: Dr. Patel follows up on Marcus's 9:00 AM appointment, summarizing her findings (no major structural damage), outlining the recommended physical therapy plan, and attaching a digital packet of prescribed exercises. She includes a referral to the Harlem Wellness Center for PT and provides guidance on non-opioid pain management strategies. The email encourages Marcus to reach out with any questions or concerns.
+
+============================================================
+
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: Celeste Broussard <celeste.broussard@email.com>
+Subject: Winter Exhibit: Muralist Confirmation & Workshop Dates
+Summary: Marcus confirms muralist Malik Johnson’s participation in the upcoming winter exhibit and outlines proposed dates for the youth workshops, as discussed during their call. He requests Celeste’s feedback on the schedule and next steps for event planning.

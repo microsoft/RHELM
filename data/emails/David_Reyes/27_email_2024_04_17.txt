@@ -1,0 +1,18 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Carlos Reyes <carlos.reyes@email.com>
+Subject: Rescheduling Lunch: Ridgecrest Power Outage & Field Difficulties
+Summary: David apologizes for postponing their scheduled lunch due to the unexpected Ridgecrest-wide power outage and undercooked lemon bars, suggesting alternative dates. David also briefly mentions complications faced during his field work—dust storms, sinus issues, and equipment problems—in case Carlos needs updates related to their project.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Field Coordinator <coord@fieldstudy.org>
+Subject: Urgent: Cooling Fan Failure and Corrupted Image Files – Dell Field Laptop
+Summary: David reports a complete cooling fan failure and subsequent file corruption on his Dell field laptop after the device abruptly shut down during data sync. He requests urgent advice for file recovery and repair options, providing details on the nature of the shoot and affected files.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Site Supervisor <supervisor@ecoplots.org>
+Subject: Sand Creek: Missing Monitoring Flags and Compacted Soil from Tire Tracks
+Summary: David summarizes irregularities encountered at Sand Creek Ecological Plot — missing monitoring flags, soil compaction and skewed readings due to tire tracks, and compromised rainfall logs. He asks for guidance on protocol, reporting the incident, and potential restoration actions.

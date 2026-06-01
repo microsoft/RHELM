@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Jana Müller <jana.mueller@email.com>
+Subject: Smart Lighting UI Concept & Dimmer Recommendation
+Summary: Martin follows up on their lunch discussion, attaching a photo or sketch of the minimalist UI concept for Jana's smart lighting system. He summarizes his recommendation for a Zigbee-compatible dimmer, includes a link to a suitable product, and offers further help with setup or questions.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Friends Game Night Group <gamenight@email.com>
+Subject: Board Game Ordered for Next Week: 'Carnegie'
+Summary: Martin informs the group that he has ordered 'Carnegie' for their upcoming game night, shares a brief description of the game, and asks if anyone has preferences for snacks or other games to bring.

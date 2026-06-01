@@ -1,0 +1,4 @@
+Sender: Alastair McEwan <alastair.mcewan@email.com>
+Recipient: Ingrid Sutherland <ingrid.sutherland@st-andrews.ac.uk>
+Subject: Follow-up: Metadata Standards Discussion & Shared Oral History Template
+Summary: Dr. Alastair McEwan emails Dr. Ingrid Sutherland to thank her for the productive video call earlier in the day regarding metadata standards for oral history cataloguing. He attaches the collaboratively developed shared template, summarizes key decisions made during the meeting, and outlines next steps for integrating the template into their digitisation workflow. He also requests feedback on specific metadata fields and proposes a timeline for piloting the new standard.

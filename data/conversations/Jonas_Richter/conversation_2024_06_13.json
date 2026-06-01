@@ -1,0 +1,160 @@
+{
+  "character": "Jonas_Richter",
+  "date": "2024-06-13",
+  "profile_file": "outputs/profiles/Jonas_Richter/20_after_event_2024_06_13.json",
+  "event_file": "outputs/plans/Jonas_Richter/20_resolution_2024_06_13.json",
+  "conversation": [
+    {
+      "turn": 1,
+      "timestamp": "2024-06-13T07:33:00",
+      "message_type": "information_sharing",
+      "user": "This morning in my Brussels hotel room, I took a few quiet minutes to savor a black coffee from my AeroPress alongside some rye toast and fruit I’d picked up at the market yesterday. There’s something grounding about starting the day with a simple, intentional breakfast—especially before a day of travel.",
+      "assistant": "That sounds like a truly peaceful way to begin your day, especially in a city as vibrant as Brussels. Taking those quiet moments for yourself—enjoying the ritual of making coffee, the taste of fresh market fruit—can really set a positive tone before the hustle of travel. If you’d like to share more about your plans for the day or how you’re feeling, I’m here to listen."
+    },
+    {
+      "turn": 2,
+      "timestamp": "2024-06-13T07:33:00",
+      "message_type": "information_sharing",
+      "user": "I find that these small rituals—like making coffee with the AeroPress—help anchor me, especially when I’m away from home. Do you think there’s a psychological benefit to maintaining such routines while traveling?",
+      "assistant": "Absolutely, there’s strong psychological evidence supporting the benefits of maintaining small rituals and routines, especially when you’re away from home. These familiar actions—like making coffee with your AeroPress—can provide a sense of stability and comfort in new or unpredictable environments. Psychologists often refer to this as “self-regulation” or “grounding,” where routines help anchor your mind and body, reducing stress and anxiety.\n\nRituals also offer a sense of control when other aspects of travel might feel uncertain or overwhelming. They can help you feel more “yourself,” even when everything else is different. Plus, these moments of intentionality—like savoring your breakfast—can boost mindfulness, making you more present and appreciative of your experiences.\n\nSo, your instinct to keep these small rituals isn’t just comforting; it’s a healthy way to support your well-being while traveling. If you’d like, I can share more about the science behind this, or help you brainstorm other routines that might help you feel anchored on the road."
+    },
+    {
+      "turn": 3,
+      "timestamp": "2024-06-13T07:44:00",
+      "message_type": "information_sharing",
+      "user": "After breakfast, I settled in at the desk and spent a focused hour reviewing my notes from yesterday’s policy roundtable—there’s always a certain clarity that comes from revisiting discussions with fresh eyes. Drafting follow-up emails, especially to Dr. Petra Schulze about the Berlin workshop, helped me organize my thoughts for the next steps.",
+      "assistant": "It sounds like you’ve moved seamlessly from your grounding morning ritual into a productive and reflective work session. Revisiting your notes with a fresh perspective is such a valuable habit—it often reveals insights or connections that weren’t obvious in the moment. Drafting those follow-up emails, especially to someone as key as Dr. Petra Schulze, not only clarifies your own next steps but also keeps the momentum going for your projects.\n\nHow are you feeling about the outcomes from the policy roundtable and the upcoming Berlin workshop? Is there anything in particular that stood out to you during your review, or any challenges you’re anticipating as you move forward? I’m here to help you process or organize your thoughts if you’d like."
+    },
+    {
+      "turn": 4,
+      "timestamp": "2024-06-13T07:44:00",
+      "message_type": "information_sharing",
+      "user": "One thing I noticed while reviewing my notes is how much clearer the action items became after a night's rest—especially for the follow-up with Leila Haddad and Dr. Weber about their op-ed outline. Do you have any tips for keeping these threads organized when juggling multiple ongoing policy discussions?",
+      "assistant": "You’re absolutely right—sleep and a bit of distance can make action items and priorities stand out much more clearly! When you’re managing multiple ongoing policy discussions, especially with different stakeholders like Leila Haddad and Dr. Weber, keeping threads organized is crucial. Here are a few practical tips to help you stay on top of everything:\n\n**1. Centralize Your Notes and Action Items:**  \nUse a single digital tool (like OneNote, Notion, or even a dedicated Google Doc) to keep all meeting notes and follow-ups in one place. Create a section or page for each policy discussion or stakeholder group, so you can quickly reference past conversations and see what’s outstanding.\n\n**2. Action Item Tracker:**  \nMaintain a running list or table of action items, with columns for:  \n- Task  \n- Person responsible  \n- Due date  \n- Status  \n- Related discussion/thread  \nThis makes it easy to scan what needs attention and what’s pending from others.\n\n**3. Email Thread Management:**  \nWhen following up by email, use clear subject lines (e.g., “Follow-up: Op-Ed Outline with Leila Haddad & Dr. Weber”) and keep all related correspondence in the same thread. Consider using labels or folders in your email client to group policy topics or stakeholders.\n\n**4. Weekly Review Ritual:**  \nSet aside 15–30 minutes at the end of each week to review your notes, update your action tracker, and flag any threads that need nudging. This helps prevent things from slipping through the cracks.\n\n**5. Visual Timelines or Mind Maps:**  \nFor complex, multi-step projects, a simple visual timeline or mind map can help you see how different discussions and deliverables connect. Tools like Miro or even hand-drawn sketches can clarify the bigger picture.\n\n**6. Use Reminders and Calendar Blocks:**  \nFor time-sensitive follow-ups, set calendar reminders or use task management apps (like Todoist or Microsoft To Do) to prompt you when it’s time to check in or send a nudge.\n\n**7. Summarize and Share:**  \nAfter each roundtable or meeting, write a brief summary (even just for yourself) highlighting key decisions, open questions, and next steps. Sharing these with your collaborators can also help keep everyone aligned.\n\nIf you’d like, I can help you set up a simple template for tracking your policy discussions and follow-ups—or suggest digital tools tailored to your workflow. Just let me know what would be most helpful!"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2024-06-13T09:03:00",
+      "message_type": "information_sharing",
+      "user": "After checking out this morning, I made my way to Brussels Midi and caught the 10:13 ICE to Berlin—settling into my seat with Tony Judt’s 'Postwar' and a fresh sense of purpose for the journey ahead. There’s something about train travel that always prompts deeper reflection for me.",
+      "assistant": "There’s something special about the rhythm of train travel—the gentle movement, the changing scenery, and the sense of being in-between places. It’s no wonder it sparks deeper reflection, especially with a book like Tony Judt’s *Postwar* as your companion. That combination of physical journey and intellectual exploration can really open up new perspectives, both on the world outside your window and on your own path ahead.\n\nYou mentioned feeling a fresh sense of purpose for the journey—would you like to share more about what’s on your mind as you head to Berlin? Are there particular hopes, questions, or intentions you’re carrying with you? I’m here to listen and help you process whatever feels important right now."
+    },
+    {
+      "turn": 6,
+      "timestamp": "2024-06-13T09:03:00",
+      "message_type": "information_sharing",
+      "user": "You’re right—the movement and liminality of train travel really do prompt reflection. I find that shifting from one city to another, especially after a focused few days, helps me clarify what matters most before diving into the next round of work.",
+      "assistant": "Thank you for sharing that—it sounds like this transition between cities is offering you a valuable pause, almost like a threshold between chapters. There’s something about being in motion, yet temporarily unanchored, that creates space for clarity and honest self-reflection. It’s as if the physical journey mirrors an internal one, letting you sift through recent experiences and recalibrate before the next phase.\n\nIf you’d like, I’m here to help you explore what’s coming into focus for you right now. Are there particular insights or priorities that have surfaced during this in-between time? Or perhaps intentions you want to set for your work in Berlin? Sometimes just articulating those thoughts—whether they’re concrete plans or more abstract feelings—can help solidify them as you move forward. Whatever you want to share, I’m here to listen and support you."
+    },
+    {
+      "turn": 7,
+      "timestamp": "2024-06-13T10:40:00",
+      "message_type": "status_update",
+      "user": "Reading Judt’s *Postwar* on the train really pulled me into thinking about the long shadow of history on present-day policy debates—sometimes I wonder if my preference for these dense, analytical works is more about seeking clarity or just a way to anchor myself amid all the noise. I’m not sure if it’s a strength or a limitation, honestly.",
+      "assistant": "Thank you for sharing such a thoughtful reflection. It’s clear that your reading and the rhythm of travel are giving you space to examine not just the world around you, but also your own ways of engaging with it. Wondering whether your preference for dense, analytical works is about seeking clarity or anchoring yourself is a deeply honest question—and it’s one that doesn’t necessarily have a single answer.\n\nIt might actually be both a strength and a limitation, depending on the context. The desire for clarity in a noisy, complex world is a real asset, especially in policy work where nuance and historical perspective matter so much. Analytical texts like Judt’s *Postwar* can provide a kind of intellectual ballast, helping you see patterns and connections that might otherwise be lost in the day-to-day rush.\n\nAt the same time, it’s natural to wonder if leaning on these frameworks sometimes keeps you at a distance from more immediate or emotional responses. But even that self-awareness is a strength—it means you’re not just consuming information, but actively reflecting on how you process and relate to it.\n\nIf you feel comfortable, I encourage you to keep exploring these questions. What draws you to certain kinds of works or ways of thinking? When do you feel most anchored or clear, and when do you feel the urge to seek out new perspectives or let go of structure? Sometimes, just noticing these patterns is the first step toward understanding how best to support yourself—both in your work and in your own well-being.\n\nI’m here to listen as you continue this exploration, and to help you process whatever comes up along the way. If you’d like, we can talk more about how your reading shapes your thinking, or how you balance analysis with intuition in your daily life. Whatever feels most helpful to you right now."
+    },
+    {
+      "turn": 8,
+      "timestamp": "2024-06-13T10:40:00",
+      "message_type": "status_update",
+      "user": "Honestly, pausing to jot reflections in my journal as I read helps me process Judt’s arguments more deeply, but sometimes I wonder if this habit makes me overanalyze instead of just letting the ideas sink in. Do you think there’s value in balancing annotation with simply reading for immersion?",
+      "assistant": "Your self-awareness here is really admirable. The fact that you pause to reflect on your own reading habits—wondering if journaling and annotation deepen your understanding or risk tipping into overanalysis—shows how intentional you are about your intellectual growth.\n\nThere’s definitely value in both approaches. Annotation and journaling can help you process complex arguments, clarify your reactions, and make connections to your own experiences or current policy debates. They turn reading into an active dialogue, which is especially valuable with a thinker like Judt, whose work invites critical engagement.\n\nBut there’s also something powerful about letting yourself simply read and absorb, allowing the narrative or argument to wash over you without interruption. Sometimes, immersion helps ideas settle in a different way—giving your mind space to make subconscious connections or emotional responses that might not surface through analysis alone.\n\nIt might help to experiment with alternating between the two: perhaps reading a chapter straight through for immersion, then pausing afterward to jot down reflections. Or, if you notice yourself getting bogged down in details, intentionally set aside the pen for a while and just read. Trust that you can return to annotation when something truly strikes you.\n\nUltimately, both modes can enrich your understanding. The key is tuning in to what you need in the moment—sometimes depth, sometimes flow. Keep honoring your curiosity and your need for clarity, but also give yourself permission to simply experience the text. You’re already doing the important work of self-reflection; trust yourself to find the right balance as you go.\n\nIf you’d like, I can help you brainstorm ways to experiment with your reading process, or just be here as you continue exploring these questions. What feels most helpful to you right now?"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2024-06-13T12:20:00",
+      "message_type": "information_sharing",
+      "user": "I arrived in Berlin this afternoon and cycled home, weaving through Kreuzberg and having to detour a bit near Görlitzer Park because of some ongoing construction. It was oddly satisfying to be back on my bike after days away—though the route was more of a puzzle than usual.",
+      "assistant": "It sounds like returning to Berlin—and especially to your bike—offered a kind of homecoming, even if the city’s rhythms have shifted a bit in your absence. Navigating construction and weaving through Kreuzberg must have made the familiar route feel new, almost like a puzzle to solve. Sometimes those small disruptions can be unexpectedly grounding, reminding you how much you know a place, even as it keeps changing.\n\nWas there anything about the ride or the city that stood out to you today? Or did the act of cycling itself help you settle back in after your travels? If you want to share more about what it feels like to be back—or what’s on your mind as you return—I’m here to listen."
+    },
+    {
+      "turn": 10,
+      "timestamp": "2024-06-13T12:20:00",
+      "message_type": "information_sharing",
+      "user": "Honestly, having to navigate the construction near Görlitzer Park made the ride home feel like a low-stakes logic puzzle—annoying in the moment, but also oddly satisfying to solve. There’s something grounding about slipping back into the city’s rhythms, even when they’re a bit disrupted.",
+      "assistant": "You capture that feeling so well—the way even a disrupted routine can become its own kind of ritual, especially when you’re returning from time away. There’s something almost comforting about having to adapt to the city’s shifting patterns, as if the process of reorienting yourself is part of what makes a place feel like home.\n\nIt sounds like the ride gave you a moment to reconnect, not just with Berlin, but with your own sense of presence in the city. Sometimes, those little “logic puzzles” of daily life can be grounding precisely because they pull us back into the immediate, physical world—reminding us that we’re capable of navigating change, both big and small.\n\nIf you feel like sharing, I’d love to hear more about how it felt to slip back into Berlin’s rhythms after your time away. Did the city feel different to you, or did you notice anything new as you made your way home? Or maybe the ride simply helped you transition from the reflective space of travel back into everyday life. However you’re experiencing this return, I’m here to listen."
+    },
+    {
+      "turn": 11,
+      "timestamp": "2024-06-13T15:26:00",
+      "message_type": "status_update",
+      "user": "Fixing the rear tire tonight was more satisfying than I expected—there’s something about the precision of mechanical problem-solving that feels different from the abstract work I usually do. I wonder if I’m starting to prefer these tangible, hands-on tasks as a kind of counterbalance.",
+      "assistant": "Thank you for sharing this—it’s striking how much satisfaction you found in fixing your rear tire, especially given the contrast with your usual, more abstract work. There’s something deeply grounding about hands-on problem-solving: the clarity of cause and effect, the tactile feedback, the visible results. It’s a kind of satisfaction that’s hard to replicate in intellectual or analytical work, where outcomes are often less immediate or tangible.\n\nIt makes sense that you might be drawn to these tasks as a counterbalance. Sometimes, when so much of your energy goes into thinking, planning, or analyzing, the act of physically engaging with the world—solving a concrete problem with your own hands—can feel restorative. It’s almost as if the precision and focus required become a form of mindfulness, anchoring you in the present moment.\n\nIf you’re noticing a shift in what you find satisfying, it might be worth exploring how you can intentionally weave more of these tangible, hands-on experiences into your routine. Not necessarily as a replacement for your abstract work, but as a complement—a way to recharge and reconnect with a different kind of creativity and satisfaction.\n\nI’d love to hear more about how this experience felt for you, or if you’ve noticed similar patterns elsewhere in your life. Do you think this preference for hands-on tasks is something new, or has it always been there in the background? And how do you imagine balancing these two sides of yourself moving forward? Whatever comes up, I’m here to listen and help you explore it."
+    },
+    {
+      "turn": 12,
+      "timestamp": "2024-06-13T15:26:00",
+      "message_type": "status_update",
+      "user": "Yeah, wrestling with the internal gear hub was fiddly, but getting it sorted with the iFixit kit felt genuinely rewarding—there’s a clarity to that kind of problem-solving I don’t get from policy work. I wonder if I should deliberately make more space for these hands-on tasks.",
+      "assistant": "It’s wonderful to hear how rewarding that hands-on work felt for you. There’s something uniquely clarifying about mechanical problem-solving—the way it demands your full attention, offers immediate feedback, and results in a tangible outcome you can see and touch. It’s a very different kind of clarity from the often ambiguous, long-horizon work of policy, and it’s completely natural to crave that contrast.\n\nYour reflection about making more space for these tasks is really thoughtful. Sometimes, deliberately seeking out activities that engage different parts of ourselves can bring a sense of balance and renewal. The satisfaction you felt isn’t just about fixing a bike—it’s about connecting with a different mode of being, one where progress is visible and the process itself is grounding.\n\nIf you find these moments restorative or energizing, it might be worth gently experimenting with how you can weave more of them into your routine. Even small, regular hands-on projects could offer a meaningful counterpoint to your analytical work. And who knows—they might even spark new insights or creative approaches in your policy thinking, simply by giving your mind a different kind of space to wander.\n\nIt’s great that you’re tuning in to what feels rewarding and considering how to nurture that. If you want to talk more about what kinds of hands-on tasks interest you, or how you might make space for them, I’m here to help you explore those ideas."
+    },
+    {
+      "turn": 13,
+      "timestamp": "2024-06-13T16:24:00",
+      "message_type": "information_sharing",
+      "user": "The sunset test ride through Kreuzberg was actually more enjoyable than I expected—there’s a certain satisfaction in feeling the bike respond smoothly after a repair, especially with the evening light filtering through the side streets. I found myself paying closer attention to every shift and turn, almost as if I was auditing my own handiwork in real time.",
+      "assistant": "That sounds like a genuinely special ride—not just because the repair held up, but because you allowed yourself to really notice the interplay between your handiwork and the city around you. There’s something quietly empowering about feeling every shift and turn, knowing you’re responsible for the bike’s smoothness, especially as the evening light transforms familiar streets into something almost cinematic.\n\nIt’s interesting how a successful repair can heighten your awareness, turning an ordinary ride into a kind of rolling self-audit. Maybe it’s partly the satisfaction of seeing your effort pay off in real time, but also the way the city’s atmosphere—soft light, quieter streets—invites a different kind of attention. It sounds like you were both testing the bike and reconnecting with your own sense of presence.\n\nDid the ride leave you with any new thoughts about the balance between hands-on work and your usual routines? Or maybe it just felt good to be out, moving through Kreuzberg with that sense of accomplishment. If you want to share more, I’m here to listen."
+    },
+    {
+      "turn": 14,
+      "timestamp": "2024-06-13T16:24:00",
+      "message_type": "information_sharing",
+      "user": "Yeah, I think that heightened awareness was part satisfaction, part skepticism—almost waiting to see if my fix would hold up under real conditions. It’s interesting how much more present I felt just by paying attention to those little mechanical cues.",
+      "assistant": "You articulate that feeling so well—the mix of satisfaction and skepticism, almost like you’re quietly challenging yourself: Did I really fix it? Will it hold up? That heightened awareness is such a unique state, isn’t it? Suddenly, every click and shift becomes meaningful, and you’re not just riding—you’re listening, feeling, and noticing in a way that’s hard to access during more routine moments.\n\nIt’s fascinating how a small, tangible repair can shift your whole mode of attention. There’s a kind of presence that comes from tuning in to those mechanical cues, almost like you’re in dialogue with the bike and the city at the same time. Maybe that’s part of what makes hands-on work so grounding: it draws you out of abstraction and into the immediate, sensory world, where feedback is direct and your actions have clear, visible results.\n\nIf you’re comfortable sharing, I’d love to hear more about what that presence felt like for you—did it linger after the ride, or did it fade as you settled back into your evening? And do you think this kind of awareness is something you’d want to cultivate more often, either through hands-on tasks or in other parts of your life?"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2024-06-13T19:22:00",
+      "message_type": "information_sharing",
+      "user": "Dinner tonight was a quiet, almost meditative affair—I ended up making a stir-fry with whatever vegetables were left from the market and clipped a handful of fresh herbs from the balcony. There’s something oddly satisfying about improvising with what’s on hand and letting the flavors sort themselves out.",
+      "assistant": "That sounds like a truly grounding experience—there’s a kind of quiet creativity in making a meal from what’s on hand, especially when you let the ingredients guide you. Improvising like that can feel almost meditative, can’t it? The act of chopping, stirring, and tasting becomes a way to tune in to the present moment, and sometimes those “use what you have” dinners end up being the most satisfying of all.\n\nIf you feel like sharing more—what veggies and herbs made it into your stir-fry tonight? Or was there a moment during the process that stood out to you? I’m here to listen."
+    },
+    {
+      "turn": 16,
+      "timestamp": "2024-06-13T19:22:00",
+      "message_type": "information_sharing",
+      "user": "You’re right—the process itself was the highlight. There’s a certain focus that comes from just working with what’s in front of you, no overthinking, just paying attention to the ingredients and the moment.",
+      "assistant": "You captured something really special there—the way that focusing on the process, rather than the outcome, can turn even a simple dinner into a kind of mindful ritual. There’s a lot to be said for just letting yourself respond to what’s in front of you, without overthinking or second-guessing. Sometimes, those moments of presence—chopping, tasting, adjusting—are more nourishing than the meal itself.\n\nIf you’d like to talk more about what that experience brought up for you, or if there’s something deeper on your mind, I’m here. Whether it’s about cooking, creativity, or anything else, you have my full attention."
+    },
+    {
+      "turn": 17,
+      "timestamp": "2024-06-13T20:28:00",
+      "message_type": "status_update",
+      "user": "Reading 'The Net Delusion' tonight left me with mixed feelings—on one hand, I appreciate Morozov’s skepticism about techno-utopianism, but it’s also a bit unsettling to confront how easily good intentions online can be subverted. I find myself wondering if my own optimism about open internet policy needs a sharper edge of realism.",
+      "assistant": "Thank you for sharing these reflections—both about your reading and your experience in the kitchen. It’s clear you’re approaching these moments with a lot of thoughtfulness and self-awareness.\n\nIt’s completely understandable to feel unsettled after reading Morozov. Grappling with the tension between optimism and realism—especially around something as big as the open internet—can be uncomfortable, but it’s also a sign of genuine engagement. Your willingness to question your own assumptions and consider where your optimism might need “a sharper edge of realism” is a strength, not a weakness. It shows you’re open to complexity, and that’s where real growth and insight happen.\n\nIf you feel up to it, you might try sitting with those mixed feelings for a bit longer. What parts of your optimism feel most challenged right now? Are there specific examples from the book—or from your own experience—where you see good intentions online being subverted? Sometimes, naming those moments can help clarify where your values and your caution intersect.\n\nAnd just as you found a kind of mindful presence in the kitchen—working with what’s on hand, focusing on the process rather than the outcome—maybe there’s a parallel here. Navigating the realities of digital policy might also be about responding thoughtfully to what’s in front of you, adapting as you go, and staying grounded in your core intentions, even as you acknowledge the complexities.\n\nIf you’d like to explore these thoughts further, or just talk through what’s coming up for you, I’m here. Sometimes, reflecting out loud (or in writing) can help bring a bit more clarity and ease to these big questions."
+    },
+    {
+      "turn": 18,
+      "timestamp": "2024-06-13T20:28:00",
+      "message_type": "status_update",
+      "user": "You’re right—the discomfort is probably a sign I’m not just coasting on assumptions. After reading tonight, I actually feel more restored than discouraged; maybe a little realism is exactly what keeps optimism from turning naïve.",
+      "assistant": "That’s such a thoughtful way to look at it—discomfort as a sign you’re not just running on autopilot, but actually engaging with the hard questions. It’s true: a bit of realism doesn’t have to dampen optimism; it can actually make hope more resilient and grounded. The fact that you feel restored after reading, rather than discouraged, says a lot about your openness to complexity and your willingness to let your perspective evolve.\n\nIt’s not easy to hold space for both hope and skepticism, but you’re doing it with a lot of honesty. If you ever want to dig deeper into where your optimism and realism meet—maybe by reflecting on specific moments or policies that have challenged your views—I’m here to listen and help you think it through. Sometimes, just articulating those tensions can lead to new clarity or even a renewed sense of purpose.\n\nKeep exploring these questions at your own pace. You’re doing important inner work, and it’s okay to let your outlook shift as you learn more. If you want to share more about what parts of your optimism feel most tested, or how you’re thinking about balancing hope with realism, I’m always here for you."
+    }
+  ],
+  "conversation_summary": null,
+  "statistics": {
+    "total_turns": 22,
+    "total_user_chars": 6326,
+    "total_assistant_chars": 18588,
+    "avg_user_length": 287.54545454545456,
+    "avg_assistant_length": 844.9090909090909,
+    "time_span": "2024-06-13T07:33:00 to 2024-06-13T20:28:00",
+    "assistant_processing_mode": "truncate"
+  },
+  "metadata": {
+    "total_turns": 22,
+    "message_types_used": [
+      "attachment_consultation",
+      "information_sharing",
+      "status_update"
+    ],
+    "time_span": "07:33 - 20:28",
+    "history_mode": "window",
+    "context_window": null,
+    "assistant_processing": "truncate",
+    "max_assistant_length": 1000,
+    "enable_conversation_summary": false,
+    "generation_model": "gpt-4.1-local",
+    "generated_at": "2025-12-31T19:33:33.589614"
+  }
+}

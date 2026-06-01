@@ -1,0 +1,25 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Alicia Torres <alicia.torres@email.com>
+Subject: Post-Workshop Reflections and Next Steps
+Summary: David follows up with Alicia after the financial literacy teacher training workshop, expressing concern about the event's setbacks, including technical issues, delayed sessions, and participant feedback. He suggests a debrief meeting to discuss lessons learned and strategies for improving future workshops, and requests Alicia's input on contingency planning.
+
+============================================================
+
+Sender: Monica Ellis <monica.ellis@email.com>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Apologies for Missing Dinner
+Summary: Monica writes to David apologizing for having to cancel their celebratory dinner at The Southern Steak & Oyster due to Jasper's sudden illness. She expresses regret for missing the event and offers to reschedule when possible.
+
+============================================================
+
+Sender: Workshop Participants <mailinglist@initiative.org>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Financial Literacy Workshop: Participant Feedback Summary
+Summary: Automated email providing David with a summary of participant feedback collected via forms at the workshop. The email highlights common concerns such as disorganization, lack of digital resources, and the rushed nature of the event, and includes a link to download the full feedback report.
+
+============================================================
+
+Sender: Nashville Convention Center Events <events@nashvillecc.com>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Incident Report: AV Equipment Malfunction
+Summary: The Nashville Convention Center events team sends David an incident report regarding the projector malfunction during the keynote address, apologizing for the inconvenience and outlining steps being taken to prevent future technical issues.

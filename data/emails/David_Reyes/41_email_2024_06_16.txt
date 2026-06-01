@@ -1,0 +1,11 @@
+Sender: Emily Tran <emily.tran@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Missed Feedback Call and Annotation Timeline
+Summary: Emily politely expresses disappointment at David missing the scheduled call for her field annotation feedback. She requests an updated timeline for her annotation input, notes a delay due to his technical issues and asks if there will be further impact to the wildlife archive review.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Oscar <oscar.jimenez@ridgecrestelectronics.com>
+Subject: Urgent: SSD Failure During Photo Archive Migration
+Summary: David reports a recurring disk error and corrupted files with tagged kit fox and Bell’s sparrow images during his wildlife photo archive migration. He urgently requests Oscar's troubleshooting assistance, describes backup script failures, and seeks advice for immediate data recovery.

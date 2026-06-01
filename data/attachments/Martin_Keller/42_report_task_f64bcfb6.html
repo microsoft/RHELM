@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42_report_task_f64bcfb6</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<h1>Raspberry Pi Synchronization Issue Troubleshooting Report</h1>
+<p><strong>Date:</strong> April 30, 2024</p>
+<hr />
+<h2>Issue Summary</h2>
+<p>On the evening of April 30, 2024, a synchronization failure was observed on a Raspberry Pi 4 Model B device. The device was unable to sync data with an external service, which resulted in several noticeable issues: scheduled file updates lagged or were missing entirely, discrepancies appeared in system clock readings, and data exchanges with peer devices became unreliable. These synchronization anomalies were especially concerning since they posed risks to data integrity, disrupted scheduled operations, and threatened functionalities reliant on accurate system time, such as authentication and automated tasks. Given the potential impact on overall system reliability and networked applications, it was essential to identify and resolve the problem promptly.</p>
+<hr />
+<h2>Environment Overview</h2>
+<p><strong>Device:</strong> Raspberry Pi 4 Model B (4GB RAM)<br />
+<strong>Operating System:</strong> Raspberry Pi OS (Bookworm), 64-bit (Kernel 6.1.21-v8+)<br />
+<strong>Firmware:</strong> Bootloader 2024-03-01; VideoCore firmware 2024-03-05</p>
+<p><strong>Network Configuration:</strong><br />
+- Connected via Ethernet to a managed Gigabit Ethernet switch<br />
+- Static IP assigned through DHCP reservation (Unifi Security Gateway as the core router)<br />
+- All network traffic routed over the internal LAN; external synchronization conducted via HTTPS over TCP/IP</p>
+<p><strong>Key Protocols and Services:</strong><br />
+- <strong>NTP</strong> for system clock synchronization<br />
+- <strong>Rsync</strong> (over SSH) for file synchronization<br />
+- <strong>SMB/Samba</strong> for accessing shared remote storage</p>
+<p><strong>External Dependencies:</strong><br />
+- Clock synchronization through pool.ntp.org<br />
+- File syncing to an on-premises NAS (Samba share at 192.168.1.50)<br />
+- Outbound DNS and HTTPS traffic required for synchronization jobs</p>
+<p><strong>Recent Events and Known Constraints:</strong><br />
+- Network maintenance window in the early evening (potentially affecting connectivity)<br />
+- Possible changes to firewall rules on the core gateway<br />
+- No pending OS upgrades; several minor package updates installed within the past week</p>
+<hr />
+<h2>Chronological Troubleshooting Steps</h2>
+<p>The troubleshooting process followed a clear and systematic path to isolate and resolve the issue. Key actions are summarized below:</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Step Description</th>
+<th>Tools/Commands Used</th>
+<th>Observation/Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19:55</td>
+<td>Noted synchronization failures in job logs</td>
+<td><code>journalctl</code>, review of cron logs</td>
+<td>Scheduled data updates had not occurred as planned</td>
+</tr>
+<tr>
+<td>20:00</td>
+<td>Checked current system time and accuracy</td>
+<td><code>timedatectl</code></td>
+<td>System clock was approximately 3 minutes behind NTP servers</td>
+</tr>
+<tr>
+<td>20:05</td>
+<td>Attempted manual NTP synchronization</td>
+<td><code>sudo ntpdate pool.ntp.org</code></td>
+<td>Error: “No server suitable for synchronization found”</td>
+</tr>
+<tr>
+<td>20:10</td>
+<td>Reviewed status of NTP service</td>
+<td><code>systemctl status systemd-timesyncd</code></td>
+<td>Service was inactive; reported failure to start</td>
+</tr>
+<tr>
+<td>20:15</td>
+<td>Examined firewall/gateway settings</td>
+<td>USG Controller interface, <code>ufw status</code></td>
+<td>Recent firewall changes found; outbound NTP traffic blocked</td>
+</tr>
+<tr>
+<td>20:20</td>
+<td>Checked network interface and link integrity</td>
+<td><code>ifconfig</code>, <code>ethtool eth0</code></td>
+<td>Network interface healthy, no physical errors</td>
+</tr>
+<tr>
+<td>20:25</td>
+<td>Verified file sync connectivity (rsync/SMB)</td>
+<td><code>rsync</code>, <code>smbclient</code></td>
+<td>Connections timed out; device could not communicate with NAS</td>
+</tr>
+<tr>
+<td>20:30</td>
+<td>Confirmed NAS device was operational</td>
+<td>NAS Web UI, <code>ping</code></td>
+<td>NAS online and accessible from other clients</td>
+</tr>
+<tr>
+<td>20:35</td>
+<td>Restored original firewall settings to allow traffic</td>
+<td>USG Controller</td>
+<td>Outbound NTP and SMB/SSH traffic permitted again</td>
+</tr>
+<tr>
+<td>20:40</td>
+<td>Restarted NTP services and performed manual sync</td>
+<td><code>systemctl restart systemd-timesyncd</code>, <code>ntpq -p</code></td>
+<td>NTP re-synchronized successfully; clock offset &lt;0.1s</td>
+</tr>
+<tr>
+<td>20:42</td>
+<td>Reinitiated file sync process</td>
+<td><code>systemctl restart syncd</code></td>
+<td>File synchronization completed without error</td>
+</tr>
+<tr>
+<td>20:45</td>
+<td>Monitored logs for residual errors</td>
+<td><code>journalctl</code>, rsync and NTP logs</td>
+<td>All services operating normally; no further sync errors</td>
+</tr>
+</tbody>
+</table>
+<h3>Additional Details and Observations</h3>
+<p>During diagnostic efforts, several specific errors and messages were noted, all of which converged on the same root cause:</p>
+<table>
+<thead>
+<tr>
+<th>Error Message</th>
+<th>Where Observed</th>
+<th>Technical Implication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“No server suitable for synchronization found”</td>
+<td><code>ntpdate pool.ntp.org</code></td>
+<td>NTP packets unable to reach the server (possible block)</td>
+</tr>
+<tr>
+<td>“systemd-timesyncd.service: Failed with result 'exit'”</td>
+<td><code>systemctl status systemd-timesyncd</code></td>
+<td>NTP daemon unable to start (connectivity failure)</td>
+</tr>
+<tr>
+<td>“Connection timed out”</td>
+<td><code>rsync</code> and <code>smbclient</code> attempts</td>
+<td>File sync cannot complete; network traffic interrupted</td>
+</tr>
+<tr>
+<td>Firewall logs: Outbound NTP, SMB traffic dropped</td>
+<td>USG event log</td>
+<td>Firewall rules blocking critical sync protocol ports</td>
+</tr>
+<tr>
+<td>System clock offset (~3 min behind)</td>
+<td><code>timedatectl</code></td>
+<td>Breaks time-dependent operations and authentication</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Analysis and Resolution</h2>
+<p>After confirming the system time was drifting and that both NTP and file synchronization attempts failed, attention turned to potential network-layer disruptions. Reviewing firewall settings on the Unifi Security Gateway revealed that a newly implemented rule—introduced during a routine maintenance event—had inadvertently blocked outbound UDP traffic on port 123 (used by NTP) as well as TCP/UDP ports 445 and SSH-related ports, essential for SMB and rsync/SCP protocols.</p>
+<p>Restoring the firewall’s previous configuration immediately resolved the connectivity problems. NTP synchronization succeeded, correcting the device's system clock within acceptable thresholds. File synchronization with the NAS resumed, and system logs confirmed that all scheduled jobs completed as expected in subsequent monitoring.</p>
+<p>There was no evidence of lower-layer physical connectivity issues, nor was there any indication of operating system or hardware faults. The issue was isolated to the misconfiguration at the firewall/gateway layer.</p>
+<hr />
+<h2>Root Cause</h2>
+<p>The complete sync outage was traced to firewall policy changes made during a network maintenance window. Port blocks disrupted outbound traffic for NTP and file transfer protocols, causing both time and file synchronization failures. Once these restrictions were lifted and normal traffic was restored, all affected processes recovered without further manual intervention.</p>
+<hr />
+<h2>Next Steps and Recommendations</h2>
+<p>To prevent a recurrence and strengthen operational resilience, several immediate and long-term actions will be taken:</p>
+<ul>
+<li><strong>Ongoing Monitoring:</strong> Daily review of synchronization logs and setup of automated email alerts covering time drift, service failures, or sync job interruptions.</li>
+<li><strong>Change Management:</strong> Thorough documentation of all firewall modifications and maintaining an auditable change log to track network policy updates.</li>
+<li><strong>Network Health Checks:</strong> Implementation of automated network tests to verify continuous allowance of NTP and SMB/rsync protocols from critical devices, with instant notifications on failure.</li>
+<li><strong>Periodic Rule Review:</strong> Regular collaboration with IT to assess egress firewall rules and ensure compatibility with synchronization requirements.</li>
+<li><strong>Reference Documentation:</strong> Update internal device and OS specification files to explicitly outline necessary network protocol access—providing a resource for future deployments or troubleshooting.</li>
+<li><strong>Incident Review:</strong> Testing of other devices operating behind the same gateway to ensure no latent misconfigurations persist elsewhere.</li>
+<li><strong>Response Checklist:</strong> Development of a concise troubleshooting checklist – including typical symptom patterns, diagnostic commands, and standard resolution steps – for use in future incidents and to support compliance with internal operational standards.</li>
+</ul>
+<p>Additional troubleshooting guides and best practices are available in the official Raspberry Pi <a href="https://www.raspberrypi.com/documentation/computers/">device documentation</a>, the <a href="https://www.raspberrypi.com/documentation/computers/linux.html">Raspberry Pi OS administration manual</a>, and community Linux resources such as <a href="https://wiki.archlinux.org/title/Network_Time_Protocol_daemon_(ntpd)">NTP troubleshooting</a> and <a href="https://wiki.debian.org/DebianFirewall">firewall diagnostics</a>.</p>
+<hr />
+<h2>References</h2>
+<ol>
+<li><a href="https://www.raspberrypi.com/documentation/computers/">Raspberry Pi Documentation – Computers</a></li>
+<li><a href="https://www.raspberrypi.com/documentation/computers/linux.html">Raspberry Pi OS Linux Documentation</a></li>
+<li><a href="https://wiki.archlinux.org/title/Network_Time_Protocol_daemon_(ntpd)">Arch Linux NTPd Troubleshooting</a></li>
+<li><a href="https://wiki.debian.org/DebianFirewall">Debian Firewall Wiki</a></li>
+</ol>
+<hr />
+<p><strong>Conclusion:</strong><br />
+This incident highlights the importance of coordinated network change management and the necessity for comprehensive monitoring of critical infrastructure services. By quickly tracing the issue to a firewall configuration and implementing preventive strategies, the risk of repeat occurrences is minimized, preserving both data integrity and operational reliability across Raspberry Pi deployments.</p>
+</body>
+</html>

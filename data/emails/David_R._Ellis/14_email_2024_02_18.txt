@@ -1,0 +1,11 @@
+Sender: Dr. Samuel Greene <samuel.greene@university.edu>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Rescheduling Our Mentorship Call
+Summary: Dr. Greene informs David that their scheduled mentorship call for February 18, 2024, must be postponed due to a family emergency. The email proposes alternative dates and times for rescheduling and expresses apologies for the inconvenience.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Community Education Board <board@communityed.org>
+Subject: Unable to Attend Board Meeting In-Person
+Summary: David notifies the Community Education Board that he is unable to attend the February 18, 2024, meeting in person due to an injury. He requests to join remotely and asks for any necessary dial-in details or meeting materials.

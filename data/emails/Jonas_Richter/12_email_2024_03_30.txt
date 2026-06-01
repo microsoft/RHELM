@@ -1,0 +1,18 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Berlin School Administrators <admin@berlinschools.de>
+Subject: Finalized Proposal: Privacy Education Initiative
+Summary: Jonas sends the finalized privacy education initiative proposal to Berlin school administrators, incorporating feedback from Leila Haddad and referencing Dr. Emil Weber’s latest policy brief. Leila is cc’d for visibility. The email outlines key updates, attaches the proposal document, and invites further questions or feedback.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Follow-up: EU Digital Sovereignty Insights
+Summary: Jonas follows up after a phone call with Dr. Weber, summarizing key insights discussed regarding the EU’s evolving digital sovereignty agenda. He thanks Dr. Weber for his input, mentions how these ideas may inform future advocacy, and asks for any recommended readings or contacts.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Re: Query on UI Changes – Open-Source Encryption Project
+Summary: Jonas responds to Dr. Nowak’s query regarding recent UI changes in the open-source encryption project. He provides a detailed explanation, references updated documentation, and encourages further questions. Dr. Nowak replies with appreciation, noting the clarity and community support.

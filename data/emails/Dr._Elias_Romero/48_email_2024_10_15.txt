@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Ingrid Keller <ingrid.keller@eupha.org>
+Subject: Follow-up on Data Harmonization Discussion at Lisbon Congress
+Summary: Elias thanks Dr. Keller for her insightful question during his presentation at the Lisbon Congress Center. He summarizes his response regarding data harmonization in cross-European food environment studies, attaches relevant supplementary materials, and proposes a follow-up virtual meeting to explore collaborative approaches. He also references the lively discussion involving Italian and Swedish delegates.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Mikko Laaksonen <mikko.laaksonen@helsinki.fi>
+Subject: Potential Collaboration on Digital Health App Development
+Summary: Elias follows up with the Finnish researcher he met during the digital health tools panel. He recaps their conversation about the Barcelona pilot and Carla’s public health coffee event, shares preliminary feedback and technical documentation, and suggests scheduling a call to discuss joint development of digital mapping tools for public health applications.

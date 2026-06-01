@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14_report_task_1ca83cd3</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<h1>Sensor Project Quality Assurance Review – Meeting Minutes</h1>
+<h2>Meeting Details</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Meeting Title</strong></th>
+<th>Sensor Project Quality Assurance Review</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Date</strong></td>
+<td>2024-02-02</td>
+</tr>
+<tr>
+<td><strong>Time</strong></td>
+<td>13:30 CET</td>
+</tr>
+<tr>
+<td><strong>Location</strong></td>
+<td>Video Conference</td>
+</tr>
+<tr>
+<td><strong>Convened By</strong></td>
+<td>QA Lead (TBD) / Project Manager (TBD)</td>
+</tr>
+</tbody>
+</table>
+<h3>Participants</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Martin Keller</td>
+<td>Embedded Systems Software Developer</td>
+</tr>
+<tr>
+<td>Julia Schneider</td>
+<td>Systems Engineer</td>
+</tr>
+<tr>
+<td>Mehmet Yilmaz</td>
+<td>Firmware QA Analyst</td>
+</tr>
+</tbody>
+</table>
+<h3>Agenda</h3>
+<ol>
+<li>Introduction and Objectives  </li>
+<li>Review of System and Circuit Diagrams  </li>
+<li>Firmware Bug Reports and Discussion  </li>
+<li>Developer Commitments and Patch Planning  </li>
+<li>Quality Assurance Process Review  </li>
+<li>Action Items and Next Steps  </li>
+</ol>
+<hr />
+<h2>Discussion Summary</h2>
+<h3>1. System and Circuit Diagrams – Feedback by Julia Schneider</h3>
+<p>Julia began by reviewing the latest system and circuit diagrams. Although the formal version of the diagram was not referenced during the meeting, Julia highlighted the necessity of clearly versioned documentation. She noted specific inconsistencies in power rail labeling between the system overview and the detailed schematic, warning of potential confusion during maintenance and assembly if left unaddressed.</p>
+<p>Additionally, Julia pointed out signal integrity concerns at the analog-to-digital interface points. She recommended a thorough review to ensure compliance with IEC 60601-1 requirements on electromagnetic compatibility. She emphasized the importance of maintaining separate ground planes and adequate shielding, both considered best practices in embedded systems design.</p>
+<p>Julia also requested the addition of test points on the microcontroller-side interfaces. Such test points will make in-circuit debugging more efficient and reinforce design for testability. The group agreed that DFT improvements will reduce troubleshooting time and support future manufacturing test efforts.</p>
+<p>An incomplete component legend in the schematic was also flagged. Julia asked for an updated and comprehensive legend to be added to the documentation. Ensuring all files—including design diagrams, schematics, and supporting documentation—are tracked in a version-controlled, shared repository remains a key priority. Regular, recorded updates will prevent version drift and ensure all team members are working from the latest specifications.</p>
+<p><strong>Action Follow-ups:</strong><br />
+- Identify and apply explicit versioning to all system and circuit diagrams<br />
+- Complete and distribute the updated component legend<br />
+- Add microcontroller-side test points as suggested  </p>
+<h3>2. Firmware Bug Report – Presented by Mehmet Yilmaz</h3>
+<p>Mehmet presented recent findings from firmware testing. The most critical issue observed has been the intermittent failures in the sensor polling routine, which tend to appear after several hours of system operation. While the precise logs were not available at this meeting, Mehmet committed to supplying detailed logs and trace files by 2024-02-05 for further analysis. The team discussed potential causes, with suspicion falling on timing irregularities or resource conflicts after extended uptime.</p>
+<p>Mehmet further described recurring SPI bus timeout errors at elevated ambient temperatures, specifically above 50°C. He hypothesized that these could be the result of protocol misalignment, possibly due to timing deviations exacerbated by hardware performance changes in high-heat conditions. To support this analysis, additional hardware-in-the-loop testing will be conducted.</p>
+<p>A possible memory leak within the Interrupt Service Routine (ISR) was also referenced. This issue was first indicated by results from automated static analysis, which flagged resource mismanagement patterns. Although specific error codes were not detailed during the meeting, Mehmet will consolidate findings and provide a full static analysis report and tickets via JIRA (project SensorQA). The team agreed to strengthen the integration of continuous static analysis into the CI workflow going forward.</p>
+<p><strong>Key Points:</strong><br />
+- All issues are actively tracked in the SensorQA JIRA project<br />
+- Logs and full bug trace data to be provided for collaborative troubleshooting<br />
+- Emphasis placed on improving defect traceability and ensuring robust continuous integration practices  </p>
+<h3>3. Developer Commitments and Patch Planning – Reported by Martin Keller</h3>
+<p>Martin outlined his commitments in response to the QA findings and feedback. He will revise the sensor polling logic, focusing extra attention on robust exception handling and edge-case management to prevent further intermittent failures.</p>
+<p>To address SPI bus timeouts, Martin will recalibrate the peripheral's configuration, aligning timing parameters with revised requirements established through high-temperature testing. He noted that updated results from HIL testing will inform final adjustments.</p>
+<p>Furthermore, Martin will initiate a static code analysis process in line with MISRA C compliance guidelines. This integration will be part of the pre-patch pipeline, planned to commence by 2024-02-06. Martin confirmed all code changes will undergo a thorough peer review and regression test cycle.</p>
+<p>The team referred to the Sensor QA Test Plan (version 2.5) as the framework for validation, but Martin and the QA lead agreed to verify the test plan’s latest version and update as needed. Martin reiterated his commitment to rigorous unit testing, peer reviews, traceability of all code changes, and a consistent, incremental delivery approach to enable ongoing QA validation.</p>
+<p><strong>Action Follow-ups:</strong><br />
+- Initiate and document updates to the polling routine and SPI configuration<br />
+- Complete static analysis onboarding for all firmware changes<br />
+- Ensure regression tests and code reviews are linked to each commit via feature and bug-fix traceability  </p>
+<hr />
+<h2>Action Items</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Task Description</strong></th>
+<th><strong>Owner</strong></th>
+<th><strong>Deadline</strong></th>
+<th><strong>Notes/Dependencies</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Update and distribute versioned system/circuit diagrams</td>
+<td>Julia Schneider</td>
+<td>2024-02-09</td>
+<td>Ensure legend is completed, version flagged</td>
+</tr>
+<tr>
+<td>Supply full error logs and trace files for bug analysis</td>
+<td>Mehmet Yilmaz</td>
+<td>2024-02-05</td>
+<td>Access hardware and CI logs</td>
+</tr>
+<tr>
+<td>Patch sensor polling and SPI routines, peer review submit</td>
+<td>Martin Keller</td>
+<td>2024-02-12</td>
+<td>QA to provide coding standard references</td>
+</tr>
+<tr>
+<td>Clarify and update Sensor QA Test Plan versioning</td>
+<td>QA Lead</td>
+<td>2024-02-08</td>
+<td>Owner to verify and confirm the latest version</td>
+</tr>
+<tr>
+<td>Add completed legend and component documentation</td>
+<td>Julia Schneider</td>
+<td>2024-02-09</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Next Steps and Quality Assurance Improvements</h2>
+<p>The team agreed on several steps to improve both the technical and procedural aspects of the project’s QA process:</p>
+<ul>
+<li>
+<p><strong>Finalize Root Cause Analyses:</strong><br />
+  Mehmet and Martin will complete the review of incident and trace logs for firmware issues by 2024-02-05, ensuring all critical failures are comprehensively analyzed and properly documented.</p>
+</li>
+<li>
+<p><strong>Implement and Validate Corrective Fixes:</strong><br />
+  Martin is responsible for delivering code patches as committed, integrating static analysis tools, and running peer reviews for all significant changes. All updates will be regression-tested per the updated Sensor QA Test Plan.</p>
+</li>
+<li>
+<p><strong>Expand Regression Test Coverage:</strong><br />
+  The QA team will prepare and rollout extended test cases that specifically address high temperature operation, SPI bus faults, and ISR memory management issues. Comprehensive validation scripts will be released to support these tests.</p>
+</li>
+<li>
+<p><strong>Enhance Documentation and Version Control:</strong><br />
+  Julia will formalize procedures for schematic and documentation updates, ensuring all technical files are version-controlled and readily accessible to the team by 2024-02-07.</p>
+</li>
+<li>
+<p><strong>Audit Quality Assurance Practices:</strong><br />
+  The team will review compliance with current QA protocols, including code peer reviews, adherence to static analysis, and test-driven development (TDD). The QA Lead will prepare a checklist for the next session to further align workflows with recognized industry standards.</p>
+</li>
+</ul>
+<p>The next QA review meeting has been scheduled for 2024-02-16. The agenda will focus on progress tracking, validation of pending fixes, and discussion of process improvements.</p>
+<hr />
+<h2>Documentation Sign-Off</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Prepared By</strong></th>
+<th><strong>Reviewed By</strong></th>
+<th><strong>Approved By</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[TBD]</td>
+<td>[TBD]</td>
+<td>[TBD]</td>
+</tr>
+<tr>
+<td><em>(Signature/Date)</em></td>
+<td><em>(Signature/Date)</em></td>
+<td><em>(Signature/Date)</em></td>
+</tr>
+</tbody>
+</table>
+<h3>Document Review Cycle</h3>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>Status/Comments</th>
+<th>Reviewer(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>2024-02-02</td>
+<td>Initial draft</td>
+<td>[TBD]</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Revisions as needed</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> Several items remain open for follow-up, including final approval of documentation versions, coding standards, and error log verification. All pending issues are recorded for action in alignment with embedded systems QA methodologies.</p>
+<hr />
+<h2>References</h2>
+<ol>
+<li>Sensor Project QA Review Meeting Minutes Research Findings: [Internal Document]</li>
+<li>IEC 60601-1: Medical Electrical Equipment – General Requirements for Basic Safety and Essential Performance: https://www.iec.ch/standards/iec60601-1</li>
+<li>MISRA C: Guidelines for the Use of the C Language in Critical Systems: https://www.misra.org.uk/</li>
+<li>JIRA Project Management Tool: https://www.atlassian.com/software/jira</li>
+</ol>
+<hr />
+<p><em>This document is intended to support technical oversight, provide clear accountability, and document progress as part of the Sensor Project's ongoing commitment to quality and industry best practices.</em></p>
+</body>
+</html>

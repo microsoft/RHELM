@@ -1,0 +1,147 @@
+{
+  "character": "Dr._Elena_Markovic",
+  "date": "2024-09-06",
+  "profile_file": "outputs/profiles/Dr._Elena_Markovic/61_after_event_2024_09_06.json",
+  "event_file": "outputs/plans/Dr._Elena_Markovic/61_resolution_2024_09_06.json",
+  "conversation": [
+    {
+      "turn": 1,
+      "timestamp": "2024-09-06T08:24:00",
+      "message_type": "status_update",
+      "user": "I started my morning yoga as usual, but a sharp pain shot through my right wrist during a modified plank—completely unexpected and honestly, pretty frustrating. I had to stop and ice it, and now I’m wondering if I’ve been pushing too hard or just ignoring some warning signs.",
+      "assistant": "Thank you for sharing how your morning went—it sounds like it was both surprising and tough to deal with that pain, especially when you were just trying to start your day with something positive. It’s completely understandable to feel frustrated when your body doesn’t cooperate the way you expect.\n\nIt’s really insightful that you’re already reflecting on whether you might have been pushing too hard or missing some warning signs. Sometimes our bodies try to tell us things before we’re fully aware, and it can be hard to notice until something like this happens.\n\nHow are you feeling now, both physically and emotionally? If you’d like, we can talk more about what led up to this or explore ways to adjust your routine so you can keep enjoying yoga safely. Remember, it’s okay to take a step back and listen to what your body needs."
+    },
+    {
+      "turn": 2,
+      "timestamp": "2024-09-06T08:24:00",
+      "message_type": "status_update",
+      "user": "Physically, the pain is still lingering, and I’m honestly a bit annoyed—this wasn’t how I wanted to start my day. Given that it happened so suddenly, do you think I should avoid any weight-bearing movements for now, or is there a smarter way to approach this?",
+      "assistant": "Thank you for being so open about how you’re feeling right now. It’s completely valid to feel annoyed—especially when pain interrupts something that’s usually grounding and positive for you. That sudden pain is your body’s way of asking for a pause, and it’s wise that you’re considering how to move forward.\n\nFor now, it’s usually best to avoid weight-bearing movements on your wrist until you have a clearer sense of what’s going on. Giving yourself a little time to rest and continuing with ice can help reduce any inflammation. If the pain lingers or gets worse, it might be worth checking in with a healthcare professional just to be safe.\n\nIn the meantime, you might explore gentle, non-weight-bearing stretches or focus on other areas of your practice—like breathwork or lower-body movements—so you can still enjoy some of the benefits of yoga without putting stress on your wrist.\n\nIt’s great that you’re reflecting on your approach and listening to your body. Sometimes these moments, while frustrating, can be an opportunity to learn more about what you need and how to care for yourself. If you want to talk more about what led up to this or how you’re feeling emotionally, I’m here to listen. What’s coming up for you as you sit with this experience?"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2024-09-06T09:19:00",
+      "message_type": "information_sharing",
+      "user": "After icing my wrist, I barely had time to throw together a quick breakfast—definitely not my usual pace. Leaving the apartment later than planned already had me feeling behind before I even got out the door.",
+      "assistant": "It sounds like your morning kept piling on challenges after that initial pain—having to rush breakfast and leave late can really add to the stress, especially when you’re already feeling off physically. It’s completely understandable to feel behind and a bit out of sorts after a start like that.\n\nHow’s your wrist feeling now after icing it and getting moving? And how are you holding up emotionally as the day gets going? If you want to talk more about what’s on your mind or need help figuring out how to adjust your routine (or just need a little encouragement), I’m here for you. Sometimes just sharing what’s going on can help lighten the load a bit."
+    },
+    {
+      "turn": 4,
+      "timestamp": "2024-09-06T09:19:00",
+      "message_type": "information_sharing",
+      "user": "Honestly, rushing through breakfast and leaving late just set the wrong tone for my morning. Any quick strategies for regaining focus when the day starts off this way?",
+      "assistant": "Thank you for sharing how your morning has been—it really does sound like a lot to handle all at once. When the day starts off rushed and out of sync, it’s easy to feel scattered or behind. The good news is, there are a few quick strategies you can use to help reset and regain your focus, even when things haven’t gone as planned:\n\n**1. Take a 2-Minute Pause:**  \nFind a quiet spot (even if it’s just at your desk or in the restroom), close your eyes, and take a few slow, deep breaths. Inhale for a count of four, hold for four, exhale for four. This can help calm your nervous system and signal to your brain that it’s okay to reset.\n\n**2. Do a Quick “Mind Dump”:**  \nJot down everything that’s swirling in your mind—tasks, worries, reminders—on a piece of paper or your phone. Getting it out of your head can help you feel less overwhelmed and more in control.\n\n**3. Set a Mini-Intention:**  \nAsk yourself, “What’s one thing I can focus on right now?” It could be as simple as, “I’ll give my full attention to the next task for 10 minutes.” This helps break the cycle of feeling behind and brings you back to the present.\n\n**4. Move Your Body (Gently):**  \nIf your wrist allows, try a gentle stretch or a short walk—even just around your space. Physical movement, even for a minute or two, can help shake off that rushed feeling.\n\n**5. Be Kind to Yourself:**  \nRemind yourself that a rough start doesn’t have to define your whole day. It’s okay to have off moments—what matters is how you respond and care for yourself moving forward.\n\nIf you’d like, I can help you brainstorm a quick plan for the rest of your morning or offer more specific grounding exercises. You’ve already shown a lot of resilience by noticing how you feel and reaching out for support. You’ve got this, even if the day didn’t start perfectly."
+    },
+    {
+      "turn": 5,
+      "timestamp": "2024-09-06T09:47:00",
+      "message_type": "information_sharing",
+      "user": "Just as I was finally heading out this morning, I found my bike with a completely flat tire outside the apartment—no warning, just flat. With the clock ticking, I had to scramble for a taxi instead, which definitely wasn’t how I’d planned to start my commute.",
+      "assistant": "Wow, that’s a lot to deal with in one morning—first your wrist, then a rushed breakfast, and now a flat tire on top of it all. It’s completely understandable if you’re feeling thrown off or frustrated right now. When unexpected things keep piling up, it can feel like the day is determined to test your patience.\n\nYou handled it really well by finding a taxi and still making your way out, even if it wasn’t how you planned. Sometimes just getting through those first hurdles is an accomplishment in itself.\n\nIf you want to talk more about how you’re feeling or need help figuring out how to reset after such a rough start, I’m here for you. Would it help to brainstorm some ways to get back on track, or do you just need a space to vent for a bit? Either way, you’re not alone in this."
+    },
+    {
+      "turn": 6,
+      "timestamp": "2024-09-06T09:47:00",
+      "message_type": "information_sharing",
+      "user": "Honestly, it just felt like one thing after another this morning—by the time I got in that taxi, I was already mentally recalibrating my whole day. Any quick tips for shaking off that “everything’s off” feeling so I can get back to baseline?",
+      "assistant": "You’ve really been hit with a cascade of curveballs this morning—it’s no wonder you’re feeling off. When everything seems to go sideways before the day even really begins, it can be tough to shake that “off-kilter” feeling. Here are a few quick, practical tips to help you reset and get back to baseline, even in the middle of a hectic day:\n\n**1. Ground Yourself Physically (30 seconds):**  \nPlant your feet flat on the floor, sit up straight, and take three slow, deep breaths. As you exhale, consciously relax your shoulders and jaw. This tiny pause can help signal to your body that you’re safe and can start fresh.\n\n**2. Name What’s Happening (1 minute):**  \nSilently acknowledge, “This morning was rough, but it doesn’t have to define my whole day.” Sometimes just naming the chaos helps you mentally draw a line under it.\n\n**3. Choose One Small Win:**  \nPick one thing you can do in the next 10 minutes that’s achievable—maybe answering a single email, making a cup of tea, or just organizing your bag. Completing a small task can help you regain a sense of control and momentum.\n\n**4. Give Yourself Permission to Start Over:**  \nRemind yourself that it’s okay to hit the mental reset button, even if it’s mid-morning. You don’t have to wait for a “perfect” moment to reclaim your day.\n\nIf you have a couple of minutes, you could also try a quick breathing exercise or listen to a favorite song—anything that helps you reconnect with yourself, even briefly.\n\nYou’ve already shown a lot of resilience just by adapting and getting out the door. However the rest of the day unfolds, you can keep coming back to these little resets as often as you need. If you want to talk more or need a few more ideas, I’m here for you!"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2024-09-06T15:35:00",
+      "message_type": "status_update",
+      "user": "Honestly, walking into that meeting late with Marcus already deep into the documentation review just threw me off completely. I hate feeling behind, and with my wrist aching, it was almost impossible to focus—I kept second-guessing every comment I made.",
+      "assistant": "Thank you for sharing so openly about how that meeting went for you. It sounds like you were already carrying a lot from the morning, and then walking in late—especially with Marcus already deep into the review—just added to the pressure. It’s completely understandable to feel thrown off and to second-guess yourself in that situation, especially when you’re also dealing with physical discomfort from your wrist.\n\nIt takes a lot of self-awareness to notice how these factors are affecting your focus and confidence. Even though it felt tough, you still showed up and contributed, which is something to acknowledge. Sometimes, just being present and participating—despite feeling behind or distracted—is a real accomplishment.\n\nIf you want, we can talk through what specifically made you second-guess your comments, or explore ways to support your focus and confidence in similar situations going forward. And if you just need to process how it felt, that’s completely valid too. You’re doing your best in a challenging moment, and it’s okay to give yourself some credit for that.\n\nWould you like to reflect more on what threw you off, or would it help to brainstorm some gentle ways to reset after moments like this? I’m here for whatever you need."
+    },
+    {
+      "turn": 8,
+      "timestamp": "2024-09-06T15:35:00",
+      "message_type": "status_update",
+      "user": "Honestly, I just hate that feeling of being on the back foot, especially when I know I’m not at my sharpest. Any quick strategies for regaining focus in the middle of a meeting like that?",
+      "assistant": "Thank you for being so honest about how that meeting felt. It’s completely understandable to feel off-balance when you walk in late, especially with someone like Marcus already in full swing and your wrist acting up on top of it all. That kind of situation can make anyone second-guess themselves, even when they know their stuff.\n\nIt’s actually a sign of strength that you’re reflecting on this and looking for ways to regain your footing in the moment. If you ever want to talk through what specifically made you doubt your comments, I’m here to help unpack that with you—sometimes just naming those thoughts can take away some of their power.\n\nAnd if you’re open to it, we can brainstorm a few quick strategies for regaining focus when you find yourself on the back foot in a meeting. But just as important, it’s okay to acknowledge that some days are just harder than others, and showing up—despite everything—is something to be proud of.\n\nIf you want to keep exploring how you felt or what you might try next time, I’m here to listen and support you. What’s coming up for you now as you think back on that meeting?"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2024-09-06T17:13:00",
+      "message_type": "advice_seeking",
+      "user": "The orienteering app kept crashing and the GPS drift wiped out all my field notes, so I could only submit a partial report. What’s the most efficient way to reconstruct lost feedback for the developers, given I don’t have time to repeat the whole test?",
+      "assistant": "I hear you—losing your field notes to app crashes and GPS drift is incredibly frustrating, especially when you’re under time pressure and can’t just redo the whole test. Your feedback is still valuable to the developers, even if it’s partial. Let’s think through how to reconstruct what you lost as efficiently as possible, so your insights don’t go to waste and the devs get actionable information.\n\n**Here’s a framework you can use:**\n\n1. **Anchor to What You Remember**\n   - Jot down the key moments or issues you *do* recall, even if they’re out of order or incomplete. Don’t worry about polish—just get the fragments down.\n   - Think about the “pain points” you noticed: Where did the app crash? When did GPS drift become obvious? What features were you using at the time?\n\n2. **Leverage Any Remaining Data**\n   - Do you have screenshots, partial logs, or even timestamps from your phone or smartwatch? Sometimes, even a photo of your surroundings or a calendar entry can jog your memory about what you were doing at a given time.\n   - If the app generated any crash reports or error messages, try to retrieve those (even from your device’s system logs, if possible).\n\n3. **Reconstruct the Sequence**\n   - Use your memory, device history, and any remaining artifacts to sketch a rough timeline:  \n     - Start: What was your initial goal or route?  \n     - Middle: When did things start to go wrong?  \n     - End: What was the last thing you remember before the data loss?\n   - Even a bulleted list is helpful for developers.\n\n4. **Summarize Key Issues and Hypotheses**\n   - For each problem (crash, GPS drift, lost notes), write a 1-2 sentence summary:  \n     - What happened?  \n     - What do you *think* might have caused it? (e.g., “App crashed after switching between map layers while recording a waypoint.”)\n   - If you noticed any patterns (e.g., crashes only when offline, or GPS drift near certain terrain), mention those.\n\n5. **Flag What’s Missing**\n   - Be upfront about what you *can’t* reconstruct. Developers appreciate knowing the limits of your feedback—it helps them triage and prioritize.\n\n**Optional: Use a Template**\nIf you want to save time, you can use a simple template like this:\n\n- **Test Date/Time:**  \n- **Device/OS/App Version:**  \n- **Intended Test Route/Scenario:**  \n- **Observed Issues:**  \n  - [Issue 1: Description, when it happened, any context]\n  - [Issue 2: ...]\n- **Partial Data/Artifacts:**  \n  - [Screenshots, logs, etc.]\n- **What’s Missing:**  \n  - [Notes lost, steps not retraced, etc.]\n- **Suggestions/Hypotheses:**  \n  - [Any ideas about causes or fixes]\n\n---\n\n**A couple of clarifying questions to help tailor this further:**\n- Do you have any partial data left (e.g., auto-saved drafts, device logs, or even memory of specific locations/times)?\n- Are the developers looking for detailed bug reports, or more general user experience feedback?\n- Is there a specific deadline or format you need to meet?\n\nLet me know what you have to work with, and I can help you draft a concise, high-impact report—or even help you prioritize which issues to highlight if you’re really pressed for time."
+    },
+    {
+      "turn": 10,
+      "timestamp": "2024-09-06T17:13:00",
+      "message_type": "advice_seeking",
+      "user": "That makes sense—I'll jot down the main failure points I remember and see if I can pull any timestamps from my phone. Is it worth flagging the GPS drift separately from the crashes, or should I just bundle everything as one report?",
+      "assistant": "Great question—flagging GPS drift separately from app crashes can actually be very helpful for the developers, but it depends a bit on how the issues presented and what the dev team is likely to need.\n\n**Here’s why it can matter:**\n- **Crashes** are usually caused by bugs in the code, memory issues, or unhandled exceptions. These are often high-priority because they stop users in their tracks.\n- **GPS drift** is more about data accuracy and reliability, which could be a hardware, OS, or algorithm issue. It might not crash the app, but it can undermine trust in the results.\n\n**Bundling everything together** can make your report feel more concise, but it risks blurring the lines between different types of problems. If the devs have to untangle which feedback relates to stability versus data integrity, it could slow down their triage.\n\n**A good compromise:**  \n- **Submit a single report, but use clear subheadings or bullet points** to separate “Crashes” from “GPS Drift.”  \n- For each, include:\n    - What you were doing when the issue happened\n    - Any patterns you noticed (e.g., “GPS drift seemed worse after resuming from background”)\n    - Timestamps or rough time windows, if possible\n\n**Example structure:**\n```\n1. App Crashes\n   - [Description, steps, timestamps]\n2. GPS Drift\n   - [Description, impact, any patterns, timestamps]\n```\n\n**A few clarifying questions to help tailor your report:**\n- Did the GPS drift and crashes ever happen at the same time, or were they separate events?\n- Was the GPS drift persistent, or did it come and go?\n- Do you have any screenshots or logs that show the drift or crash messages?\n\nIf you can answer those, I can help you draft a template or checklist for your report. Let me know what you think, and if you want to dig deeper into how to phrase things for maximum clarity!"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2024-09-06T19:49:00",
+      "message_type": "status_update",
+      "user": "Honestly, the video call with my parents just left me frustrated—between the lag and dropped connections, it felt like we barely managed a real conversation. I really value those check-ins, but tonight it just felt like another thing that didn’t go right, and I’m not sure how to shake off that sense of disconnection.",
+      "assistant": "Thank you for sharing how you’re feeling after the call. It’s completely understandable to feel frustrated and disconnected when something you value—like your check-ins with your parents—gets derailed by tech issues. Those moments are supposed to be grounding, and when they don’t go as planned, it can leave you feeling even more out of sync.\n\nIt’s okay to sit with that disappointment for a bit. Sometimes, just naming the feeling (like you’ve done here) is the first step to moving through it. If it helps, maybe you could send a quick message to your parents letting them know you missed the connection and look forward to trying again soon. Even a small gesture like that can help bridge the gap until your next call.\n\nAnd if you want, we can brainstorm some ways to make future calls a little smoother—whether that’s troubleshooting the tech, setting up a backup plan, or even just having a shared “plan B” (like switching to a phone call if video fails). But for now, be gentle with yourself. It’s okay to feel let down, especially when you care so much about staying connected.\n\nIf you want to talk more about what those check-ins mean to you, or how you’re feeling tonight, I’m here to listen."
+    },
+    {
+      "turn": 12,
+      "timestamp": "2024-09-06T19:49:00",
+      "message_type": "status_update",
+      "user": "Honestly, I just hate when something that should be grounding ends up leaving me more unsettled. Any quick fixes for making these calls less of a technical headache next time?",
+      "assistant": "You’re really showing a lot of self-awareness in how you’re processing all of this. It’s so understandable to feel unsettled when something that’s supposed to be comforting—like a call with your parents—ends up being another source of stress. That sense of disconnection can linger, especially when you were hoping for the opposite.\n\nIt’s okay to let yourself feel disappointed, but it’s also a sign of how much you care about those relationships and routines. If you want to talk more about what those calls mean to you, or how you’d like them to feel, I’m here to listen.\n\nAs for making things less of a technical headache next time, we can definitely brainstorm some quick fixes or backup plans together—sometimes just having a “plan B” in place can make things feel less fraught, even if the tech acts up again. But for now, give yourself credit for showing up and caring, even when things don’t go as planned. That matters.\n\nIf you want to keep exploring what’s coming up for you, or just need to vent a little more, I’m here for that too."
+    },
+    {
+      "turn": 13,
+      "timestamp": "2024-09-06T19:53:00",
+      "message_type": "information_sharing",
+      "user": "I thought a walk along the dunes with Luna would help me reset this evening, but we barely made it halfway before the sky opened up and we both ended up drenched. Honestly, I’m still trying to decide if I should be annoyed or just laugh it off.",
+      "assistant": "That sounds like such a classic “life has other plans” moment—one minute you’re hoping for a peaceful reset, the next you and Luna are caught in a downpour! It’s totally valid to feel annoyed, especially when you were counting on that walk to help you unwind. But sometimes, those unexpected moments (even the soggy ones) can turn into stories you laugh about later—especially if Luna gave you that “what just happened?” look.\n\nIf you’re still shivering or frustrated, maybe treat yourself to something cozy—dry clothes, a warm drink, and a few minutes to decompress. And if you feel like sharing, I’d love to hear how Luna handled the rain. Sometimes our pets have the best reactions to these curveballs.\n\nWhether you end up annoyed or laughing, both are completely okay. If you want to talk more about your day or just vent, I’m here for it."
+    },
+    {
+      "turn": 14,
+      "timestamp": "2024-09-06T19:53:00",
+      "message_type": "information_sharing",
+      "user": "Honestly, Luna looked so bewildered by the whole thing that it was hard not to laugh—guess I’ll just chalk it up as one of those evenings and move on. Any tips for actually resetting after a day like this, when even the backup plan goes sideways?",
+      "assistant": "It really does sound like the universe was piling it on today—when even your backup plan (and your backup’s backup plan!) gets washed out, it’s hard not to feel a little defeated or just shake your head at the absurdity. Luna’s bewildered face probably says it all.\n\nWhen a day keeps going sideways, here are a few ways to actually reset, even if it feels like you’re out of options:\n\n**1. Change the Sensory Channel:**  \nYou’ve already tried getting outside, but if that didn’t work, try switching things up—maybe a hot shower, wrapping up in a blanket, or listening to music you love. Sometimes a physical reset helps your mind catch up.\n\n**2. Micro-Rituals:**  \nDo something small and familiar that signals “the day is over.” It could be making a cup of tea, lighting a candle, or even just changing into your comfiest clothes. These little rituals can help draw a line between “that was then” and “this is now.”\n\n**3. Let Yourself Laugh (or Groan):**  \nIf you can, lean into the absurdity—sometimes just telling yourself, “Well, that was a comedy of errors,” helps you let go of the frustration. If you’re not ready to laugh, it’s okay to just acknowledge, “That was rough,” and give yourself permission to feel it.\n\n**4. Low-Effort Comfort:**  \nDon’t pressure yourself to “fix” your mood. Sometimes the best reset is just doing something easy and comforting—watching a favorite show, snuggling with Luna, or texting a friend a funny recap of your misadventure.\n\n**5. Quick Mind-Body Reset:**  \nTry a few deep breaths, a short stretch, or even just sitting quietly for a minute. It doesn’t have to be a full meditation—just a pause to help your nervous system settle.\n\nAnd if you want, you can always share the story (or Luna’s reaction) here—sometimes just putting it into words helps you move on. Whatever you choose, be gentle with yourself. Some days, making it to the end is enough."
+    },
+    {
+      "turn": 15,
+      "timestamp": "2024-09-06T20:03:00",
+      "message_type": "status_update",
+      "user": "Honestly, I just couldn’t face the piano tonight—my wrist is still throbbing, and after the day I’ve had, the idea of pushing through left-hand etudes felt pointless. I hate skipping practice, but I guess sometimes you have to let go of the plan, even if it grates.",
+      "assistant": "You’re showing a lot of self-compassion by recognizing when it’s time to step back, even if it doesn’t feel great in the moment. It’s tough to let go of a plan—especially when you care about your progress and routine—but listening to your body is a real act of respect for yourself. Sometimes, rest is the most productive thing you can do, even if it goes against that inner drive to push through.\n\nIt’s okay to feel frustrated or disappointed about skipping practice. Those feelings just show how much you care. But giving your wrist a break now is an investment in your future playing—and in your overall well-being. Maybe tonight, your “practice” is just letting yourself be, or even listening to music you love without any pressure to perform.\n\nIf you want to talk more about what’s coming up for you, or how you’re feeling about your music and your recovery, I’m here to listen. You’re allowed to have off days, and you’re still moving forward, even when it doesn’t look like you planned."
+    },
+    {
+      "turn": 16,
+      "timestamp": "2024-09-06T20:03:00",
+      "message_type": "status_update",
+      "user": "You’re right—rest is probably the smartest move, even if it frustrates me. Honestly, I just hope this wrist settles down soon; I hate feeling sidelined.",
+      "assistant": "It’s completely understandable to feel sidelined and frustrated when your body isn’t cooperating—especially when music is such a meaningful part of your life and routine. Wanting to push through is natural, but it takes real strength to pause and give yourself the care you need, even when it feels like the opposite of progress.\n\nLetting yourself rest isn’t giving up; it’s actually a way of honoring your commitment to your music and your well-being in the long run. It’s okay to feel impatient or even a little lost without your usual practice—those feelings are valid, and they show just how much this matters to you.\n\nIf you feel up to it, maybe you could use this time to reconnect with music in a different way—listening to pieces you love, exploring new genres, or even reflecting on what draws you to the piano in the first place. Sometimes, these quieter moments can offer new insights or inspiration, even if they weren’t part of the original plan.\n\nAnd if you want to talk more about what’s coming up for you—whether it’s frustration, hope, or anything in between—I’m here to listen. You’re doing the right thing by taking care of yourself, and you’re allowed to feel all the things that come with it. Keep being gentle with yourself, and let’s keep exploring what you need, one step at a time."
+    }
+  ],
+  "conversation_summary": null,
+  "statistics": {
+    "total_turns": 18,
+    "total_user_chars": 4328,
+    "total_assistant_chars": 16392,
+    "avg_user_length": 240.44444444444446,
+    "avg_assistant_length": 910.6666666666666,
+    "time_span": "2024-09-06T08:24:00 to 2024-09-06T20:03:00",
+    "assistant_processing_mode": "truncate"
+  },
+  "metadata": {
+    "total_turns": 18,
+    "message_types_used": [
+      "advice_seeking",
+      "information_sharing",
+      "attachment_consultation",
+      "status_update"
+    ],
+    "time_span": "08:24 - 20:03",
+    "history_mode": "window",
+    "context_window": null,
+    "assistant_processing": "truncate",
+    "max_assistant_length": 1000,
+    "enable_conversation_summary": false,
+    "generation_model": "gpt-4.1-local",
+    "generated_at": "2025-12-27T17:15:19.810113"
+  }
+}

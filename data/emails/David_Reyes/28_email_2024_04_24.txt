@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Ridgecrest Medical Clinic <appointments@ridgecrestmedical.com>
+Subject: Repeated Lunch Interruption & Menu Availability
+Summary: David inquires about the ongoing power outages at Ridgecrest Cafe, noting multiple recent disruptions to his weekly lunch plans. He requests information on expected resolution of outage issues, future menu reliability, and whether his favorite lentil wrap will return. David mentions his father's disappointment and asks about possible compensation or alternative arrangements for regular customers.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maya Patel <maya.patel@ridgecrestclinic.com>
+Subject: Laptop Repair Status & Phone Issues
+Summary: David updates Maya on his Dell XPS 15 laptop's ongoing repair and expresses gratitude for the loaner phone. He describes technical difficulties encountered—small screen and unstable WiFi—while working on his grant proposal draft, and requests advice on troubleshooting or a temporary laptop swap. He also discusses next steps for accessing necessary documents stored locally on his laptop.

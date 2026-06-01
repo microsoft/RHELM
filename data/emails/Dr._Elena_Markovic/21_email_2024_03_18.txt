@@ -1,0 +1,4 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Mapping App Dev Team <devteam@orientech.com>
+Subject: Feedback: Orienteering App Field Test – GPS Accuracy and UI Contrast
+Summary: Elena summarizes the results of the lunchtime field test of the updated orienteering mapping app with Aisha and Pieter. She reports improved GPS accuracy and details a minor issue with color contrast in bright sunlight, attaching screenshots and specifying the conditions under which the issue was observed. She requests a review and possible UI adjustment before the next scheduled test.

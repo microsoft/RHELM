@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Julia Schneider <julia.schneider@company.com>
+Subject: Follow-up: Sensor Project QA Review & Firmware Patch
+Summary: Martin summarizes the key points from the afternoon video call, thanks Julia for her feedback on the diagrams, acknowledges Mehmet's bug report, and confirms he will address the firmware issue. He outlines the agreed next steps, attaches the updated diagrams, and proposes a timeline for the patch delivery.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Jana Müller <jana.mueller@email.com>
+Subject: Komoot Route Sketch & Board Game Night Recap
+Summary: Martin shares the Komoot cycling route sketch discussed during board game night, includes a brief recap of the evening, and attaches a screenshot of the planned Black Forest loop. He invites feedback on the route and suggests a follow-up ride for the weekend.

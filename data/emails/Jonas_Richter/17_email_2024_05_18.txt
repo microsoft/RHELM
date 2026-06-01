@@ -1,0 +1,11 @@
+Sender: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Recipient: Jonas Richter <jonas.richter@email.com>
+Subject: Ergebnisse Ihrer jährlichen Augenuntersuchung
+Summary: Dr. Schulte, the ophthalmologist at Charité Campus Benjamin Franklin, sends Jonas a follow-up email summarizing the results of his eye screening. The email confirms only mild digital eye strain, provides recommendations for blue-light filters and regular outdoor breaks, and attaches a digital copy of the examination report for Jonas's records.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Frau Becker <lehmann@biomarkt.de>
+Subject: Nachbesprechung: Datenschutzbildung im Schulunterricht
+Summary: Jonas follows up with Frau Becker, whom he met while hiking in the Harz mountains, to thank her for the insightful discussion on privacy education in schools. He proposes sharing resources and possibly collaborating on his 'Privatbildung Jetzt!' project, and suggests a virtual meeting in the coming weeks.

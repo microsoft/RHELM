@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Ms. Ramirez <ramirez@eastwoodms.edu>
+Subject: Request to Reschedule Meeting Due to Health Concerns
+Summary: David drafts an email to Ms. Ramirez and Principal Carter explaining that, due to a significant increase in lower back pain and medical advice from Dr. Patel, he is unable to attend the previously scheduled meeting. He requests to reschedule, briefly outlines the situation, and apologizes for any inconvenience. The email is saved as a draft and not yet sent, as David was unable to complete it due to discomfort.
+
+============================================================
+
+Sender: Dr. Samuel Greene <samuel.greene@university.edu>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Follow-Up Instructions and Appointment Scheduling
+Summary: Dr. Patel sends a follow-up email summarizing the recommendations from the virtual check-in: increased bed rest, postponement of outdoor activities, and the need to schedule an in-person evaluation. The email includes a link to the clinic's appointment portal and contact information for further questions.

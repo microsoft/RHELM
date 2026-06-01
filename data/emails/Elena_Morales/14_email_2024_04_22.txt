@@ -1,0 +1,11 @@
+Sender: Mrs. Patel <patel@email.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Volunteer Shift Cancellation - Family Emergency
+Summary: Mrs. Patel notifies Elena that she must cancel her scheduled volunteer shift due to a sudden family emergency. The email expresses regret for the short notice and gratitude for Elena's understanding, and suggests rescheduling at a later date.
+
+============================================================
+
+Sender: Dr. Priya Desai <priya.desai@healthclinic.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Follow-Up: Virtual Meeting Discussion Points
+Summary: Dr. Desai sends a follow-up email summarizing key discussion points from the evening's virtual meeting, including action items and clarifications for Elena, who appeared distracted during the call. The email provides a concise recap and next steps for all attendees.

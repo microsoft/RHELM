@@ -1,0 +1,11 @@
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Dr. Marcus Ellison <marcus.ellison@email.com>
+Subject: Paella Recipe from Saturday’s Dinner
+Summary: Marcus sends Aisha the recipe for his homemade spicy seafood paella, as requested during the dinner gathering on February 24th. The email includes detailed cooking instructions, a list of ingredients, and a brief note expressing appreciation for her company and enthusiasm for future get-togethers.
+
+============================================================
+
+Sender: Dr. Marcus Ellison <marcus.ellison@email.com>
+Recipient: Luis Martinez <luis.martinez@email.com>
+Subject: Follow-Up: Storytelling-Through-Photography Workshop
+Summary: Marcus follows up with Luis after the Harlem Youth Center workshop, expressing encouragement for Luis’s basketball court photo essay idea. The email summarizes key discussion points from the session, provides feedback, and shares resources for developing the project. Marcus also mentions plans for a follow-up workshop, inviting Luis to participate.

@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Anja Keller <anja.keller@email.com>
+Subject: Follow-up on Our Video Call Issues
+Summary: Martin writes to Anja after their disrupted video call, apologizing for the technical difficulties with his Pixel 7 Pro microphone and expressing regret that their conversation felt rushed and less personal. He suggests rescheduling a proper catch-up when both are less distracted and his device is fixed.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Google Support <support@google.com>
+Subject: Persistent Microphone Issues on Pixel 7 Pro
+Summary: Martin contacts Google Support to report ongoing microphone problems with his Pixel 7 Pro, describing the issue, troubleshooting steps already attempted, and the impact on his video calls. He requests further assistance or a repair/replacement process.

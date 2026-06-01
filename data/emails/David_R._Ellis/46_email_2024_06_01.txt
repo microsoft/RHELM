@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Alicia Torres <alicia.torres@email.com>
+Subject: Rescheduling Our Check-In Meeting
+Summary: David emails Alicia Torres to confirm the rescheduling of their check-in meeting after successfully resolving his desktop audio issues. The email includes a brief explanation of the technical problem, the steps taken to fix it, and proposes new time slots for their meeting. David also expresses appreciation for Alicia's flexibility.
+
+============================================================
+
+Sender: iFix Mobile Repair <noreply@ifixmobile.com>
+Recipient: Monica Ellis <monica.ellis@email.com>
+Subject: Your iPhone Repair Update: Ready for Pickup Tomorrow
+Summary: Automated notification from the iPhone repair shop to Monica, confirming that her device will be ready for pickup the following day. The message includes the shop's address, business hours, and a reference number for the repair order.

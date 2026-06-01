@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Yuki Nakamura <y.nakamura@jaxa.jp>
+Subject: Updated LunaLink Workshop Agenda & Addition of AI-Driven Fault Detection Session
+Summary: Elena notifies all LunaLink workshop stakeholders of the finalized session schedule, including the last-minute addition of the AI-driven fault detection topic as suggested by Ms. Nakamura. The email provides a link to the updated shared agenda, summarizes the confirmed technical session topics, and outlines next steps for presenters. Elena thanks Ms. Nakamura for the suggestion and encourages all participants to review the changes ahead of the workshop.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Yuki Nakamura <y.nakamura@jaxa.jp>
+Subject: Re: Technical Session Topics Confirmation & Data Formatting Issue
+Summary: Elena responds to Ms. Nakamura and Dr. Saito in a concise email thread, confirming the technical session topics for the LunaLink workshop. She addresses the minor data formatting issue raised during the ESA-JAXA sync, proposing a practical workaround and outlining the steps for implementation. Elena expresses appreciation for the collaborative approach and confirms her availability for further troubleshooting if needed.

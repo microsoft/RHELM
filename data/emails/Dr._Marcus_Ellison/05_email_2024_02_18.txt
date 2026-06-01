@@ -1,0 +1,11 @@
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: Aisha Grant <aisha.grant@email.com>
+Subject: Apologies for Missing Dinner After ASA Keynote
+Summary: Marcus sends a sincere apology to Dr. Aisha Grant and Maya for canceling their planned celebratory dinner after the ASA keynote. He explains that he was feeling unwell due to a lingering headache and exhaustion from the day's events, including technical difficulties during his talk and a crowded afternoon panel. He expresses regret for missing the opportunity to connect and promises to follow up soon to reschedule or catch up.
+
+============================================================
+
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: ASA Annual Meeting Organizers <asa2024@asamail.org>
+Subject: Technical Issues During Keynote Presentation – Request for Assistance
+Summary: Marcus contacts the ASA conference AV support team to report the technical issues encountered during his keynote address. He details the failure of the AV system to recognize his USB drive and the inability to use his MacBook Pro, which was under repair. He requests information on retrieving or uploading his slides for distribution to attendees and asks for recommendations to prevent similar issues in future sessions.

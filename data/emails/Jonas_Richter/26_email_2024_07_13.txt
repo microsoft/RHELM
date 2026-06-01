@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Follow-up: Technical Issues During Today’s Privacy Workshop
+Summary: Jonas writes to Dr. Nowak after the hybrid privacy workshop to acknowledge the technical problems encountered, including unstable Wi-Fi, participant dropouts, and the failed encrypted messaging demo. He expresses his frustration, thanks Dr. Nowak for her patience, and proposes scheduling a troubleshooting session to improve future workshops. Jonas also suggests gathering feedback from students and asks if Dr. Nowak has any immediate ideas for mitigating similar issues.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Frau Becker <lehmann@biomarkt.de>
+Subject: Privacy Workshop Flyers and Vendor Support
+Summary: Jonas follows up with Frau Lehmann regarding their interrupted conversation at the Maybachufer market. He asks if she had a chance to review the privacy workshop flyers and whether she would be willing to display them at her stall or help spread the word among other vendors. Jonas briefly mentions the earlier dispute and expresses hope for her support.

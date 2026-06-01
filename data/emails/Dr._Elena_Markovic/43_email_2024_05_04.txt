@@ -1,0 +1,4 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Mapping App Dev Team <devteam@orientech.com>
+Subject: Feedback and Route Discrepancies: Amsterdamse Waterleidingduinen Beta Test (May 4)
+Summary: Elena summarizes the field test conducted with Pieter using the beta version of the mapping app in the Amsterdamse Waterleidingduinen. She details the navigation challenges encountered due to unexpected trail maintenance, notes on GPS accuracy in denser woodland, and includes Aisha's suggestion for a minor reroute to avoid a muddy section. The email attaches Elena's documented feedback and requests follow-up on the reported issues.

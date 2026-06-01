@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Ahmed <info@werkstattamzoo.de>
+Subject: Thank You and Documentation Photos from Today’s Gear Hub Repair
+Summary: Jonas sends Ahmed a thank-you email following the morning’s repair session at Werkstatt am Zoo. He attaches selected Canon EOS M50 photos documenting the gear hub repair process, expresses appreciation for Ahmed’s expertise, and mentions plans to use the images for the open-source bike maintenance wiki. Jonas also asks if Ahmed has any additional notes or tips that could be included in the documentation.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Leila Haddad <leila.haddad@email.com>
+Subject: Draft Section: Encryption in Everyday Life – Request for Feedback
+Summary: Jonas shares the newly drafted section on 'Encryption in Everyday Life' for the digital rights curriculum with Leila and Dr. Nowak. He summarizes the main additions, references their previous workshop feedback, and requests their input on clarity, technical accuracy, and practical examples. Jonas also suggests a brief call later in the week to discuss further improvements.

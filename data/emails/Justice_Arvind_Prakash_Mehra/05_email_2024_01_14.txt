@@ -1,0 +1,11 @@
+Sender: Rohan Mehra <rohan.mehra@email.com>
+Recipient: Client Name <client.email@company.com>
+Subject: Re: Urgent Project Update Required
+Summary: Rohan responds to a client regarding an urgent project update during the family gathering. He apologizes for delayed responses due to family commitments, provides a brief status update, and schedules a follow-up call for later in the evening.
+
+============================================================
+
+Sender: Priya Mehra <priya.mehra@email.com>
+Recipient: Dr. Sunita Mehra <sunita.mehra@email.com>
+Subject: Request for Extension: Research Paper Submission
+Summary: Priya writes to her research supervisor requesting a short extension for her upcoming research paper deadline, citing family obligations and travel. She outlines her current progress and proposes a new submission date.

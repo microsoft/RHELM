@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Anja Keller <anja.keller@email.com>
+Subject: Feedback on Your Architecture Portfolio Layout
+Summary: Martin follows up on the video call with Anja, summarizing his feedback on her architecture portfolio. He reiterates his suggestions for a more minimalist layout, references specific photos she shared, and attaches a few example layouts for inspiration. He encourages her to reach out if she needs further input before her next submission.
+
+============================================================
+
+Sender: Jana Müller <jana.mueller@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Thanks for the Smart Lighting Tips!
+Summary: Jana thanks Martin for sharing practical advice on setting up smart lighting and WLED automation during their game night. She asks for a copy of his automation script and requests recommendations for affordable starter kits. She also mentions looking forward to the next game night and cycling tour.

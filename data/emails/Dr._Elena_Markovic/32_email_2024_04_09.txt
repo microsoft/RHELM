@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Apologies for Missing LunaLink Integration Test – April 9
+Summary: Elena explains her unexpected absence from the scheduled LunaLink cross-agency systems integration follow-up test due to a veterinary emergency with Luna. She apologizes for the inconvenience, acknowledges the disruption caused, and requests an update on the test outcomes and any immediate action items. She also offers to reschedule a debrief and expresses her commitment to resolving the data sync error.
+
+============================================================
+
+Sender: Dierenkliniek Noordwijk <info@dierenklinieknoordwijk.nl>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Luna – Urgent Appointment Confirmation and Post-Visit Instructions
+Summary: The veterinary clinic confirms Luna's urgent check-up appointment, provides a summary of the visit, outlines recommended next steps for Luna's care, and attaches post-visit instructions. The email includes contact information for follow-up and a reminder to monitor Luna's condition closely.

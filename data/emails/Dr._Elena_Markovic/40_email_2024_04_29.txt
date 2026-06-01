@@ -1,0 +1,11 @@
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Follow-up: LunaLink Systems Integration Technical Review – Action Items and Documentation Gaps
+Summary: Dr. Elena Markovic sends a follow-up email to all meeting participants summarizing the key discussion points from the technical review, highlighting unresolved documentation gaps, listing action items, and proposing next steps. The email also addresses the technical difficulties experienced during the meeting, requests clarification on interface discrepancies, and suggests scheduling a follow-up session to finalize post-mortem findings.
+
+============================================================
+
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Sofia Markovic <sofia.markovic@email.com>
+Subject: Re: Model Rocket Launch – Date Coordination and Schedule Conflicts
+Summary: Elena replies to Sofia and the Belgrade Youth Club regarding the upcoming model rocket launch, explaining her scheduling conflict due to ESA commitments. She requests alternative dates for the event and asks for clarification on the youth club’s availability, aiming to coordinate a new date that accommodates all parties.

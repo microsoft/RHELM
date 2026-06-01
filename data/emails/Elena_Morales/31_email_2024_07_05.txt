@@ -1,0 +1,11 @@
+Sender: Elena Morales <elena.morales@email.com>
+Recipient: Dr. Priya Desai <priya.desai@healthclinic.com>
+Subject: Request to Reschedule Remote Check-In
+Summary: Elena sends a brief, apologetic email to Dr. Desai explaining that she is unable to participate fully in their scheduled remote check-in due to severe headache, cough, dizziness, and nausea. She requests to reschedule the appointment and expresses regret for the inconvenience.
+
+============================================================
+
+Sender: Dr. Priya Desai <priya.desai@healthclinic.com>
+Recipient: Elena Morales <elena.morales@email.com>
+Subject: Re: Request to Reschedule Remote Check-In
+Summary: Dr. Desai replies to Elena's message with understanding and support, confirming receipt of the reschedule request and offering alternative appointment times. She expresses concern for Elena's well-being and encourages her to rest and reach out if symptoms worsen.

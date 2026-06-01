@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>51_report_task_94ce70e8</title>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        color: #24292e;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 45px;
+    }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 3px; }
+    blockquote { border-left: .25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+    table th, table td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    table tr:nth-child(2n) { background-color: #f6f8fa; }
+</style>
+
+</head>
+<body>
+<h1>ESA Systems Review Meeting – Refined Minutes</h1>
+<p>ESA ESTEC, Noordwijk Facility – May 19, 2024</p>
+<hr />
+<h2>Meeting Overview</h2>
+<p><strong>Meeting:</strong> ESA Systems Review<br />
+<strong>Date:</strong> May 19, 2024<br />
+<strong>Time:</strong> 09:00–15:35 CET<br />
+<strong>Location:</strong> Conference Room 2A, ESTEC Noordwijk</p>
+<p><strong>Attendees:</strong><br />
+- Dr. Marcus van Dijk, Lead Systems Engineer (Chair)
+- Elena Petrova, Thermal Subsystem Lead
+- Jean-Paul Laurent, Propulsion Subsystem Lead
+- Catarina Sousa, Avionics/Software Lead
+- Olaf Müller, Communications Subsystem Lead
+- Ingrid Rasmussen, Systems Integration
+- Dr. Wei Shen, Risk Management
+- Sophie Dubois, QA Manager
+- Marek Novak, Payload &amp; Optics Lead
+- Anna Lindblad, Project Admin (minutes scribe)</p>
+<p><em>Notable Arrival Details:</em><br />
+Catarina Sousa joined at 09:17 CET due to traffic but was present for all essential discussions despite a short delay. No other absences were recorded.</p>
+<hr />
+<h2>Agenda</h2>
+<ol>
+<li>Opening &amp; Attendance</li>
+<li>Avionics and Software Subsystem Review</li>
+<li>Propulsion Subsystem Review</li>
+<li>Thermal Control Subsystem Review</li>
+<li>Communications Subsystem Review</li>
+<li>Payload &amp; Optics Subsystem Review</li>
+<li>Systems Integration Status</li>
+<li>Risk Management Update</li>
+<li>QA &amp; Compliance Review</li>
+<li>Action Items Assignment</li>
+<li>Additional Notes &amp; Event Summary</li>
+<li>Strategic Summary &amp; Closing</li>
+</ol>
+<hr />
+<h2>Discussion Summary</h2>
+<h3>1. Avionics and Software Subsystem</h3>
+<p>The meeting opened with a focus on avionics, where we reviewed the new firmware (v2.3.8). Testing so far has been promising; all bench validations passed, though integration with the surrounding satellite systems is not yet finalized. During software simulation, a redundant bus anomaly was flagged, specifically a minor timing deviation. </p>
+<p>Engineers noted that CPU utilization spikes during navigation transitions—measured at 53% versus the baseline 43%—need additional analysis to ensure performance remains within operational limits. One key challenge persists with CAN bus error frames under electromagnetic interference (EMI) testing, indicating unresolved signal integrity issues.</p>
+<p><strong>Risks &amp; Next Steps:</strong><br />
+The primary risk lies in possible schedule delays unless the identified software issue is patched before final qualification testing (FQT). Incremental firmware updates are advised, coupled with a targeted root-cause investigation into EMI-related errors. Catarina Sousa will oversee both the firmware update and EMI analysis, with support from QA.</p>
+<hr />
+<h3>2. Propulsion Subsystem</h3>
+<p>The propulsion team reported a pressure anomaly in the secondary tank: measurements fell just outside standard tolerance (20.9 bar, specification 21–25 bar). Fast-cycle valve operation revealed intermittent telemetry, occasionally losing real-time readings. Specific impulse is trending 1.2% below expectations, prompting a review of thermal margins and their effect on performance.</p>
+<p>Valve calibration continued to pose a challenge, as drift was detected during consistency checks. To address these issues, an extended one-day test cycle is proposed, giving the team additional time to calibrate sensors and analyze actuation logic.</p>
+<p><strong>Risks &amp; Next Steps:</strong><br />
+Although the risk level is deemed moderate, further sensor calibration and logic review are scheduled, with Jean-Paul Laurent taking lead responsibility on both.</p>
+<hr />
+<h3>3. Thermal Control Subsystem</h3>
+<p>Thermal subsystem discussions highlighted increased sensor jitter on Panel B, along with a delayed response—active heating phases lagged by 13 seconds from the setpoint. Radiator efficiency continues to fall slightly below targets, now averaging 2.4% under specification.</p>
+<p>Limited real-time data from stress testing was attributed to workstation connectivity problems affecting Elena Petrova, whose ability to participate was further compromised by wrist pain. To minimize disruption, Ingrid Rasmussen has been designated as backup for technical leadership.</p>
+<p><strong>Risks &amp; Next Steps:</strong><br />
+The subsystem is operational but exposed to personnel continuity risks. Immediate priorities include controller firmware re-validation and more granular thermal sampling.</p>
+<hr />
+<h3>4. Communications Subsystem</h3>
+<p>Communications performance was mixed. The team logged temporary downlink signal degradation (2dB drop) during cross-band switches. However, improvement was seen in antenna alignment—protocol changes reduced RMS error from 0.48° to 0.25°. </p>
+<p>A further issue arose with the antenna drive motor, which overheated briefly under a 30W sustained load; hardware checks have yet to conclusively explain this. Multipath errors persisted on the ground testbed but remained local in scope.</p>
+<p><strong>Risks &amp; Next Steps:</strong><br />
+These are considered low priority but warrant ongoing monitoring. Next steps include refining alignment algorithms and expanding cooling verification in subsequent tests, led by Olaf Müller.</p>
+<hr />
+<h3>5. Payload &amp; Optics Subsystem</h3>
+<p>Payload discussions centered on intensity drift in the calibration lamp—7% margin was flagged, with root cause analysis ongoing. The vibration isolation mount still requires validation under high g-load conditions. Additionally, the team noted optical signal-to-noise ratio (SNR) 1.8 dB below predictions, likely due to stray light ingress.</p>
+<p>Integration with the avionics subsystem has been delayed by bus timing issues, reinforcing the need for a schedule buffer between teams.</p>
+<p><strong>Risks &amp; Next Steps:</strong><br />
+Stray light analysis is being accelerated, and the test-bed will be upgraded to improve isolation. Marek Novak is responsible for leading these activities.</p>
+<hr />
+<h3>6. Systems Integration</h3>
+<p>Integration tests revealed synchronization errors at several subsystem data convergence points, with overall test matrix coverage at 79% (target: 90%). Missing test inputs and resource allocation bottlenecks have contributed to delays. Latency issues have also increased due to repeated interface handshake problems.</p>
+<p><strong>Risks &amp; Next Steps:</strong><br />
+Risks in this area are medium-to-high due to potential cross-system schedule impact. The integration engineering team is being reallocated to ensure matrix completion, and further workshops are scheduled for coordination.</p>
+<hr />
+<h3>7. Risk Management &amp; Quality Assurance</h3>
+<p>Risk review identified three emerging issues requiring mitigation: firmware delays, propulsion telemetry reliability, and resource shortfalls in integration. No critical compliance issues were reported by QA, though some minor documentation discrepancies require attention.</p>
+<p><strong>Next Steps:</strong><br />
+Key risks are being prioritized for mitigation, and the risk register is set for an immediate update. QA has requested standardized reporting templates to streamline cross-team documentation.</p>
+<hr />
+<h2>Action Items</h2>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Owner</th>
+<th>Deadline</th>
+<th>Priority</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Finalize firmware patch (Avionics)</td>
+<td>Catarina Sousa</td>
+<td>2024-05-23</td>
+<td>High</td>
+<td>In progress</td>
+</tr>
+<tr>
+<td>EMI root-cause analysis</td>
+<td>Catarina Sousa, QA</td>
+<td>2024-05-25</td>
+<td>Medium</td>
+<td>Not started</td>
+</tr>
+<tr>
+<td>Propulsion sensor calibration</td>
+<td>Jean-Paul Laurent</td>
+<td>2024-05-22</td>
+<td>High</td>
+<td>Scheduled</td>
+</tr>
+<tr>
+<td>Review propulsion actuation logic</td>
+<td>Jean-Paul Laurent</td>
+<td>2024-05-22</td>
+<td>Medium</td>
+<td>Scheduled</td>
+</tr>
+<tr>
+<td>Controller firmware re-validation</td>
+<td>Elena Petrova (+ backup)</td>
+<td>2024-05-24</td>
+<td>Medium</td>
+<td>Queued</td>
+</tr>
+<tr>
+<td>Improve thermal sampling</td>
+<td>Elena Petrova</td>
+<td>2024-05-24</td>
+<td>Low</td>
+<td>Queued</td>
+</tr>
+<tr>
+<td>Refine antenna alignment</td>
+<td>Olaf Müller</td>
+<td>2024-05-21</td>
+<td>Medium</td>
+<td>In progress</td>
+</tr>
+<tr>
+<td>Cooling verification (Comm.)</td>
+<td>Olaf Müller</td>
+<td>2024-05-23</td>
+<td>Low</td>
+<td>Queued</td>
+</tr>
+<tr>
+<td>Stray light analysis (Payload)</td>
+<td>Marek Novak</td>
+<td>2024-05-24</td>
+<td>High</td>
+<td>Started</td>
+</tr>
+<tr>
+<td>Test-bed isolation upgrade</td>
+<td>Marek Novak</td>
+<td>2024-05-26</td>
+<td>Medium</td>
+<td>Not started</td>
+</tr>
+<tr>
+<td>Cross-team schedule buffer</td>
+<td>Dr. Marcus van Dijk</td>
+<td>2024-05-21</td>
+<td>High</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>Integration test matrix completion</td>
+<td>Ingrid Rasmussen</td>
+<td>2024-05-27</td>
+<td>High</td>
+<td>In progress</td>
+</tr>
+<tr>
+<td>Risk register update</td>
+<td>Dr. Wei Shen</td>
+<td>2024-05-22</td>
+<td>High</td>
+<td>Started</td>
+</tr>
+<tr>
+<td>Update subsystem documentation</td>
+<td>QA, subsystem leads</td>
+<td>2024-05-25</td>
+<td>Medium</td>
+<td>Scheduled</td>
+</tr>
+</tbody>
+</table>
+<p>All action items were reviewed and agreed upon, with responsible parties clearly identified and deadlines established.</p>
+<hr />
+<h2>Additional Notes &amp; Events</h2>
+<ul>
+<li>Elena Petrova experienced persistent workstation connectivity issues during thermal subsystem review, which limited her access to real-time data. Combined with acute wrist pain, her feedback was delayed, but backup support from Ingrid Rasmussen ensured continuity.</li>
+<li>Engineering leadership highlighted concerns about schedule compression stemming from ongoing integration bottlenecks. QA underscored the need for improved documentation consistency and better collaboration among subsystem leads.</li>
+<li>As contingency measures, Ingrid Rasmussen was temporarily reassigned to thermal support, and extended action buffers were incorporated into propulsion and payload schedules. A follow-up integration workshop is scheduled for May 26, 2024, to address open issues with the test matrix.</li>
+</ul>
+<hr />
+<h2>Summary Table of Key Decisions &amp; Strategic Actions</h2>
+<table>
+<thead>
+<tr>
+<th>Decision/Conclusion</th>
+<th>Technical Implication</th>
+<th>Next Steps</th>
+<th>Strategic Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prioritize avionics firmware patch</td>
+<td>Potential for short-term integration delay</td>
+<td>Complete patch prior to final qualification</td>
+<td>Safeguards mission timeline</td>
+</tr>
+<tr>
+<td>Extend propulsion calibration cycle</td>
+<td>Additional resources, minor schedule slip</td>
+<td>Add one day for sensor recalibration</td>
+<td>Quality assurance prioritized</td>
+</tr>
+<tr>
+<td>Assign backup for thermal subsystem</td>
+<td>Temporary coverage, onboarding needed</td>
+<td>Brief Ingrid Rasmussen for seamless support</td>
+<td>Ensures technical continuity</td>
+</tr>
+<tr>
+<td>Accelerate integration test matrix</td>
+<td>Resources shifted from other tasks</td>
+<td>Expedite with dedicated engineering focus</td>
+<td>Reduces risk of systemic delay</td>
+</tr>
+<tr>
+<td>Include communications cooling verification</td>
+<td>Minor adjustment to test schedule</td>
+<td>Add hardware checks post-alignment refinements</td>
+<td>Decreases hardware risk</td>
+</tr>
+<tr>
+<td>Accelerate payload stray light analysis</td>
+<td>Rapid resource commitment required</td>
+<td>Complete before final qualification tests</td>
+<td>Protects payload data integrity</td>
+</tr>
+<tr>
+<td>Schedule integration follow-up workshop</td>
+<td>Refocuses team on critical integration</td>
+<td>Convene subsystem leads for matrix closure</td>
+<td>Resolves high-priority issues</td>
+</tr>
+<tr>
+<td>Fast-track risk register updates</td>
+<td>Rapid adjustment to risk management</td>
+<td>Circulate update for executive oversight</td>
+<td>Maintains up-to-date risk posture</td>
+</tr>
+<tr>
+<td>Standardize subsystem documentation</td>
+<td>Increased team involvement</td>
+<td>Implement reporting templates</td>
+<td>Ensures compliance and auditability</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>ESA Reference Notes</h2>
+<p>Meeting structure, attendee roles, and procedural standards follow current ESA system review practices at ESTEC Noordwijk. All procedures, accountability mechanisms, and risk management follow ESA’s established quality and audit policies ([1][2][3]).</p>
+<p><strong>References:</strong><br />
+1. <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology">ESA ESTEC Systems Review Guidelines</a><br />
+2. <a href="https://www.esa.int/About_ESA/Corporate_news/ESA_Directory">ESA Directory</a><br />
+3. <a href="https://www.esa.int/About_ESA/Corporate_news/Quality_and_Safety_at_ESA">ESA Quality Management Documentation</a><br />
+4. ESA Organizational Knowledge (2024 Cutoff)</p>
+<hr />
+<p><em>Minutes prepared by Anna Lindblad (Project Admin), reviewed and approved by meeting chair Dr. Marcus van Dijk. For distribution to all project stakeholders.</em></p>
+</body>
+</html>

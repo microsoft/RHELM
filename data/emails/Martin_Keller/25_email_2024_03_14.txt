@@ -1,0 +1,18 @@
+Sender: Julia Schneider <julia.schneider@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Follow-up: Annual Performance Review and Next Steps
+Summary: Julia thanks Martin for his preparation and contributions during the annual performance review held on March 14, 2024. She summarizes the key discussion points, including his embedded systems work, the positive feedback on his methodical approach, and the agreement to recommend him as technical lead for the new subproject pending approval. Julia also reminds Martin to submit a brief proposal outlining the relevance of the advanced certification course he requested support for.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Julia Schneider <julia.schneider@company.com>
+Subject: Proposal: Advanced Certification Course Relevance
+Summary: Martin submits a concise proposal as requested, detailing the advanced certification course he wishes to attend. He outlines the course content, its relevance to current and upcoming embedded systems projects, and the expected benefits for both his professional development and the team.
+
+============================================================
+
+Sender: Jana Müller <jana.mueller@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Board Game Night – Thanks for Hosting!
+Summary: Jana thanks Martin for hosting the birthday dinner and board game night on March 14, 2024. She mentions the delicious Mediterranean meal, the fun playing Azul, and shares a few photos from the evening. She also suggests a few dates for the next board game night.

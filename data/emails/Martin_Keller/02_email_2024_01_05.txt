@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Sabine Möller <sabine.moeller@auditors.de>
+Subject: Summary and Action Points from Weekly Team Meeting – Jan 5
+Summary: Martin sends a concise follow-up email to Sabine after the weekly team meeting, summarizing key discussion points, decisions made, and outlining his next steps regarding the evaluation of GPRS modules for the industrial sensor project. The email also thanks Sabine for her feedback during the meeting.
+
+============================================================
+
+Sender: Lukas Weber <lukas.weber@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Tonight’s Board Game Night – Details & Snacks
+Summary: Lukas confirms the details for the board game night at his apartment, including the start time, guest list (Jana, Felix, Martin), and a note about bringing Mediterranean snacks. He asks Martin to bring the new 'Gaia Project' game and offers parking/bike storage info.

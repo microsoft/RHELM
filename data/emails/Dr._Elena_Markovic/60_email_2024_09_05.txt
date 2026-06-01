@@ -1,0 +1,11 @@
+Sender: Dr. Elena Markovic <elena.markovic@email.com>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Congratulations on Certification and Capstone Presentation
+Summary: Dr. Schaefer congratulates Elena on successfully completing the advanced systems engineering certification and delivering an impressive capstone project presentation. She highlights Elena’s commendable documentation and risk assessment approach, references the positive panel feedback, and reiterates her support for Elena’s cross-agency leadership aspirations, mentioning the potential JAXA secondment.
+
+============================================================
+
+Sender: ESA IT Support <it.support@esa.int>
+Recipient: Dr. Elena Markovic <elena.markovic@email.com>
+Subject: Certification Update Confirmation
+Summary: Automated notification confirming that Elena’s advanced systems engineering certification and capstone project outcomes have been successfully added to her ESA HR profile. The email includes a summary of the updated CV entries and instructions for reviewing or editing the information.

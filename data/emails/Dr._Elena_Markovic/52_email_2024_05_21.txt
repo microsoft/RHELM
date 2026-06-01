@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: ESA IT Support <it.support@esa.int>
+Subject: Persistent Sync Issues and Minor Lag – External Monitor/Keyboard Setup
+Summary: Elena reports ongoing synchronization issues and minor lag experienced while working from her home study using the loaned external monitor and USB keyboard. She details the specific problems encountered, including a brief WiFi dropout, and requests further troubleshooting or advice. She attaches her activity log and device details for IT review.
+
+============================================================
+
+Sender: Jeroen van Dijk <jeroen@noordwijkelektronica.nl>
+Recipient: Elena Markovic <elena.markovic@esa.int>
+Subject: Laptop Repair Update – Replacement Screen Arrived
+Summary: Jeroen from the electronics shop informs Elena that the replacement screen for her laptop has arrived. He provides an estimated timeline for completing the repair and confirms that full functionality is expected by the end of the week. He invites Elena to schedule a pickup or request further assistance if needed.

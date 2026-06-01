@@ -1,0 +1,11 @@
+Sender: Dr. Felix Brandt <felix.brandt@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Follow-up Instructions and Bloodwork Order from August 12th Appointment
+Summary: Dr. Lang summarizes the findings from Martin's recent health screening, including the elevated liver enzymes and recommendations to pause NSAIDs, schedule follow-up bloodwork, and adjust training. The email includes a digital order for the next blood test, instructions for monitoring symptoms, and a reminder to update the clinic if there are any changes or concerns.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Frau Lena Vogt <info@wochenmarkt-bauer.de>
+Subject: Missed Market Visit – Request for Sumac and Aleppo Pepper
+Summary: Martin apologizes for missing the weekly market due to a delayed medical appointment and inquires if Frau Bauer can reserve or set aside sumac and Aleppo pepper for him to pick up later in the week. He briefly explains his situation and asks about possible pickup times.

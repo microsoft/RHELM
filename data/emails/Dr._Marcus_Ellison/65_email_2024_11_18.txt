@@ -1,0 +1,11 @@
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: Marissa Klein <marissa.klein@beaconpress.com>
+Subject: Apologies and Submission of Incomplete Manuscript Draft
+Summary: Marcus explains to Marissa, his editor at Beacon Press, that due to a sync error between Notion and Word, the latest version of the manuscript is missing tracked changes and comments. He outlines the technical issues encountered, details his attempts at file recovery (including consulting Maya Chen), and expresses regret for submitting an outdated draft. Marcus requests understanding and offers to resend the correct version as soon as possible.
+
+============================================================
+
+Sender: Marcus Ellison <marcus.ellison@email.com>
+Recipient: Maya Chen <maya.chen@email.com>
+Subject: Thanks for Your Help with the Manuscript File Issue
+Summary: Marcus thanks Maya for her technical advice and support during the manuscript file recovery attempt. He briefly recounts the steps they took, acknowledges that the edits could not be restored, and expresses appreciation for her time and willingness to help under pressure.

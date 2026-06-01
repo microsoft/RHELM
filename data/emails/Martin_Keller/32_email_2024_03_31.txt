@@ -1,0 +1,4 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Smart Home Forum <support@smarthomeforum.com>
+Subject: Wi-Fi Dropout on Kitchen Sensor – Log and Resolution
+Summary: Martin drafts an email to the Smart Home Forum support team, summarizing the minor Wi-Fi dropout detected on his kitchen sensor at 03:12 AM. He includes a brief description of the issue, the relevant log excerpt, his diagnosis (scheduled router reboot), and the steps he took to resolve it. He requests confirmation that his solution is best practice and asks if there are recommended settings to avoid similar dropouts in the future.

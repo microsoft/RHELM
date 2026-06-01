@@ -1,0 +1,11 @@
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Dr. Samuel Greene <samuel.greene@university.edu>
+Subject: Follow-up: Telehealth Appointment Issues and Health Update
+Summary: David writes to Dr. Greene following their disrupted telehealth session, explaining the technical difficulties (video freezing, call drops, and incomplete advice). He summarizes his current pain management concerns, requests clarification on the advice that was cut short, and asks for written recommendations. David also mentions his failed attempt to send a health update earlier due to syncing errors.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Mrs. Patel <mrs.patel@email.com>
+Subject: Apologies for Missed Call – Request to Reschedule
+Summary: David sends a follow-up email to Mrs. Patel after his call went unanswered, apologizing for missing her and requesting to reschedule their conversation regarding Thursday’s school visit. He briefly mentions ongoing technical and health challenges affecting his preparation.

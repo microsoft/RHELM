@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Marcus van Dijk <marcus.vandijk@esa.int>
+Subject: Unable to Attend Integration Review Call Due to Technical Issues
+Summary: Elena informs Dr. Marcus van Dijk that she was unable to join the scheduled integration review video call due to her laptop's screen failure and unreliable WiFi on her phone. She apologizes for missing the meeting, briefly explains the technical difficulties, and requests a summary of key discussion points or any action items she should be aware of.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Urgent Laptop Repairs <support@techfix.nl>
+Subject: Request for Emergency Repair Appointment – Dell Precision 5570
+Summary: Elena contacts the urgent laptop repair service to request an emergency appointment for her Dell Precision 5570, describing the cracked screen and total display failure. She asks if there are any cancellations or earlier slots available, emphasizing the impact on her work and requesting to be notified if an earlier appointment opens up.

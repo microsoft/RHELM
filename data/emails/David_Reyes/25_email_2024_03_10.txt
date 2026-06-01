@@ -1,0 +1,18 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Ridgecrest Medical Clinic <appointments@ridgecrestmedical.com>
+Subject: Request for Expedited Laptop Repair Appointment
+Summary: David inquires about the earliest available slot for laptop repair after finding all appointments overbooked until next week, expresses urgency due to ongoing hardware issues, and asks about potential cancellations or waitlists.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: PC Fan Reseller <orders@pccoolstore.com>
+Subject: Inquiry About Cooling Fan Order and Shipping Times
+Summary: David follows up on his order for a laptop cooling fan, requesting confirmation on shipping timelines after learning the reseller cannot guarantee rapid delivery. He seeks alternatives or priority shipping options.
+
+============================================================
+
+Sender: Carlos Reyes <carlos.reyes@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Checking In Regarding Your Health
+Summary: Carlos expresses concern about David's sinus pain and general health following their brief family video call, offers support, and encourages David to keep him updated about any changes.

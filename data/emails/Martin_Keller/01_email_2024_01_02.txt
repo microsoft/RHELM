@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Anja Keller <anja.keller@email.com>
+Subject: Mediterranean Dinner Inspiration
+Summary: Martin shares a photo of his homemade Mediterranean-style dinner with his sister Anja, describing the dishes he prepared (grilled chicken souvlaki, tabbouleh, and roasted vegetables). The email includes a lighthearted exchange about recipe ideas and suggestions for future meals, reflecting their close sibling relationship.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Dr. Felix Brandt <felix.brandt@company.com>
+Subject: AT Command Set Discrepancy in GPRS Module Documentation
+Summary: Martin informs his project lead, Dr. Julia Weber, about a subtle discrepancy he identified in the AT command set of the GPRS module documentation provided by the hardware supplier. He summarizes the issue, attaches relevant documentation snippets, and requests clarification or a discussion in the next project meeting.

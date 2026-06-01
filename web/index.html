@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RHELM: Beyond Static Dialogues</title>
+  <meta name="description"
+        content="RHELM: Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RHELM: Beyond Static Dialogues">
+  <meta property="og:description"
+        content="Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory.">
+  <meta property="og:image" content="static/images/main.png">
+  <meta property="og:type" content="website">
+
+  <!-- Bulma CSS + Font Awesome + Academicons (CDN) -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <style>
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .hero-title { font-weight: 800; letter-spacing: -0.02em; }
+    .publication-links .button { margin: 0.25rem; }
+    .section { padding: 2.5rem 1.5rem; }
+    .teaser img { border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,.12); }
+    .content table td, .content table th { vertical-align: middle; }
+    pre { border-radius: 8px; }
+    .footer { padding: 2rem 1.5rem 3rem; }
+    figure.paper-figure { margin: 0 auto; text-align: center; }
+    figure.paper-figure img {
+      max-width: 100%; height: auto; border-radius: 8px;
+      border: 1px solid #ededed; box-shadow: 0 4px 18px rgba(0,0,0,.08);
+      background: #fff;
+    }
+    figure.paper-figure figcaption {
+      margin-top: 0.9rem; font-size: 0.95rem; color: #555; line-height: 1.5;
+    }
+    figure.paper-figure.is-narrow { max-width: 560px; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop has-text-centered">
+        <h1 class="title is-2 hero-title">RHELM: Beyond Static Dialogues</h1>
+        <h2 class="subtitle is-4 mt-3">
+          Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory
+        </h2>
+
+        <!-- Authors -->
+        <p class="is-size-5 mt-4">
+          <span class="author-block">Han Zhang<sup>1,2,3,*</sup>,</span>
+          <span class="author-block">Zihao Tang<sup>3</sup>,</span>
+          <span class="author-block">Xin Yu<sup>3,&dagger;</sup>,</span>
+          <span class="author-block">Xiao Liu<sup>3</sup>,</span>
+          <span class="author-block">Yeyun Gong<sup>3</sup>,</span>
+          <span class="author-block">Haizhen Huang<sup>3</sup>,</span>
+          <span class="author-block">Yan Lu<sup>3</sup>,</span>
+          <span class="author-block">Weiwei Deng<sup>3</sup>,</span>
+          <span class="author-block">Feng Sun<sup>3</sup>,</span>
+          <span class="author-block">Qi Zhang<sup>3</sup>,</span>
+          <span class="author-block">Hanfang Yang<sup>1,2,&dagger;</sup></span>
+        </p>
+        <p class="is-size-6 has-text-grey mt-2">
+          <span class="author-block"><sup>1,2</sup>Renmin University of China</span>&nbsp;&nbsp;
+          <span class="author-block"><sup>3</sup>Microsoft</span>
+        </p>
+        <p class="is-size-7 has-text-grey mt-2">
+          <sup>*</sup>Work done during internships at Microsoft.&nbsp;&nbsp;
+        </p>
+
+        <!-- Links -->
+        <div class="publication-links mt-5">
+          <a class="button is-dark is-rounded"
+             href="https://arxiv.org/pdf/2605.31086">
+            <span class="icon"><i class="ai ai-arxiv"></i></span>
+            <span>Paper</span>
+          </a>
+          <a class="button is-warning is-rounded"
+             href="https://huggingface.co/datasets/hanzhang-lang/RHELM-Benchmark">
+            <span class="icon"><i class="fas fa-database"></i></span>
+            <span>Dataset</span>
+          </a>
+          <a class="button is-dark is-rounded"
+             href="https://github.com/Hanzhang-lang/RHELM_Benchmark">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>Code</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser -->
+  <section class="section pt-0">
+    <div class="container is-max-desktop teaser has-text-centered">
+      <img src="static/images/main.png" alt="RHELM Overview">
+      <p class="is-size-6 has-text-grey mt-3">
+        RHELM provides realistic, heterogeneous, and temporally evolving memory sources,
+        paired with challenging questions for long-horizon memory evaluation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Abstract -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Abstract</h2>
+      <div class="content is-size-5 has-text-justified">
+        <p>
+          RHELM is a comprehensive benchmark for evaluating long-horizon memory capabilities
+          in AI systems. Unlike existing benchmarks built around static dialogues, RHELM
+          introduces <strong>realistic</strong>, <strong>heterogeneous</strong>, and
+          <strong>evolving</strong> memory challenges that better reflect real-world
+          assistant scenarios. It pairs multi-source memory (conversations, emails,
+          attachments) with questions requiring multi-hop reasoning, temporal synthesis,
+          preference tracking, and hallucination detection. All characters, events, and
+          personal details are fully synthetic.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benchmark Construction & Statistics -->
+  <section class="section has-background-light">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Benchmark Construction</h2>
+      <div class="content is-size-5 has-text-justified mb-5">
+        <p>
+          RHELM is generated by an iterative pipeline that enriches a persona profile,
+          simulates evolving timelines, and produces multi-source memory together with
+          challenging QA pairs across five dialogue categories.
+        </p>
+      </div>
+      <div class="columns is-variable is-6 is-vcentered">
+        <div class="column is-5">
+          <figure class="paper-figure">
+            <img src="pics/algorithm.png" alt="Algorithm 1: RHELM construction workflow">
+            <figcaption>
+              <strong>Algorithm 1.</strong> Profile enrichment, timeline
+              rollout / evolution / pruning, and dialogue generation.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column is-7">
+          <h3 class="title is-5 has-text-centered">Dataset Statistics</h3>
+          <div class="columns">
+            <div class="column">
+              <div class="content">
+                <table class="table is-fullwidth is-striped">
+                  <thead><tr><th>Item</th><th>Count</th></tr></thead>
+                  <tbody>
+                    <tr><td>Characters (personas)</td><td>10</td></tr>
+                    <tr><td>QA pairs</td><td>1,305</td></tr>
+                    <tr><td>Conversation sessions</td><td>629</td></tr>
+                    <tr><td>Emails</td><td>625</td></tr>
+                    <tr><td>Attachments</td><td>1,053</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <table class="table is-fullwidth is-striped">
+                  <thead><tr><th>Question Type</th><th>Count</th></tr></thead>
+                  <tbody>
+                    <tr><td>attachment</td><td>249</td></tr>
+                    <tr><td>mixed</td><td>210</td></tr>
+                    <tr><td>fact</td><td>207</td></tr>
+                    <tr><td>hallucination</td><td>197</td></tr>
+                    <tr><td>aggregation</td><td>192</td></tr>
+                    <tr><td>temporal</td><td>185</td></tr>
+                    <tr><td>misleading</td><td>65</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Challenge Taxonomy -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Challenge Taxonomy</h2>
+      <div class="content is-size-5 has-text-justified mb-5">
+        <p>
+          RHELM organizes questions into <strong>7 categories</strong> with
+          <strong>26 challenge characteristics</strong> across three QA domains:
+          Dialogue History QA, External Source QA, and Hybrid Context QA. These cover
+          multi-hop traversal, state-dependent attributes, temporal synthesis,
+          memory-conditioned misleading queries, and more.
+        </p>
+      </div>
+      <figure class="paper-figure is-narrow">
+        <img src="pics/challenge.png" alt="Table 3: Taxonomy of challenging questions">
+      </figure>
+      <p class="has-text-centered mt-5">
+        <a class="button is-link is-rounded"
+           href="https://github.com/Hanzhang-lang/RHELM_Benchmark/blob/main/docs/CHALLENGE_TAXONOMY.md">
+          <span class="icon"><i class="fas fa-list"></i></span>
+          <span>View Full Taxonomy</span>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Results / Leaderboard -->
+  <section class="section has-background-light">
+    <div class="container is-max-widescreen">
+      <h2 class="title is-3 has-text-centered">Main Results</h2>
+      <div class="content is-size-5 has-text-justified mb-5">
+        <p>
+          We evaluate RAG baselines, long-context models, and dedicated memory frameworks,
+          each under two settings: <strong>with</strong> and <strong>without</strong>
+          external data sources. Even the strongest systems struggle with cross-source
+          aggregation and hybrid-context reasoning.
+        </p>
+      </div>
+      <figure class="paper-figure">
+        <img src="pics/main_res.png" alt="Table 4: Detailed performance evaluation on RHELM">
+        <figcaption>
+          The best system (Claude Opus 4.5) reaches only <strong>38.1</strong> average.
+          Adding external sources can even hurt standard types, and RAG collapses on
+          mixed-type queries. All models score <strong>&lt;5%</strong> on misleading and
+          near-floor on hallucination — though stronger reasoning models resist deceptive
+          premises noticeably better.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Analysis -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Analysis</h2>
+      <div class="columns is-variable is-6 mt-2">
+        <div class="column is-half">
+          <figure class="paper-figure">
+            <img src="pics/characteristics_stas.png"
+                 alt="Figure 2: 10 worst-performing challenging characteristics">
+            <figcaption>
+              The hardest characteristics cluster in cross-source synthesis
+              (<em>Mixed</em>, <em>Aggregation</em>) and realistic requests
+              (<em>Misleading</em>, <em>Hallucination</em>): models confuse evidence
+              origins, mishandle conflicting history, and fabricate facts.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="paper-figure">
+            <img src="pics/recall.png"
+                 alt="Figure 3: Recall comparison of embedding models">
+            <figcaption>
+              Even at <strong>k=50</strong>, retrieved evidence stays limited and
+              insufficient for precise query resolution across all embedding models.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QA Format -->
+  <section class="section has-background-light">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">QA Format</h2>
+      <div class="content is-size-6">
+        <p>Each QA file is in JSON Lines format — one JSON object per question–answer pair:</p>
+<pre><code>{
+  "id": "fact_19130b",
+  "question": "... what did I actually have for my first meal of the day?",
+  "answer": "Leftover lentil soup",
+  "question_date": "2024-10-28",
+  "question_type": "fact",
+  "supporting_evidence": ["2024-05-26:5"],
+  "characteristics": ["State-Dependent Attribute"]
+}</code></pre>
+        <p>
+          <code>supporting_evidence</code> uses the form
+          <code>"&lt;session-date&gt;:&lt;turn-index&gt;"</code> for conversation evidence
+          (e.g. turn 5 of the 2024-05-26 session), or a file/section reference for attachments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BibTeX -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">BibTeX</h2>
+      <div class="content">
+<pre><code>@article{rhelm2026,
+  title   = {Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory},
+  author  = {Han Zhang and Zihao Tang and Xin Yu and Xiao Liu and Yeyun Gong and Haizhen Huang and Yan Lu and Weiwei Deng and Feng Sun and Qi Zhang and Hanfang Yang},
+  journal = {arXiv preprint arXiv:2605.31086},
+  year    = {2026}
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer has-text-centered">
+    <div class="content">
+      <p>
+        Website template adapted from
+        <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>,
+        licensed under
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+      </p>
+      <p class="has-text-grey">
+        Dataset released under
+        <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

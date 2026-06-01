@@ -1,0 +1,11 @@
+Sender: Alastair McEwan <alastair.mcewan@email.com>
+Recipient: Ewan Sinclair <ewan.sinclair@university.ac.uk>
+Subject: Refining Archival Standards and Day One Reflections
+Summary: Dr. McEwan provides Professor Sinclair with a detailed recap of the first day of the collaborative research project at Dumfries University Archives. The email discusses the successful digitisation of three parish register volumes, minor technical issues encountered and resolved, and initial impressions of the new scanning and metadata protocols. Dr. McEwan invites feedback on proposed refinements to archival standards and confirms the scheduling of monthly progress meetings as discussed over lunch.
+
+============================================================
+
+Sender: Fiona MacLeod <fiona.macleod@email.com>
+Recipient: Alastair McEwan <alastair.mcewan@email.com>
+Subject: Technical Support and Metadata Protocols – Follow-up
+Summary: Fiona follows up with Dr. McEwan regarding the technical issues experienced during the scanning session, offering additional guidance on scanner calibration and digital catalog metadata entry. She shares a checklist for future troubleshooting and requests confirmation of the updated backup routines implemented during the session.

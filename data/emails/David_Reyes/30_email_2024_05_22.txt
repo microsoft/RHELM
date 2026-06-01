@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maya Patel <maya.patel@ridgecrestclinic.com>
+Subject: Pixel 7 Pro and Laptop Repair Appointments & Field Data Sync Issues
+Summary: David emails Maya to inform her about ongoing problems with both the loaner Pixel 7 Pro and the Dell laptop, requesting appointment information for repairs and reporting technical difficulties encountered during field data log updates. The email also mentions recent phone screen glitches causing corrupted notes, seeks advice about possible data recovery, and clarifies collaboration delays due to device issues. David requests an updated timeline for parts shipments and emphasizes the need to restore full functionality before the next survey planning meeting.
+
+============================================================
+
+Sender: Maya Patel <maya.patel@ridgecrestclinic.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Update: Repair Shop Parts Shipment Delayed
+Summary: Maya replies to David's earlier email mid-afternoon to confirm that the repair shop has notified her of further delays in parts shipments for both the loaner Pixel and Dell laptop, now postponed for another week. She apologizes for the inconvenience, outlines interim troubleshooting steps, and suggests backup data solutions in the interim until the repairs can be completed.

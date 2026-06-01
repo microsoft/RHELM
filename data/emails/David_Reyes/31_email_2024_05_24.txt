@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Shortlisted Mentee Application: Maria Lopez
+Summary: David notifies Emily Tran that her mentee, Maria Lopez, has been shortlisted for the upcoming fieldwork program due to her impressive field notes and outreach experience. David requests confirmation of availability for follow-up interviews, and offers feedback on the reviewing process. Email contains attached summary of Maria's application highlights and possible scheduling for next steps.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Osprey Gear Support <support@osprey.com>
+Subject: Order Confirmation and Warranty Inquiry: Hydraulics Replacement Packs
+Summary: David sends a follow-up to Osprey Gear Support confirming the online order of three Hydraulics replacement packs, inquiring about expected delivery times and warranty coverage. He attaches a photo of the damaged packs and requests recommendations for improved durability based on rough field conditions experienced in Ridgecrest.

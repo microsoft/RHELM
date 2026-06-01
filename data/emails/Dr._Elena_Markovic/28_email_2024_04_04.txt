@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Saito Kenji <saito.kenji@jaxa.jp>
+Subject: LunaLink Synchronization Bug – Meeting Summary and Next Steps
+Summary: Elena summarizes the outcomes of the April 4 LunaLink troubleshooting meeting, including the identification of the timing mismatch, Dr. Saito's proposed firmware patch, and the updated risk assessment. She outlines the plan for the follow-up test on April 8 and attaches the updated risk assessment document. The email also thanks the team for their collaboration and invites further input before the next test.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Aisha Rahman <aisha.rahman@email.com>
+Subject: Orienteering App GPS Issue – Debrief and Next Field Trial
+Summary: Elena recaps her lunchtime discussion with Aisha regarding the orienteering app’s GPS issues, noting Aisha’s suggestion for a new test route near the Katwijk dunes. She shares her initial ideas for app improvements and proposes a date for the next field trial, requesting Aisha’s feedback on the plan.

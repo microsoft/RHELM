@@ -1,0 +1,11 @@
+Sender: Dr. Samuel Greene <samuel.greene@university.edu>
+Recipient: David R. Ellis <david.ellis@email.com>
+Subject: Summary and Next Steps After Your Final Telehealth Appointment
+Summary: Dr. Patel sends David a follow-up email summarizing the key points from their telehealth appointment on March 11. The email confirms that David is cleared to resume light strength training and short walks, outlines recommended activity limits, and attaches a PDF of the updated recovery plan. It also includes contact information for any follow-up questions and a reminder to log activities in his recovery log.
+
+============================================================
+
+Sender: David R. Ellis <david.ellis@email.com>
+Recipient: Monica Ellis <monica.ellis@email.com>
+Subject: Scheduled Blog Post: 'Returning to Routines After Injury'
+Summary: David notifies Monica that his new blog post, 'Returning to Routines After Injury,' has been drafted and scheduled for publication. He thanks Monica for her support and Jasper for the drawing, attaches a preview of the post, and invites Monica to review it before it goes live.

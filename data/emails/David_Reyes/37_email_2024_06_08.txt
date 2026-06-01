@@ -1,0 +1,18 @@
+Sender: Maria Lopez <maria.lopez@email.com>
+Recipient: David Reyes <david.reyes@email.com>
+Subject: Urgent: Field Sensor Malfunction Update
+Summary: Maria reports two malfunctioning environmental data sensors in the desert monitoring grid and requests immediate troubleshooting assistance. She details their operational history, suspected causes, and asks David to prioritize diagnostics. The email includes sensor IDs and recent log extracts.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Miguel Castillo <miguel.castillo@email.com>
+Subject: Rescheduling Rodent Photo Archive Review
+Summary: David requests to postpone their planned photo archive sorting session, citing severe fatigue and migraine. He suggests new dates, apologizes for the delay, and shares a brief status of the current backlog and unresolved images.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maya Patel <maya.patel@ridgecrestclinic.com>
+Subject: Issues with Loaner Phone During Fieldwork
+Summary: David describes technical failures experienced with the loaner phone provided by Maya – including frequent freezes and data losses affecting his field observations and bird photo documentation. He requests troubleshooting advice and asks about options for a replacement device before the next survey.

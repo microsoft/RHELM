@@ -1,0 +1,25 @@
+Sender: Dr. Felix Brandt <felix.brandt@company.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Follow-up Appointment Summary and Blue-Light Lens Recommendation
+Summary: Dr. Weber sends Martin a summary of his January 23rd follow-up appointment, including observations on his reduced eye strain symptoms, encouragement to continue his current routine, and details about the recommended blue-light filtering lenses. The email also includes order confirmation for the new lenses and estimated pickup date.
+
+============================================================
+
+Sender: Conrad Electronic Stuttgart <noreply@conrad.de>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Your Purchase Receipt and Pickup Confirmation – January 23rd
+Summary: Conrad Electronic provides Martin with a digital receipt for his in-store purchases: ESP32 microcontrollers, WS2812B LED strips, and a Hakko FX-888D soldering tip. The email includes itemized details, payment confirmation, and warranty information.
+
+============================================================
+
+Sender: Lukas Weber <lukas.weber@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Great Running Into You – Black Forest Cycling Tour Plans
+Summary: Lukas follows up after their brief encounter at Conrad Electronic, mentioning their chat about bike lights and suggesting a time to finalize plans for their upcoming Black Forest cycling tour. He proposes a meeting and shares a link to a route planning document.
+
+============================================================
+
+Sender: Jana Müller <jana.mueller@email.com>
+Recipient: Martin Keller <martin.keller@email.com>
+Subject: Thanks for the WLED Troubleshooting Tip!
+Summary: Jana thanks Martin for the troubleshooting advice he shared on his blog, explaining how it resolved her smart lighting setup issue. She asks a follow-up question about advanced WLED configuration and expresses appreciation for his detailed documentation.

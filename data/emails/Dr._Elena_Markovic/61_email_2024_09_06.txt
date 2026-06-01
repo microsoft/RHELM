@@ -1,0 +1,11 @@
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: Pieter Janssen <pieter.janssen@esa.int>
+Subject: Partial Feedback on Orienteering Mapping App
+Summary: Elena informs Pieter that her feedback on the new orienteering mapping app is incomplete due to repeated app crashes and GPS drift during their lunch break test. She describes the technical issues encountered, mentions the loss of her original notes, and requests a follow-up session once the app is more stable.
+
+============================================================
+
+Sender: Elena Markovic <elena.markovic@esa.int>
+Recipient: IT Support <itsupport@esa.int>
+Subject: Connectivity Issues During Video Call
+Summary: Elena reports persistent internet connectivity problems experienced during her scheduled video call with her parents. She details the symptoms (dropped calls, poor video quality), the time of occurrence, and requests assistance or a check on her office/home network connection.

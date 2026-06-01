@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Dr. Priya Rao <priya.rao@university.edu>
+Subject: Follow-Up: Mojave Plant Survey Integration Protocol
+Summary: This email recaps the morning Zoom meeting regarding the integration of Dr. Rao’s plant survey methods into the Mojave density project. David includes a summary of discussed protocol steps, next actions, and requests sample drone imagery. He acknowledges Priya’s suggestion for drone-based coverage of rocky flats, attaches draft protocol notes, and proposes a timeline for merging datasets.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Emily Tran <emily.tran@email.com>
+Subject: Summary of Data Review Session – Prey-Predator Correlation Discovery
+Summary: David emails Emily to summarize their afternoon collaborative session, detailing the resolution steps for data inconsistencies and documentation of the newly identified prey-predator correlation in their datasets. The email outlines refinements to the data pipeline, assigns tasks for follow-up analysis, and attaches annotated data snapshots for reference.

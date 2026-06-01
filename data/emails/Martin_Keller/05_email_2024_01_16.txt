@@ -1,0 +1,11 @@
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Augenärzte am Marienplatz <info@augenaerzte-marienplatz.de>
+Subject: Terminvereinbarung: Augenuntersuchung nächste Woche
+Summary: Martin confirms his optometrist appointment scheduled during his lunch break, referencing his recent eye strain from extended coding sessions. The email includes the agreed date and time, a brief description of his symptoms, and a request for any pre-appointment instructions.
+
+============================================================
+
+Sender: Martin Keller <martin.keller@email.com>
+Recipient: Lukas Weber <lukas.weber@email.com>
+Subject: Winter Cycling Routes & Training Tips
+Summary: Martin follows up with a fellow swimmer he met at Schwimmzentrum Sonnenberg, sharing a summary of their conversation about local cycling routes and exchanging additional tips and links for winter cycling training.

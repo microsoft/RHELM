@@ -1,0 +1,11 @@
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Maria Lopez <maria.lopez@email.com>
+Subject: Indian Wells Dawn Survey: Bird & Plant Update
+Summary: David sends Maria a concise morning update regarding habitat conditions observed during his sunrise hike in the Indian Wells Valley. He notes a confirmed sighting of Le Conte’s thrashers, unexpected Mojave aster bloom, and initial impressions of plant diversity near Ephedra patches, including relevance for Maria’s graduate survey. The message highlights promising data for her current fieldwork and mentions attached raw notes and select hike photos.
+
+============================================================
+
+Sender: David Reyes <david.reyes@email.com>
+Recipient: Dr. Priya Rao <priya.rao@university.edu>
+Subject: Mapping Software Sync Issue – Field Annotation Test Results
+Summary: David follows up after his virtual meeting with Dr. Rao, providing a recap of their mapping software annotation test. The email outlines encountered GPS layering integration bugs, joint troubleshooting steps, attached session notes, and agreed next steps for further fieldwork collaboration. He expresses optimism about their momentum and mentions successful photo uploads despite hardware setbacks.

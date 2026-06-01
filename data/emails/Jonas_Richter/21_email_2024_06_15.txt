@@ -1,0 +1,11 @@
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Dr. Katarzyna Nowak <petra.schulze@email.com>
+Subject: Finalized Agenda and Travel Details for Digital Rights Workshop
+Summary: Jonas shares the finalized agenda for the upcoming digital rights workshop and confirms travel arrangements for the Polish student group. He summarizes key discussion points from their midday video call, outlines next steps, and mentions the plan to draft a logistics email for Frau Becker by Monday.
+
+============================================================
+
+Sender: Jonas Richter <jonas.richter@email.com>
+Recipient: Open Internet Foundation <contact@openinternet.org>
+Subject: Race Condition Identified and Workaround in Key Exchange Module
+Summary: Jonas documents and shares his findings regarding a subtle race condition discovered in the key exchange module of the open-source encryption project. He provides a detailed description of the issue, the implemented workaround, and invites feedback or further testing from the community.

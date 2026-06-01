@@ -1,0 +1,11 @@
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Research Group <plantdiet-research@meduni.edu>
+Subject: Update: Dataset Harmonization Progress and Variable Coding Resolution
+Summary: Elias informs the cross-European research team that he has resolved the variable coding issue that was stalling their project. He summarizes the steps taken to harmonize the datasets, outlines any changes made, and invites team members to review the updated data files. He also proposes a brief video call later in the week to discuss next steps and ensure everyone is aligned.
+
+============================================================
+
+Sender: Elias Romero <elias.romero@email.com>
+Recipient: Journal Editorial Office <editorial@journalname.com>
+Subject: Response to Peer Review Comments: Manuscript ID 2024-1875
+Summary: Elias submits his formal response to the peer reviewers' feedback on his manuscript. He thanks the reviewers for their constructive comments, provides detailed, evidence-based replies to each point, and attaches a revised version of the manuscript. He highlights the key improvements and clarifications made in response to the feedback.
