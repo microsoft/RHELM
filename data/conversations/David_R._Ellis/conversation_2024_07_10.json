@@ -8,8 +8,8 @@
       "turn": 1,
       "timestamp": "2024-07-10T07:47:00",
       "message_type": "information_sharing",
-      "user": "Hey, this morning I was feeling pretty motivated to get back into my strength training routine, but something unexpected happened partway through my resistance band set. I’ll tell you, it really threw me off—have you ever had a workout derailed by a sudden twinge?",
-      "assistant": "Hey, I’m really glad you reached out to share this. It sounds like you were off to a strong start, and then something caught you off guard. I haven’t had a workout myself, but I know it’s actually pretty common for people to experience a sudden twinge or discomfort that can interrupt their flow. It can be frustrating, especially when you’re feeling motivated.\n\nIf you feel comfortable, do you want to tell me more about what happened? Where did you feel the twinge, and how are you feeling now?"
+      "user": "Hey, this morning I was feeling pretty motivated to get back into my strength training routine, but something unexpected happened partway through my resistance band set. I’ll tell you, it really threw me off—is it common for a sudden twinge to derail a workout like that?",
+      "assistant": "Hey, I’m really glad you reached out to share this. It sounds like you were off to a strong start, and then something caught you off guard. It’s actually pretty common for people to experience a sudden twinge or discomfort that can interrupt their flow. It can be frustrating, especially when you’re feeling motivated.\n\nIf you feel comfortable, do you want to tell me more about what happened? Where did you feel the twinge, and how are you feeling now?"
     },
     {
       "turn": 2,
@@ -29,7 +29,7 @@
       "turn": 4,
       "timestamp": "2024-07-10T10:00:00",
       "message_type": "status_update",
-      "user": "Yeah, Monica really noticed how stiff I was at breakfast—she kept urging me to rest, but I just couldn’t bring myself to skip out on Eastwood. How do you handle that push-pull between self-care and sticking to your commitments?",
+      "user": "Yeah, Monica really noticed how stiff I was at breakfast—she kept urging me to rest, but I just couldn’t bring myself to skip out on Eastwood. How would you suggest handling that push-pull between self-care and sticking to your commitments?",
       "assistant": "It really sounds like you’re in the middle of that classic tug-of-war—wanting to honor your commitments and be there for others, but also hearing those gentle reminders (from Monica and maybe even your own body) to slow down and take care of yourself. That’s not an easy place to be, and it’s completely understandable to feel conflicted.\n\nIt’s clear you care deeply about not letting people down, and that sense of responsibility says a lot about your character. At the same time, it’s okay to acknowledge that you have needs too, and that sometimes, taking a step back is actually a way of showing up for others in the long run—by making sure you’re well enough to keep going.\n\nIf you want, we can explore what makes it hard to give yourself permission to rest, or talk about how you balance those competing priorities. Sometimes just naming those feelings can help take a bit of the pressure off. And if you’d rather focus on how the workshop went or what you’re feeling now, I’m here for that too.\n\nWhatever direction you want to go, I’m here to listen and support you as you sort through it. What’s on your mind right now?"
     },
     {
@@ -99,7 +99,7 @@
       "turn": 14,
       "timestamp": "2024-07-10T20:31:00",
       "message_type": "status_update",
-      "user": "Yeah, honestly, what’s weighing on me most is just that feeling of letting people down—even though I know I updated Dr. Patel and did what I could. How do you handle that kind of guilt when your body just won’t cooperate?",
+      "user": "Yeah, honestly, what’s weighing on me most is just that feeling of letting people down—even though I know I updated Dr. Patel and did what I could. How would you suggest handling that kind of guilt when your body just won’t cooperate?",
       "assistant": "Thank you for being so open about what you’re carrying right now. That feeling of guilt—especially when your body just won’t cooperate—is so real, and it’s something a lot of caring, responsible people wrestle with. Even when you know, logically, that you kept Dr. Patel in the loop and did everything you could, it’s still hard to shake that sense of having let someone down.\n\nWhen guilt like this shows up, it can help to gently remind yourself that your limits aren’t a reflection of your intentions or your worth. You didn’t choose for your back to act up, and you did your best to communicate and adapt. Sometimes, our bodies just have their own plans, and that’s not a failure—it’s just part of being human.\n\nOne thing that can help is to talk to yourself the way you’d talk to a friend in your shoes. Would you blame them, or would you remind them of all the ways they still showed up, even if it looked different than planned? That same compassion belongs to you, too.\n\nIf you want, we can explore what the guilt is saying—what it’s really about, or what you’re afraid others might think. Sometimes, just giving those feelings a little space and curiosity can help them soften. And if you’d like, we can brainstorm some gentle ways to reconnect or check in with people, even while you’re still healing.\n\nYou’re doing your best, and that’s enough. I’m here to listen as long as you need—feel free to keep sharing what’s on your mind."
     }
   ],
