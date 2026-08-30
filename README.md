@@ -9,13 +9,17 @@
 <!-- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) -->
 
-<p align="center">
-  <img src="assets/main.png" alt="RHELM Overview" width="100%">
-</p>
+# 🔥 News
+
+🎉 **2026-08-30** Our paper has been accepted to **EMNLP 2026 Findings paper**! We warmly welcome the community to use RHELM and join the discussion.
+
 
 ## 📖 Overview
 
 RHELM is a comprehensive benchmark for evaluating long-horizon memory capabilities in AI systems. Unlike existing benchmarks that focus on static dialogues, RHELM introduces **realistic**, **heterogeneous**, and **evolving** memory challenges that better reflect real-world assistant scenarios.
+<p align="center">
+  <img src="assets/main.png" alt="RHELM Overview" width="100%">
+</p>
 
 ### Key Features
 
@@ -183,7 +187,6 @@ Dataset locations, embedding model, chunking and output paths can be customised 
 |-----------|--------|
 | Evaluation Framework | ✅ Available |
 | Benchmark Data | [🤗 HuggingFace](https://github.com/microsoft/RHELM) |
-| Data Generation Code | 🔜 To be released |
 
 
 ---
