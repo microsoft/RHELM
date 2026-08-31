@@ -11,7 +11,7 @@
   <meta property="og:title" content="RHELM: Beyond Static Dialogues">
   <meta property="og:description"
         content="Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory.">
-  <meta property="og:image" content="static/images/main.png">
+  <meta property="og:image" content="static/images/main.png?v=20260831-hd">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#f8fbff">
 
@@ -26,7 +26,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/site.css?v=20260831-3">
+  <link rel="stylesheet" href="static/css/site.css?v=20260831-4">
   <link rel="stylesheet" href="static/css/explorer.css">
 </head>
 <body>
@@ -122,7 +122,14 @@
               <span class="visual-dot"></span>
               <span class="visual-toolbar-title">A realistic long-horizon memory environment</span>
             </div>
-            <img src="static/images/main.png" alt="RHELM benchmark overview">
+                <picture>
+                  <source type="image/webp"
+                    srcset="static/images/main-1280.webp 1280w, static/images/main-2560.webp 2560w"
+                    sizes="(max-width: 1120px) calc(100vw - 2rem), 1080px">
+                  <img src="static/images/main.png?v=20260831-hd"
+                 width="2560" height="2172" loading="eager" fetchpriority="high" decoding="async"
+                 alt="RHELM benchmark overview">
+                </picture>
           </div>
           <div class="floating-note note-profile" aria-hidden="true">
             <i class="fas fa-address-card"></i>

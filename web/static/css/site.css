@@ -472,7 +472,12 @@ a {
   letter-spacing: 0.04em;
 }
 
+.visual-frame picture {
+  display: block;
+}
+
 .visual-frame img {
+  display: block;
   width: 100%;
   height: auto;
 }
