@@ -26,13 +26,13 @@ RHELM is a comprehensive benchmark for evaluating long-horizon memory capabiliti
 - 🎭 **Realistic Profiles**: Diverse characters with rich backstories, preferences, and evolving life circumstances
 - 📊 **Heterogeneous Data**: Multi-modal external memory sources including conversations, emails, documents
 - 🔄 **Temporal Evolution**: Time-aware questions that test memory across different temporal contexts
-- 🧠 **Challenging Question Taxonomy**: 7 major categories with 26 complex characteristics requiring multi-hop reasoning, temporal synthesis, preference tracking, and hallucination detection
+- 🧠 **Challenging Question Taxonomy**: 7 major categories with 27 complex characteristics requiring multi-hop reasoning, temporal synthesis, preference tracking, and hallucination detection
 - ⚠️ **Memory-Conditioned Misleading Queries**: "Trap" queries that conflict with the user's updated life state, requiring the assistant to detect the implicit conflict, decline the unsafe request, and propose a constraint-compliant alternative
 <!-- - 🎯 **Advanced Reasoning Requirements**: Questions designed to test entity disambiguation, causal reasoning, anomaly detection, and cross-document inference -->
 
 ## 📋 Challenge Taxonomy
 
-RHELM features a comprehensive taxonomy of challenging memory questions across three major QA domains with **7 categories** and **26 complex characteristics**.
+RHELM features a comprehensive taxonomy of challenging memory questions across three major QA domains with **7 categories** and **27 complex characteristics**.
 
 👉 **[View Full Challenge Taxonomy](docs/CHALLENGE_TAXONOMY.md)**
 

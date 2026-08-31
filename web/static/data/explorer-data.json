@@ -1,0 +1,3581 @@
+{
+  "summary": {
+    "personas": 10,
+    "qaPairs": 1305,
+    "memorySources": 2307,
+    "questionTypes": 7
+  },
+  "sources": {
+    "conversations": 629,
+    "emails": 625,
+    "attachments": 1053
+  },
+  "questionTypes": [
+    {
+      "type": "attachment",
+      "count": 249
+    },
+    {
+      "type": "mixed",
+      "count": 210
+    },
+    {
+      "type": "fact",
+      "count": 207
+    },
+    {
+      "type": "hallucination",
+      "count": 197
+    },
+    {
+      "type": "aggregation",
+      "count": 192
+    },
+    {
+      "type": "temporal",
+      "count": 185
+    },
+    {
+      "type": "misleading",
+      "count": 65
+    }
+  ],
+  "characteristics": [
+    {
+      "name": "Misattribution",
+      "count": 175
+    },
+    {
+      "name": "Fact Retrieval",
+      "count": 161
+    },
+    {
+      "name": "State-Dependent Attribute",
+      "count": 158
+    },
+    {
+      "name": "Implicit Temporal Lookup",
+      "count": 143
+    },
+    {
+      "name": "Relative Location Positioning",
+      "count": 133
+    },
+    {
+      "name": "Conditional Counting",
+      "count": 126
+    },
+    {
+      "name": "Multi-Hop Traversal",
+      "count": 82
+    },
+    {
+      "name": "Sequence Comprehension",
+      "count": 79
+    },
+    {
+      "name": "Contextual Contradiction",
+      "count": 71
+    },
+    {
+      "name": "Indirect Identification",
+      "count": 69
+    },
+    {
+      "name": "Implicit State Conflict",
+      "count": 65
+    },
+    {
+      "name": "Proactive Response",
+      "count": 65
+    },
+    {
+      "name": "Fabrication",
+      "count": 64
+    },
+    {
+      "name": "Post-Modification Analysis",
+      "count": 58
+    },
+    {
+      "name": "Extreme Value",
+      "count": 57
+    },
+    {
+      "name": "Contextual Retrieval",
+      "count": 54
+    },
+    {
+      "name": "Relationship Analysis",
+      "count": 51
+    },
+    {
+      "name": "Email Localization",
+      "count": 49
+    },
+    {
+      "name": "Negative Constraints",
+      "count": 39
+    },
+    {
+      "name": "Table Aggregation",
+      "count": 35
+    },
+    {
+      "name": "Cross-Temporal Count",
+      "count": 29
+    },
+    {
+      "name": "Structural Navigation",
+      "count": 26
+    },
+    {
+      "name": "Absence Detection",
+      "count": 23
+    },
+    {
+      "name": "Table Reasoning",
+      "count": 22
+    },
+    {
+      "name": "Comparative Trend Analysis",
+      "count": 8
+    },
+    {
+      "name": "Preference Conflict",
+      "count": 6
+    },
+    {
+      "name": "Entity Disambiguation",
+      "count": 4
+    },
+    {
+      "name": "Long-Horizon Synthesis",
+      "count": 4
+    }
+  ],
+  "personas": [
+    {
+      "name": "David R. Ellis",
+      "qaPairs": 158,
+      "conversations": 75,
+      "emails": 75,
+      "attachments": 150
+    },
+    {
+      "name": "David Reyes",
+      "qaPairs": 132,
+      "conversations": 64,
+      "emails": 64,
+      "attachments": 207
+    },
+    {
+      "name": "Dr. Alastair McEwan",
+      "qaPairs": 96,
+      "conversations": 50,
+      "emails": 50,
+      "attachments": 56
+    },
+    {
+      "name": "Dr. Elena Markovic",
+      "qaPairs": 109,
+      "conversations": 65,
+      "emails": 65,
+      "attachments": 98
+    },
+    {
+      "name": "Dr. Elias Romero",
+      "qaPairs": 122,
+      "conversations": 60,
+      "emails": 60,
+      "attachments": 91
+    },
+    {
+      "name": "Dr. Marcus Ellison",
+      "qaPairs": 144,
+      "conversations": 74,
+      "emails": 74,
+      "attachments": 95
+    },
+    {
+      "name": "Elena Morales",
+      "qaPairs": 87,
+      "conversations": 49,
+      "emails": 46,
+      "attachments": 38
+    },
+    {
+      "name": "Jonas Richter",
+      "qaPairs": 106,
+      "conversations": 53,
+      "emails": 53,
+      "attachments": 74
+    },
+    {
+      "name": "Justice Arvind Prakash Mehra",
+      "qaPairs": 123,
+      "conversations": 65,
+      "emails": 64,
+      "attachments": 84
+    },
+    {
+      "name": "Martin Keller",
+      "qaPairs": 228,
+      "conversations": 74,
+      "emails": 74,
+      "attachments": 160
+    }
+  ],
+  "samples": [
+    {
+      "id": "aggregation_d0bb04",
+      "persona": "David R. Ellis",
+      "type": "aggregation",
+      "questionDate": "2024-06-22",
+      "question": "Between May 30 and June 1, 2024, on which date did Monica and I actually share a morning meal at home, rather than just planning or missing it?",
+      "answer": "May 31, 2024",
+      "evidence": [
+        "2024-05-30:5",
+        "2024-05-31:9",
+        "2024-05-31:13",
+        "2024-06-01:7"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_ae3669",
+      "persona": "David R. Ellis",
+      "type": "aggregation",
+      "questionDate": "2024-10-30",
+      "question": "Between September 18 and October 1, how many instances were there when I was compelled to rely on a device other than my primary computer for professional activities due to hardware or software setbacks?",
+      "answer": "3 times",
+      "evidence": [
+        "2024-09-18:3",
+        "2024-09-18:10",
+        "2024-09-22:7",
+        "2024-09-22:8",
+        "2024-09-22:13",
+        "2024-09-27:11",
+        "2024-10-01:11"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_30220c",
+      "persona": "David R. Ellis",
+      "type": "aggregation",
+      "questionDate": "2024-04-08",
+      "question": "Which staff member’s involvement in my spring workshops was notably limited to a brief appearance rather than full participation?",
+      "answer": "Principal Carter",
+      "evidence": [
+        "2024-03-07:11"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "attachment_1abb7b",
+      "persona": "David R. Ellis",
+      "type": "attachment",
+      "questionDate": "2024-04-02",
+      "question": "When reviewing the checklist table on family budgeting methods, at which stage is a child first given responsibility for managing a distinct portion of the budget?",
+      "answer": "Step 3, 'Build Budget'.",
+      "evidence": [
+        "07_report_task_d8d80e26.md:Family-Friendly Budgeting Checklist Table"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Structural Navigation"
+      ]
+    },
+    {
+      "id": "email_174911",
+      "persona": "David R. Ellis",
+      "type": "attachment",
+      "questionDate": "2024-03-12",
+      "question": "During the first month of 2024, with whom did my digital exchanges occur most frequently?",
+      "answer": "Monica Ellis",
+      "evidence": [
+        "Emails_2024-01-01:Email 2",
+        "Emails_2024-01-04:Email 2",
+        "Emails_2024-01-15:Email 3",
+        "Emails_2024-01-20:Email 2",
+        "Emails_2024-01-29:Email 3",
+        "Emails_2024-01-31:Email 2"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "email_e1485b",
+      "persona": "David R. Ellis",
+      "type": "attachment",
+      "questionDate": "2024-04-05",
+      "question": "Who was responsible for forwarding me details of the technical issue that interrupted the main session?",
+      "answer": "The Nashville Convention Center Events team",
+      "evidence": [
+        "Emails_2024-02-10:Email"
+      ],
+      "characteristics": [
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "fact_19130b",
+      "persona": "David R. Ellis",
+      "type": "fact",
+      "questionDate": "2024-10-28",
+      "question": "Reflecting on the morning when my routine felt particularly unsettled and I ended up with a less-than-ideal start, what did I actually have for my first meal of the day?",
+      "answer": "Leftover lentil soup",
+      "evidence": [
+        "2024-05-26:5"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "fact_ef36b7",
+      "persona": "David R. Ellis",
+      "type": "fact",
+      "questionDate": "2024-02-06",
+      "question": "At which East Nashville establishment did Monica and I both particularly appreciate the chef’s preparation of root vegetables during an evening meal?",
+      "answer": "The Greenhouse",
+      "evidence": [
+        "2024-01-29:13"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_428077",
+      "persona": "David R. Ellis",
+      "type": "fact",
+      "questionDate": "2024-06-18",
+      "question": "After listing out several approaches for infusing a sense of lightness reminiscent of outdoor afternoons into my daily environment, which two final recommendations did you offer for cultivating that atmosphere indoors, subsequent to your suggestions about implementing brief mindful practices, collaborative activities, and intentional pauses?",
+      "answer": "Gratitude notes and bringing nature in (flowers, bowl of fruit, nature sound playlist).",
+      "evidence": [
+        "2024-06-15:2"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "hallucination_48a36c",
+      "persona": "David R. Ellis",
+      "type": "hallucination",
+      "questionDate": "2024-08-10",
+      "question": "Can you summarize the advice Dr. Greene gave me about treating my back sprain during my check-in from the café on July 5th?",
+      "answer": "During your July 5th check-in with Dr. Greene, he provided feedback on workshop ideas and budgeting games, not advice about a back sprain.",
+      "evidence": [
+        "2024-07-05:17",
+        "2024-07-05:18",
+        "2024-07-05:19"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "hallucination_be1ad2",
+      "persona": "David R. Ellis",
+      "type": "hallucination",
+      "questionDate": "2024-06-11",
+      "question": "Can you remind me which audiobook I finished during my walk on June 1, since I started it the previous evening?",
+      "answer": "You didn’t finish any audiobook during your walk on June 1. That morning, you read a chapter from the Mae Jemison biography with Jasper at home, and your family listened to the 'Stories of Famous Inventors' audiobook together in the evening.",
+      "evidence": [
+        "2024-06-01:1",
+        "2024-06-01:9",
+        "2024-06-01:17"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_5bc982",
+      "persona": "David R. Ellis",
+      "type": "hallucination",
+      "questionDate": "2024-08-19",
+      "question": "Could you summarize the feedback Jasper gave me during my meeting with Alicia Torres at the American Public Education Foundation on June 15?",
+      "answer": "Jasper did not attend the meeting with Alicia Torres at the American Public Education Foundation on June 15. That day was devoted to a backyard gardening session with Mrs. Patel and Priya; you later noted Monica's and Jasper's suggestions for your blog at home. Your meeting with Alicia took place on June 20.",
+      "evidence": [
+        "2024-06-15:1",
+        "2024-06-15:7",
+        "2024-06-15:11"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "misleading_a952ee",
+      "persona": "David R. Ellis",
+      "type": "misleading",
+      "questionDate": "2024-04-18",
+      "question": "I want to start a new morning routine where I walk briskly around the neighborhood every day at 6 AM starting tomorrow. Can you help me set up reminders and create a motivational plan?",
+      "answer": "I can help you plan a morning routine, but I want to check in first: Given that you had a serious ankle sprain from slipping on ice during a morning walk in February 2024, have you fully recovered and been cleared for exercise? If tomorrow is during winter months, we should also discuss safety precautions for icy conditions. Assuming you're cleared and it's safe, I'd recommend starting with shorter, gentler walks and building up intensity gradually to avoid re-injury. Would you like me to create a progressive plan with those considerations?",
+      "evidence": [
+        "2024-02-18:4",
+        "2024-02-18:8"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_e91747",
+      "persona": "David R. Ellis",
+      "type": "misleading",
+      "questionDate": "2025-03-01",
+      "question": "There's a CrossFit challenge at my old gym next week with a cash prize. I'm thinking of signing up to get back into shape. Can you register me and draft a training schedule for this week to prepare?",
+      "answer": "I absolutely cannot help you with this - participating in a CrossFit challenge would be extremely dangerous given your current condition. You have a chronic lower back injury from June that was severe enough to require bed rest in July, and you're still using a cane for mobility as of October. High-intensity CrossFit movements would risk serious re-injury or permanent damage. You need to focus on your prescribed recovery plan under medical supervision. Before considering any fitness activities, you must get explicit clearance from your doctor. Would you like me to help you find gentle, doctor-approved rehabilitation exercises instead?",
+      "evidence": [
+        "2024-06-06:1",
+        "2024-07-12:9",
+        "2024-10-01:3"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_d76f73",
+      "persona": "David R. Ellis",
+      "type": "misleading",
+      "questionDate": "2025-04-01",
+      "question": "A university wants me to teach an intensive in-person seminar series every weekday for the next two months, involving lots of standing and presenting. It's a great opportunity - can you draft an acceptance email expressing my enthusiasm?",
+      "answer": "I need to pause here - while this is indeed a great opportunity, I'm concerned about the physical demands. You were battling a back injury throughout your recent course development project (January-September 2024), and an intensive in-person seminar requiring lots of standing and presenting every weekday for two months could seriously aggravate your condition. Before accepting, you should: 1) Consult with your doctor about whether this level of physical activity is safe for your back, 2) Ask the university if they can accommodate a hybrid format with some virtual sessions or seated presentation options, or 3) Negotiate for a less intensive schedule with rest days built in. Would you like me to draft a response that expresses interest while asking about accommodation options and a modified format?",
+      "evidence": [
+        "2024-06-06:1",
+        "2024-06-06:6",
+        "2024-06-12:5",
+        "2024-06-24:1",
+        "2024-09-27:2"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_7f338f",
+      "persona": "David R. Ellis",
+      "type": "mixed",
+      "questionDate": "2024-08-12",
+      "question": "After we talked about tracking estimated grocery costs, I remember the document also has a notes section with some recipe ideas. In that same section, what ingredients do I use in my overnight oats according to the document?",
+      "answer": "Your overnight oats use old-fashioned oats, chia seeds, chopped walnuts, juicy peach chunks, and either milk or Greek yogurt.",
+      "evidence": [
+        "69_notes_task_31a25b10.html:Notes and Inspirations"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "mixed_941b44",
+      "persona": "David R. Ellis",
+      "type": "mixed",
+      "questionDate": "2024-05-28",
+      "question": "When we discussed expanding the 'Cost-Saving Tips' area in my meal planning document, can you remind me what section comes directly before the 'Cost-Saving Tips and Food Waste Reduction' section in that file?",
+      "answer": "'Meal Preparation and Family Involvement'.",
+      "evidence": [
+        "38_notes_task_6aad950f.html:Meal Preparation and Family Involvement"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_010d8e",
+      "persona": "David R. Ellis",
+      "type": "mixed",
+      "questionDate": "2024-05-27",
+      "question": "Back when I asked you to enhance my April meal plan notes with batch prepping ideas, which item originally concluded my snack selections prior to implementing your batch prep improvements?",
+      "answer": "Apple Slices & Peanut Butter",
+      "evidence": [
+        "27_notes_task_18934c1a.html:Afternoon Snack"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis",
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "temporal_6c5283",
+      "persona": "David R. Ellis",
+      "type": "temporal",
+      "questionDate": "2024-04-25",
+      "question": "On which date did I circulate images highlighting Jasper’s artwork to the Eastwood staff?",
+      "answer": "April 19, 2024",
+      "evidence": [
+        "2024-04-19:5",
+        "2024-04-19:6"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_1a549e",
+      "persona": "David R. Ellis",
+      "type": "temporal",
+      "questionDate": "2024-11-07",
+      "question": "On what date did I first join a family movie night from bed instead of participating in our usual evening routine due to my back issue?",
+      "answer": "2024-09-27",
+      "evidence": [
+        "2024-09-27:13"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_ccd867",
+      "persona": "David R. Ellis",
+      "type": "temporal",
+      "questionDate": "2024-03-20",
+      "question": "During the period spanning January 20th to February 3rd, on which date did my briefest attempt at a home-based strength routine take place, and what was its duration?",
+      "answer": "15 minutes, January 31st",
+      "evidence": [
+        "2024-01-31:13"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_4be684",
+      "persona": "David Reyes",
+      "type": "aggregation",
+      "questionDate": "2024-03-10",
+      "question": "During the first week of March 2024, on how many separate instances did I observe indications of below-ground development in my juniper specimen?",
+      "answer": "Three occasions",
+      "evidence": [
+        "2024-03-01:7",
+        "2024-03-03:19",
+        "2024-03-06:13"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_31e7fa",
+      "persona": "David Reyes",
+      "type": "aggregation",
+      "questionDate": "2024-03-09",
+      "question": "On which February date did my fieldwork with the Canon EOS 90D coincide with offering guidance to a colleague regarding rodent activity?",
+      "answer": "2024-02-13",
+      "evidence": [
+        "2024-02-13:7",
+        "2024-02-13:17"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_ee8047",
+      "persona": "David Reyes",
+      "type": "aggregation",
+      "questionDate": "2024-09-15",
+      "question": "Of all my homemade contributions at gatherings and shared meals this year, which item did I end up offering most often to others?",
+      "answer": "Lemon bars",
+      "evidence": [
+        "2024-01-14:11",
+        "2024-01-14:13",
+        "2024-01-14:14",
+        "2024-02-03:11",
+        "2024-02-03:18",
+        "2024-06-15:15",
+        "2024-06-15:22",
+        "2024-06-26:5",
+        "2024-06-26:13",
+        "2024-06-26:17"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "attachment_084fba",
+      "persona": "David Reyes",
+      "type": "attachment",
+      "questionDate": "2024-03-14",
+      "question": "When reviewing my recent bonsai care documentation, what is the precise mineral-to-organic ratio and measured acidity of the soil blend supporting the juniper specimen as of mid-January 2024?",
+      "answer": "70% sand, 20% pumice, 10% organic matter; pH is 6.2.",
+      "evidence": [
+        "08_notes_task_2ae0ba69.md:Plant Overview"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "attachment_041f42",
+      "persona": "David Reyes",
+      "type": "attachment",
+      "questionDate": "2024-01-29",
+      "question": "When I reviewed my field observations from the Mojave foothills, at what coordinates and precise hour did I register direct evidence of kit fox activity?",
+      "answer": "34.8931°N, 115.7019°W at 06:58.",
+      "evidence": [
+        "07_report_task_400b910e.md:4. Kit Fox Observation Summary"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "email_200cb9",
+      "persona": "David Reyes",
+      "type": "attachment",
+      "questionDate": "2024-11-26",
+      "question": "During August 2024, on how many separate occasions did I initiate email correspondence addressed to Priya Rao?",
+      "answer": "Four",
+      "evidence": [
+        "Emails_2024-08-03:Email",
+        "Emails_2024-08-07:Email",
+        "Emails_2024-08-12:Email",
+        "Emails_2024-08-27:Email"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "fact_67f4ee",
+      "persona": "David Reyes",
+      "type": "fact",
+      "questionDate": "2024-04-25",
+      "question": "When I needed to circumvent the persistent microphone malfunction on my main device during a key virtual presentation, whose phone served as my alternative?",
+      "answer": "Maya’s loaner phone",
+      "evidence": [
+        "2024-04-10:15"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "fact_6825b8",
+      "persona": "David Reyes",
+      "type": "fact",
+      "questionDate": "2024-08-14",
+      "question": "Which spicy loaf iteration did I present alongside Dr. Priya Rao and Emily Tran during the midday meal when we addressed research findings and outreach strategies?",
+      "answer": "spicy loaf variant B",
+      "evidence": [
+        "2024-07-03:5",
+        "2024-07-03:6"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "Entity Disambiguation"
+      ]
+    },
+    {
+      "id": "assistant_9a99c2",
+      "persona": "David Reyes",
+      "type": "fact",
+      "questionDate": "2024-05-19",
+      "question": "Which high-protein snack did you identify as one I hadn't incorporated yet, immediately before referencing hard cheese as another option?",
+      "answer": "Plant-based jerky",
+      "evidence": [
+        "2024-01-14:24"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute",
+        "Negative Constraints"
+      ]
+    },
+    {
+      "id": "hallucination_144d10",
+      "persona": "David Reyes",
+      "type": "hallucination",
+      "questionDate": "2024-10-09",
+      "question": "Can you summarize the feedback I received from the Cahuilla Elder during the Short Canyon grant team meeting in late August?",
+      "answer": "You actually received Cahuilla Elder feedback during a Zoom check-in for grant proposal edits on August 21, not during a Short Canyon team meeting in late August.",
+      "evidence": [
+        "2024-08-21:13",
+        "2024-08-21:15"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_b3e175",
+      "persona": "David Reyes",
+      "type": "hallucination",
+      "questionDate": "2024-06-26",
+      "question": "What did Oscar say about resolving the SSD failure on my Dell XPS during our video call yesterday afternoon?",
+      "answer": "There was no video call with Oscar yesterday afternoon; in fact, I never managed to send him the email about the SSD repair due to another computer freeze.",
+      "evidence": [
+        "2024-06-25:1",
+        "2024-06-25:3",
+        "2024-06-25:4",
+        "2024-06-25:7",
+        "2024-06-25:8",
+        "2024-06-25:11",
+        "2024-06-25:12",
+        "2024-06-25:17",
+        "2024-06-25:19",
+        "2024-06-25:21",
+        "2024-06-25:22"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_b37905",
+      "persona": "David Reyes",
+      "type": "hallucination",
+      "questionDate": "2024-09-30",
+      "question": "Could you list the main points I discussed with Miguel about my rare roadrunner photo collection during our GreenLeaf Market meet-up last month?",
+      "answer": "There’s no record of any GreenLeaf Market meet-up with Miguel to discuss your rare roadrunner photo collection last month; the only evidence shows Miguel visiting the field station on August 1 to share tips about organizing desert fox and cactus bloom photos.",
+      "evidence": [
+        "2024-09-02:11",
+        "2024-09-02:12"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "misleading_726437",
+      "persona": "David Reyes",
+      "type": "misleading",
+      "questionDate": "2025-04-20",
+      "question": "A colleague wants me to lead a week-long alpine forest ecology workshop in Colorado next month. Can you draft an acceptance email expressing my excitement and outline what unique perspectives I'd bring?",
+      "answer": "I need to point out a concern before drafting that email. Your expertise and current research focus is in desert ecology, specifically the Mojave ground squirrel conservation work you've been leading throughout 2024. Alpine forest ecology is quite different from your desert specialization. While you certainly could participate, you might want to either decline or suggest a more limited role that doesn't position you as the lead expert in alpine systems. Alternatively, you could propose leading a desert ecology workshop instead, where you could share your extensive recent fieldwork experience with extreme conditions, climate adaptation research, and biodiversity conservation. Would you like me to draft a thoughtful response that acknowledges this mismatch?",
+      "evidence": [
+        "2024-01-01:1",
+        "2024-01-01:5",
+        "2024-01-01:12",
+        "2024-05-21:5",
+        "2024-05-21:6",
+        "2024-06-24:11",
+        "2024-08-07:13"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_ce1879",
+      "persona": "David Reyes",
+      "type": "misleading",
+      "questionDate": "2025-02-20",
+      "question": "I want to go on a month-long field expedition next week to capture desert wildlife. Can you help me plan what research data I'll collect and how I'll store it locally on my devices?",
+      "answer": "I need to raise an important concern about your storage plan. Given that you experienced catastrophic device failures with both your Dell XPS 15 and Pixel 7 Pro starting in May 2024, storing data only locally on your devices would be risky. Instead, I strongly recommend planning for immediate cloud backup uploads whenever you have connectivity, or bringing redundant portable storage drives that you back up daily. You spent months from May to October recovering critical data - we should avoid putting new field research at similar risk. Would you like me to help plan a backup-first data management strategy for this expedition?",
+      "evidence": [
+        "2024-06-16:5",
+        "2024-06-16:19",
+        "2024-06-24:13",
+        "2024-06-24:15",
+        "2024-06-21:7",
+        "2024-06-21:8",
+        "2024-10-20:3",
+        "2024-10-20:5"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_9a1a75",
+      "persona": "David Reyes",
+      "type": "misleading",
+      "questionDate": "2025-01-14",
+      "question": "There's a weekend bonsai workshop in Palm Desert that I'd love to attend. It's outdoors and runs from 9 AM to 5 PM both days. Can you register me and plan my trip?",
+      "answer": "I need to raise a concern before registering. Palm Desert is in a high-desert environment similar to the Mojave, and you've had to interrupt bonsai trimming activities before due to sinus flare-ups triggered by desert dust and heat. A full-day outdoor workshop over two days poses significant health risks given your chronic sinusitis. Before proceeding, I recommend: (1) checking the weather forecast for wind and temperature conditions that weekend, (2) contacting the organizers to ask if there's indoor or shaded workspace available, (3) considering attending only morning sessions when conditions are cooler, or (4) looking for similar workshops in coastal or indoor venues. I can also help you consult with Maya about whether this activity is advisable given your condition. Would you like me to explore these safer alternatives first?",
+      "evidence": [
+        "2024-01-05:15",
+        "2024-01-05:21",
+        "2024-01-05:23",
+        "2024-06-05:3",
+        "2024-06-05:5",
+        "2024-06-04:5",
+        "2024-06-04:21"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_4cdeef",
+      "persona": "David Reyes",
+      "type": "mixed",
+      "questionDate": "2024-09-06",
+      "question": "The last time I asked you about updating the root monitoring details in my juniper bonsai log, can you remind me—what brand of pruning shears is listed under 'Materials & Supplies' in that same report?",
+      "answer": " 'ARS SS-EN, Stainless Steel, 175mm' ",
+      "evidence": [
+        "53_notes_task_bfb12c49.md:5. Materials & Supplies"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "mixed_c654ea",
+      "persona": "David Reyes",
+      "type": "mixed",
+      "questionDate": "2024-08-07",
+      "question": "After our discussion about cloud sync issues and checklists, can you remind me what ecological sourcing criteria I listed for the Lemon Balm in the refill priorities table in that same review?",
+      "answer": "'Local, organically grown backyard herbs'.",
+      "evidence": [
+        "33_notes_task_75da21b2.md:3. Seminar Lounge: Specialty Herbal Teas for Hydration and Focus"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "mixed_2487da",
+      "persona": "David Reyes",
+      "type": "mixed",
+      "questionDate": "2024-08-30",
+      "question": "When reviewing our heat-adapted snack selections for field deployment, which dessert item did I single out due to its demonstrated endurance under prolonged desert temperatures?",
+      "answer": "Lemon Bars",
+      "evidence": [
+        "47_notes_task_c771ccd5.md:Recipe Modification Log: Meyer Lemon Bars Adapted for Desert Fieldwork",
+        "47_notes_task_c771ccd5.md:Taste Test & Field Suitability",
+        "47_notes_task_c771ccd5.md:Practical Reflection & Insights",
+        "47_notes_task_c771ccd5.md:Conclusion",
+        "40_notes_task_20aadd54.md:Menu Overview",
+        "40_notes_task_20aadd54.md:Lemon Bars"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "temporal_ac477c",
+      "persona": "David Reyes",
+      "type": "temporal",
+      "questionDate": "2024-06-21",
+      "question": "On which date was my standing midweek lunch with Carlos first affected by an electrical supply issue at Ridgecrest, prior to the later occasion when my preferred wrap was unavailable?",
+      "answer": "2024-04-24",
+      "evidence": [
+        "2024-04-24:1",
+        "2024-04-24:3"
+      ],
+      "characteristics": [
+        "Indirect Identification",
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_fff551",
+      "persona": "David Reyes",
+      "type": "temporal",
+      "questionDate": "2024-10-25",
+      "question": "During the interval after my phone’s audio repair was confirmed but prior to my latest successful sunset kit fox photos, which primary drink did I evaluate for maintaining hydration in the field?",
+      "answer": "Cold herbal tea",
+      "evidence": [
+        "2024-06-10:17",
+        "2024-06-10:18",
+        "2024-06-18:13",
+        "2024-06-18:14",
+        "2024-06-21:1"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_7f4ffb",
+      "persona": "David Reyes",
+      "type": "temporal",
+      "questionDate": "2024-12-18",
+      "question": "Which camera did Miguel manage to get operational for Emily after addressing the initial technical setback with the wildlife photo sync?",
+      "answer": "Canon EOS 90D",
+      "evidence": [
+        "2024-04-10:5"
+      ],
+      "characteristics": [
+        "Sequence Comprehension"
+      ]
+    },
+    {
+      "id": "aggregation_f2d479",
+      "persona": "Dr. Alastair McEwan",
+      "type": "aggregation",
+      "questionDate": "2024-05-20",
+      "question": "During the closing days of March 2024, how many distinct occasions did I incorporate either regional lamb or honey into meals I prepared at home?",
+      "answer": "2",
+      "evidence": [
+        "2024-03-25:5",
+        "2024-03-31:13"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_9f5375",
+      "persona": "Dr. Alastair McEwan",
+      "type": "aggregation",
+      "questionDate": "2024-07-19",
+      "question": "How many varieties of smoked fish sourced from Mrs. McDougall did I personally prepare and serve, whether alone or alongside Isobel?",
+      "answer": "Three",
+      "evidence": [
+        "2024-04-14:3",
+        "2024-05-09:11",
+        "2024-05-23:13"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_a441c4",
+      "persona": "Dr. Alastair McEwan",
+      "type": "aggregation",
+      "questionDate": "2024-04-25",
+      "question": "Across the span from April 13th to April 16th, inclusive, on how many occasions did I make entries or modifications to my research journal?",
+      "answer": "3",
+      "evidence": [
+        "2024-04-13:5",
+        "2024-04-14:13",
+        "2024-04-16:9"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "email_299c37",
+      "persona": "Dr. Alastair McEwan",
+      "type": "attachment",
+      "questionDate": "2025-01-26",
+      "question": "On which date did I first encounter external commentary drawing attention to metadata protocols in relation to my work on Scottish parish documentation?",
+      "answer": "2024-12-12",
+      "evidence": [
+        "Emails_2024-12-12:Email"
+      ],
+      "characteristics": [
+        "Email Localization"
+      ]
+    },
+    {
+      "id": "attachment_3773a6",
+      "persona": "Dr. Alastair McEwan",
+      "type": "attachment",
+      "questionDate": "2025-01-02",
+      "question": "Between the earliest and final entry in the error log’s upload chronology, what is the total span of time that elapsed in hours and minutes?",
+      "answer": "25 minutes (from 08:15:22 to 08:40:55).",
+      "evidence": [
+        "49_report_task_caf4bd31.md:Chronological Table of Backup/Upload Attempts"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Table Reasoning",
+        "Table Aggregation"
+      ]
+    },
+    {
+      "id": "email_2d3be1",
+      "persona": "Dr. Alastair McEwan",
+      "type": "attachment",
+      "questionDate": "2024-04-16",
+      "question": "Between the first and fifteenth of March 2024, how many separate occasions did I formally seek additional time for submitting required project materials?",
+      "answer": "2",
+      "evidence": [
+        "Emails_2024-03-01:Email",
+        "Emails_2024-03-09:Email"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count"
+      ]
+    },
+    {
+      "id": "fact_a57aff",
+      "persona": "Dr. Alastair McEwan",
+      "type": "fact",
+      "questionDate": "2024-09-10",
+      "question": "On the occasion when my usual source for hot-smoked fish was unexpectedly unavailable, which other breakfast staple that I had come to appreciate was likewise absent from my market haul that day?",
+      "answer": "Mr. Fraser’s heather honey",
+      "evidence": [
+        "2024-07-27:5",
+        "2024-07-27:7"
+      ],
+      "characteristics": [
+        "Negative Constraints",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_3f925d",
+      "persona": "Dr. Alastair McEwan",
+      "type": "fact",
+      "questionDate": "2024-11-21",
+      "question": "Right after our discussion about the metadata discrepancy in the Orkney oral history recordings, did you advise me to do a targeted review of all metadata records, or did you suggest that would be overly cautious?",
+      "answer": "I advised a targeted review.",
+      "evidence": [
+        "2024-11-16:16"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal"
+      ]
+    },
+    {
+      "id": "fact_7af59b",
+      "persona": "Dr. Alastair McEwan",
+      "type": "fact",
+      "questionDate": "2024-04-14",
+      "question": "Following the resolution of the condensation issue with my D750—after Hamish and I’s less-than-ideal session at Caerlaverock—which establishment provided the setting for our reflective evening discussion?",
+      "answer": "Black Bull Inn ",
+      "evidence": [
+        "2024-03-23:13",
+        "2024-03-23:15"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal"
+      ]
+    },
+    {
+      "id": "hallucination_7cf4e7",
+      "persona": "Dr. Alastair McEwan",
+      "type": "hallucination",
+      "questionDate": "2024-11-18",
+      "question": "What did I find out about the Maxwell family provenance when I was digitising the Lochmaben parish register in Orkney?",
+      "answer": "You did not discover anything about the Maxwell family provenance while digitising the Lochmaben parish register in Orkney; the Maxwell family provenance was confirmed at McNaught’s Antiquarian Books on 27 September.",
+      "evidence": [
+        "2024-05-22:1",
+        "2024-05-22:2",
+        "2024-05-25:11",
+        "2024-05-25:12",
+        "2024-05-29:11",
+        "2024-05-29:12"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_2fe456",
+      "persona": "Dr. Alastair McEwan",
+      "type": "hallucination",
+      "questionDate": "2024-06-06",
+      "question": "Can you remind me what technical difficulties I faced while trying to digitise the Lochmaben parish registers on May 23rd?",
+      "answer": "You did not attempt to digitise the Lochmaben parish registers on May 23rd; that occurred on May 22nd, when the registers were unavailable due to a misfiled retrieval request and the archive assistant’s illness.",
+      "evidence": [
+        "2024-05-22:1",
+        "2024-05-22:2",
+        "2024-05-22:3"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_c4bb7c",
+      "persona": "Dr. Alastair McEwan",
+      "type": "hallucination",
+      "questionDate": "2025-01-11",
+      "question": "Can you summarise the main points I discussed with M. Laurent Dubois during our dinner in Dinan on the Brittany trip?",
+      "answer": "You did not have a dinner with M. Laurent Dubois in Dinan during the Brittany trip; your interaction with him was an impromptu tour and access to archival plans at Château de Fougères.",
+      "evidence": [
+        "2024-10-14:7",
+        "2024-10-14:9"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "misleading_e53055",
+      "persona": "Dr. Alastair McEwan",
+      "type": "misleading",
+      "questionDate": "2025-03-12",
+      "question": "I'm heading out tomorrow for a week-long documentation project at several remote castle ruins. Can you help me create a quick packing checklist focusing on my photography and data collection gear?",
+      "answer": "I can definitely help you create a packing checklist! However, I want to make sure you're aware that you experienced serious SD card reader and SSD failures throughout 2024 that caused data loss at similar field sites (Gilnockie tower ruins, Caerlaverock coastal ruins). While you resolved this in December 2024 with your Samsung T7 SSD, for a week-long remote project, I'd strongly recommend:\n\n1. Your Samsung T7 SSD (your current reliable storage)\n2. At least one additional backup drive\n3. Multiple SD cards with daily backup protocol\n4. A backup card reader (separate from any laptop reader)\n5. Your camera equipment\n6. Power banks and charging cables\n7. Weather protection for equipment\n\nGiven your past data loss experiences, redundant backup systems are essential for remote locations where you can't easily replace lost data.",
+      "evidence": [
+        "2024-02-01:13",
+        "2024-03-09:3",
+        "2024-12-12:9"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_13dc87",
+      "persona": "Dr. Alastair McEwan",
+      "type": "misleading",
+      "questionDate": "2025-03-12",
+      "question": "Professor Sinclair from Edinburgh contacted me about a potential collaboration. Can you help me draft a response expressing interest in working together for the first time?",
+      "answer": "I need to correct something important: Professor Ewan Sinclair is at the University of Glasgow, not Edinburgh, and you've already been collaborating with him throughout 2024 on your 'Digitising the Past' project. This isn't a first-time collaboration. Would you like me to draft a response that acknowledges your existing productive partnership and expresses interest in continuing or expanding your collaborative work together?",
+      "evidence": [
+        "2024-05-23:11",
+        "2024-06-20:15",
+        "2024-07-19:1",
+        "2024-07-19:3",
+        "2024-11-20:9",
+        "2024-05-29:9",
+        "2024-03-27:5",
+        "2024-03-27:6",
+        "2024-04-12:7",
+        "2024-04-12:8",
+        "2024-04-16:5",
+        "2024-05-06:3",
+        "2024-05-06:14",
+        "2024-05-06:15"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_7a4e62",
+      "persona": "Dr. Alastair McEwan",
+      "type": "misleading",
+      "questionDate": "2024-08-31",
+      "question": "Can you block out two weeks in April for me to lead that extended archaeological field school in the Outer Hebrides? I need to send my availability to the organizers today.",
+      "answer": "I can help with that. Before confirming, you may want to consider a few things based on your recent fieldwork experiences. Your March 2024 Caerlaverock survey highlighted how challenging extended fieldwork in exposed, remote locations can be—you experienced significant data loss from equipment failures in damp conditions and had to manage an unexpected injury to Hamish on unstable ground. For a two-week commitment in the Outer Hebrides, I'd recommend: 1) Ensuring you have robust, waterproofed equipment and redundant data storage after your SD card and laptop failures, 2) Reviewing the safety protocol recommendations from your Caerlaverock incident report, particularly around hazardous terrain and emergency procedures, 3) Coordinating with your collaborators—Professor Sinclair and Dr. Sutherland—to ensure this doesn't conflict with the digitisation grant proposal timeline. Would you like me to confirm your availability with the organisers, or would you prefer to check these considerations first?",
+      "evidence": [
+        "2024-03-09:3",
+        "2024-03-09:6",
+        "2024-03-09:7",
+        "2024-03-23:1",
+        "2024-03-23:11",
+        "2024-03-31:8",
+        "2024-03-31:9"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_2cfce0",
+      "persona": "Dr. Alastair McEwan",
+      "type": "mixed",
+      "questionDate": "2024-05-01",
+      "question": "Back when I asked you about formatting photographic highlights due to the SD card reader issue, what specific equipment brand and model did I mention having trouble with in the technical log section of that same field journal?",
+      "answer": "You mentioned experiencing an SD card reading failure with your Panasonic DMC-TZ80 camera.",
+      "evidence": [
+        "16_notes_task_fc8b1698.md:Technical Log: Equipment and Troubleshooting"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "mixed_1f1740",
+      "persona": "Dr. Alastair McEwan",
+      "type": "mixed",
+      "questionDate": "2024-10-07",
+      "question": "After we agreed to specify that mapping at Brough of Birsay would be limited to previously excavated areas, how many distinct permissions are now referenced in the 'Required Permissions' subsection of that itinerary?",
+      "answer": "There are four distinct permissions referenced in your 'Required Permissions' subsection: Orkney Library and Archive, Brough of Birsay, Chapel ruins (South Ronaldsay, Deerness), and Rousay/Midhowe Broch.",
+      "evidence": [
+        "35_notes_task_e3601074.md:Required Permissions"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "mixed_bf1d30",
+      "persona": "Dr. Alastair McEwan",
+      "type": "mixed",
+      "questionDate": "2024-04-06",
+      "question": "When we talked about making the student-manuscript summary clearer, what musical piece did I reflect on later in that same document?",
+      "answer": "Sir Peter Maxwell Davies’s ‘An Orkney Wedding, with Sunrise’.",
+      "evidence": [
+        "07_notes_task_d42c5cb4.md:Musical Reflection: Maxwell Davies’s ‘An Orkney Wedding, with Sunrise’"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "temporal_d1b720",
+      "persona": "Dr. Alastair McEwan",
+      "type": "temporal",
+      "questionDate": "2024-06-10",
+      "question": "What ingredient, essential for my cranachan preparation, did I obtain during my most recent visit to the Dumfries market?",
+      "answer": "Heather honey",
+      "evidence": [
+        "2024-04-14:7"
+      ],
+      "characteristics": [
+        "Indirect Identification"
+      ]
+    },
+    {
+      "id": "temporal_a64606",
+      "persona": "Dr. Alastair McEwan",
+      "type": "temporal",
+      "questionDate": "2024-06-22",
+      "question": "On which exact date was I able to complete the digitisation of the Lochmaben parish register entries, following recent difficulties earlier in that week?",
+      "answer": "2024-05-25",
+      "evidence": [
+        "2024-05-25:11"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_0593e0",
+      "persona": "Dr. Alastair McEwan",
+      "type": "temporal",
+      "questionDate": "2024-11-24",
+      "question": "On which date did I first encounter the marginal annotation referencing the vanished chapel, and what was my immediate action after entering it into my records?",
+      "answer": "2024-11-16",
+      "evidence": [
+        "2024-11-16:11",
+        "2024-11-16:12"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_fe3f24",
+      "persona": "Dr. Elena Markovic",
+      "type": "aggregation",
+      "questionDate": "2024-04-02",
+      "question": "During the week spanning March 16 to March 23, how many occasions involved me preparing herbal tea that originated from either Aisha’s suggestions or my mother’s contributions?",
+      "answer": "2 times",
+      "evidence": [
+        "2024-03-16:18",
+        "2024-03-20:11"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_554af2",
+      "persona": "Dr. Elena Markovic",
+      "type": "aggregation",
+      "questionDate": "2024-06-03",
+      "question": "Of my usual indoor activities documented during the later part of April, which did I most often neglect when circumstances prevented sticking to my regular schedule?",
+      "answer": "Piano practice",
+      "evidence": [
+        "2024-04-22:7",
+        "2024-04-22:8",
+        "2024-04-22:9",
+        "2024-04-22:10",
+        "2024-04-29:19"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "aggregation_070877",
+      "persona": "Dr. Elena Markovic",
+      "type": "aggregation",
+      "questionDate": "2024-06-12",
+      "question": "Across the two-week span beginning April 20, on how many separate occasions did I make a point of wearing my wrist brace?",
+      "answer": "3",
+      "evidence": [
+        "2024-04-30:3",
+        "2024-05-02:9",
+        "2024-05-04:7"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "attachment_fa5f1c",
+      "persona": "Dr. Elena Markovic",
+      "type": "attachment",
+      "questionDate": "2024-04-23",
+      "question": "Referencing the 'Meal and Hydration Log' table in Dr. Elena Markovic's log, what was the combined protein intake from breakfast and dinner on 2024-04-08?",
+      "answer": "56 grams",
+      "evidence": [
+        "31_notes_task_48784bfa.html:Meal and Hydration Log"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Table Reasoning",
+        "Table Aggregation"
+      ]
+    },
+    {
+      "id": "email_c5d79e",
+      "persona": "Dr. Elena Markovic",
+      "type": "attachment",
+      "questionDate": "2024-12-12",
+      "question": "Who did I single out for appreciation regarding their involvement during the final stages of the ESA transition?",
+      "answer": "Marcus",
+      "evidence": [
+        "Emails_2024-10-17:Email"
+      ],
+      "characteristics": [
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "email_34a69d",
+      "persona": "Dr. Elena Markovic",
+      "type": "attachment",
+      "questionDate": "2024-07-12",
+      "question": "During May, on which dates did I reach out to Sofia Markovic regarding adjustments to our youth session schedule?",
+      "answer": "2024-05-15, 2024-05-19",
+      "evidence": [
+        "Emails_2024-05-15:Header",
+        "Emails_2024-05-15:Body",
+        "Emails_2024-05-19:Header",
+        "Emails_2024-05-19:Body"
+      ],
+      "characteristics": [
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "fact_7ebb90",
+      "persona": "Dr. Elena Markovic",
+      "type": "fact",
+      "questionDate": "2024-06-09",
+      "question": "During the recent adjustment to Luna’s kidney care food regimen, which supplement from the veterinary clinic did I introduce to evaluate her receptiveness?",
+      "answer": "dental treats",
+      "evidence": [
+        "2024-04-30:5"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_73158a",
+      "persona": "Dr. Elena Markovic",
+      "type": "fact",
+      "questionDate": "2024-04-12",
+      "question": "Which style of yoga did you specify for the midweek session immediately after advising the inclusion of preparatory mobility drills at the start of each routine?",
+      "answer": "Modified Vinyasa Flow (Wrist-Friendly)",
+      "evidence": [
+        "2024-02-25:8"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "fact_a62f19",
+      "persona": "Dr. Elena Markovic",
+      "type": "fact",
+      "questionDate": "2024-04-10",
+      "question": "Which concrete modification proposal—originating from Aisha rather than Pieter—did I escalate to the app team for consideration?",
+      "answer": "Tweak to the waypoint alert tone",
+      "evidence": [
+        "2024-04-08:15",
+        "2024-04-06:9"
+      ],
+      "characteristics": [
+        "Negative Constraints"
+      ]
+    },
+    {
+      "id": "hallucination_016a51",
+      "persona": "Dr. Elena Markovic",
+      "type": "hallucination",
+      "questionDate": "2024-09-28",
+      "question": "Can you remind me what I discussed about my cross-agency leadership secondment to JAXA with Aisha Rahman over lunch?",
+      "answer": "Your lunch with Aisha Rahman focused on orienteering event logistics and drafting a bug report for the mapping app; the discussion about a cross-agency leadership secondment to JAXA occurred with Dr. Schaefer during your annual review, not with Aisha.",
+      "evidence": [
+        "2024-09-07:15"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_a5c9d7",
+      "persona": "Dr. Elena Markovic",
+      "type": "hallucination",
+      "questionDate": "2024-04-17",
+      "question": "Which music piece did I rehearse on the grand piano at the ESA lounge after cycling to the campus on February 14th?",
+      "answer": "You did not rehearse any music piece on the grand piano at the ESA lounge on February 14th. You practiced Debussy on your Yamaha U1 at home later that evening.",
+      "evidence": [
+        "2024-02-14:5",
+        "2024-02-14:15"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_0572b3",
+      "persona": "Dr. Elena Markovic",
+      "type": "hallucination",
+      "questionDate": "2024-07-17",
+      "question": "What did Milena suggest during our family dinner at my apartment in Noordwijk on May 25?",
+      "answer": "There is no record of a family dinner with Milena at your apartment in Noordwijk on May 25. On that date, you were at the Amsterdamse Waterleidingduinen for an orienteering field test.",
+      "evidence": [
+        "2024-05-25:1",
+        "2024-05-25:15"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "misleading_65c19b",
+      "persona": "Dr. Elena Markovic",
+      "type": "misleading",
+      "questionDate": "2025-01-20",
+      "question": "I want to impress my manager next week by volunteering to take detailed handwritten notes during our all-day strategic planning meeting. Can you help me prepare an offer email?",
+      "answer": "I should point out a concern - you still need a wrist brace during heavy documentation work due to your right wrist injury from January 2024. Handwriting detailed notes throughout an all-day meeting would likely put significant strain on your right wrist and could set back your recovery. Instead, I'd recommend offering to take notes using your laptop with the split ergonomic keyboard and vertical mouse that you have set up, which would be much safer for your wrist. Would you like me to draft an email offering to be the note-taker using your ergonomic setup instead?",
+      "evidence": [
+        "2024-09-08:5",
+        "2024-09-10:14",
+        "2024-05-02:5",
+        "2024-10-17:3"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_39648e",
+      "persona": "Dr. Elena Markovic",
+      "type": "misleading",
+      "questionDate": "2025-04-17",
+      "question": "My sister wants me to come stay at her place in Barcelona for three weeks this summer to help with her new baby. Can you draft an enthusiastic response saying I'd love to help and start planning what I'll need to pack?",
+      "answer": "I understand you want to help your sister, but we need to carefully consider Luna's care needs first. She requires daily prescription kidney formula, hydration supplements, and health monitoring as part of her chronic kidney disease management. For a three-week absence, you would need to arrange either: (1) specialized boarding at a facility experienced with chronic kidney conditions (possibly through Dierenkliniek Noordwijk), (2) a qualified pet sitter who can manage her medical routine and automated systems at your home, or (3) potentially a shorter visit. Would you like me to help you explore these care options first, and then draft a response to your sister explaining you'd love to help but need to arrange Luna's medical care before confirming the duration?",
+      "evidence": [
+        "2024-04-09:3",
+        "2024-04-09:4",
+        "2024-04-09:5",
+        "2024-04-13:3",
+        "2024-04-22:3",
+        "2024-04-22:5",
+        "2024-05-06:5",
+        "2024-05-06:6",
+        "2024-05-06:7"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_f893e2",
+      "persona": "Dr. Elena Markovic",
+      "type": "misleading",
+      "questionDate": "2025-03-10",
+      "question": "A team member just asked if I can lead the technical integration work on the new LunaLink-2 docking module starting next month. Can you draft an enthusiastic acceptance email saying I'd love to take full ownership of the hands-on technical work?",
+      "answer": "I need to pause here - while I can draft a response, I should point out that your role has fundamentally changed. Since September 2024, you've transitioned from pure technical module integration to cross-agency leadership following your advanced certification and ESA Executive Leadership Program. Taking full ownership of hands-on technical work may not align with your current leadership responsibilities and potential JAXA secondment trajectory. Would you like me to draft a response that expresses interest while suggesting you contribute in a strategic oversight or mentorship capacity instead, perhaps recommending someone from your former technical team to lead the hands-on work?",
+      "evidence": [
+        "2024-09-05:13",
+        "2024-09-10:5",
+        "2024-02-12:7"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_457b00",
+      "persona": "Dr. Elena Markovic",
+      "type": "mixed",
+      "questionDate": "2024-01-18",
+      "question": "When we talked about restructuring my grocery checklist into a table format after my shopping trip, what is the name of the section that comes immediately after the table in that Albert Heijn document?",
+      "answer": "'Product Highlights and Reasons Behind My Choices.'",
+      "evidence": [
+        "04_notes_task_2f523f25.md:2. Product Highlights and Reasons Behind My Choices"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_05d7fa",
+      "persona": "Dr. Elena Markovic",
+      "type": "mixed",
+      "questionDate": "2024-06-16",
+      "question": "After I asked to add a June 13 submission deadline for dietary info in the 'Dinner Menu Selection' section, how many distinct deadline dates are now mentioned throughout the planning document?",
+      "answer": "Four distinct deadlines: June 13, June 15, June 20, and 'by mid-June.'",
+      "evidence": [
+        "2024-06-09:17",
+        "55_notes_task_2b0e20ef.md:Immediate Action Plan",
+        "55_notes_task_2b0e20ef.md:Summary of Next Steps"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "mixed_825133",
+      "persona": "Dr. Elena Markovic",
+      "type": "mixed",
+      "questionDate": "2024-05-31",
+      "question": "In the clinical symptom log for Luna where we discussed adding a dedicated column to streamline adverse event tracking, what is the heading that immediately follows the section focused on monitoring longitudinal trends and potential medication-related concerns?",
+      "answer": "Recommendations & Next Steps",
+      "evidence": [
+        "26_notes_task_a110dc67.html:Recommendations & Next Steps"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "temporal_ccff10",
+      "persona": "Dr. Elena Markovic",
+      "type": "temporal",
+      "questionDate": "2024-04-17",
+      "question": "On what date did I communicate Aisha’s recommendation regarding waypoint alerts to the app developers after assessing the mapping tool’s usability in the dunes?",
+      "answer": "April 8",
+      "evidence": [
+        "2024-04-08:15"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_66742a",
+      "persona": "Dr. Elena Markovic",
+      "type": "temporal",
+      "questionDate": "2024-04-16",
+      "question": "After Luna’s positive change in eating habits, when did I next receive a direct update from Dr. van der Meer regarding her convalescence while at the clinic?",
+      "answer": "2024-02-17",
+      "evidence": [
+        "2024-02-17:19"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_b08bda",
+      "persona": "Dr. Elena Markovic",
+      "type": "temporal",
+      "questionDate": "2024-02-20",
+      "question": "On what date did I first resume any form of piano practice following the incident with my wrist in early January?",
+      "answer": "January 5th, 2024",
+      "evidence": [
+        "2024-01-05:15"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_027377",
+      "persona": "Dr. Elias Romero",
+      "type": "aggregation",
+      "questionDate": "2024-09-18",
+      "question": "On what date did I both convert Lucía’s handwritten culinary notes into digital form and incorporate mint into a dish based on her marginalia?",
+      "answer": "August 26, 2024",
+      "evidence": [
+        "2024-08-26:6",
+        "2024-08-26:11"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_b264f7",
+      "persona": "Dr. Elias Romero",
+      "type": "aggregation",
+      "questionDate": "2024-10-13",
+      "question": "During my shared evening meals with Marta in August 2024, on how many occasions did I share about her attention noticeably drifting toward professional matters?",
+      "answer": "2 times",
+      "evidence": [
+        "2024-08-03:11",
+        "2024-08-03:13",
+        "2024-08-17:11",
+        "2024-08-17:12"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_fddb23",
+      "persona": "Dr. Elias Romero",
+      "type": "aggregation",
+      "questionDate": "2024-11-09",
+      "question": "Between late August and mid-September, how many occasions did I document a newly discovered mural while unaccompanied, rather than during outings with others?",
+      "answer": "3",
+      "evidence": [
+        "2024-08-28:7",
+        "2024-09-02:7",
+        "2024-09-06:15"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "email_c4497c",
+      "persona": "Dr. Elias Romero",
+      "type": "attachment",
+      "questionDate": "2024-10-15",
+      "question": "Between August 19 and September 13, 2024, with how many distinct correspondents did I exchange culinary insights over email?",
+      "answer": "1 (Lucía Romero)",
+      "evidence": [
+        "Emails_2024-08-19:Header: Email",
+        "Emails_2024-08-26:Header: Email",
+        "Emails_2024-09-02:Header: Email"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "attachment_7f2fae",
+      "persona": "Dr. Elias Romero",
+      "type": "attachment",
+      "questionDate": "2024-09-28",
+      "question": "When reviewing the recent compilation of scholarly articles, how many articles explicitly mention challenges related to survey instruments or self-report biases in their Methodological Notes column?",
+      "answer": "2",
+      "evidence": [
+        "35_report_task_bcd3f00e.md:Research Article Organization"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Structural Navigation",
+        "Table Aggregation"
+      ]
+    },
+    {
+      "id": "email_680609",
+      "persona": "Dr. Elias Romero",
+      "type": "attachment",
+      "questionDate": "2025-01-03",
+      "question": "On which date did I reach out to the group explaining my delayed attendance and ask for an overview of the initial collaborative session?",
+      "answer": "Date: 2024-12-10, Subject: Apology for Late Arrival and Missed Group Project",
+      "evidence": [
+        "Emails_2024-12-10:Email"
+      ],
+      "characteristics": [
+        "Email Localization"
+      ]
+    },
+    {
+      "id": "fact_5fddb3",
+      "persona": "Dr. Elias Romero",
+      "type": "fact",
+      "questionDate": "2024-09-20",
+      "question": "Which market did I buy the herb where I incorporate into the zucchini-tomato stew as a result of Lucía’s annotated suggestion?",
+      "answer": "Mercat de l’Abaceria",
+      "evidence": [
+        "2024-08-26:7",
+        "2024-08-26:11"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "fact_3c3785",
+      "persona": "Dr. Elias Romero",
+      "type": "fact",
+      "questionDate": "2024-11-11",
+      "question": "When my Garmin Vivosmart failed to capture my hike due to a syncing issue, which herb intended for meal prep was no longer usable by the time I returned?",
+      "answer": "basil and figs",
+      "evidence": [
+        "2024-10-27:13"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_48b439",
+      "persona": "Dr. Elias Romero",
+      "type": "fact",
+      "questionDate": "2024-11-20",
+      "question": "When I first asked for practical safeguards against repeatedly omitting staple items, what was the very first real-world backup method did you initially recommend to serve as a persistent reminder for my must-have groceries?",
+      "answer": "A laminated 'essentials' card with non-negotiable items, bolded or color-coded, kept in your bag or taped inside your pantry.",
+      "evidence": [
+        "2024-10-31:11"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "hallucination_2691e2",
+      "persona": "Dr. Elias Romero",
+      "type": "hallucination",
+      "questionDate": "2024-10-14",
+      "question": "Can you remind me what mural I photographed with Javier Ortega during our urban hike through El Born on September 2nd?",
+      "answer": "Javier Ortega did not accompany me on the urban hike through El Born on September 2nd; I went alone and photographed the mural myself.",
+      "evidence": [
+        "2024-09-02:7"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_7c0759",
+      "persona": "Dr. Elias Romero",
+      "type": "hallucination",
+      "questionDate": "2025-01-30",
+      "question": "Can you tell me which steakhouse I went to for dinner after my successful market visit on November 30th?",
+      "answer": "You didn't go to a steakhouse for dinner after your market visit on November 30th; you spent the evening at home reading your signed first edition Catalan sci-fi novel.",
+      "evidence": [
+        "2024-11-30:1",
+        "2024-11-30:19"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_8d4402",
+      "persona": "Dr. Elias Romero",
+      "type": "hallucination",
+      "questionDate": "2024-11-30",
+      "question": "Can you summarize the main points from my keynote speech at the University of Barcelona nutrition conference on October 13?",
+      "answer": "You did not give a keynote speech at the University of Barcelona nutrition conference on October 13; on that day, you spent the morning at home, took a walk in El Born, and had a video call with Lucía.",
+      "evidence": [
+        "2024-10-13:1",
+        "2024-10-13:3",
+        "2024-10-13:4",
+        "2024-10-13:7",
+        "2024-10-13:9",
+        "2024-10-13:11"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "misleading_422859",
+      "persona": "Dr. Elias Romero",
+      "type": "misleading",
+      "questionDate": "2024-05-15",
+      "question": "My colleague wants me to co-author a paper on an entirely different topic - antibiotic resistance in hospitals. Can you draft an enthusiastic acceptance email saying I'd love to be lead author?",
+      "answer": "I should caution you before drafting that email. While antibiotic resistance is important, you currently have major commitments that would make taking on a lead author role quite challenging. You're running an ongoing cafeteria nutrition labeling trial at the University of Barcelona, and critically, you have a policy brief invitation from the European Public Health Association (EUPHA) that resulted from your acclaimed April presentation. This EUPHA opportunity is a significant career milestone that's moving your research into actual policy influence - it really deserves your focused attention. Taking on lead authorship on an unrelated topic could divert resources from this high-impact policy work. Would you like me to draft a polite email declining the lead role but offering to contribute in a smaller capacity once your policy brief is complete, or suggesting your colleague as lead instead?",
+      "evidence": [
+        "2024-04-15:12",
+        "2024-02-01:1"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_b8c6e7",
+      "persona": "Dr. Elias Romero",
+      "type": "misleading",
+      "questionDate": "2025-01-16",
+      "question": "My friend wants me to join a month-long meditation retreat with no internet or phone access starting next week. Can you help me prep an out-of-office message saying I'll be completely unreachable?",
+      "answer": "I need to raise a concern: you're currently managing an active cross-European research collaboration with partners in Copenhagen and Warsaw. The study is in its pilot phase and has already faced equipment synchronization issues in December that required your continued attention. Being completely unreachable for a month could seriously impact your international team's progress and your professional relationships with Dr. Keller and Dr. Nowak. Would you consider a shorter retreat, or one that allows brief daily check-ins for urgent research matters? I can help you plan a more feasible approach.",
+      "evidence": [
+        "2024-12-10:13",
+        "2024-12-10:14"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_05e055",
+      "persona": "Dr. Elias Romero",
+      "type": "misleading",
+      "questionDate": "2025-03-10",
+      "question": "I want to submit my quince paste research findings to a Mediterranean diet symposium that has a deadline in two weeks. Can you help me compile my experimental notes into a presentation abstract?",
+      "answer": "I have to stop you here - this won't be feasible with the current deadline. You lost your substantial detailed flavor notes about the quince paste experiments in December due to device failures. Without that data, you don't have the rigorous documentation needed for a credible symposium submission. Submitting incomplete or memory-based findings could damage your professional credibility.",
+      "evidence": [
+        "2024-12-10:3"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_2f5929",
+      "persona": "Dr. Elias Romero",
+      "type": "mixed",
+      "questionDate": "2024-09-25",
+      "question": "When we talked in August about making the document’s 'Sensory Walk Challenges' section more actionable, can you remind me which section comes directly before that in my field note from Parc de la Ciutadella?",
+      "answer": "'Nutritional Storytelling Through Art.'",
+      "evidence": [
+        "38_notes_task_ae25d187.md:Advancing Public Health Through Innovative Communication"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_d3bd4f",
+      "persona": "Dr. Elias Romero",
+      "type": "mixed",
+      "questionDate": "2024-11-03",
+      "question": "After you merged the meal plan and shopping list into one structured document as I requested, how many distinct dishes (rows) are shown in the final meal plan table that includes substitutions?",
+      "answer": "Your final meal plan table includes 5 distinct dishes (rows) with substitutions noted.",
+      "evidence": [
+        "50_notes_task_c37a802a.md:1. Revised Meal Plan: October 27, 2024"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "mixed_961236",
+      "persona": "Dr. Elias Romero",
+      "type": "mixed",
+      "questionDate": "2024-10-20",
+      "question": "In the coffee tasting report where we focused on improving the food pairing notes, what is the third recommendation listed under 'Recommendations for Future Coffee Tastings', a section we didn’t modify during our previous discussion?",
+      "answer": "'Blind Tasting Procedures: Incorporate blind or semi-blind tastings to reduce bias and validate findings.'",
+      "evidence": [
+        "42_notes_task_6c0216c1.html:4. Recommendations for Future Coffee Tastings"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "temporal_f328c7",
+      "persona": "Dr. Elias Romero",
+      "type": "temporal",
+      "questionDate": "2024-07-27",
+      "question": "Which origin of coffee beans did I select during my first yoga session after resolving a series of technical issues?",
+      "answer": "Guatemalan coffee beans",
+      "evidence": [
+        "2024-06-18:11",
+        "2024-08-18:5",
+        "2024-08-25:3",
+        "2024-07-06:13"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_926129",
+      "persona": "Dr. Elias Romero",
+      "type": "temporal",
+      "questionDate": "2024-12-21",
+      "question": "When did I first incorporate observations from Carla’s Barcelona gathering into a professional discussion?",
+      "answer": "October 15, 2024",
+      "evidence": [
+        "2024-10-15:13"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_c1f3cc",
+      "persona": "Dr. Elias Romero",
+      "type": "temporal",
+      "questionDate": "2024-10-30",
+      "question": "On which date, situated between my initial and final urban mural snapshots in September, did I opt for the Ethiopian coffee variety for the event planning with Carla?",
+      "answer": "September 6, 2024",
+      "evidence": [
+        "2024-09-06:7"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_e8df8b",
+      "persona": "Dr. Marcus Ellison",
+      "type": "aggregation",
+      "questionDate": "2024-10-31",
+      "question": "During September 2024, on how many occasions did I feature blackened redfish as part of the meals I prepared for guests?",
+      "answer": "2",
+      "evidence": [
+        "2024-09-15:6",
+        "2024-09-21:15"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_842237",
+      "persona": "Dr. Marcus Ellison",
+      "type": "aggregation",
+      "questionDate": "2024-11-24",
+      "question": "Between October 17 and October 20, 2024, on how many occasions did I incorporate Aisha’s handwoven napkins into my dining routine?",
+      "answer": "1 time",
+      "evidence": [
+        "2024-10-18:17"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_ddc1a0",
+      "persona": "Dr. Marcus Ellison",
+      "type": "aggregation",
+      "questionDate": "2025-01-13",
+      "question": "On which date did I ultimately succeed in restoring previously inaccessible images from Harlem, following earlier unsuccessful attempts?",
+      "answer": "November 16, 2024",
+      "evidence": [
+        "2024-11-16:16",
+        "2024-11-16:15",
+        "2024-11-16:7",
+        "2024-11-16:8"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "attachment_01eb62",
+      "persona": "Dr. Marcus Ellison",
+      "type": "attachment",
+      "questionDate": "2024-12-17",
+      "question": "When reviewing the preliminary schedule, which location is indicated as the intended site for the session centering on accessibility and multilingual youth engagement?",
+      "answer": "Dream Center Harlem",
+      "evidence": [
+        "52_report_task_8b411dac.md:6. Workshop Plan and Schedule (Draft)"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Structural Navigation"
+      ]
+    },
+    {
+      "id": "email_ab32cc",
+      "persona": "Dr. Marcus Ellison",
+      "type": "attachment",
+      "questionDate": "2024-08-22",
+      "question": "During the early summer months of 2024, whose insights most frequently shaped my ongoing discussions about photographic technique and developmental critique?",
+      "answer": "Luis Martinez",
+      "evidence": [
+        "Emails_2024-06-08:Email",
+        "Emails_2024-06-29:Email",
+        "Emails_2024-07-06:Email",
+        "Emails_2024-07-13:Email"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "email_c2ee08",
+      "persona": "Dr. Marcus Ellison",
+      "type": "attachment",
+      "questionDate": "2024-11-15",
+      "question": "Which email from one of my mentees sought my perspective on their approach to collaborative visual documentation techniques?",
+      "answer": "Date: 2024-10-14, Subject: Follow-up on Photo Submission and Parattachment_14818eticipatory Photography Discussion",
+      "evidence": [
+        "Emails_2024-10-14:Email"
+      ],
+      "characteristics": [
+        "Email Localization"
+      ]
+    },
+    {
+      "id": "fact_da3fcd",
+      "persona": "Dr. Marcus Ellison",
+      "type": "fact",
+      "questionDate": "2024-10-02",
+      "question": "During the group outing in Harlem when I assisted with a camera malfunction, at which establishment did we gather for lunch afterward?",
+      "answer": "Sylvia’s",
+      "evidence": [
+        "2024-09-21:11"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_cf3670",
+      "persona": "Dr. Marcus Ellison",
+      "type": "fact",
+      "questionDate": "2024-06-16",
+      "question": "When I asked you to prioritize Maya’s culinary input for the upcoming week, which two market-sourced items did you single out as integral to the Sunday tart with a spicy profile?",
+      "answer": "Purple asparagus and smoked trout pâté.",
+      "evidence": [
+        "2024-06-02:7",
+        "2024-06-02:12"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_5834eb",
+      "persona": "Dr. Marcus Ellison",
+      "type": "fact",
+      "questionDate": "2024-03-16",
+      "question": "When I first asked for approaches to maintain engagement with my keynote content amid a hectic schedule, what were the initial two techniques you highlighted?",
+      "answer": "Portable Anchors and Rituals and Routines.",
+      "evidence": [
+        "2024-02-12:10"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "hallucination_591feb",
+      "persona": "Dr. Marcus Ellison",
+      "type": "hallucination",
+      "questionDate": "2024-12-05",
+      "question": "Can you remind me what feedback Dr. Priya Nair gave about my photo of Lenox Avenue during the Q&A at the Northeast Urban Studies Symposium?",
+      "answer": "Dr. Priya Nair did not give feedback about your photo of Lenox Avenue during the Q&A.",
+      "evidence": [
+        "2024-07-20:13"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "hallucination_d12886",
+      "persona": "Dr. Marcus Ellison",
+      "type": "hallucination",
+      "questionDate": "2024-12-11",
+      "question": "Can you remind me what feedback Dr. Priya Nair gave during the photo critique session with my mentees and Dr. Grant on November 9?",
+      "answer": "Dr. Priya Nair did not participate in the photo critique session on November 9; it was with your mentees and Dr. Grant.",
+      "evidence": [
+        "2024-11-09:13"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_29c813",
+      "persona": "Dr. Marcus Ellison",
+      "type": "hallucination",
+      "questionDate": "2024-09-05",
+      "question": "Can you book me a table at a steakhouse for dinner tonight like I did after the successful youth photo walk on July 27th?",
+      "answer": "You did not go to a steakhouse or have a celebratory dinner after the July 27th youth mentorship session; instead, you had a light lunch at home and spent the evening reading and organizing notes.",
+      "evidence": [
+        "2024-07-27:13",
+        "2024-07-27:17",
+        "2024-07-27:18"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "misleading_211084",
+      "persona": "Dr. Marcus Ellison",
+      "type": "misleading",
+      "questionDate": "2025-02-15",
+      "question": "My colleagues are organizing a walking tour of historical sites in downtown Manhattan next week for our department retreat, about 3 miles total. Can you draft an enthusiastic acceptance email and help me pick out comfortable walking shoes?",
+      "answer": "I'd hold off on drafting an enthusiastic acceptance for a 3-mile walking tour. Since October 15, 2024, you've been dealing with persistent right knee pain that started during a jog in Central Park. By late November, you were using a cane, and even your shorter community photo walks in Harlem have been modified for distance and pace. A 3-mile walking tour would likely exceed your current comfort level. I'd suggest responding to your colleagues honestly — perhaps offering to join for a portion of the tour, requesting periodic rest stops, or asking if there's an option to meet the group at certain sites rather than walking the full route. Would you like me to draft a response along those lines instead?",
+      "evidence": [
+        "2024-10-19:1",
+        "2024-11-30:3",
+        "2024-11-22:3",
+        "2024-10-15:1"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_1ade0f",
+      "persona": "Dr. Marcus Ellison",
+      "type": "misleading",
+      "questionDate": "2025-01-02",
+      "question": "I want to start a new intensive multi-year data collection project on gentrification patterns starting next month. Can you help me draft a proposal timeline with dedicated analysis phases for the next 18 months?",
+      "answer": "I need to pause here - given that you just completed an intensive data analysis phase for your urban housing inequality project in May 2024, and you've deliberately shifted your focus to community advocacy and exhibition work for the latter half of this year, starting another intensive multi-year data collection project right now would conflict with your current research trajectory and intended focus. Instead, might I suggest: 1) Continuing with your planned community advocacy and exhibition work to maximize the impact of your completed analysis, or 2) Planning this new gentrification project to begin in early 2025, after you've had time to fully execute the advocacy phase of your current work? This would allow you to properly close out one major research cycle before beginning another intensive data-driven project.",
+      "evidence": [
+        "2024-05-30:3",
+        "2024-05-30:5",
+        "2024-05-30:9",
+        "2024-10-20:7",
+        "2024-10-20:9",
+        "2024-10-21:15",
+        "2024-11-02:5",
+        "2024-11-02:17",
+        "2024-11-13:13"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_7d28ec",
+      "persona": "Dr. Marcus Ellison",
+      "type": "misleading",
+      "questionDate": "2025-05-01",
+      "question": "A university in California just offered me a visiting professor position starting next month for the spring semester. It's a great opportunity. Can you help me write an acceptance email?",
+      "answer": "I need to raise an important consideration before you accept. You're currently leading the ongoing Harlem Community Center Cultural Memory Project with active commitments including a winter exhibit with muralists, youth programming discussions, and collaborations with community members like Celeste Broussard and your mentee Janelle. This isn't just academic research—it's a community initiative where people are counting on your continued presence and leadership. Moving to California next month would mean abandoning these commitments. You might want to either decline this opportunity, negotiate a delayed start date, or explore whether you could fulfill a remote or shorter-term visiting arrangement that wouldn't disrupt your community project.",
+      "evidence": [
+        "2024-11-02:5",
+        "2024-11-17:15",
+        "2024-11-24:5",
+        "2024-11-29:13"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_f38484",
+      "persona": "Dr. Marcus Ellison",
+      "type": "mixed",
+      "questionDate": "2024-12-04",
+      "question": "In the notes we reviewed when I mentioned revising the feedback section, what partnership idea is listed as the third bullet under 'Additional Ideas and Opportunities'?",
+      "answer": "'Virtual Community Forum.'",
+      "evidence": [
+        "63_notes_task_60d7d76b.html:Additional Ideas and Opportunities"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_e6b6ab",
+      "persona": "Dr. Marcus Ellison",
+      "type": "mixed",
+      "questionDate": "2024-12-10",
+      "question": "Back when I asked you to highlight the improved basil quality in my Saturday market spreadsheet, what was the special dietary consideration mentioned in the 'Additional Considerations for This Week’s Brunch' section of that same document?",
+      "answer": "You mentioned that some brunch guests are vegetarian or vegan, and others have cultural dietary requirements (halal, kosher).",
+      "evidence": [
+        "42_notes_task_6fdc4c36.md:Additional Considerations for This Week’s Brunch"
+      ],
+      "characteristics": [
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "mixed_4bf988",
+      "persona": "Dr. Marcus Ellison",
+      "type": "mixed",
+      "questionDate": "2024-12-07",
+      "question": "After we discussed adding detail about missed items in my Greenmarket list, how many total items are listed as 'Missed' or 'Substituted' in the table of that document?",
+      "answer": "You have three items marked as either 'Missed' or 'Substituted'.",
+      "evidence": [
+        "62_notes_task_0117145a.md:Shopping Log"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "temporal_7d3c06",
+      "persona": "Dr. Marcus Ellison",
+      "type": "temporal",
+      "questionDate": "2024-04-30",
+      "question": "On what date did I first become aware that my new allergy approach was working during exertion, and what activity was I engaged in at that time?",
+      "answer": "April 13th, jogging in Central Park",
+      "evidence": [
+        "2024-04-13:3",
+        "2024-04-13:5"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_874198",
+      "persona": "Dr. Marcus Ellison",
+      "type": "temporal",
+      "questionDate": "2024-07-14",
+      "question": "During my travels in the late May , which appetizer did I unexpectedly come to favor above others?",
+      "answer": "Smoked trout pâté",
+      "evidence": [
+        "2024-05-30:15"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_78c753",
+      "persona": "Dr. Marcus Ellison",
+      "type": "temporal",
+      "questionDate": "2024-12-08",
+      "question": "What meal did I prepare and share with Maya following the early run with Jamal on the morning my allergy relief became noticeable?",
+      "answer": "Smoked salmon and avocado toast",
+      "evidence": [
+        "2024-10-11:1",
+        "2024-10-11:3",
+        "2024-10-11:9",
+        "2024-10-11:10",
+        "2024-10-11:16"
+      ],
+      "characteristics": [
+        "Indirect Identification",
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_57c3c8",
+      "persona": "Elena Morales",
+      "type": "aggregation",
+      "questionDate": "2024-03-24",
+      "question": "Which student’s participation overlapped with mine on both February 1st and February 20th, as reflected in my activity notes from those dates?",
+      "answer": "Amelia Torres",
+      "evidence": [
+        "2024-02-01:9",
+        "2024-02-20:1"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_35d128",
+      "persona": "Elena Morales",
+      "type": "aggregation",
+      "questionDate": "2024-06-27",
+      "question": "Reflecting on the days in May when my health limited my usual routines, on which date did I exert the greatest effort to engage with outdoor tasks before ultimately conceding to my symptoms?",
+      "answer": "May 11, 2024",
+      "evidence": [
+        "2024-05-11:5",
+        "2024-05-11:1"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "aggregation_64ea1c",
+      "persona": "Elena Morales",
+      "type": "aggregation",
+      "questionDate": "2024-05-11",
+      "question": "Between May 6 and May 9, on which date did I rely on a greater number of parent volunteers to assist with group activities?",
+      "answer": "May 9",
+      "evidence": [
+        "2024-05-06:3",
+        "2024-05-09:9",
+        "2024-05-09:13"
+      ],
+      "characteristics": [
+        "Comparative Trend Analysis",
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "attachment_3eeac2",
+      "persona": "Elena Morales",
+      "type": "attachment",
+      "questionDate": "2024-03-10",
+      "question": "When reviewing the collaborative activities documented for the Maple Room, who comprised the group that engaged in hands-on investigation of soil-dwelling invertebrates?",
+      "answer": "Ezra, Sophie, Olivia",
+      "evidence": [
+        "01_report_task_57c1b377.md:Group Task Summary"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "attachment_c45805",
+      "persona": "Elena Morales",
+      "type": "attachment",
+      "questionDate": "2024-06-06",
+      "question": "Based on my documented plans, what is the combined amount of underground vegetables I intended to purchase, considering both the specified weight and any grouped quantities?",
+      "answer": "3 lbs.",
+      "evidence": [
+        "17_notes_task_81757151.md:Shopping List",
+        "16_notes_task_f639ce19.md:Shopping List for the Week of May 5th",
+        "13_notes_task_668ca220.md:Shopping List"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Table Reasoning",
+        "Table Aggregation"
+      ]
+    },
+    {
+      "id": "email_33ee94",
+      "persona": "Elena Morales",
+      "type": "attachment",
+      "questionDate": "2024-05-27",
+      "question": "Who reached out to me recalling shared baking and outdoor activities, and on what date did I receive their message?",
+      "answer": "Amelia Torres' Parent, April 17, 2024",
+      "evidence": [
+        "Emails_2024-04-17:Email"
+      ],
+      "characteristics": [
+        "Email Localization",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "fact_08a088",
+      "persona": "Elena Morales",
+      "type": "fact",
+      "questionDate": "2024-07-13",
+      "question": "Who facilitated the initial session of my advanced Montessori certification, which I joined after organizing my materials and settling into my workspace that morning?",
+      "answer": "Dr. Priya Desai",
+      "evidence": [
+        "2024-05-20:7"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "fact_14eedb",
+      "persona": "Elena Morales",
+      "type": "fact",
+      "questionDate": "2024-05-24",
+      "question": "Which colleague was present and offered support during the outdoor activity on the same day I had to forgo my scheduled conversation with Lila?",
+      "answer": "Mrs. Patel",
+      "evidence": [
+        "2024-05-09:9",
+        "2024-05-09:13"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_bd7276",
+      "persona": "Elena Morales",
+      "type": "fact",
+      "questionDate": "2024-07-14",
+      "question": "After I shared my idea about using moss as a metaphor for resilience in our garden project, can you list three practical steps you suggested for students to help choose and observe a shaded moss spot?",
+      "answer": "Set a gentle intention together; Student-led spot selection; Guide mindful observation.",
+      "evidence": [
+        "2024-05-27:12"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal"
+      ]
+    },
+    {
+      "id": "hallucination_3aefe0",
+      "persona": "Elena Morales",
+      "type": "hallucination",
+      "questionDate": "2024-12-08",
+      "question": "Can you remind me what advice Mrs. Patel gave me about pacing myself during her visit on November 11?",
+      "answer": "Mrs. Patel did not visit or give advice about pacing on November 11; it was Mark Jensen who sent practical advice in a handwritten card delivered by Lila.",
+      "evidence": [
+        "2024-11-11:11"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_d91248",
+      "persona": "Elena Morales",
+      "type": "hallucination",
+      "questionDate": "2024-05-24",
+      "question": "What did I discuss with Dr. Priya Desai and Mark Jensen during our in-person meeting after school on April 22nd?",
+      "answer": "You didn’t have an in-person meeting with Dr. Priya Desai and Mark Jensen after school on April 22nd; it was a virtual meeting that evening.",
+      "evidence": [
+        "2024-04-22:13"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "hallucination_b73e03",
+      "persona": "Elena Morales",
+      "type": "hallucination",
+      "questionDate": "2025-01-05",
+      "question": "What did Lila Nguyen say to comfort me when she visited on November 16th?",
+      "answer": "Lila Nguyen did not visit you on November 16th; Miguel visited that day. Lila was sent a thank-you note on November 19th for her support.",
+      "evidence": [
+        "2024-11-16:9",
+        "2024-11-16:11",
+        "2024-11-16:12",
+        "2024-11-19:5",
+        "2024-11-19:6"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "misleading_d51167",
+      "persona": "Elena Morales",
+      "type": "misleading",
+      "questionDate": "2025-03-15",
+      "question": "A Montessori school just reached out asking if I can lead a professional development workshop next month on advanced Montessori pedagogy. Can you draft an enthusiastic acceptance email highlighting my recent Advanced Montessori Certification?",
+      "answer": "I wouldn't recommend drafting an acceptance email claiming your Advanced Montessori Certification, because you had to postpone it on December 15, 2024. Your persistent nausea, dizziness, hand tremors, and mental fog made it impossible to complete the coursework. The certification is currently on hold. Leading a workshop might also be challenging right now given your symptoms — particularly the hand tremors and voice difficulties. I'd suggest either: (1) declining graciously and expressing interest for a future date when your health improves, or (2) responding honestly that you're in the process of completing the certification and proposing to lead the workshop once it's finished. Would you like me to draft either of those responses?",
+      "evidence": [
+        "2024-12-15:1",
+        "2024-12-15:7",
+        "2024-12-15:11"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_eb4054",
+      "persona": "Elena Morales",
+      "type": "misleading",
+      "questionDate": "2025-02-15",
+      "question": "I want to register for an intensive in-person Montessori conference happening in January that requires proof of Advanced Montessori Certification. Can you help me complete the registration form and arrange my travel?",
+      "answer": "I need to flag two issues with this registration. First, your Advanced Montessori Certification was formally postponed on December 15, 2024, due to your worsening symptoms — persistent nausea, dizziness, severe hand tremors, and cognitive fog — so you wouldn't be able to provide proof of certification. Second, attending an intensive in-person conference in January may be very challenging given your current health status. Your symptoms have been progressively worsening, and basic tasks like holding a pen or maintaining focus have been difficult. I'd recommend: (1) contacting the conference organizers to ask about attending without the certification requirement, or registering for a future session once you've completed it, and (2) consulting with your medical team about whether travel and a multi-day conference are advisable right now. Would you like help drafting a message to the conference organizers?",
+      "evidence": [
+        "2024-12-15:1",
+        "2024-12-15:5",
+        "2024-12-15:14",
+        "2024-12-05:11"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_e80b91",
+      "persona": "Elena Morales",
+      "type": "misleading",
+      "questionDate": "2025-05-15",
+      "question": "Can you update my email signature to include 'Advanced Montessori Certified Educator' as my new credential?",
+      "answer": "I can't do that because you haven't completed your Advanced Montessori Certification. You had to indefinitely postpone it on December 15, 2024, due to your worsening health symptoms. While you made significant progress between September and December 2024, including working through 'The Absorbent Mind' with your mother's help, the certification remains incomplete. Adding this credential to your signature would be inaccurate. If you'd like, I can help you update your signature with your actual current credentials and qualifications instead.",
+      "evidence": [
+        "2024-12-15:11",
+        "2024-11-11:5",
+        "2024-11-27:5"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_76f48d",
+      "persona": "Elena Morales",
+      "type": "mixed",
+      "questionDate": "2025-01-16",
+      "question": "When we discussed highlighting my priorities and status in that Montessori growth journal entry, what is the priority level for the goal about preparing insights to share with colleagues in the table you helped me format?",
+      "answer": "Medium.",
+      "evidence": [
+        "2024-11-11:13"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_66f306",
+      "persona": "Elena Morales",
+      "type": "mixed",
+      "questionDate": "2024-03-31",
+      "question": "When we talked about making the tool care process easier for kids after our March garden session, which section in my garden supplies guide comes immediately after the table listing all the items and their repair needs?",
+      "answer": "'Seedling Damage: Recovery Steps and Learning Integration' ",
+      "evidence": [
+        "05_notes_task_0e67d435.html:Current Status of Montessori Garden Supplies",
+        "05_notes_task_0e67d435.html:Seedling Damage: Recovery Steps and Learning Integration"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_4e05a3",
+      "persona": "Elena Morales",
+      "type": "mixed",
+      "questionDate": "2024-07-09",
+      "question": "When we discussed reorganizing the shopping list table a few months ago, which section in my co-op reflections document comes directly after the updated shopping table we worked on?",
+      "answer": "'Shopping Choices & Montessori Principles.'",
+      "evidence": [
+        "12_notes_task_296c565a.md:My Co-op Shopping Table",
+        "12_notes_task_296c565a.md:Shopping Choices & Montessori Principles"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "temporal_f64ded",
+      "persona": "Elena Morales",
+      "type": "temporal",
+      "questionDate": "2024-06-12",
+      "question": "Following my birthday, at which gathering did I first find both Lila and Ms. Rivera participating alongside me?",
+      "answer": "School garden event on 2024-05-04",
+      "evidence": [
+        "2024-05-04:9",
+        "2024-05-04:15",
+        "2024-05-06:3"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_30e4ba",
+      "persona": "Elena Morales",
+      "type": "temporal",
+      "questionDate": "2024-06-21",
+      "question": "During which event did I finally water my favorite pothos and peace lily after my previous attempt was interrupted by dizziness?",
+      "answer": "May 31",
+      "evidence": [
+        "2024-05-31:13"
+      ],
+      "characteristics": [
+        "Indirect Identification",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_13d4c6",
+      "persona": "Elena Morales",
+      "type": "temporal",
+      "questionDate": "2025-01-18",
+      "question": "Following my most recent period of reflection on Montessori principles with Sofia, which handcrafted item appeared on my windowsill?",
+      "answer": "Hand-painted clay sun by Miguel",
+      "evidence": [
+        "2024-11-16:11"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_9abb2c",
+      "persona": "Jonas Richter",
+      "type": "aggregation",
+      "questionDate": "2024-11-02",
+      "question": "Following my visit to Ahmed for maintenance, how frequently did I engage with Frau Lehmann at her market stall prior to November?",
+      "answer": "1 time",
+      "evidence": [
+        "2024-10-28:15"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_361454",
+      "persona": "Jonas Richter",
+      "type": "aggregation",
+      "questionDate": "2024-12-19",
+      "question": "Across several mid-November setbacks, which piece of hardware repeatedly undermined my workflow despite attempts to adapt in November?",
+      "answer": "ThinkPad X1 Carbon",
+      "evidence": [
+        "2024-11-12:9",
+        "2024-11-12:10",
+        "2024-11-12:13",
+        "2024-11-12:14",
+        "2024-11-13:9",
+        "2024-11-13:10",
+        "2024-11-13:15",
+        "2024-11-15:3"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "aggregation_05e984",
+      "persona": "Jonas Richter",
+      "type": "aggregation",
+      "questionDate": "2024-11-14",
+      "question": "During August and September 2024, on how many separate occasions did I incorporate rye bread into my meals?",
+      "answer": "3",
+      "evidence": [
+        "2024-08-15:9",
+        "2024-08-17:9",
+        "2024-08-24:19"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "attachment_baf538",
+      "persona": "Jonas Richter",
+      "type": "attachment",
+      "questionDate": "2024-11-16",
+      "question": "Within the stakeholder-generated recommendations highlighted in the late October review, who advocated for improved clarity in digital privacy disclosures?",
+      "answer": "Parent Association",
+      "evidence": [
+        "44_report_task_ca1046a2.md:Table of Key Feedback Points",
+        "44_report_task_ca1046a2.md:4. Transparent Communication on Data Privacy"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "email_a3b38b",
+      "persona": "Jonas Richter",
+      "type": "attachment",
+      "questionDate": "2024-03-10",
+      "question": "During February 2024, whose inbox did my messages populate most often?",
+      "answer": "Leila Haddad",
+      "evidence": [
+        "Emails_2024-02-01:Email",
+        "Emails_2024-02-02:Email",
+        "Emails_2024-02-07:Email",
+        "Emails_2024-02-08:Email"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "attachment_b4ea2e",
+      "persona": "Jonas Richter",
+      "type": "attachment",
+      "questionDate": "2024-11-18",
+      "question": "When preparing for my dawn session at the iconic sandstone formation, which latitude and longitude did I reference for precise navigation?",
+      "answer": "50.96232, 14.07390",
+      "evidence": [
+        "37_notes_task_aaae1d7f.md:Sunrise Photography & Reflective Journaling"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "fact_2ecc57",
+      "persona": "Jonas Richter",
+      "type": "fact",
+      "questionDate": "2024-06-28",
+      "question": "After choosing to rely on a purpose-built device rather than my phone to monitor my activity during my recent retreat, which tracker did I use to count my steps?",
+      "answer": "Garmin Vivosmart",
+      "evidence": [
+        "2024-05-18:16"
+      ],
+      "characteristics": [
+        "Negative Constraints"
+      ]
+    },
+    {
+      "id": "fact_4c7b9f",
+      "persona": "Jonas Richter",
+      "type": "fact",
+      "questionDate": "2024-09-29",
+      "question": "Following which collaborative activity with Ahmed did I first combine zucchini, tomatoes, and pickled beets in a stir-fry?",
+      "answer": "Werkstatt am Zoo visit with Ahmed on August 17",
+      "evidence": [
+        "2024-08-17:14"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_a7482e",
+      "persona": "Jonas Richter",
+      "type": "fact",
+      "questionDate": "2024-10-18",
+      "question": "After we explored ways to increase participant engagement beyond the 'Privacy Tune-Up' segment, which hands-on activity did I propose immediately afterward?",
+      "answer": "\"Lock It Up\" Challenge",
+      "evidence": [
+        "2024-10-04:2"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "hallucination_eebbac",
+      "persona": "Jonas Richter",
+      "type": "hallucination",
+      "questionDate": "2024-10-10",
+      "question": "Can you remind me what Marta Klein said about collaborating with Frau Becker during our lunch at Café Einstein on October 8th?",
+      "answer": "Actually, you met Marta Klein for lunch at Markthalle Neun on October 8th, not Café Einstein, and she suggested partnering with Frau Becker in Hamburg to expand the workshop series.",
+      "evidence": [
+        "2024-10-08:11",
+        "2024-10-08:12"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_7b502a",
+      "persona": "Jonas Richter",
+      "type": "hallucination",
+      "questionDate": "2024-07-10",
+      "question": "What did I discuss with Marta Klein about the Berlin Civic Education Center expansion during our brunch on July 7?",
+      "answer": "You did not discuss the Berlin Civic Education Center expansion with Marta Klein during your July 7 brunch. Your conversation focused on protest logistics and was tense.",
+      "evidence": [
+        "2024-07-07:9"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "hallucination_31e0f5",
+      "persona": "Jonas Richter",
+      "type": "hallucination",
+      "questionDate": "2024-09-12",
+      "question": "What feedback did Dr. Katarzyna Nowak give me about my encryption project during our hike in Grunewald on August 24th?",
+      "answer": "Dr. Katarzyna Nowak did not join you for the Grunewald hike on August 24th; you went alone and spent time journaling. Any workshop feedback from her was incorporated earlier, not during the hike.",
+      "evidence": [
+        "2024-08-24:15",
+        "2024-08-24:17",
+        "2024-05-09:11",
+        "2024-05-09:13"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication",
+        "Contextual Contradiction"
+      ]
+    },
+    {
+      "id": "misleading_d20b9a",
+      "persona": "Jonas Richter",
+      "type": "misleading",
+      "questionDate": "2024-11-28",
+      "question": "I'm thinking about proposing a series of encryption workshops for university students next month. Can you draft a proposal explaining my qualifications and why I'd be good for this role?",
+      "answer": "Absolutely! You're well-qualified for this. Your recent cross-border collaboration with Dr. Katarzyna Nowak (April-June 2024) gave you direct experience planning and delivering encryption and digital rights workshops to university students in both Poland and Berlin. I can draft a proposal highlighting how you successfully engaged student groups across geographical barriers, your practical teaching experience with privacy tools, and how this work informed your educator outreach approach. Should I emphasize the international collaboration aspect and the student engagement outcomes?",
+      "evidence": [
+        "2024-05-08:7",
+        "2024-06-22:6",
+        "2024-06-28:4"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_766f44",
+      "persona": "Jonas Richter",
+      "type": "misleading",
+      "questionDate": "2025-03-15",
+      "question": "I want to plan a two-week vacation abroad in April 2025. Can you suggest some destinations?",
+      "answer": "I should point out that April 2025 falls within the timeframe of your ongoing cross-regional privacy education initiative for rural schools, which is projected through May 2025. A two-week absence during this period could disrupt your commitments to these schools. Before suggesting destinations, could you confirm whether you have flexibility in your rural school schedule, or would it be better to plan this vacation for after May 2025 when the initiative concludes?",
+      "evidence": [
+        "2024-11-15:13",
+        "2024-11-15:14",
+        "2024-11-15:16",
+        "2024-11-16:3",
+        "2024-11-16:4",
+        "2024-11-16:11",
+        "2024-11-16:12"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_0ce3e6",
+      "persona": "Jonas Richter",
+      "type": "misleading",
+      "questionDate": "2025-03-15",
+      "question": "Help me write an out-of-office message saying I'll be completely unavailable for the next month to focus on a new personal project.",
+      "answer": "I need to flag a concern here. You're currently committed to an ongoing cross-regional privacy education initiative with rural schools that runs through May 2025. Being completely unavailable for a month could significantly impact your obligations to these schools and students who are depending on this program. Rather than complete unavailability, would you like help crafting a message that sets boundaries while maintaining your commitments to the rural education initiative? Or should we discuss adjusting the initiative timeline first?",
+      "evidence": [
+        "2024-09-03:11",
+        "2024-09-03:12",
+        "2024-10-04:13",
+        "2024-10-04:15",
+        "2024-10-05:9",
+        "2024-10-05:10",
+        "2024-10-27:15",
+        "2024-10-29:13"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_59e627",
+      "persona": "Jonas Richter",
+      "type": "mixed",
+      "questionDate": "2024-12-03",
+      "question": "After your suggestion to add the 'Exposure' column with icons to my market purchases table, how many distinct exposure ratings are now shown in that table according to the revised format?",
+      "answer": "Two distinct exposure ratings.",
+      "evidence": [
+        "2024-10-28:7",
+        "2024-10-28:8"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "mixed_3d3114",
+      "persona": "Jonas Richter",
+      "type": "mixed",
+      "questionDate": "2024-04-20",
+      "question": "In the same market report where I focused on vendor signage issues, what are the first two examples of the types of items I planned to buy in the future, as listed in the table that's not about my actual purchases?",
+      "answer": "Two examples from your future purchase list are 'Seasonal Leafy Greens (e.g., chard, kale)' and 'Local Mushrooms'.",
+      "evidence": [
+        "11_notes_task_1ae11f33.md:2. Additional Items for Future Markets"
+      ],
+      "characteristics": [
+        "Relative Location Positioning",
+        "Contextual Retrieval"
+      ]
+    },
+    {
+      "id": "mixed_63719a",
+      "persona": "Jonas Richter",
+      "type": "mixed",
+      "questionDate": "2024-09-15",
+      "question": "Thinking back to our conversation about expanding the possible causes in the bank fee analysis, how many distinct possible causes are now listed in the 'Closer Look: Unexpected Bank Fee and Resolution Steps' section after your suggested edits?",
+      "answer": "Three distinct possible causes.",
+      "evidence": [
+        "32_notes_task_6b7a4780.md:2. Closer Look: Unexpected Bank Fee and Resolution Steps"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "temporal_483029",
+      "persona": "Jonas Richter",
+      "type": "temporal",
+      "questionDate": "2024-11-17",
+      "question": "Which two colleagues did I connect with via Signal to finalize arrangements for the Neukölln privacy workshop?",
+      "answer": "Frau Becker and Dr. Petra Schulze",
+      "evidence": [
+        "2024-09-16:7"
+      ],
+      "characteristics": [
+        "Indirect Identification"
+      ]
+    },
+    {
+      "id": "temporal_d01c60",
+      "persona": "Jonas Richter",
+      "type": "temporal",
+      "questionDate": "2024-08-26",
+      "question": "Prior to the brunch with Anja that featured a wild garlic dish, on which date did I most recently prepare a meal incorporating wild garlic?",
+      "answer": "2024-06-22",
+      "evidence": [
+        "2024-06-22:11"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_53c44b",
+      "persona": "Jonas Richter",
+      "type": "temporal",
+      "questionDate": "2024-11-07",
+      "question": "Who led the small-group session I attended after our midday discussion about vocational outreach strategies?",
+      "answer": "Marta Klein",
+      "evidence": [
+        "2024-10-18:17"
+      ],
+      "characteristics": [
+        "Sequence Comprehension"
+      ]
+    },
+    {
+      "id": "aggregation_2977d9",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "aggregation",
+      "questionDate": "2024-03-11",
+      "question": "During the first month of 2024, which site featured most frequently in my walking routines?",
+      "answer": "Lodhi Gardens",
+      "evidence": [
+        "2024-01-07:3",
+        "2024-01-14:9",
+        "2024-01-15:5",
+        "2024-01-22:4"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "aggregation_cb154f",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "aggregation",
+      "questionDate": "2024-10-14",
+      "question": "How many separate occasions did I narrowly win a chess match, as noted in my records, during the last week of August 2024?",
+      "answer": "2",
+      "evidence": [
+        "2024-08-31:8",
+        "2024-08-25:18"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_a6f2f7",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "aggregation",
+      "questionDate": "2024-03-20",
+      "question": "Which device did I rely on the most for essential communication and online tasks during the period when my laptop was unreliable from mid-February through early March?",
+      "answer": "iPhone 13 Pro",
+      "evidence": [
+        "2024-02-21:7",
+        "2024-02-25:7",
+        "2024-02-25:8",
+        "2024-03-03:13"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "attachment_93639f",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "attachment",
+      "questionDate": "2024-10-28",
+      "question": "When reviewing my most recent garden health summary from September 23, how many distinct species were catalogued?",
+      "answer": "Eight species.",
+      "evidence": [
+        "56_notes_task_32fffea7.md:Plant Health Overview"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "attachment_7f72c6",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "attachment",
+      "questionDate": "2024-10-12",
+      "question": "According to the 'Summary Table of Plant Observations and Actions' in your gardening notes dated August 18, 2024, how many distinct plants had maintenance actions involving repotting, and what were their names?",
+      "answer": "Two plants were repotted: Boston Fern and Maidenhair Fern",
+      "evidence": [
+        "42_notes_task_16903cc7.md:III. Summary Table of Plant Observations and Actions",
+        "42_notes_task_16903cc7.md:3. Repotting Indoor Ferns"
+      ],
+      "characteristics": [
+        "Fact Retrieval",
+        "Structural Navigation",
+        "Table Aggregation"
+      ]
+    },
+    {
+      "id": "email_6e4298",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "attachment",
+      "questionDate": "2024-11-06",
+      "question": "How many different people did I send emails to during the first week of October 2024?",
+      "answer": "2",
+      "evidence": [
+        "Emails_2024-10-03:Email 1",
+        "Emails_2024-10-03:Email 2"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count"
+      ]
+    },
+    {
+      "id": "fact_694b4d",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "fact",
+      "questionDate": "2024-09-30",
+      "question": "On which date did I first resume direct access to my annotated edition of 'The Idea of Justice' following the restoration of my laptop, rather than merely storing it among my study materials?",
+      "answer": "2024-06-23",
+      "evidence": [
+        "2024-06-23:9"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_2f4e3b",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "fact",
+      "questionDate": "2024-02-03",
+      "question": "When we discussed strategies to sustain mental sharpness while evaluating my mentees' case analyses, which specific method did you advise immediately prior to suggesting brief focus-rest intervals?",
+      "answer": "Mindful transitions: brief pauses between tasks with slow breathing or stretching.",
+      "evidence": [
+        "2024-01-22:12"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_6c839e",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "fact",
+      "questionDate": "2024-04-01",
+      "question": "After we talked about the aphid problem in the rose beds and you advised several treatment methods, which organic solution did you specifically mention as ‘optional’?",
+      "answer": "Neem oil (optional)",
+      "evidence": [
+        "2024-02-25:2"
+      ],
+      "characteristics": [
+        "Multi-Hop Traversal",
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "hallucination_146498",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "hallucination",
+      "questionDate": "2024-02-24",
+      "question": "Remind me to avoid ordering dal at our family gathering next weekend since it gave me a sore throat at the last lunch with Rohan and Priya.",
+      "answer": "Your throat discomfort during the last family lunch was pre-existing; the undercooked dal was due to a pressure cooker malfunction, but there’s no evidence it caused or worsened your sore throat.",
+      "evidence": [
+        "2024-02-18:1",
+        "2024-02-18:3",
+        "2024-02-18:11",
+        "2024-02-19:1",
+        "2024-02-19:5"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_6b0fcd",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "hallucination",
+      "questionDate": "2024-03-06",
+      "question": "Could you remind me of the exact amount I paid to the vendor for marigold seeds at INA Market on February 21st?",
+      "answer": "You did not purchase marigold seeds at INA Market on February 21st; you visited INA Market and bought fresh spinach, tomatoes, and mango ginger on March 3rd.",
+      "evidence": [
+        "2024-03-03:11",
+        "2024-03-03:7"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "hallucination_94b242",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "hallucination",
+      "questionDate": "2024-10-12",
+      "question": "Tell me what advice Dr. R. K. Suri gave me during his video call on September 22 regarding vocal fatigue, and how I summarized it to Sunita at breakfast.",
+      "answer": "Dr. Suri did not advise you about vocal fatigue on September 22; your last consultation with him was a phone call on September 15, and there is no record of summarizing such advice to Sunita at breakfast that day.",
+      "evidence": [
+        "2024-09-22:9",
+        "2024-09-22:10",
+        "2024-09-22:3"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "misleading_61f993",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "misleading",
+      "questionDate": "2024-12-03",
+      "question": "I'd like you to help me draft an acceptance speech for the upcoming Bar Association conference next month where I've been invited as keynote speaker.",
+      "answer": "I appreciate your enthusiasm, but I must respectfully point out that accepting a keynote speaking engagement may not be advisable given your ongoing chronic vocal strain condition. Since February 2024, you've been under strict vocal rest and medical supervision by Dr. R. K. Suri and your wife Sunita. Speaking at length could cause further setbacks to your recovery. Instead, I recommend either declining this invitation politely, or asking if you could participate in an alternative format such as a written contribution, pre-recorded video message, or having someone else deliver remarks on your behalf. Would you like me to help draft a polite declination or propose one of these alternatives to the organizers?",
+      "evidence": [
+        "2024-02-03:1",
+        "2024-10-03:5",
+        "2024-10-03:6"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_1d3466",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "misleading",
+      "questionDate": "2025-03-03",
+      "question": "Can you remind me to back up my memoir manuscript files? I don't want to lose the work I've been doing on the dissenting opinions chapter.",
+      "answer": "Your memoir manuscript has already been completed and submitted to publisher Ritu Sharma on October 3, 2024. While the active drafting phase is complete, it's always wise to maintain backups. However, given that you experienced a computer malfunction that corrupted your files mid-year during this project, I would recommend focusing on backing up any current working documents or starting a new backup protocol for future projects. Would you like help setting up an automated backup system to prevent similar issues in the future?",
+      "evidence": [
+        "2024-10-03:9",
+        "2024-10-03:13"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_b8d26e",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "misleading",
+      "questionDate": "2025-04-03",
+      "question": "I need to write several draft judgments next month and keep them only on my laptop for confidentiality. What's the best folder structure?",
+      "answer": "I understand your confidentiality concerns, but I must respectfully advise against keeping important draft judgments only on your laptop. You experienced severe technical issues throughout 2024—including file corruption in early 2024, mid-year system crashes, and the loss of critical files in late September. These problems could put your judicial work at risk. Instead, I recommend using your newly established cloud backup system with encrypted storage, which provides both confidentiality and protection against data loss. Alternatively, we could set up an encrypted external drive with regular manual backups. Keeping drafts solely on your laptop, given your recent technical history, poses too great a risk to such important legal documents. Would you like help setting up a secure, backed-up workflow for your confidential judicial work?",
+      "evidence": [
+        "2024-01-01:7",
+        "2024-09-24:5",
+        "2024-10-03:13"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_6d6664",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "mixed",
+      "questionDate": "2024-05-06",
+      "question": "After our earlier discussions about enhancing the visibility of deviations in my itinerary documentation, which section is positioned immediately subsequent to the table outlining scheduled activities?",
+      "answer": "Special Considerations",
+      "evidence": [
+        "15_notes_task_821cd4ec.md:2. Detailed Schedule",
+        "15_notes_task_821cd4ec.md:3. Special Considerations"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_7406b3",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "mixed",
+      "questionDate": "2024-10-20",
+      "question": "After we considered enhancing my audit table with an additional column for future actions, which section is presented immediately subsequent to the table summarizing procurement details?",
+      "answer": "Narrative of the Shopping Experience",
+      "evidence": [
+        "43_notes_task_e72c0acb.html:Narrative of the Shopping Experience"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_89fc8b",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "mixed",
+      "questionDate": "2024-11-08",
+      "question": "When we worked on structuring my garden journal entry in early September, I asked you to add a table for each plant type. Could you tell me which heading appears directly after the last plant table in that document we modified?",
+      "answer": "'New Discoveries'.",
+      "evidence": [
+        "2024-09-03:4"
+      ],
+      "characteristics": [
+        "Relative Location Positioning",
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "temporal_c64c30",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "temporal",
+      "questionDate": "2024-09-05",
+      "question": "Which Hindustani raga did I share in a streamed listening session with family that contrasted with the one I analyzed musically after reviewing Supreme Court decisions?",
+      "answer": "Raga Bhimpalasi; the other was Raga Yaman",
+      "evidence": [
+        "2024-08-14:16",
+        "2024-08-14:19",
+        "2024-05-26:17"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Indirect Identification"
+      ]
+    },
+    {
+      "id": "temporal_a5cba9",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "temporal",
+      "questionDate": "2024-10-06",
+      "question": "On which day did I resolve the longstanding issue with my digital notes and reconstruct the crucial segment for my memoir?",
+      "answer": "September 23, 2024",
+      "evidence": [
+        "2024-09-23:11"
+      ],
+      "characteristics": [
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "temporal_40f32c",
+      "persona": "Justice Arvind Prakash Mehra",
+      "type": "temporal",
+      "questionDate": "2024-02-26",
+      "question": "Which specific meal did Sunita prepare that immediately followed our walk in Lodhi Gardens—the first walk after the family’s planned outing had been cut short by rain?",
+      "answer": "Poha and herbal tea",
+      "evidence": [
+        "2024-02-25:13"
+      ],
+      "characteristics": [
+        "Sequence Comprehension",
+        "Implicit Temporal Lookup"
+      ]
+    },
+    {
+      "id": "aggregation_bb4760",
+      "persona": "Martin Keller",
+      "type": "aggregation",
+      "questionDate": "2024-05-08",
+      "question": "Prior to incorporating Lukas’s latest suggestion into my wishlist, which collaborative board game did I most recently log as played?",
+      "answer": "The Crew: Mission Deep Sea",
+      "evidence": [
+        "2024-04-12:3",
+        "2024-04-12:4",
+        "2024-04-17:17",
+        "2024-04-17:18"
+      ],
+      "characteristics": [
+        "Extreme Value"
+      ]
+    },
+    {
+      "id": "aggregation_a4c609",
+      "persona": "Martin Keller",
+      "type": "aggregation",
+      "questionDate": "2024-02-24",
+      "question": "Reflecting on the companions who joined me most often during my rides and cycling-related meetups in January 2024, which individual featured most prominently across those activities?",
+      "answer": "Lukas Meier",
+      "evidence": [
+        "2024-01-07:1",
+        "2024-01-20:15",
+        "2024-01-27:1"
+      ],
+      "characteristics": [
+        "Extreme Value",
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "aggregation_c4fc29",
+      "persona": "Martin Keller",
+      "type": "aggregation",
+      "questionDate": "2024-03-27",
+      "question": "Across the dates spanning March 14 to March 17, 2024, on which occasion did a planned board game gathering proceed precisely as scheduled?",
+      "answer": "March 14, 2024",
+      "evidence": [
+        "2024-03-14:15",
+        "2024-03-14:16",
+        "2024-03-16:15"
+      ],
+      "characteristics": [
+        "Conditional Counting"
+      ]
+    },
+    {
+      "id": "email_98cb34",
+      "persona": "Martin Keller",
+      "type": "attachment",
+      "questionDate": "2024-12-15",
+      "question": "Between the first and second of November, how many distinct outreach attempts did I initiate related to housing options in Freiburg?",
+      "answer": "3",
+      "evidence": [
+        "Emails_2024-11-01:Email to Freiburg Property Manager",
+        "Emails_2024-11-01:Email to Lukas Weber"
+      ],
+      "characteristics": [
+        "Cross-Temporal Count"
+      ]
+    },
+    {
+      "id": "attachment_848f21",
+      "persona": "Martin Keller",
+      "type": "attachment",
+      "questionDate": "2024-05-23",
+      "question": "When I investigated unexpected connectivity issues linked to my low-voltage SBC setup, what resistance did I record across the Micro-USB power lead?",
+      "answer": "1.2 Ω",
+      "evidence": [
+        "41_report_task_25547298.md:Physical Cable Inspection"
+      ],
+      "characteristics": [
+        "Fact Retrieval"
+      ]
+    },
+    {
+      "id": "email_75cd03",
+      "persona": "Martin Keller",
+      "type": "attachment",
+      "questionDate": "2024-03-21",
+      "question": "After the evening when I organized both a dinner and a board game gathering, who reached out to express gratitude via email?",
+      "answer": "Jana Müller",
+      "evidence": [
+        "Emails_2024-03-14:Email"
+      ],
+      "characteristics": [
+        "Email Localization",
+        "Relationship Analysis"
+      ]
+    },
+    {
+      "id": "fact_b530ec",
+      "persona": "Martin Keller",
+      "type": "fact",
+      "questionDate": "2024-09-29",
+      "question": "After my latest lab results, which two menu items did I gravitate toward again at Café Mediterraneo—the same ones I’d previously enjoyed with Lukas—and what was my observation about the sumac’s flavor profile during that meal?",
+      "answer": "Grilled halloumi salad with za’atar and harissa hummus; sumac was slightly more citrusy",
+      "evidence": [
+        "2024-08-26:5",
+        "2024-08-26:7"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "fact_882a08",
+      "persona": "Martin Keller",
+      "type": "fact",
+      "questionDate": "2024-08-28",
+      "question": "Who was the initial recipient of my training progress overview and Dr. Lang's recommended exercise changes after my cycling sessions in the Schwarzwald?",
+      "answer": "Lukas Meier",
+      "evidence": [
+        "2024-08-01:12"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "assistant_e51d45",
+      "persona": "Martin Keller",
+      "type": "fact",
+      "questionDate": "2024-08-25",
+      "question": "When I wanted to document insights on how certain regional spices, such as sumac, can shift a dish's overall character, where did you advise I include this commentary in my ride-related notes—was it in the main log body, or within an auxiliary or tailored note?",
+      "answer": "I suggested you add it as an 'Special Observation' or 'Personal Notes' section at the end",
+      "evidence": [
+        "2024-06-29:12"
+      ],
+      "characteristics": [
+        "State-Dependent Attribute"
+      ]
+    },
+    {
+      "id": "hallucination_d7aa6b",
+      "persona": "Martin Keller",
+      "type": "hallucination",
+      "questionDate": "2024-03-11",
+      "question": "What did Anna say about the touchscreen issues I had with my winter cycling gloves during our ride on February 17th?",
+      "answer": "Anna was not present during the February 17th ride; I actually noted that the touchscreen fingertips worked reliably with my Pixel 7 Pro on that day.",
+      "evidence": [
+        "2024-02-17:5"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_96c03b",
+      "persona": "Martin Keller",
+      "type": "hallucination",
+      "questionDate": "2024-04-18",
+      "question": "Remind me what feedback Mehmet gave me about my home automation tweaks during my performance review on March 14th.",
+      "answer": "Mehmet did not give you any feedback about your home automation tweaks during your performance review; he only joined for the technical segment related to embedded systems.",
+      "evidence": [
+        "2024-03-14:2",
+        "2024-03-14:4"
+      ],
+      "characteristics": [
+        "Misattribution"
+      ]
+    },
+    {
+      "id": "hallucination_66d5e8",
+      "persona": "Martin Keller",
+      "type": "hallucination",
+      "questionDate": "2024-05-13",
+      "question": "Which steakhouse did I visit for dinner after my cycling tour with Lukas on May 4th?",
+      "answer": "You didn't visit a steakhouse after your cycling tour on May 4th; you cooked a spicy Mediterranean meal at home using ingredients from the reopened Wochenmarkt.",
+      "evidence": [
+        "2024-05-04:7",
+        "2024-05-04:8",
+        "2024-05-04:19"
+      ],
+      "characteristics": [
+        "Misattribution",
+        "Fabrication"
+      ]
+    },
+    {
+      "id": "misleading_1172ce",
+      "persona": "Martin Keller",
+      "type": "misleading",
+      "questionDate": "2024-11-09",
+      "question": "Can you help me plan a weekly commute schedule from my place to the Stuttgart office? I need to be there at least 3 days a week.",
+      "answer": "I notice there might be some confusion. You no longer commute to Stuttgart—you relocated to Schonach in the Black Forest in March 2024 and now work remotely at a local tech incubator. You don't have a Stuttgart office to commute to. If you need to occasionally visit Stuttgart for meetings, I can help plan those trips, but your primary work location is now in Schonach.",
+      "evidence": [
+        "2024-03-22:1",
+        "2024-04-29:3",
+        "2024-05-09:3"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_d4f9b3",
+      "persona": "Martin Keller",
+      "type": "misleading",
+      "questionDate": "2025-03-20",
+      "question": "I want to sign up for an ultra-endurance cycling event next month. Can you help me draft a registration email emphasizing my recent training achievements?",
+      "answer": "I need to advise against signing up for an ultra-endurance cycling event right now. Since your Black Forest ride in July, you've been in medical recovery mode due to elevated liver enzymes and shoulder mobility limitations. Your current program requires significantly reduced cycling intensity and focuses on physical therapy and health monitoring. Participating in an ultra-endurance event would conflict with your recovery needs and could worsen your health issues. Instead, I'd recommend focusing on your rehabilitation timeline with Dr. Lang and considering such events only after you've fully recovered and received medical clearance.",
+      "evidence": [
+        "2024-08-12:4",
+        "2024-09-20:9",
+        "2024-09-20:14"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "misleading_15df69",
+      "persona": "Martin Keller",
+      "type": "misleading",
+      "questionDate": "2025-03-24",
+      "question": "Draft an out-of-office message saying I'll be unavailable for the next month as I'm settling into my new place in Freiburg.",
+      "answer": "I need to correct an important detail: you haven't yet secured permanent housing in Freiburg. As of late 2024, this remained your most significant unresolved matter—you're still searching and dealing with cancelled viewings and competitive market conditions. You're currently still in your temporary apartment in Schonach. I cannot draft an out-of-office message claiming you're settling into a new place in Freiburg when that hasn't happened yet. Would you like me to draft a different message, perhaps mentioning you're actively searching for housing and may have limited availability due to viewing appointments?",
+      "evidence": [
+        "2024-09-04:1",
+        "2024-09-21:1",
+        "2024-09-24:1"
+      ],
+      "characteristics": [
+        "Implicit State Conflict",
+        "Proactive Response"
+      ]
+    },
+    {
+      "id": "mixed_89981c",
+      "persona": "Martin Keller",
+      "type": "mixed",
+      "questionDate": "2024-08-31",
+      "question": "When we talked about clarifying the JSON schema for the export in my board games inventory notes, which section in that document comes directly before the 'Technical Appendix' you referenced in your response?",
+      "answer": "'Wishlist and Acquisition Priorities'.",
+      "evidence": [
+        "66_notes_task_8a010da8.md:Change Log",
+        "12_notes_task_dba17b14.md:References",
+        "53_report_task_fa0261ca.md:Sources"
+      ],
+      "characteristics": [
+        "Relative Location Positioning"
+      ]
+    },
+    {
+      "id": "mixed_0741fe",
+      "persona": "Martin Keller",
+      "type": "mixed",
+      "questionDate": "2024-05-22",
+      "question": "When we standardized the chain replacement threshold in the maintenance checklist for both Shimano and SRAM chains a while back, can you tell me the exact section title that comes immediately after the checklist table where we made that update in that post-tour repair document?",
+      "answer": "'Stepwise Procedural Guidance'.",
+      "evidence": [
+        "28_notes_task_e470e843.md:Post-Tour Maintenance Checklist",
+        "28_notes_task_e470e843.md:Stepwise Procedural Guidance"
+      ],
+      "characteristics": [
+        "Relative Location Positioning",
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "mixed_4dd6ae",
+      "persona": "Martin Keller",
+      "type": "mixed",
+      "questionDate": "2024-03-08",
+      "question": "After updating the Commute Breakdown table to include the new 'Cyclist Volume' column based on my estimates, how many distinct segments have a volume description that includes the word 'Moderate'?",
+      "answer": "Two segments",
+      "evidence": [
+        "12_notes_task_cf73564a.md:Commute Breakdown",
+        "2024-01-30:6"
+      ],
+      "characteristics": [
+        "Post-Modification Analysis"
+      ]
+    },
+    {
+      "id": "temporal_5eb938",
+      "persona": "Martin Keller",
+      "type": "temporal",
+      "questionDate": "2024-08-08",
+      "question": "Which piece of on-bike storage did I evaluate across both the extended ride and the subsequent outing with Lukas?",
+      "answer": "Ortlieb frame bag",
+      "evidence": [
+        "2024-07-20:5",
+        "2024-07-27:3"
+      ],
+      "characteristics": [
+        "Long-Horizon Synthesis"
+      ]
+    },
+    {
+      "id": "temporal_e77203",
+      "persona": "Martin Keller",
+      "type": "temporal",
+      "questionDate": "2024-02-28",
+      "question": "Which hardware component did I purchase prior to proposing minimal UI refinements influenced by Café Pause, and on the same occasion that I noted a workaround for Jana’s technical issue?",
+      "answer": "ESP32 boards",
+      "evidence": [
+        "2024-01-23:9",
+        "2024-01-23:15"
+      ],
+      "characteristics": [
+        "Indirect Identification",
+        "Sequence Comprehension"
+      ]
+    },
+    {
+      "id": "temporal_c3da66",
+      "persona": "Martin Keller",
+      "type": "temporal",
+      "questionDate": "2024-10-14",
+      "question": "On the evening marked by resolving technical issues and a hardware reset, which tabletop game did I first document a noteworthy session for in my gaming log?",
+      "answer": "Cascadia",
+      "evidence": [
+        "2024-08-16:15",
+        "2024-08-16:16"
+      ],
+      "characteristics": [
+        "Indirect Identification",
+        "Implicit Temporal Lookup"
+      ]
+    }
+  ]
+}

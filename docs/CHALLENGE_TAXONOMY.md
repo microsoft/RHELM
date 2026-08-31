@@ -75,6 +75,7 @@ RHELM features a comprehensive taxonomy of challenging memory questions across t
 | Challenge Characteristic | Description |
 |-------------------------|-------------|
 | Cross-time Count/Localization | Analyzes count, locates senders/recipients within a specific period |
+| Relationship Analysis | Infers and compares relationships among email participants across messages |
 
 ---
 
@@ -95,9 +96,9 @@ RHELM features a comprehensive taxonomy of challenging memory questions across t
 | QA Domain | Categories | Challenge Characteristics |
 |-----------|------------|--------------------------|
 | Dialogue History QA | 5 (Fact, Temporal, Hallucination, Aggregation, Misleading) | 18 |
-| External Source QA | 2 (Attachment, Email) | 5 |
+| External Source QA | 1 (External Source: Attachment and Email) | 6 |
 | Hybrid Context QA | 1 (Mixed) | 3 |
-| **Total** | **8** | **26** |
+| **Total** | **7** | **27** |
 
 ---
 
